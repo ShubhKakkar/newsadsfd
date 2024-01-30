@@ -275,6 +275,11 @@ function MyApp({ Component, pageProps }) {
     };
   }, [router]);
 
+  useEffect(() => {
+    let dir =locale == "ar" ? "rtl" : "ltr";
+    document.querySelector("html").setAttribute("dir", dir);
+  }, [locale]);
+
   if (
     !currentCountry ||
     loggedIn === null ||

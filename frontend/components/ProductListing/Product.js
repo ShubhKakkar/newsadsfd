@@ -25,7 +25,7 @@ const Product = ({ product }) => {
     }
 
     if (role === "vendor") {
-      toast.error(t("Switch to customer to buy products."))
+      toast.error(t("Switch to customer to buy products."));
       return;
     }
 

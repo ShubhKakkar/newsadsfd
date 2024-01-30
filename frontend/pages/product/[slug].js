@@ -40,6 +40,7 @@ const Product = ({
   otherSellers,
   vendor,
 }) => {
+  console.log("dddd",product);
   const t = useTranslate();
 
   const [firstFeaturesObj, setFirstFeaturesObj] = useState({
@@ -1620,15 +1621,15 @@ export async function getServerSideProps(context) {
     };
   }
 
-  if (product.slug !== slug) {
+  /* if (product.en_slug !== slug) {
     // console.log("different slug", product.slug, slug);
     return {
       redirect: {
         permanent: false,
-        destination: `/${context.locale}/product/${product.slug}`,
+        destination: `/${context.locale}/product/${product.en_slug}`,
       },
     };
-  }
+  } */
 
   const firstFeaturesArr = product.features.slice(
     0,

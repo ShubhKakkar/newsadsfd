@@ -2,9 +2,10 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 import Script from "next/script";
 
 class MyDocument extends Document {
+
   render() {
     return (
-      <Html lang="en" dir="rtl">
+      <Html lang={this.props.locale} dir={this.props.locale === "en" ? "ltr" : "rtl"}>
         <Head>
           <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" />
 

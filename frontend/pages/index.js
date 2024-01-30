@@ -46,8 +46,6 @@ const Home = ({
     reels,
   } = homeData;
 
-  console.log(mostViewedProducts, mostLatestProducts, topSellingProducts);
-
   const t = useTranslations("Index");
 
   const router = useRouter();

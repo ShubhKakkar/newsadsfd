@@ -45,8 +45,6 @@ exports.getCurrentCountry = async (req, res, next) => {
     name: process.env.COUNTRY_NAME,
   };
 
-  return res.status(200).json({ country: defaultCountry });
-
   let ipData;
   try {
     ipData = await axios.get(

@@ -2326,6 +2326,8 @@ exports.getOne = async (req, res, next) => {
   const { slug } = req.params;
   const { vendor } = req.query;
 
+  console.log("get_product_data", req.params, req.query);
+
   let countryId = req.countryId;
   let languageCode = req.languageCode;
   // let id = "643fbd3447e6c96d9abc232a";
@@ -7090,6 +7092,30 @@ exports.getMostViewedItems = async (req, res, next) => {
               path: "$descData",
             },
           },
+          {
+            $lookup: {
+              from: "productvariantdescriptions",
+              let: {
+                id: "$_id",
+              },
+              pipeline: [
+                {
+                  $match: {
+                    $expr: {
+                      $eq: ["$productVariantId", "$$id"],
+                    },
+                    languageCode: 'en',
+                  },
+                },
+              ],
+              as: "enDescData",
+            },
+          },
+          {
+            $unwind: {
+              path: "$enDescData",
+            },
+          },
           // added new start
           {
             $lookup: {
@@ -7182,6 +7208,30 @@ exports.getMostViewedItems = async (req, res, next) => {
       },
     },
     {
+      $lookup: {
+        from: "productdescriptions",
+        let: {
+          id: "$_id",
+        },
+        pipeline: [
+          {
+            $match: {
+              $expr: {
+                $eq: ["$productId", "$$id"],
+              },
+              languageCode: 'en',
+            },
+          },
+        ],
+        as: "descEnglishData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$descEnglishData",
+      },
+    },
+    {
       $addFields: {
         // price: {
         //   $ifNull: [
@@ -7191,6 +7241,9 @@ exports.getMostViewedItems = async (req, res, next) => {
         // },
         slug: {
           $ifNull: ["$variantData.descData.slug", "$descData.slug"],
+        },
+        en_slug: {
+          $ifNull: ["$variantData.enDescData.slug", "$descEnglishData.slug"],
         },
         // discountedPrice: {
         //   $ifNull: [
@@ -7340,6 +7393,7 @@ exports.getMostViewedItems = async (req, res, next) => {
           // currency: { $literal: "$" },
           currency: { $literal: currentCurrency.sign },
           slug: 1,
+          en_slug: 1,
           isWishlisted: {
             $toBool: false,
           },

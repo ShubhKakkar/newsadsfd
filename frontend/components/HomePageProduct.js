@@ -16,12 +16,16 @@ const HomePageProduct = ({ classes, product, addToCartFn }) => {
   const { loggedIn, role } = useSelector((state) => state.auth);
 
   const routeToProduct = () => {
+    console.log(`/product/${product.slug}`);
+    console.log(product,"product");
+    //return;
+    //router.push(`/product/${product.slug}?vendor=${product.vendor}`);
     router.push(
       {
-        pathname: `/product/${product.slug}`,
+        pathname: `/product/${product.en_slug}`,
         query: { vendor: product.vendor },
       },
-      `/product/${product.slug}`
+      `/product/${product.en_slug}`
     );
   };
 
@@ -35,7 +39,7 @@ const HomePageProduct = ({ classes, product, addToCartFn }) => {
     }
 
     if (role === "vendor") {
-      toast.error(t("Switch to customer to buy products."))
+      toast.error(t("Switch to customer to buy products."));
       return;
     }
 

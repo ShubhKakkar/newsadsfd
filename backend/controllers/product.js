@@ -708,7 +708,11 @@ exports.getAll = async (req, res, next) => {
     return next(error);
   }
 
+  //per_page = 5;
+
   per_page = +per_page ?? 10;
+
+  let skip = (page - 1) * per_page;
 
   let data, totalDocuments;
 
@@ -808,12 +812,12 @@ exports.getAll = async (req, res, next) => {
         [sortBy]: order === "desc" ? -1 : 1,
       },
     },
-    {
-      $skip: (page - 1) * per_page,
+    /* {
+      $skip: skip,
     },
     {
       $limit: per_page,
-    },
+    }, */
     {
       $project: {
         name: 1,
@@ -837,13 +841,25 @@ exports.getAll = async (req, res, next) => {
         // isSponsored: 1,
       },
     },
+    {$facet:{
+      products: [{ $skip: skip }, { $limit: per_page}],
+      totalCount: [
+        {
+          $count: 'count'
+        }
+      ]
+    }}
   ];
 
   try {
-    if (page == 1) {
+    /* if (page == 1) {
       totalDocuments = await Product.aggregate([PIPELINE_TOTAL]);
-    }
-    data = await Product.aggregate(PIPELINE);
+    } */
+    let productQuery = await Product.aggregate(PIPELINE);
+
+    data = productQuery[0].products;
+    totalDocuments = (productQuery[0].totalCount && productQuery[0].totalCount.length > 0)?productQuery[0].totalCount[0].count:0;
+
   } catch (err) {
     const error = new HttpError(
       req,
@@ -858,7 +874,7 @@ exports.getAll = async (req, res, next) => {
     status: true,
     message: "Product fetched successfully.",
     data,
-    totalDocuments: totalDocuments ? totalDocuments.length : null,
+    totalDocuments: totalDocuments,
   });
 };
 
@@ -2309,458 +2325,6 @@ exports.getEditData = async (req, res, next) => {
     shippingCompanies;
 
   try {
-    // [product] = await Product.aggregate([
-    //   {
-    //     $match: {
-    //       _id: new ObjectId(id),
-    //       isDeleted: false,
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "vendors",
-    //       let: {
-    //         id: "$vendor",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$_id", "$$id"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             businessName: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "vendorData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "productcategories",
-    //       let: {
-    //         id: "$masterCategoryId",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$_id", "$$id"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "categoryData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "subproductcategories",
-    //       let: {
-    //         id: "$subCategoryId",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$_id", "$$id"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "subCategoryData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "brands",
-    //       let: {
-    //         id: "$brandId",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$_id", "$$id"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "brandData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "units",
-    //       let: {
-    //         id: "$unitId",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$_id", "$$id"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "unitData",
-    //     },
-    //   },
-    //   {
-    //     $addFields: {
-    //       warehouses: {
-    //         $ifNull: ["$warehouses", []],
-    //       },
-    //       taxes: {
-    //         $ifNull: ["$taxes", []],
-    //       },
-    //       countries: {
-    //         $ifNull: ["$countries", []],
-    //       },
-    //       alternateProducts: {
-    //         $ifNull: ["$alternateProducts", []],
-    //       },
-    //       media: {
-    //         $ifNull: ["$media", []],
-    //       },
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "warehouses",
-    //       let: {
-    //         ids: "$warehouses",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $in: ["$_id", "$$ids"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "warehousesData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "taxes",
-    //       let: {
-    //         ids: "$taxes.tax",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $in: ["$_id", "$$ids"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //             countryId: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "taxData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "countries",
-    //       let: {
-    //         ids: "$countries",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $in: ["$_id", "$$ids"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "countriesData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "products",
-    //       let: {
-    //         ids: "$alternateProducts",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $in: ["$_id", "$$ids"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "alternateProductsData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "masterdescriptions",
-    //       let: {
-    //         id: "$_id",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$key", "productDesc"],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$mainPage", "$$id"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             languageCode: 1,
-    //             shortDescription: 1,
-    //             longDescription: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "descriptionData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "masterdescriptions",
-    //       let: {
-    //         id: "$_id",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$key", "productFeatures"],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$mainPage", "$$id"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             languageCode: 1,
-    //             features: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "featuresData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "productvariants",
-    //       let: {
-    //         id: "$_id",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$mainProductId", "$$id"],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$isDeleted", false],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             firstVariantId: 1,
-    //             secondVariantId: 1,
-    //             firstVariantName: 1,
-    //             secondVariantName: 1,
-    //             firstSubVariantId: 1,
-    //             secondSubVariantId: 1,
-    //             firstSubVariantName: 1,
-    //             secondSubVariantName: 1,
-    //             quantity: 1,
-    //             height: 1,
-    //             weight: 1,
-    //             width: 1,
-    //             length: 1,
-    //             prices: 1,
-    //             media: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "variantsData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "masterdescriptions",
-    //       let: {
-    //         id: "$_id",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$key", "productFaqs"],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$mainPage", "$$id"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             languageCode: 1,
-    //             faqs: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "faqsData",
-    //     },
-    //   },
-    //   {
-    //     $project: {
-    //       name: 1,
-    //       customId: 1,
-    //       buyingPrice: 1,
-    //       prices: 1,
-    //       quantity: 1,
-    //       serialNumber: 1,
-    //       barCode: 1,
-    //       featureTitle: 1,
-    //       height: 1,
-    //       weight: 1,
-    //       width: 1,
-    //       length: 1,
-    //       metaData: 1,
-    //       inStock: 1,
-    //       vendor: { $arrayElemAt: ["$vendorData", 0] },
-    //       category: { $arrayElemAt: ["$categoryData", 0] },
-    //       subCategory: { $arrayElemAt: ["$subCategoryData", 0] },
-    //       brand: { $arrayElemAt: ["$brandData", 0] },
-    //       unit: { $arrayElemAt: ["$unitData", 0] },
-    //       warehouse: "$warehousesData",
-    //       tax: "$taxData",
-    //       countries: "$countriesData",
-    //       alternateProducts: "$alternateProductsData",
-    //       descriptionData: 1,
-    //       featuresData: 1,
-    //       faqsData: 1,
-    //       variantsData: 1,
-    //       media: 1,
-    //       variants: 1,
-    //       isPublished: 1,
-    //       isHelper: 1,
-    //     },
-    //   },
-    // ]);
 
     product = Product.aggregate([
       {
@@ -3003,464 +2567,7 @@ exports.getEditData = async (req, res, next) => {
       },
     ]);
 
-    // taxes = Vendor.aggregate([
-    //   {
-    //     $match: {
-    //       _id: new ObjectId(product.vendor._id),
-    //     },
-    //   },
-    //   {
-    //     $unwind: {
-    //       path: "$serveCountries",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "taxes",
-    //       let: {
-    //         country: "$serveCountries",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$countryId", "$$country"],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$isDeleted", false],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $in: [
-    //                     new ObjectId(product.category?._id),
-    //                     "$productCategoryId",
-    //                   ],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $lookup: {
-    //             from: "countries",
-    //             let: {
-    //               country: "$countryId",
-    //             },
-    //             pipeline: [
-    //               {
-    //                 $match: {
-    //                   $and: [
-    //                     {
-    //                       $expr: {
-    //                         $eq: ["$_id", "$$country"],
-    //                       },
-    //                     },
-    //                     {
-    //                       $expr: {
-    //                         $eq: ["$isDeleted", false],
-    //                       },
-    //                     },
-    //                   ],
-    //                 },
-    //               },
-    //               {
-    //                 $project: {
-    //                   name: 1,
-    //                 },
-    //               },
-    //             ],
-    //             as: "countryData",
-    //           },
-    //         },
-    //         {
-    //           $unwind: {
-    //             path: "$countryData",
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //             tax: 1,
-    //             countryData: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "taxData",
-    //     },
-    //   },
-    //   {
-    //     $unwind: {
-    //       path: "$taxData",
-    //     },
-    //   },
-    //   {
-    //     $replaceRoot: {
-    //       newRoot: "$taxData",
-    //     },
-    //   },
-    //   {
-    //     $addFields: {
-    //       tax: {
-    //         id: "$_id",
-    //         name: "$name",
-    //         tax: "$tax",
-    //       },
-    //       countryName: "$countryData.name",
-    //     },
-    //   },
-    //   {
-    //     $group: {
-    //       _id: "$countryData._id",
-    //       countryName: {
-    //         $first: "$countryName",
-    //       },
-    //       taxes: {
-    //         $push: "$tax",
-    //       },
-    //     },
-    //   },
-    // ]);
-
-    // editData = Vendor.aggregate([
-    //   {
-    //     $match: {
-    //       isDeleted: false,
-    //       // approvalStatus: "approved",
-    //       _id: new ObjectId(product.vendor._id),
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "productcategories",
-    //       let: {
-    //         productCategories: "$productCategories",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $in: ["$_id", "$$productCategories"],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$isActive", true],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$isDeleted", false],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             name: 1,
-    //           },
-    //         },
-    //         {
-    //           $lookup: {
-    //             from: "subproductcategories",
-    //             let: {
-    //               id: "$_id",
-    //             },
-    //             pipeline: [
-    //               {
-    //                 $match: {
-    //                   $and: [
-    //                     {
-    //                       $expr: {
-    //                         $eq: ["$productCategoryId", "$$id"],
-    //                       },
-    //                     },
-    //                     {
-    //                       $expr: {
-    //                         $eq: ["$isActive", true],
-    //                       },
-    //                     },
-    //                     {
-    //                       $expr: {
-    //                         $eq: ["$isDeleted", false],
-    //                       },
-    //                     },
-    //                   ],
-    //                 },
-    //               },
-    //               {
-    //                 $project: {
-    //                   name: 1,
-    //                   masterVariant: 1,
-    //                 },
-    //               },
-    //             ],
-    //             as: "subCategories",
-    //           },
-    //         },
-    //       ],
-    //       as: "mainCategories",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "warehouses",
-    //       let: {
-    //         id: "$_id",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$vendor", "$$id"],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$isActive", true],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$isDeleted", false],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             _id: 0,
-    //             label: "$name",
-    //             value: "$_id",
-    //           },
-    //         },
-    //       ],
-    //       as: "warehouses",
-    //     },
-    //   },
-    //   {
-    //     $project: {
-    //       mainCategories: 1,
-    //       warehouses: 1,
-    //       businessName: 1,
-    //     },
-    //   },
-    // ]);
-
-    // countries = Vendor.aggregate([
-    //   {
-    //     $match: {
-    //       _id: new ObjectId(product.vendor._id),
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "productcategories",
-    //       let: {
-    //         countries: "$serveCountries",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $unwind: {
-    //             path: "$country",
-    //           },
-    //         },
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$_id", new ObjectId(product.category?._id)],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $in: ["$country", "$$countries"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $lookup: {
-    //             from: "countries",
-    //             let: {
-    //               countryId: "$country",
-    //             },
-    //             pipeline: [
-    //               {
-    //                 $match: {
-    //                   $and: [
-    //                     {
-    //                       $expr: {
-    //                         $eq: ["$_id", "$$countryId"],
-    //                       },
-    //                     },
-    //                   ],
-    //                 },
-    //               },
-    //               {
-    //                 $project: {
-    //                   _id: 0,
-    //                   label: "$name",
-    //                   value: "$_id",
-    //                 },
-    //               },
-    //             ],
-    //             as: "countryData",
-    //           },
-    //         },
-    //         {
-    //           $unwind: {
-    //             path: "$countryData",
-    //           },
-    //         },
-    //         {
-    //           $group: {
-    //             _id: "$_id",
-    //             countries: {
-    //               $push: "$countryData",
-    //             },
-    //           },
-    //         },
-    //       ],
-    //       as: "result",
-    //     },
-    //   },
-    //   {
-    //     $unwind: {
-    //       path: "$result",
-    //       preserveNullAndEmptyArrays: true,
-    //     },
-    //   },
-    //   {
-    //     $project: {
-    //       countries: "$result.countries",
-    //     },
-    //   },
-    // ]);
-
-    // subProductData = SubProductCategory.aggregate([
-    //   {
-    //     $match: {
-    //       _id: new ObjectId(product.subCategory?._id),
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "brands",
-    //       let: {
-    //         brands: "$brands",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $in: ["$_id", "$$brands"],
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             _id: 0,
-    //             label: "$name",
-    //             value: "$_id",
-    //           },
-    //         },
-    //       ],
-    //       as: "brandData",
-    //     },
-    //   },
-    //   {
-    //     $project: {
-    //       brandData: 1,
-    //     },
-    //   },
-    // ]);
-
     units = Unit.find({ isDeleted: false }).select("_id name").lean();
-
-    // similarProducts = Product.aggregate([
-    //   {
-    //     $match: {
-    //       isDeleted: false,
-    //       // isPublished: true,
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "brands",
-    //       localField: "brandId",
-    //       foreignField: "_id",
-    //       as: "brandData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "subproductcategories",
-    //       localField: "subCategoryId",
-    //       foreignField: "_id",
-    //       as: "categoryData",
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "vendors",
-    //       localField: "vendor",
-    //       foreignField: "_id",
-    //       as: "vendorData",
-    //     },
-    //   },
-    //   {
-    //     $unwind: {
-    //       path: "$brandData",
-    //     },
-    //   },
-    //   {
-    //     $unwind: {
-    //       path: "$categoryData",
-    //     },
-    //   },
-    //   {
-    //     $unwind: {
-    //       path: "$vendorData",
-    //     },
-    //   },
-    //   {
-    //     $project: {
-    //       customId: 1,
-    //       brandId: 1,
-    //       name: 1,
-    //       brandName: "$brandData.name",
-    //       categoryId: "$categoryData._id",
-    //       categoryName: "$categoryData.name",
-    //       vendor: 1,
-    //       vendorName: "$vendorData.businessName",
-    //     },
-    //   },
-    //   {
-    //     $sort: {
-    //       createdAt: -1,
-    //     },
-    //   },
-    //   {
-    //     $limit: 9,
-    //   },
-    // ]);
 
     similarProducts = Product.aggregate([
       {
@@ -3516,94 +2623,7 @@ exports.getEditData = async (req, res, next) => {
         $limit: 9,
       },
     ]);
-
-    // variants = await Variant.aggregate([
-    //   {
-    //     $match: {
-    //       isActive: true,
-    //       isDeleted: false,
-    //     },
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: "subvariants",
-    //       let: {
-    //         id: "$_id",
-    //       },
-    //       pipeline: [
-    //         {
-    //           $match: {
-    //             $and: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$variantId", "$$id"],
-    //                 },
-    //               },
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$isDeleted", false],
-    //                 },
-    //               },
-    //             ],
-    //             $or: [
-    //               {
-    //                 $expr: {
-    //                   $eq: ["$vendorId", new ObjectId(product.vendor._id)],
-    //                 },
-    //               },
-    //               {
-    //                 vendorId: {
-    //                   $exists: false,
-    //                 },
-    //               },
-    //             ],
-    //           },
-    //         },
-    //         {
-    //           $project: {
-    //             _id: 1,
-    //             name: 1,
-    //             categoriesId: 1,
-    //           },
-    //         },
-    //       ],
-    //       as: "variants",
-    //     },
-    //   },
-    //   {
-    //     $unwind: {
-    //       path: "$variants",
-    //     },
-    //   },
-    //   {
-    //     $match: {
-    //       "variants.categoriesId": {
-    //         $in: [new ObjectId(product.subCategory?._id)],
-    //       },
-    //     },
-    //   },
-    //   {
-    //     $project: {
-    //       name: 1,
-    //       subVariant: {
-    //         id: "$variants._id",
-    //         name: "$variants.name",
-    //       },
-    //     },
-    //   },
-    //   {
-    //     $group: {
-    //       _id: "$_id",
-    //       name: {
-    //         $first: "$name",
-    //       },
-    //       subVariants: {
-    //         $push: "$subVariant",
-    //       },
-    //     },
-    //   },
-    // ]);
-
+    
     variants = Variant.aggregate([
       {
         $match: {
@@ -3864,21 +2884,42 @@ exports.getEditData = async (req, res, next) => {
     return next(error);
   }
 
-  res.status(200).json({
-    status: true,
-    message: "Product data fetched successfully.",
-    product,
-    // taxes,
-    // editData,
-    // subProductData,
-    units,
-    similarProducts,
-    variants,
-    currencies,
-    specifications,
-    shippingCompanies,
-    // countries,
-  });
+
+  if(product){
+    res.status(200).json({
+      status: true,
+      message: "Product data fetched successfully.",
+      product,
+      // taxes,
+      // editData,
+      // subProductData,
+      units,
+      similarProducts,
+      variants,
+      currencies,
+      specifications,
+      shippingCompanies,
+      // countries,
+    });
+  }else{
+    res.status(403).json({
+      status: false,
+      message: "Product data not found.",
+      product,
+      // taxes,
+      // editData,
+      // subProductData,
+      units,
+      similarProducts,
+      variants,
+      currencies,
+      specifications,
+      shippingCompanies,
+      // countries,
+    });
+  }
+
+  
 };
 
 exports.update = async (req, res, next) => {

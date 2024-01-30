@@ -38,6 +38,8 @@ const Header = () => {
     categories,
   } = useSelector((state) => state.auth);
 
+  const vijayData = useSelector((state) => state);
+
   const [selectedCountry, setSelectedCountry] = useState({
     id: null,
     name: null,
@@ -93,6 +95,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
+
   }, []);
 
   function getViewType(width) {
@@ -504,7 +507,84 @@ const Header = () => {
             </nav>
           </div>
           <div className="row align-items-center HeaderSearchBar">
-            <div className="col-lg-6"></div>
+            <div className="col-lg-6">
+              <div className="topSearchBox">
+                {/* <div className="locTab">
+                  <svg
+                    width={22}
+                    height={26}
+                    viewBox="0 0 22 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.6 14.2C12.5882 14.2 14.2 12.5882 14.2 10.6C14.2 8.61177 12.5882 7 10.6 7C8.61177 7 7 8.61177 7 10.6C7 12.5882 8.61177 14.2 10.6 14.2Z"
+                      stroke="white"
+                      strokeWidth={2}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M10.6 1C8.05392 1 5.61212 2.01143 3.81178 3.81178C2.01143 5.61212 1 8.05392 1 10.6C1 12.8704 1.4824 14.356 2.8 16L10.6 25L18.4 16C19.7176 14.356 20.2 12.8704 20.2 10.6C20.2 8.05392 19.1886 5.61212 17.3882 3.81178C15.5879 2.01143 13.1461 1 10.6 1V1Z"
+                      stroke="white"
+                      strokeWidth={2}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <span className="LocName">{selectedCountry.name}</span>
+                </div> */}
+                {false && (
+                  <div className="searchinput">
+                    <input
+                      type="search"
+                      className="form-control"
+                      placeholder={t("Search")}
+                      aria-label="Search"
+                    />
+                    <button className="searchIconBtn" type="submit">
+                      <svg
+                        width={18}
+                        height={18}
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17 17L13.2223 13.2156M15.3158 8.15789C15.3158 10.0563 14.5617 11.8769 13.2193 13.2193C11.8769 14.5617 10.0563 15.3158 8.15789 15.3158C6.2595 15.3158 4.43886 14.5617 3.0965 13.2193C1.75413 11.8769 1 10.0563 1 8.15789C1 6.2595 1.75413 4.43886 3.0965 3.0965C4.43886 1.75413 6.2595 1 8.15789 1C10.0563 1 11.8769 1.75413 13.2193 3.0965C14.5617 4.43886 15.3158 6.2595 15.3158 8.15789V8.15789Z"
+                          stroke="currentColor"
+                          strokeWidth={2}
+                          strokeLinecap="round"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                )}
+                <div className="searchinput">
+                  <Controller
+                    name="search"
+                    control={control}
+                    // rules={{ required: true }}
+                    render={({ field }) => (
+                      <AsyncSelect
+                        {...field}
+                        cacheOptions
+                        loadOptions={loadOptionsDebounced}
+                        className={`select-reactSelect form-control-solid`}
+                        value={[]}
+                        onChange={searchTermClickHandler}
+                        placeholder={t("Search")}
+                        // noOptionsMessage=""
+                        // onInputChange={handleChange}
+                        // styles={customStyles}
+                        noOptionsMessage={() => t("No options")}
+                        loadingMessage={() => t("Searching...")}
+                      />
+                    )}
+                  />
+                </div>
+              </div>
+            </div>
             {loggedIn && role === "customer" && (
               <div className="col-lg-6 text-end">
                 <div className="userCartTab for_desktop">
