@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /vendor
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"group":"vendor"}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/adminAuth.js:12:7)
+      Message = Request Failed!
+      Time = 03:58 PM
+    

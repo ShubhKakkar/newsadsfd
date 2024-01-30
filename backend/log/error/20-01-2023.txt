@@ -1,0 +1,71 @@
+
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=registered%20on&order=desc&isActive=&name=&subject=&dateFrom=1970-01-01&dateTo=2023-01-21
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"registered on","order":"desc","isActive":"","name":"","subject":"","dateFrom":"1970-01-01","dateTo":"2023-01-21"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.getAll (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/notificationLog.js:129:13)
+      Message = Could not fetch logs.
+      Time = 10:06 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=registered%20on&order=desc&name=&subject=&dateFrom=1970-01-01&dateTo=2023-01-21
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"registered on","order":"desc","name":"","subject":"","dateFrom":"1970-01-01","dateTo":"2023-01-21"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.getAll (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/notificationLog.js:108:11)
+      Message = Could not fetch notification logs.
+      Time = 11:00 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=registered%20on&order=desc&name=&subject=&dateFrom=1970-01-01&dateTo=2023-01-21
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"registered on","order":"desc","name":"","subject":"","dateFrom":"1970-01-01","dateTo":"2023-01-21"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.getAll (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/notificationLog.js:109:11)
+      Message = Could not fetch notification logs.
+      Time = 11:00 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=registered%20on&order=desc&name=&subject=&dateFrom=1970-01-01&dateTo=2023-01-21
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"registered on","order":"desc","name":"","subject":"","dateFrom":"1970-01-01","dateTo":"2023-01-21"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.getAll (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/notificationLog.js:117:13)
+      Message = Could not fetch logs.
+      Time = 11:16 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"tax":"12","productCategoryId":["63c8df65013a5e76306dddf4"],"countryId":"63a58155202586c94cefbc90"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/taxes.js:39:9)
+      Message = Could not create tax.
+      Time = 12:53 PM
+    

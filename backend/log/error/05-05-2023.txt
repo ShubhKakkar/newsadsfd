@@ -1,0 +1,1135 @@
+
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Rhfam@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:31 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ram@yhgopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:31 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"rddam@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:36 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 12:40 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 12:40 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 12:40 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"kamal123@yopmail.com","password":"System@12345"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 12:43 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Rahddhhdm@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:44 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ram@yopddfmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:44 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"reactnativemobileteam@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:45 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"reactnativemobileteam@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:46 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"reactnativemobileteam@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:46 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"ram111@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:47 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"ram111@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:48 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"ram111@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:49 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"ram111@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:50 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Jeurjd"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:52 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"sss77777@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Jeurjd"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:56 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Gggg"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:58 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"8888888"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:750:9)
+      Message = Customer not found
+      Time = 01:01 PM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 645130c06680b2147f3021df
+      isAdmin = undefined
+      Body = {"currentPassword":"1","newPassword":"1"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEzMGMwNjY4MGIyMTQ3ZjMwMjFkZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyMDkxfQ.8snJ6USwgDCBxQBPOLOYO3LQeWYXVtW7d13DcpXeSzI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEzMGMwNjY4MGIyMTQ3ZjMwMjFkZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyMDkxfQ.8snJ6USwgDCBxQBPOLOYO3LQeWYXVtW7d13DcpXeSzI
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1406:7)
+      Message = Current password has been entered incorrectly.
+      Time = 01:06 PM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 645130c06680b2147f3021df
+      isAdmin = undefined
+      Body = {"currentPassword":"1","newPassword":"1"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEzMGMwNjY4MGIyMTQ3ZjMwMjFkZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyMDkxfQ.8snJ6USwgDCBxQBPOLOYO3LQeWYXVtW7d13DcpXeSzI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEzMGMwNjY4MGIyMTQ3ZjMwMjFkZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyMDkxfQ.8snJ6USwgDCBxQBPOLOYO3LQeWYXVtW7d13DcpXeSzI
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1406:7)
+      Message = Current password has been entered incorrectly.
+      Time = 01:12 PM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 645130c06680b2147f3021df
+      isAdmin = undefined
+      Body = {"currentPassword":"1","newPassword":"1"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEzMGMwNjY4MGIyMTQ3ZjMwMjFkZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyMDkxfQ.8snJ6USwgDCBxQBPOLOYO3LQeWYXVtW7d13DcpXeSzI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEzMGMwNjY4MGIyMTQ3ZjMwMjFkZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyMDkxfQ.8snJ6USwgDCBxQBPOLOYO3LQeWYXVtW7d13DcpXeSzI
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1406:7)
+      Message = Current password has been entered incorrectly.
+      Time = 01:14 PM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 645130c06680b2147f3021df
+      isAdmin = undefined
+      Body = {"currentPassword":"1","newPassword":"1"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEzMGMwNjY4MGIyMTQ3ZjMwMjFkZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyMDkxfQ.8snJ6USwgDCBxQBPOLOYO3LQeWYXVtW7d13DcpXeSzI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEzMGMwNjY4MGIyMTQ3ZjMwMjFkZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyMDkxfQ.8snJ6USwgDCBxQBPOLOYO3LQeWYXVtW7d13DcpXeSzI
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1406:7)
+      Message = Current password has been entered incorrectly.
+      Time = 01:14 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ggg","password":"Ggghhhhhh"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 01:16 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b5dc86a02dc34dd7b3c80","id":"644b67466a02dc34dd7b3ebe"},{"_id":"645252e105e7b1c77e091180","name":"Ram","geoLocation":{"coordinates":[75.813174,26.8549209],"type":"Point"},"address":"Octal IT Solution, Hari Marg, Near Kardhani Shopping Center, Block-B, Malviya Nagar, Jaipur, Rajasthan, India","city":"Jaipur Division","state":"Rajasthan","street":"Hari Marg","zipCode":"302017","country":null,"City":"Jaipur Division","State":"Rajasthan","WGPinCode":"302017","countryName":"644b5dc86a02dc34dd7b3c80","id":"645252e105e7b1c77e091180"}],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b5dc86a02dc34dd7b3c80","id":"644b67466a02dc34dd7b3ebe"},{"_id":"645252e105e7b1c77e091180","name":"Ram","geoLocation":{"coordinates":[75.813174,26.8549209],"type":"Point"},"address":"Octal IT Solution, Hari Marg, Near Kardhani Shopping Center, Block-B, Malviya Nagar, Jaipur, Rajasthan, India","city":"Jaipur Division","state":"Rajasthan","street":"Hari Marg","zipCode":"302017","country":null,"City":"Jaipur Division","State":"Rajasthan","WGPinCode":"302017","countryName":"644b5dc86a02dc34dd7b3c80","id":"645252e105e7b1c77e091180"}],"updateWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b5dc86a02dc34dd7b3c80"},{"_id":"645252e105e7b1c77e091180","name":"Ram","geoLocation":{"coordinates":[75.813174,26.8549209],"type":"Point"},"address":"Octal IT Solution, Hari Marg, Near Kardhani Shopping Center, Block-B, Malviya Nagar, Jaipur, Rajasthan, India","city":"Jaipur Division","state":"Rajasthan","street":"Hari Marg","zipCode":"302017","country":null,"City":"Jaipur Division","State":"Rajasthan","WGPinCode":"302017","countryName":"644b5dc86a02dc34dd7b3c80"}],"categoryRequest":[{"requestInput":""}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyODA0fQ.AWaycW1RiYJezbWP8joG8HrLSWJ_na3hBdL2g7O9fc8
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjcyODA0fQ.AWaycW1RiYJezbWP8joG8HrLSWJ_na3hBdL2g7O9fc8
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 01:20 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6454c82f05e7b1c77e094410","contactOtp":"2225","emailOtp":"1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:612:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 02:50 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6454c82f05e7b1c77e094410","contactOtp":"2225","emailOtp":"2225"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:622:9)
+      Message = The contact otp you've entered is incorrect.
+      Time = 02:50 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6454c82f05e7b1c77e094410","contactOtp":"2225","emailOtp":"2225"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:622:9)
+      Message = The contact otp you've entered is incorrect.
+      Time = 02:50 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6454c82f05e7b1c77e094410","contactOtp":"2225","emailOtp":"2225"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:622:9)
+      Message = The contact otp you've entered is incorrect.
+      Time = 02:51 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6454c82f05e7b1c77e094410","contactOtp":"2225","emailOtp":"2225"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:622:9)
+      Message = The contact otp you've entered is incorrect.
+      Time = 02:51 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Ssshahah","lastName":"Sohansingh","password":"System@123","email":"Don1234@yopmail.com","country":"644b5dc86a02dc34dd7b3c80","contact":"9829740588","countryCode":"644b5dc86a02dc34dd7b3c80","gender":"male","dob":"2011-05-04"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:334:9)
+      Message = The contact is already associated with another account.
+      Time = 02:58 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Mobile Team 45","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"8767685214","businessEmail":"Mobile@yopmail.com","name":"Mobile Team","address":"Shimla, Himachal Pradesh, India","productCategories":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5767668558","email":"Mobile123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5898","location":"{\"coordinates\":[\"31.1048145\",\"77.17340329999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Djdjejje\",\"State\":\"Baden-Württemberg\",\"street\":\"Enjd\",\"City\":\"Heidenheim\",\"zipCode\":\"565676\",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"Heidenheim, Germany\",\"geoLocation\":[\"48.6785503\",\"10.1506915\"]}]","categoryRequest":"[{\"requestInput\":\"Ddhhdh\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 03:14 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Mobile Team 45","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"8767685214","businessEmail":"Mobile@yopmail.com","name":"Mobile Team","address":"Shimla, Himachal Pradesh, India","productCategories":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5767668558","email":"Mobile123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5898","location":"{\"coordinates\":[\"31.1048145\",\"77.17340329999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Djdjejje\",\"State\":\"Baden-Württemberg\",\"street\":\"Enjd\",\"City\":\"Heidenheim\",\"zipCode\":\"565676\",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"Heidenheim, Germany\",\"geoLocation\":[\"48.6785503\",\"10.1506915\"]}]","categoryRequest":"[{\"requestInput\":\"Ddhhdh\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Business email is already exists.
+      Time = 03:14 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hssh","serveCountries":"[\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852356356","businessEmail":"Singh123@yopmail.com","name":"Bshshsh","address":"Jaisalmer, Rajasthan 345001, India","productCategories":"[\"644b55a56f9d6685312addcf\"]","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":"yes","contact":"9852356565","email":"Ttt@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"3652555235","location":"{\"coordinates\":[\"26.9157487\",\"70.9083443\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Jaipur\",\"State\":\"Rajasthan\",\"street\":\"Jaipur\",\"City\":\"Jaipur\",\"zipCode\":\"302201\",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"Jaipur, Rajasthan, India\",\"geoLocation\":[\"26.9124336\",\"75.7872709\"]}]","categoryRequest":"[{\"requestInput\":\"Hhh\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 03:21 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hssh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852356356","businessEmail":"Singh123@yopmail.com","name":"Bshshsh","address":"Jaisalmer, Rajasthan 345001, India","productCategories":"[\"644b55a56f9d6685312addcf\"]","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":"yes","contact":"9852356565","email":"Ttt@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"3652555235","location":"{\"coordinates\":[\"26.9157487\",\"70.9083443\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Jaipur\",\"State\":\"Rajasthan\",\"street\":\"Jaipur\",\"City\":\"Jaipur\",\"zipCode\":\"302201\",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"Jaipur, Rajasthan, India\",\"geoLocation\":[\"26.9124336\",\"75.7872709\"]}]","categoryRequest":"[{\"requestInput\":\"Hhh\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Business email is already exists.
+      Time = 03:22 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 03:48 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 03:49 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 03:49 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"updateWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"categoryRequest":[{"requestInput":""}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgxOTIyfQ.QtJdjsuoddfurhXY0EJ1gu6oteSFyfCwLXBZy0u8_ik
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgxOTIyfQ.QtJdjsuoddfurhXY0EJ1gu6oteSFyfCwLXBZy0u8_ik
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 03:49 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":"No","addWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"updateWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"categoryRequest":[{"requestInput":""}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgxOTIyfQ.QtJdjsuoddfurhXY0EJ1gu6oteSFyfCwLXBZy0u8_ik
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgxOTIyfQ.QtJdjsuoddfurhXY0EJ1gu6oteSFyfCwLXBZy0u8_ik
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 03:49 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"United States","removeWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"serveCountries":"United States","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":"No","addWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"updateWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"categoryRequest":[]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgxOTIyfQ.QtJdjsuoddfurhXY0EJ1gu6oteSFyfCwLXBZy0u8_ik
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgxOTIyfQ.QtJdjsuoddfurhXY0EJ1gu6oteSFyfCwLXBZy0u8_ik
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 03:50 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"United States","removeWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"serveCountries":"United States","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":"No","addWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"updateWarehouse":[{"name":"Ram","State":"Navarra","street":"Jzjz","City":"Pamplona","WGPinCode":"","countryName":"India","country":"644b5dc86a02dc34dd7b3c80","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","geoLocation":["42.8242479","-1.6886075"],"zipCode":"31160"}],"categoryRequest":[]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgxOTIyfQ.QtJdjsuoddfurhXY0EJ1gu6oteSFyfCwLXBZy0u8_ik
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgxOTIyfQ.QtJdjsuoddfurhXY0EJ1gu6oteSFyfCwLXBZy0u8_ik
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 03:50 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Ddhddn","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"7997085247","businessEmail":"Don@yopmail.com","name":"Dbbd","address":"7號7 Beco dos Anjos, Macao","productCategories":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"8524569852","email":"Don123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"558","location":"{\"coordinates\":[\"22.1940808\",\"113.5427156\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hshd\",\"State\":\"Entre Ríos\",\"street\":\"Shhs\",\"City\":\"María Grande\",\"zipCode\":\"447556\",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"San Lorenzo 1073, María Grande, Entre Ríos, Argentina\",\"geoLocation\":[\"-31.66304359999999\",\"-59.9025128\"]}]","categoryRequest":"[{\"requestInput\":\"Vgg\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 03:55 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[{"_id":"6454d82a05e7b1c77e0946f2","name":"Ram","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","street":"Jzjz","zipCode":"31160","country":null,"City":"Hh","State":"Bb","WGPinCode":"31160","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"},"id":"6454d82a05e7b1c77e0946f2"}],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[{"_id":"6454d82a05e7b1c77e0946f2","name":"Ram","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","street":"Jzjz","zipCode":"31160","country":null,"City":"Hh","State":"Bb","WGPinCode":"31160","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"},"id":"6454d82a05e7b1c77e0946f2"}],"updateWarehouse":[{"_id":"6454d82a05e7b1c77e0946f2","name":"Ram","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","street":"Jzjz","zipCode":"31160","country":null,"City":"Hh","State":"Bb","WGPinCode":"31160","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"}}],"categoryRequest":[{"requestInput":""}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgzMDQ2fQ.s-tBChViudcN9Eacp__xSNumkrwPyTwM7ZflM77a0Qw
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjgzMDQ2fQ.s-tBChViudcN9Eacp__xSNumkrwPyTwM7ZflM77a0Qw
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 04:08 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"908635741","password":"Admin@1","country":"644b5dc86a02dc34dd7b3c80"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2127:7)
+      Message = You have entered incorrect password.
+      Time = 04:11 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9086357412","password":"dfbgfbtfbn","country":"644b5dc86a02dc34dd7b3c80"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2127:7)
+      Message = You have entered incorrect password.
+      Time = 04:12 PM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"a","newPassword":"a"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 04:26 PM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6454de6305e7b1c77e09483c"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:703:7)
+      Message = Your email is not verified.
+      Time = 04:26 PM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6454de6305e7b1c77e09483c"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:703:7)
+      Message = Your email is not verified.
+      Time = 04:27 PM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"regregrefef","newPassword":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 04:27 PM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"regregrefef","newPassword":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjODJmMDVlN2IxYzc3ZTA5NDQxMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODExNTR9.SBof1YwYKgnNbvQ9KS15PEJu0_rbn5Euaa8M4LX-ySc
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 04:27 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Dgdhh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9632587447","businessEmail":"admin12345@yopmail.com","name":"Hdhddhhd","address":"480 Lor 6 Toa Payoh, Singapore 310480","productCategories":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"6467645644","email":"Ddehebhhdh@yopmai.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"555","location":"{\"coordinates\":[\"1.3323583\",\"103.8479611\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hshdh\",\"State\":\"Bình Thuận\",\"street\":\"Shhs\",\"City\":\"tx. La Gi\",\"zipCode\":\"564575\",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"MQJ3+WGR, Hồ Xuân Hương, Tân An, Hàm Tân, Bình Thuận, Vietnam\",\"geoLocation\":[\"10.6823518\",\"107.7537698\"]}]","categoryRequest":"\"\""}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Contact number is already exists.
+      Time = 04:48 PM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"644b67456a02dc34dd7b3eba"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1096:7)
+      Message = Invalid route.
+      Time = 04:50 PM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"644b67456a02dc34dd7b3eba"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1096:7)
+      Message = Invalid route.
+      Time = 04:51 PM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"644b67456a02dc34dd7b3eba"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1096:7)
+      Message = Invalid route.
+      Time = 04:53 PM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"644b67456a02dc34dd7b3eba"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1096:7)
+      Message = Invalid route.
+      Time = 04:55 PM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"644b67456a02dc34dd7b3eba"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1096:7)
+      Message = Invalid route.
+      Time = 05:01 PM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"644b67456a02dc34dd7b3eba"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1096:7)
+      Message = Invalid route.
+      Time = 05:05 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Don123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 05:14 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Don123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 05:14 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 6454ec4305e7b1c77e0948f4
+      isAdmin = undefined
+      Body = {"businessName":"Ndndnd","businessCountry":"644b5dc86a02dc34dd7b3c80","removeWarehouse":[{"_id":"6454ec4405e7b1c77e0948f8","name":"Hshzhs","address":"Nişantaş, Sadabat Sk. Ulu Sitesi 2/D B BLOK, 42060 Selçuklu/Konya, Türkiye","street":"Hxshhd","zipCode":"42060","country":null,"City":"Hhx","State":"Ggd","WGPinCode":"42060","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"},"id":"6454ec4405e7b1c77e0948f8"}],"serveCountries":"644b5dc86a02dc34dd7b3c80","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":false,"addWarehouse":[{"_id":"6454ec4405e7b1c77e0948f8","name":"Hshzhs","address":"Nişantaş, Sadabat Sk. Ulu Sitesi 2/D B BLOK, 42060 Selçuklu/Konya, Türkiye","street":"Hxshhd","zipCode":"42060","country":null,"City":"Hhx","State":"Ggd","WGPinCode":"42060","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"},"id":"6454ec4405e7b1c77e0948f8"}],"updateWarehouse":[{"_id":"6454ec4405e7b1c77e0948f8","name":"Hshzhs","address":"Nişantaş, Sadabat Sk. Ulu Sitesi 2/D B BLOK, 42060 Selçuklu/Konya, Türkiye","street":"Hxshhd","zipCode":"42060","country":null,"City":"Hhx","State":"Ggd","WGPinCode":"42060","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"}}],"categoryRequest":[{"requestInput":""}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRlYzQzMDVlN2IxYzc3ZTA5NDhmNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg3NTQwfQ.Fq2MF0Ook7Pm8lOG8JTQhI72O5VdKRWqCEiV79xNq30
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRlYzQzMDVlN2IxYzc3ZTA5NDhmNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg3NTQwfQ.Fq2MF0Ook7Pm8lOG8JTQhI72O5VdKRWqCEiV79xNq30
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 05:23 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 6454ec4305e7b1c77e0948f4
+      isAdmin = undefined
+      Body = {"businessName":"Ndndnd","businessCountry":"644b5dc86a02dc34dd7b3c80","removeWarehouse":[],"serveCountries":"644b5dc86a02dc34dd7b3c80","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":false,"addWarehouse":[],"updateWarehouse":[],"categoryRequest":[{"requestInput":""}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRlYzQzMDVlN2IxYzc3ZTA5NDhmNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg3NTQwfQ.Fq2MF0Ook7Pm8lOG8JTQhI72O5VdKRWqCEiV79xNq30
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRlYzQzMDVlN2IxYzc3ZTA5NDhmNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg3NTQwfQ.Fq2MF0Ook7Pm8lOG8JTQhI72O5VdKRWqCEiV79xNq30
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 05:27 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 6454ec4305e7b1c77e0948f4
+      isAdmin = undefined
+      Body = {"businessName":"Ndndnd","businessCountry":"India","addWarehouse":[],"removeWarehouse":[],"serveCountries":"India","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":false,"updateWarehouse":[],"categoryRequest":[]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRlYzQzMDVlN2IxYzc3ZTA5NDhmNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg3NTQwfQ.Fq2MF0Ook7Pm8lOG8JTQhI72O5VdKRWqCEiV79xNq30
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRlYzQzMDVlN2IxYzc3ZTA5NDhmNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg3NTQwfQ.Fq2MF0Ook7Pm8lOG8JTQhI72O5VdKRWqCEiV79xNq30
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 05:32 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6454f24f05e7b1c77e094a15","otp":"5558"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1017:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:41 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Testuser1234@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 05:41 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testuser1234@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 05:42 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testuser1234@yopmail.com","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 05:42 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"6454d86105e7b1c77e0946fd","name":"Ram 123","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","street":"Jzjz","zipCode":"31160","country":null,"City":"Hchxgx","State":"Hchc","WGPinCode":"31160","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"},"id":"6454d86105e7b1c77e0946fd"}],"removeWarehouse":[{"_id":"6454d86105e7b1c77e0946fd","name":"Ram 123","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","street":"Jzjz","zipCode":"31160","country":null,"City":"Hchxgx","State":"Hchc","WGPinCode":"31160","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"},"id":"6454d86105e7b1c77e0946fd"}],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"updateWarehouse":[{"_id":"6454d86105e7b1c77e0946fd","name":"Ram 123","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","street":"Jzjz","zipCode":"31160","country":null,"City":"Hchxgx","State":"Hchc","WGPinCode":"31160","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"}}],"categoryRequest":[{"requestInput":"Welcome back"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 05:52 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"6454d86105e7b1c77e0946fd","name":"Ram 123","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","street":"Jzjz","zipCode":"31160","country":null,"City":"Hchxgx","State":"Hchc","WGPinCode":"31160","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"},"id":"6454d86105e7b1c77e0946fd"}],"removeWarehouse":[{"_id":"6454d86105e7b1c77e0946fd","name":"Ram 123","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","street":"Jzjz","zipCode":"31160","country":null,"City":"Hchxgx","State":"Hchc","WGPinCode":"31160","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"},"id":"6454d86105e7b1c77e0946fd"}],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"updateWarehouse":[{"_id":"6454d86105e7b1c77e0946fd","name":"Ram 123","address":"C. Soto Aizoáin, 31160 Pamplona, Navarra, Spain","street":"Jzjz","zipCode":"31160","country":null,"City":"Hchxgx","State":"Hchc","WGPinCode":"31160","countryName":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"}}],"categoryRequest":[{"requestInput":"Welcome back"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 05:52 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985988","country":"91","password":"System@12345"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRmMWQ0MDVlN2IxYzc3ZTA5NDlmZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODk0Mjh9.S3abo_f8wyKEte0jnWuWm9jzABaVbqLogiDYzygODg4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRmMWQ0MDVlN2IxYzc3ZTA5NDlmZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODk0Mjh9.S3abo_f8wyKEte0jnWuWm9jzABaVbqLogiDYzygODg4
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2200:7)
+      Message = Something went wrong.
+      Time = 06:03 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testuser123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:51:11)
+      Message = Your password is incorrect
+      Time = 06:07 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[],"updateWarehouse":[],"categoryRequest":[{"requestInput":"Shdhhd"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:21 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[],"updateWarehouse":[],"categoryRequest":[{"requestInput":"Shdhhd"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:21 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"United States","removeWarehouse":[],"serveCountries":"United States","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[],"updateWarehouse":[],"categoryRequest":[{"requestInput":"Shdhhd"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:21 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[],"updateWarehouse":[],"categoryRequest":[{"requestInput":"Shdhhd"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:24 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[],"updateWarehouse":[],"categoryRequest":[{"requestInput":"Hdhdhdhd"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:26 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[],"updateWarehouse":[],"categoryRequest":[{"requestInput":"Ggggggh"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:27 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Jaipur 123","businessCountry":"644b55a56f9d6685312addcf","removeWarehouse":[],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":true,"addWarehouse":[],"updateWarehouse":[],"categoryRequest":[{"requestInput":"Hfhfhc"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMjg4NzE5fQ.kjT_E_JPFXIQEOAK85GzNe1oo_b_5gnC4FfqMe--uBc
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:28 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testuser123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:51:11)
+      Message = Your password is incorrect
+      Time = 07:45 PM
+    

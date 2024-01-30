@@ -1,0 +1,337 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vawy@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 05:26 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vawy@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 05:26 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vawy@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 05:26 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vawy@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 05:27 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vawy@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 05:27 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"643cd9a2b63f28669ed46a97","contactOtp":"1234","emailOTP":"undefinedundefinedundefinedundefined"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:602:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:31 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"643cd9a2b63f28669ed46a97","contactOtp":"9858","emailOTP":"undefinedundefinedundefinedundefined"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:602:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:31 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"643cd9a2b63f28669ed46a97","contactOtp":"9858","emailOTP":"undefinedundefinedundefinedundefined"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:602:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:32 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"643cd9a2b63f28669ed46a97","contactOtp":"9858","emailOTP":"undefinedundefinedundefinedundefined"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:602:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:32 AM
+    
+    ----------------------------
+      URL = /verify-change-email
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"otp":"1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.verifyChangeEmail (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:1941:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:34 AM
+    
+    ----------------------------
+      URL = /verify-change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"otp":"1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.verifyChangePhone (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:2226:7)
+      Message = You have to request change emcontactail first.
+      Time = 05:47 AM
+    
+    ----------------------------
+      URL = /change-email
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"kamlesh@yopmailc.om","password":"Systeem@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.changeEmail (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:1680:7)
+      Message = You have entered incorrect password.
+      Time = 05:49 AM
+    
+    ----------------------------
+      URL = /change-email
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"kamlesh@yopmailc.om","password":"Systeem@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.changeEmail (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:1680:7)
+      Message = You have entered incorrect password.
+      Time = 05:49 AM
+    
+    ----------------------------
+      URL = /change-email
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"kamlesh1@yopmailc.om","password":"Systeem@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.changeEmail (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:1680:7)
+      Message = You have entered incorrect password.
+      Time = 05:50 AM
+    
+    ----------------------------
+      URL = /change-email
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"kamlesh1@yopmailc.om","password":"Systeem@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.changeEmail (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:1680:7)
+      Message = You have entered incorrect password.
+      Time = 05:50 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Meerut Division","houseNo":"d 269","landmark":"","pinCode":"46455","state":"Uttar Pradesh","street":"Ghaziabad, Uttar Pradesh, India","type":"home","location":{"coordinates":[77.45375779999999,28.6691565],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/address.js:55:7)
+      Message = Something went wrong.
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"643ce78659caea113dc83d5e"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:435:7)
+      Message = You have to request otp first.
+      Time = 06:38 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"643ce78659caea113dc83d5e"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:435:7)
+      Message = You have to request otp first.
+      Time = 06:38 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Guilford County","houseNo":"gh","landmark":"gf","pinCode":"6556","state":"North Carolina","street":"High Point, NC, USA","type":"home","location":{"coordinates":[-80.0053176,35.9556923],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/address.js:55:7)
+      Message = Something went wrong.
+      Time = 06:39 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"643ce78659caea113dc83d5e"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:435:7)
+      Message = You have to request otp first.
+      Time = 06:42 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Communauté-Urbaine-de-Montréal","houseNo":"hj","landmark":"yj","pinCode":"6574","state":"Québec","street":"Jewish General Hospital, Chemin de la Côte-Sainte-Catherine, Montreal, QC, Canada","type":"home","location":{"coordinates":[-73.63001009999999,45.4974933],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/address.js:55:7)
+      Message = Something went wrong.
+      Time = 06:43 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxNzEyODA1fQ.2rz6aPY7Z-xtqhLf0BNWllO3sMcaiNGrzEwJ6GUOzM0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxNzEyODA1fQ.2rz6aPY7Z-xtqhLf0BNWllO3sMcaiNGrzEwJ6GUOzM0
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 07:02 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Jaipur Division","houseNo":"jaipur","landmark":"jaipur","pinCode":"302021","state":"Rajasthan","street":"Jaipur, Rajasthan, India","type":"home","location":{"coordinates":[75.7872709,26.9124336],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2NkOWEyYjYzZjI4NjY5ZWQ0NmE5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3MDk2MTF9.Kna58ypNXq-F8GErdwMgajkRru46_dpfUVBQK2MW5As
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/address.js:67:7)
+      Message = Something went wrong.
+      Time = 07:58 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"643d490e40a33193cca46fca","otp":"1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:989:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 01:27 PM
+    

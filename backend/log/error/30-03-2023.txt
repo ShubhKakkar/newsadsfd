@@ -1,0 +1,729 @@
+
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"badalparnami@gmail.com","password":"System@123","firstName":"badal","lastName":"parnami","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 05:05 AM
+    
+    ----------------------------
+      URL = /countries
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.getCountries (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:548:7)
+      Message = Something went wrong
+      Time = 06:19 AM
+    
+    ----------------------------
+      URL = /countries
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.getCountries (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:549:7)
+      Message = Something went wrong
+      Time = 06:20 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"22/5/1999","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:131:9)
+      Message = Could not create user.
+      Time = 06:58 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:120:9)
+      Message = businessEmail already exists.
+      Time = 07:26 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Otto","lastName":"Hubbard","email":"kywyma@mailinator.com","phone_number":"7434545450","zipCode":"69637","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1","country":"Denmark"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 07:37 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Otto","lastName":"Hubbard","email":"kywyma@mailinator.com","phone_number":"7434545450","zipCode":"69637","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1","country":"Denmark"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 07:37 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Otto","lastName":"Hubbard","email":"kywyma@mailinator.com","phone_number":"7434545450","zipCode":"69637","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1","country":"Denmark"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 07:37 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:120:9)
+      Message = businessEmail already exists.
+      Time = 07:56 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Inez","lastName":"Mcbride","email":"syhajebywi@mailinator.com","country":"63a58155202586c94cefbc90","phone_number":"3662562557","zipCode":"77706","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 08:58 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"sYstem@1234","confirm_password":"sYstem@1234","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:41 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:48 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:48 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:48 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:48 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:49 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"sadxas","lastName":"dsads","email":"afdsxfds@gmai.com","country":"Algeria","phone_number":"4646456455","zipCode":"365543","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:49 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Rooney","lastName":"Estrada","email":"rirokoq@mailinator.com","country":"Albania","phone_number":"2321313155","zipCode":"93246","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:52 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Rooney","lastName":"Estrada","email":"rirokoq@mailinator.com","country":"Albania","phone_number":"2321313155","zipCode":"93246","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:53 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Rooney","lastName":"Estrada","email":"rirokoq@mailinator.com","country":"Albania","phone_number":"2321313155","zipCode":"93246","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:53 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Rooney","lastName":"Estrada","email":"rirokoq@mailinator.com","country":"Albania","phone_number":"2321313155","zipCode":"93246","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:53 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Rooney","lastName":"Estrada","email":"rirokoq@mailinator.com","country":"Albania","phone_number":"2321313155","zipCode":"93246","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:53 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Jane","lastName":"Franklin","email":"xono@mailinator.com","country":"Algeria","phone_number":"8151646655","zipCode":"54631","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:53 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Jane","lastName":"Franklin","email":"xono@mailinator.com","country":"Algeria","phone_number":"8151646655","zipCode":"54631","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:288:9)
+      Message = Signing up failed #b
+      Time = 09:53 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"gourav@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:176:9)
+      Message = Vendor not found
+      Time = 10:03 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"9876543212","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:186:11)
+      Message = Your password is incorrect
+      Time = 10:04 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"6956874589","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:176:9)
+      Message = Vendor not found
+      Time = 10:04 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Veda","lastName":"Hernandez","email":"bajy@mailinator.com","country":"63a58161202586c94cefbc96","contact":"7714643614","zipCode":"45269","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:06 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Madeson","lastName":"Acevedo","email":"syla@mailinator.com","country":"63a58155202586c94cefbc90","contact":"4879879886","zipCode":"67936","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:08 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Madeson","lastName":"Acevedo","email":"syla@mailinator.com","country":"63a58155202586c94cefbc90","contact":"4879879886","zipCode":"67936","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:08 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Madeson","lastName":"Acevedo","email":"syla@mailinator.com","country":"63a58155202586c94cefbc90","contact":"4879879886","zipCode":"67936","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:09 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Madeson","lastName":"Acevedo","email":"syla@mailinator.com","country":"63a58155202586c94cefbc90","contact":"4879879886","zipCode":"67936","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:09 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Madeson","lastName":"Acevedo","email":"sywla@mailinator.com","country":"63a58155202586c94cefbc90","contact":"4879879886","zipCode":"67936","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The contact is already associated with another account.
+      Time = 10:09 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Sebastian","lastName":"Alexander","email":"jemateco@mailinator.com","country":"63c5238ec9cc346964520bce","contact":"1325687547","zipCode":"21488","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:12 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Colby","lastName":"Mills","email":"kopu@mailinator.com","country":"63a5813b202586c94cefbc84","contact":"9252584574","zipCode":"58937","password":"Sujal@1234","confirm_password":"Sujal@1234","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:30 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Colby","lastName":"Mills","email":"ko2pu@mailinator.com","country":"63a5813b202586c94cefbc84","contact":"7252584574","zipCode":"58937","password":"Sujal@1234","confirm_password":"Sujal@1234","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:33 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Colby","lastName":"Mills","email":"ko2pu@mailinator.com","country":"63a5813b202586c94cefbc84","contact":"7252584574","zipCode":"58937","password":"Sujal@1234","confirm_password":"Sujal@1234","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:33 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Colby","lastName":"Mills","email":"ko2pu@mailinator.com","country":"63a5813b202586c94cefbc84","contact":"7252584574","zipCode":"58937","password":"System@1234","confirm_password":"System@1234","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:34 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Colby","lastName":"Mills","email":"ko2pu@mailinator.com","country":"63a5813b202586c94cefbc84","contact":"7252584574","zipCode":"58937","password":"System@1234","confirm_password":"System@1234","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:34 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Colby","lastName":"Mills","email":"ko2pu@mailinator.com","country":"63a5813b202586c94cefbc84","contact":"7252584574","zipCode":"58937","password":"System@1234","confirm_password":"System@1234","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 10:34 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Colby","lastName":"Mills","email":"ko2pud@mailinator.com","country":"63a5813b202586c94cefbc84","contact":"7252584574","zipCode":"58937","password":"System@1234","confirm_password":"System@1234","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The contact is already associated with another account.
+      Time = 10:34 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Colby","lastName":"Mills","email":"ko2pud@mailinator.com","country":"63a5813b202586c94cefbc84","contact":"7252584574","zipCode":"58937","password":"System@1234","confirm_password":"System@1234","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The contact is already associated with another account.
+      Time = 10:34 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642534c326778bafbc636433","otp":"55554"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:781:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 10:52 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Sourav","lastName":"jain","email":"sourav@yopmail.com","country":"63a5813b202586c94cefbc84","dob":"2023-03-28","contact":"8989898987","zipCode":"457848","password":"System@123","confirm_password":"System@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 11:38 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"rakesh","lastName":"parnami","email":"sourav@yopmail.com","country":"63a5814e202586c94cefbc8a","dob":"2023-03-16","contact":"7976796755","zipCode":"457848","password":"SYstem@123","confirm_password":"SYstem@123","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 11:42 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"otp":"1235","id":"642587a1837c474fcd31fe78"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:737:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 01:01 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Michelle","lastName":"Oneal","email":"vywurygyry@mailinator.com","country":"63a5813b202586c94cefbc84","dob":"1994-01-13","contact":"7912345678","zipCode":"57000","password":"Pa$$w0rd!","confirm_password":"Pa$$w0rd!","chackbox":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 01:28 PM
+    

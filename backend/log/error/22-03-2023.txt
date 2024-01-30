@@ -1,0 +1,113 @@
+
+    ----------------------------
+      URL = /category
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"category"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/variant.js:285:7)
+      Message = Something went wrong
+      Time = 07:48 AM
+    
+    ----------------------------
+      URL = /category
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"category"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/variant.js:285:7)
+      Message = Something went wrong
+      Time = 07:49 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Owebest","businessEmail":"owebest@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"7777777710","productCategories":"[\"63c911c48975c71bd1f0fe06\",\"63d380f58f10cc0e2014ebd8\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\",\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"undefined","storefrontSubscription":"undefined","firstName":"Badal","lastName":"sharma","email":"badal01@mailinator.com","countryCode":"91","contact":"undefined","dob":"2023-03-04","warehouseDetail":"[{\"name\":\"Owebest warehouse one\",\"geoLocation\":{\"coordinates\":[78.96288,20.593684],\"type\":\"Point\"},\"address\":\"India\",\"country\":\"63a58161202586c94cefbc96\",\"city\":\"\",\"state\":\"\",\"street\":\"\",\"zipcode\":\"\"},{\"name\":\"Owebest warehouse two\",\"geoLocation\":{\"coordinates\":[9.501785,56.26392],\"type\":\"Point\"},\"address\":\"Denmark\",\"country\":\"63c5238ec9cc346964520bce\",\"city\":\"\",\"state\":\"\",\"street\":\"\",\"zipcode\":\"\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:122:9)
+      Message = Could not create user.
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Owebest","businessEmail":"owebest@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"7777777710","productCategories":"[\"63c911c48975c71bd1f0fe06\",\"63d380f58f10cc0e2014ebd8\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\",\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"undefined","storefrontSubscription":"true","firstName":"Badal","lastName":"sharma","email":"badal01@mailinator.com","countryCode":"91","contact":"undefined","dob":"2023-03-04","warehouseDetail":"[{\"name\":\"Owebest warehouse one\",\"geoLocation\":{\"coordinates\":[78.96288,20.593684],\"type\":\"Point\"},\"address\":\"India\",\"country\":\"63a58161202586c94cefbc96\",\"city\":\"\",\"state\":\"\",\"street\":\"\",\"zipcode\":\"\"},{\"name\":\"Owebest warehouse two\",\"geoLocation\":{\"coordinates\":[9.501785,56.26392],\"type\":\"Point\"},\"address\":\"Denmark\",\"country\":\"63c5238ec9cc346964520bce\",\"city\":\"\",\"state\":\"\",\"street\":\"\",\"zipcode\":\"\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:122:9)
+      Message = Could not create user.
+      Time = 12:22 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Business","businessEmail":"ram@yopmail.com","businessCountry":"63a5813b202586c94cefbc84","businessContact":"5698745874","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\"]","currency":"641ad83ef4c38c36ee4c4681","language":"HTML","storefrontSubscription":"true","firstName":"prakash","lastName":"goyal","email":"gouravgoyal@gmail.com","countryCode":"91","contact":"8989898977","dob":"2023-03-14","warehouseDetail":"[{\"name\":\"Owebest warehouse one\",\"geoLocation\":{\"type\":\"Point\"},\"country\":\"63c5238ec9cc346964520bce\",\"city\":\"\",\"state\":\"\",\"street\":\"\",\"zipCode\":\"\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:143:9)
+      Message = Could not create user.
+      Time = 01:10 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"id":"641afe2f0c05d9487c783805"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:539:7)
+      Message = Could not delete vendor.
+      Time = 01:37 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"id":"641afe2f0c05d9487c783805"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:544:7)
+      Message = Could not delete vendor.
+      Time = 01:39 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"id":"64199915809be37be8a20a80"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/customer.js:531:7)
+      Message = Could not delete user
+      Time = 01:41 PM
+    

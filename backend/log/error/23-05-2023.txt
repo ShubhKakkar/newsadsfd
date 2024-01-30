@@ -1,0 +1,1107 @@
+
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2UzNzE4NmRhNmZkMDYxYzkzOWFjNSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3OTg5NzF9.7VPoSRZXsGEFpQuW750ta14UlsrL_ZtRemVrJccDYgM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2UzNzE4NmRhNmZkMDYxYzkzOWFjNSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE3OTg5NzF9.7VPoSRZXsGEFpQuW750ta14UlsrL_ZtRemVrJccDYgM
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 11:12 AM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 6465d5242ef39dc86c819c29
+      isAdmin = undefined
+      Body = {"currentPassword":"xnfjjcjcj @13","newPassword":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0ODE4MjAzLCJleHAiOjE3MTYzNzU4MDMsImlzcyI6Im5vb25tYXIifQ.ylABZAmPLsixghuzUo3MlsFSt6gF42LcCwN8KDBPp0E
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0ODE4MjAzLCJleHAiOjE3MTYzNzU4MDMsImlzcyI6Im5vb25tYXIifQ.ylABZAmPLsixghuzUo3MlsFSt6gF42LcCwN8KDBPp0E
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1408:7)
+      Message = Current password has been entered incorrectly.
+      Time = 11:24 AM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 6465d5242ef39dc86c819c29
+      isAdmin = undefined
+      Body = {"currentPassword":"xnfjjcjcj @13","newPassword":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0ODE4MjAzLCJleHAiOjE3MTYzNzU4MDMsImlzcyI6Im5vb25tYXIifQ.ylABZAmPLsixghuzUo3MlsFSt6gF42LcCwN8KDBPp0E
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0ODE4MjAzLCJleHAiOjE3MTYzNzU4MDMsImlzcyI6Im5vb25tYXIifQ.ylABZAmPLsixghuzUo3MlsFSt6gF42LcCwN8KDBPp0E
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1408:7)
+      Message = Current password has been entered incorrectly.
+      Time = 11:24 AM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 6465d5242ef39dc86c819c29
+      isAdmin = undefined
+      Body = {"currentPassword":"xnfjjcjcj @13","newPassword":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0ODE4MjAzLCJleHAiOjE3MTYzNzU4MDMsImlzcyI6Im5vb25tYXIifQ.ylABZAmPLsixghuzUo3MlsFSt6gF42LcCwN8KDBPp0E
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0ODE4MjAzLCJleHAiOjE3MTYzNzU4MDMsImlzcyI6Im5vb25tYXIifQ.ylABZAmPLsixghuzUo3MlsFSt6gF42LcCwN8KDBPp0E
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1408:7)
+      Message = Current password has been entered incorrectly.
+      Time = 11:25 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&firstName=&lastName=&businessName=&email=&country=&dateFrom=1970-01-01&dateTo=2023-05-24
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","firstName":"","lastName":"","businessName":"","email":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-05-24"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgxNzYxNywiZXhwIjoxNjg0ODE5MDU3LCJpc3MiOiJub29ubWFyIn0.NUSFgQvejYbDivuTxVOhsfLAzU0z8Dvuh_Joma6FA1M
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 11:27 AM
+    
+    ----------------------------
+      URL = /all?page=1&isActive=true
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","isActive":"true"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgxNzYxNywiZXhwIjoxNjg0ODE5MDU3LCJpc3MiOiJub29ubWFyIn0.NUSFgQvejYbDivuTxVOhsfLAzU0z8Dvuh_Joma6FA1M
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 11:27 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"book2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:248:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:39 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"cloth206@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:248:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:44 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&firstName=&lastName=&businessName=&email=&country=&dateFrom=1970-01-01&dateTo=2023-05-24
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","firstName":"","lastName":"","businessName":"","email":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-05-24"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgyMTg5MiwiZXhwIjoxNjg0ODIzMzMyLCJpc3MiOiJub29ubWFyIn0.TpU4ZhnBNhkxtlzhRqumApr2_3gLewPaneqJBFn0Gms
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 12:42 PM
+    
+    ----------------------------
+      URL = /all?page=1&isActive=true
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","isActive":"true"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgyMTg5MiwiZXhwIjoxNjg0ODIzMzMyLCJpc3MiOiJub29ubWFyIn0.TpU4ZhnBNhkxtlzhRqumApr2_3gLewPaneqJBFn0Gms
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 12:42 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"deeman2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 12:43 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"deeman2806@mailinator.com","password":"Admin123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 12:43 PM
+    
+    ----------------------------
+      URL = /graph?by=date
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"by":"date"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgyNTI3NiwiZXhwIjoxNjg0ODI2NzE2LCJpc3MiOiJub29ubWFyIn0.p3-vSZMQiBkx2JOoC0fYeo-2QqIxuatPNW8gjDCDLJU
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/adminAuth.js:54:9)
+      Message = You have been logged out. Please login again.
+      Time = 01:16 PM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgyNTI3NiwiZXhwIjoxNjg0ODI2NzE2LCJpc3MiOiJub29ubWFyIn0.p3-vSZMQiBkx2JOoC0fYeo-2QqIxuatPNW8gjDCDLJU
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/adminAuth.js:54:9)
+      Message = You have been logged out. Please login again.
+      Time = 01:16 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"ABDUL","lastName":"YIL","password":"A14530011n","email":"Abdulbasit@noonmar.com","country":"644b55a56f9d6685312addcf","contact":"5355110085","countryCode":"644b55a56f9d6685312addcf","gender":"male"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:311:9)
+      Message = The email is already associated with another account.
+      Time = 02:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"ABDUL","lastName":"YIL","password":"A14530011n","email":"Abdulbasit@noonmar.com","country":"644b55a56f9d6685312addcf","contact":"5355110085","countryCode":"644b55a56f9d6685312addcf","gender":"male"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:311:9)
+      Message = The email is already associated with another account.
+      Time = 02:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"ABDUL","lastName":"YIL","password":"A14530011n","email":"Abdulbasit@noontek.com","country":"644b55a56f9d6685312addcf","contact":"5355110085","countryCode":"644b55a56f9d6685312addcf","gender":"male"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:311:9)
+      Message = The contact is already associated with another account.
+      Time = 02:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"ABDUL","lastName":"YIL","password":"A14530011n","email":"Abdulbasit@noontek.com","country":"644b55a56f9d6685312addcf","contact":"5355110085","countryCode":"644b55a56f9d6685312addcf","gender":"male"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:311:9)
+      Message = The contact is already associated with another account.
+      Time = 02:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"projectonqa@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:54:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:24 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"projectonqa@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:54:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:28 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"er.balkishan@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:29 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"er.balkishan@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:53 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"cloth206@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:248:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:55 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"cloth206@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:248:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:56 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"cloth206@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:248:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:56 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalms@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874580","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","name":"Gourav Goyal","email":"gouravmg@yopmail.con","password":"System@123","countryCode":"91","address":"India","ibaNumber":"456 584 969 123","contact":"6565987222","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:05 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 03:18 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 03:18 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:20 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:21 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:21 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:23 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:23 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:23 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:23 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:24 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:24 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1111111111","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:24 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6789067888","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"9999999990","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:25 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6789067888","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"6767567890","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:25 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6789067888","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"6767567890","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:26 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6789067888","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"6767567890","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"123123123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:26 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6789067888","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"6767567890","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"334333344"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:27 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"India fashion","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6789067888","businessEmail":"projectonqa@gmail.com","warehouseDetail":"[{\"name\":\"New stock house\",\"geoLocation\":{\"coordinates\":[75.7875605,26.9125961],\"type\":\"Point\"},\"address\":\"Jaipur Railway Station, Ajmer Road, Civil Lines, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Ajmer Road\",\"zipCode\":\"302006\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\",\"644b592e6a02dc34dd7b39c6\",\"646335b98f003db152fc48b4\",\"646639ef610c0d023675f97c\",\"644b5af46a02dc34dd7b3a84\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Balkishan Dhankhar","contact":"6767567890","email":"er.balkishan@gmail.com","address":"Ajmer Road, Panch Batti, Patel Colony, Hathroi, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.7986529,26.916156],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"System@123","countryCode":"+91","ibaNumber":"334333344"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:27 PM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&firstName=&lastName=&businessName=&email=&country=&dateFrom=1970-01-01&dateTo=2023-05-24
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","firstName":"","lastName":"","businessName":"","email":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-05-24"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgyNjE3OCwiZXhwIjoxNjg0ODI3NjE4LCJpc3MiOiJub29ubWFyIn0.Aidq5TX5mdAr4TdNvAFKIa5YY0IZCUAs5L9XQI3fYp0
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 03:32 PM
+    
+    ----------------------------
+      URL = /all?page=1&isActive=true
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","isActive":"true"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgyNjE3OCwiZXhwIjoxNjg0ODI3NjE4LCJpc3MiOiJub29ubWFyIn0.Aidq5TX5mdAr4TdNvAFKIa5YY0IZCUAs5L9XQI3fYp0
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 03:32 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"nemdor@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:34 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"true","businessName":"ADS Business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"8565402000","businessEmail":"cloth206@mailinator.com","warehouseDetail":"[{\"name\":\"ASD warehouse\",\"geoLocation\":{\"coordinates\":[75.8085251,26.855825],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Block C, Sector 4, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Pradhan Marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b55a56f9d6685312addcf\"]","currency":"644b5eb06a02dc34dd7b3cef","language":"English","name":"Rim sewn","contact":"9582520101","email":"rim325@mailinator.com","address":"Patrika Building, Jhalana Institutional Area, Jhalana Doongri, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8153533,26.8763988],\"type\":\"Point\"}","country":"644b55a56f9d6685312addcf","password":"Admin@123","countryCode":"+90","ibaNumber":"7578578567"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:47 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"true","businessName":"ADS Business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"8565402000","businessEmail":"cloth206@mailinator.com","warehouseDetail":"[{\"name\":\"ASD warehouse\",\"geoLocation\":{\"coordinates\":[75.8085251,26.855825],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Block C, Sector 4, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Pradhan Marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b55a56f9d6685312addcf\"]","currency":"644b5eb06a02dc34dd7b3cef","language":"English","name":"Rim sewn","contact":"9582520101","email":"rim325@mailinator.com","address":"Patrika Building, Jhalana Institutional Area, Jhalana Doongri, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8153533,26.8763988],\"type\":\"Point\"}","country":"644b55a56f9d6685312addcf","password":"Admin@123","countryCode":"+90","ibaNumber":"7578578567"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:47 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"ADS Business","businessCountry":"644b55a56f9d6685312addcf","businessContact":"9551254000","businessEmail":"cloth206@mailinator.com","warehouseDetail":"[{\"name\":\"ASD warehouse\",\"geoLocation\":{\"coordinates\":[75.7717486,26.8604872],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Mansarovar Sector 7, Shipra Path, Barh Devariya, Mansarovar, Jaipur, Rajasthan, India\",\"country\":\"644b5e6f6a02dc34dd7b3cdb\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Asha Nita Marg\",\"zipCode\":\"302020\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Rim sewn","contact":"9869867585","email":"rim325@mailinator.com","address":"Patrika Nagar Road Number 2, HUDA Techno Enclave, HITEC City, Hyderabad, Telangana, India","location":"{\"coordinates\":[78.3818108,17.445843],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"7578578567"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:50 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"ADS Business","businessCountry":"644b55a56f9d6685312addcf","businessContact":"9551254000","businessEmail":"cloth206@mailinator.com","warehouseDetail":"[{\"name\":\"ASD warehouse\",\"geoLocation\":{\"coordinates\":[75.7717486,26.8604872],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Mansarovar Sector 7, Shipra Path, Barh Devariya, Mansarovar, Jaipur, Rajasthan, India\",\"country\":\"644b5e6f6a02dc34dd7b3cdb\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Asha Nita Marg\",\"zipCode\":\"302020\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Rim sewn","contact":"9869867585","email":"rim325@mailinator.com","address":"Patrika Nagar Road Number 2, HUDA Techno Enclave, HITEC City, Hyderabad, Telangana, India","location":"{\"coordinates\":[78.3818108,17.445843],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"7578578567"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:50 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"ADS Business","businessCountry":"644b55a56f9d6685312addcf","businessContact":"9551254000","businessEmail":"ven2806@mailinator.com","warehouseDetail":"[{\"name\":\"ASD warehouse\",\"geoLocation\":{\"coordinates\":[75.7717486,26.8604872],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Mansarovar Sector 7, Shipra Path, Barh Devariya, Mansarovar, Jaipur, Rajasthan, India\",\"country\":\"644b5e6f6a02dc34dd7b3cdb\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Asha Nita Marg\",\"zipCode\":\"302020\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Rim sewn","contact":"9869867585","email":"rim325@mailinator.com","address":"Patrika Nagar Road Number 2, HUDA Techno Enclave, HITEC City, Hyderabad, Telangana, India","location":"{\"coordinates\":[78.3818108,17.445843],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"7578578567"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Business email is already exist.
+      Time = 03:50 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"cloth206@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:248:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:55 PM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&firstName=&lastName=&businessName=&email=&country=&dateFrom=1970-01-01&dateTo=2023-05-24
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","firstName":"","lastName":"","businessName":"","email":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-05-24"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgzNzEwMSwiZXhwIjoxNjg0ODM4NTQxLCJpc3MiOiJub29ubWFyIn0.Kb6Dc4h85B24TVM7LEP2XFAPgfEmlLC2W0Fg8R9kDu8
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 04:27 PM
+    
+    ----------------------------
+      URL = /all?page=1&isActive=true
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","isActive":"true"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgzNzEwMSwiZXhwIjoxNjg0ODM4NTQxLCJpc3MiOiJub29ubWFyIn0.Kb6Dc4h85B24TVM7LEP2XFAPgfEmlLC2W0Fg8R9kDu8
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 04:27 PM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 04:47 PM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 04:47 PM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&firstName=&lastName=&email=&country=&dateFrom=1970-01-01&dateTo=2023-05-24
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","firstName":"","lastName":"","email":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-05-24"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgzOTUxMSwiZXhwIjoxNjg0ODQwOTUxLCJpc3MiOiJub29ubWFyIn0.4Eq9Zk0pwPjpLnF4SDxtb457ctygfynEJTjJk2kkXYw
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 04:55 PM
+    
+    ----------------------------
+      URL = /all?page=1&isActive=true
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","isActive":"true"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgzOTUxMSwiZXhwIjoxNjg0ODQwOTUxLCJpc3MiOiJub29ubWFyIn0.4Eq9Zk0pwPjpLnF4SDxtb457ctygfynEJTjJk2kkXYw
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 04:55 PM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 644fbb1854e84015eafb2ef0
+      isAdmin = undefined
+      Body = {"currentPassword":"System@123vv","newPassword":"System@12345"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0ODQyNDkwLCJleHAiOjE3MTY0MDAwOTAsImlzcyI6Im5vb25tYXIifQ.mhA5bMXAafAR9qOsgHN_hu-ogRIySjMDqkEnwaoFLJo
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0ODQyNDkwLCJleHAiOjE3MTY0MDAwOTAsImlzcyI6Im5vb25tYXIifQ.mhA5bMXAafAR9qOsgHN_hu-ogRIySjMDqkEnwaoFLJo
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1408:7)
+      Message = Current password has been entered incorrectly.
+      Time = 05:55 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Nxnn","productCategories":"[\"646335b98f003db152fc48b4\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1233211232","businessEmail":"Hhh@yahoo.com","name":"Bdbbxbxc","address":"Railway Station, 1, Shahad Fatak Rd, Shahad, Ulhasnagar, Maharashtra 421001, India","currency":"644b5e506a02dc34dd7b3cd0","language":"English","storefrontSubscription":"No","contact":"4564564564","email":"Bdhdvh@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"55686735","location":"{\"coordinates\":[\"19.2438957\",\"73.15815979999999\"],\"type\":\"Point\"}","serveCountries":"[\"644b55a56f9d6685312addcf\",\"644b5e6f6a02dc34dd7b3cdb\"]","warehouseDetail":"[{\"name\":\"Hdhdbd\",\"state\":\"Himachal Pradesh\",\"street\":\"Himalayas\",\"city\":\"Dharamshala\",\"zipCode\":\"176215\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"689F+J96, Upmuhal, Dharamshala, Himachal Pradesh 176215, India\",\"geoLocation\":[\"32.219042\",\"76.3234037\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Contact number is already exist.
+      Time = 06:15 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Nxnn","productCategories":"[\"646335b98f003db152fc48b4\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1233211200","businessEmail":"Hhh@yahoo.com","name":"Bdbbxbxc","address":"Railway Station, 1, Shahad Fatak Rd, Shahad, Ulhasnagar, Maharashtra 421001, India","currency":"644b5e506a02dc34dd7b3cd0","language":"English","storefrontSubscription":"No","contact":"4564564564","email":"Bdhdvh@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"55686735","location":"{\"coordinates\":[\"19.2438957\",\"73.15815979999999\"],\"type\":\"Point\"}","serveCountries":"[\"644b55a56f9d6685312addcf\",\"644b5e6f6a02dc34dd7b3cdb\"]","warehouseDetail":"[{\"name\":\"Hdhdbd\",\"state\":\"Himachal Pradesh\",\"street\":\"Himalayas\",\"city\":\"Dharamshala\",\"zipCode\":\"176215\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"689F+J96, Upmuhal, Dharamshala, Himachal Pradesh 176215, India\",\"geoLocation\":[\"32.219042\",\"76.3234037\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Contact number is already exist.
+      Time = 06:16 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Nxnn","productCategories":"[\"646335b98f003db152fc48b4\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1233211207","businessEmail":"Hhh123@yopmail.com","name":"Bdbbxbxc","address":"Railway Station, 1, Shahad Fatak Rd, Shahad, Ulhasnagar, Maharashtra 421001, India","currency":"644b5e506a02dc34dd7b3cd0","language":"English","storefrontSubscription":"No","contact":"4564564544","email":"Bdhdgxgxvh@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"55686735","location":"{\"coordinates\":[\"19.2438957\",\"73.15815979999999\"],\"type\":\"Point\"}","serveCountries":"[\"644b55a56f9d6685312addcf\",\"644b5e6f6a02dc34dd7b3cdb\"]","warehouseDetail":"[{\"name\":\"Hdhdbd\",\"state\":\"Himachal Pradesh\",\"street\":\"Himalayas\",\"city\":\"Dharamshala\",\"zipCode\":\"176215\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"689F+J96, Upmuhal, Dharamshala, Himachal Pradesh 176215, India\",\"geoLocation\":[\"32.219042\",\"76.3234037\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = Contact number is already exist.
+      Time = 06:19 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Nxnn","productCategories":"[\"646335b98f003db152fc48b4\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"1233211207","businessEmail":"Hhh123@yopmail.com","name":"Bdbbxbxc","address":"Railway Station, 1, Shahad Fatak Rd, Shahad, Ulhasnagar, Maharashtra 421001, India","currency":"644b5e506a02dc34dd7b3cd0","language":"English","storefrontSubscription":"No","contact":"4564564522","email":"Bdhdgxgxvh@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"55686735","location":"{\"coordinates\":[\"19.2438957\",\"73.15815979999999\"],\"type\":\"Point\"}","serveCountries":"[\"644b55a56f9d6685312addcf\",\"644b5e6f6a02dc34dd7b3cdb\"]","warehouseDetail":"[{\"name\":\"Hdhdbd\",\"state\":\"Himachal Pradesh\",\"street\":\"Himalayas\",\"city\":\"Dharamshala\",\"zipCode\":\"176215\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"689F+J96, Upmuhal, Dharamshala, Himachal Pradesh 176215, India\",\"geoLocation\":[\"32.219042\",\"76.3234037\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:177:9)
+      Message = IBA Number is already exist.
+      Time = 06:19 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"646cb66cd60ae9cb64b4a605","otp":"8988"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1019:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 06:20 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"646cb66cd60ae9cb64b4a605","otp":"8988"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1019:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 06:23 PM
+    
+    ----------------------------
+      URL = /all?page=1&isActive=true
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","isActive":"true"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgyNDU1MiwiZXhwIjoxNjg0ODI1OTkyLCJpc3MiOiJub29ubWFyIn0.MKmBUx-92k5XJB2p8kC3BMn6na_OcL1i2wYlQ0Z-wEo
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 06:24 PM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&firstName=&lastName=&businessName=&email=&country=&dateFrom=1970-01-01&dateTo=2023-05-24
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","firstName":"","lastName":"","businessName":"","email":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-05-24"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDgyNDU1MiwiZXhwIjoxNjg0ODI1OTkyLCJpc3MiOiJub29ubWFyIn0.MKmBUx-92k5XJB2p8kC3BMn6na_OcL1i2wYlQ0Z-wEo
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 06:24 PM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"646cb66cd60ae9cb64b4a605","otp":"6868"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:638:7)
+      Message = Your OTP is incorrect.
+      Time = 06:27 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Hhh123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:248:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 06:33 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"test443@mailinator.com","password":"Admin@123","firstName":"%^%^%^","country":"644b55a56f9d6685312addcf","lastName":"%$^%^","dob":"","contact":"9326956856","gender":"","countryCode":"90"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:311:9)
+      Message = The email is already associated with another account.
+      Time = 06:34 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"userData":{"googleId":"113006248503025240868","imageUrl":"https://lh3.googleusercontent.com/a/AGNmyxY6WDCSBbEnKQxXFp7BNKWeaJJvRnXSESnKTHzo=s96-c","email":"pradeep280696@gmail.com","name":"Pradeep Chauhan","givenName":"Pradeep","familyName":"Chauhan","id":"@113006248503025240868"}}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1404:9)
+      Message = Customer doesn't exist.
+      Time = 06:34 PM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&to=&from=&subject=&dateFrom=1970-01-01&dateTo=2023-05-24
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","to":"","from":"","subject":"","dateFrom":"1970-01-01","dateTo":"2023-05-24"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDg0MTE2OCwiZXhwIjoxNjg0ODQyNjA4LCJpc3MiOiJub29ubWFyIn0.8dmzmOjN3MNFF8BTsPPsptWWPuXvrICEaU6a5u2emYg
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/adminAuth.js:54:9)
+      Message = You have been logged out. Please login again.
+      Time = 06:36 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"646cbbcb71013b4ddcd27a47","contactOtp":"1234","emailOtp":"3892"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:623:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 06:45 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"646cbfa1898c44ef847ac245","otp":"5999"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1033:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 06:59 PM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 07:36 PM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 07:36 PM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:04 PM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:04 PM
+    

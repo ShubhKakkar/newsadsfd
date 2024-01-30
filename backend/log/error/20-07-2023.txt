@@ -1,0 +1,43 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"footwear","page":1,"dynamicFilters":[],"brand":"","subCategory":"","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 02:00 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"footwear"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 02:01 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"footwear","page":1,"dynamicFilters":[],"brand":"","subCategory":"","sortBy":"priceAsc"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 02:01 AM
+    

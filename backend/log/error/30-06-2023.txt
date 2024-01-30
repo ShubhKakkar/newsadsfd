@@ -1,0 +1,29 @@
+
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OTA0YTFmOTVmOWRhZGYxOWQ5NjcwMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODcxNzc3NTksImV4cCI6MTcxODczNTM1OSwiaXNzIjoibm9vbm1hciJ9.Ie332iXbOQQY0EDtMpZx0v3cASKyByNMztDnf_Zta_c"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:92:7)
+      Message = Something went wrong
+      Time = 07:16 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"admin@samsung.co.in","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:245:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 07:16 PM
+    

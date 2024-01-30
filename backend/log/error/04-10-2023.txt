@@ -1,0 +1,141 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"651d205ec4bfaeadc751caba\",\"name\":\"Samsung\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"سامسنج\",\"slug\":\"سامسنج\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzY2MSwiZXhwIjoxNzI3OTY1MjYxLCJpc3MiOiJub29ubWFyIn0.q5xkCgqE6zWbgTJ_YhPtUfvJrFABEYvER_E0rZh-G9s
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzY2MSwiZXhwIjoxNzI3OTY1MjYxLCJpc3MiOiJub29ubWFyIn0.q5xkCgqE6zWbgTJ_YhPtUfvJrFABEYvER_E0rZh-G9s
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: Samsung
+      Time = 01:53 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"651d205ec4bfaeadc751caba\",\"name\":\"Samsung\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"سامسونج\",\"slug\":\"سامسونج\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: Samsung
+      Time = 01:54 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"651d205ec4bfaeadc751caba\",\"name\":\"iPhone\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"iPhone\",\"slug\":\"iphone\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"ايفون\",\"slug\":\"ايفون\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"iPhone\",\"slug\":\"iphone\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: iPhone
+      Time = 01:55 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"651d205ec4bfaeadc751caba\",\"name\":\"iPhone\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"iPhone\",\"slug\":\"iphone\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"ايفون\",\"slug\":\"ايفون\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"iPhone\",\"slug\":\"iphone\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: iPhone
+      Time = 01:56 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"651d205ec4bfaeadc751caba\",\"name\":\"test Smartphones\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"test Smartphones\",\"slug\":\"test-smartphones\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"تجربة الهواتف\",\"slug\":\"تجربة-الهواتف\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"test Smartphones\",\"slug\":\"test-smartphones\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: test Smartphones
+      Time = 01:57 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"651d205ec4bfaeadc751caba\",\"name\":\"test Smartphones\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"test Smartphones\",\"slug\":\"test-smartphones\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"تجربة الهواتف\",\"slug\":\"تجربة-الهواتف\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"test Smartphones\",\"slug\":\"test-smartphones\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwNzg0NiwiZXhwIjoxNzI3OTY1NDQ2LCJpc3MiOiJub29ubWFyIn0.hVBaL9PXrMz8lSAhByC3ish5tun6awfHSuRyxx4RoTE
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: test Smartphones
+      Time = 01:57 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"651d205ec4bfaeadc751caba\",\"name\":\"Samsung\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"سامسنج\",\"slug\":\"سامسنج\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwODA5NiwiZXhwIjoxNzI3OTY1Njk2LCJpc3MiOiJub29ubWFyIn0.ylP88ZnnxuKv-C18ECF5KFoBjE6nrSHvAPWD3rJgRdA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwODA5NiwiZXhwIjoxNzI3OTY1Njk2LCJpc3MiOiJub29ubWFyIn0.ylP88ZnnxuKv-C18ECF5KFoBjE6nrSHvAPWD3rJgRdA
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: Samsung
+      Time = 01:59 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"651d205ec4bfaeadc751caba\",\"name\":\"Samsung\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"سامسنج\",\"slug\":\"سامسنج\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwODA5NiwiZXhwIjoxNzI3OTY1Njk2LCJpc3MiOiJub29ubWFyIn0.ylP88ZnnxuKv-C18ECF5KFoBjE6nrSHvAPWD3rJgRdA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwODA5NiwiZXhwIjoxNzI3OTY1Njk2LCJpc3MiOiJub29ubWFyIn0.ylP88ZnnxuKv-C18ECF5KFoBjE6nrSHvAPWD3rJgRdA
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: Samsung
+      Time = 02:00 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"651d205ec4bfaeadc751caba\",\"name\":\"Samsung\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"سامسنج\",\"slug\":\"سامسنج\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwODI0MiwiZXhwIjoxNzI3OTY1ODQyLCJpc3MiOiJub29ubWFyIn0.1qlZ4fxX52HB1rm7tgYdM8plPxm2kMONniXG141mND0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwODI0MiwiZXhwIjoxNzI3OTY1ODQyLCJpc3MiOiJub29ubWFyIn0.1qlZ4fxX52HB1rm7tgYdM8plPxm2kMONniXG141mND0
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: Samsung
+      Time = 02:01 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"64f8167e7d99201a091fa003\",\"name\":\"Test\",\"specificationIds\":[],\"variantIds\":[\"64ba90f5628ac5132d3480e7\"],\"masterVariantId\":\"64ba90f5628ac5132d3480e7\",\"isActive\":true,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[\"64ba90f5628ac5132d3480e7\"]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Test\",\"slug\":\"test\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"تجربة\",\"slug\":\"تجربة\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Test\",\"slug\":\"test\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwODMyOSwiZXhwIjoxNzI3OTY1OTI5LCJpc3MiOiJub29ubWFyIn0.BQ73Z8IdA75jZ6oCAJOB5DpOKoFT9_dqfl7XAqWFmOw
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQwODMyOSwiZXhwIjoxNzI3OTY1OTI5LCJpc3MiOiJub29ubWFyIn0.BQ73Z8IdA75jZ6oCAJOB5DpOKoFT9_dqfl7XAqWFmOw
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: Test
+      Time = 02:03 PM
+    

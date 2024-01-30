@@ -1,0 +1,169 @@
+
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&name=&vendor=&country=&dateFrom=1970-01-01&dateTo=2023-03-25&role=customer&category=&price=
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","name":"","vendor":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-03-25","role":"customer","category":"","price":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.getAll (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:208:7)
+      Message = Could not fetch products.
+      Time = 04:44 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&name=&vendor=&country=&dateFrom=1970-01-01&dateTo=2023-03-25&role=customer&category=&price=
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","name":"","vendor":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-03-25","role":"customer","category":"","price":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.getAll (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:208:7)
+      Message = Could not fetch products.
+      Time = 04:45 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Business","businessEmail":"businessone@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"1245154745","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58155202586c94cefbc90\",\"63c5238ec9cc346964520bce\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"udit","lastName":"parnami","email":"udit@yopmail.com","countryCode":"91","contact":"8989898987","dob":"2023-03-24","location":"{\"coordinates\":[78.96288,20.593684],\"type\":\"Point\"}","address":"India","warehouseDetail":"[]","ibaNumber":"FI21 1234 5698 7654 3210"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:156:9)
+      Message = Could not create user.
+      Time = 09:17 AM
+    
+    ----------------------------
+      URL = /publish
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"id":"641d5056a5adf7c67236206c","status":"Published"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.changeIsPublishedStatus (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:828:7)
+      Message = Could not change product's status
+      Time = 09:20 AM
+    
+    ----------------------------
+      URL = /publish
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"id":"641d5056a5adf7c67236206c","status":"Published"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.changeIsPublishedStatus (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:828:7)
+      Message = Could not change product's status
+      Time = 09:21 AM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"641d5056a5adf7c67236206c"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:604:7)
+      Message = Could not delete product.
+      Time = 09:26 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Jm bajaj","businessEmail":"jmbajaj@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"4445787895","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\",\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"rakesh","lastName":"sir","email":"rakesh@yopmail.com","countryCode":"91","contact":"8989898987","dob":"2023-03-16","location":"{\"coordinates\":[75.7872709,26.9124336],\"type\":\"Point\"}","address":"Jaipur, Rajasthan, India","warehouseDetail":"[]","ibaNumber":"FI21 1234 5698 7654 3210"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = Invalid type
+      Message = 500
+      Time = 09:52 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Jm bajaj","businessEmail":"jmbajaj@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"4445787895","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\",\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"rakesh","lastName":"sir","email":"rakesh@yopmail.com","countryCode":"91","contact":"8989898987","dob":"2023-03-16","location":"{\"coordinates\":[75.7872709,26.9124336],\"type\":\"Point\"}","address":"Jaipur, Rajasthan, India","warehouseDetail":"[]","ibaNumber":"FI21 1234 5698 7654 3210"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = Invalid type
+      Message = 500
+      Time = 09:52 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Jm bajaj","businessEmail":"jmbajaj@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"4445787895","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\",\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"rakesh","lastName":"sir","email":"rakesh@yopmail.com","countryCode":"91","contact":"8989898987","dob":"2023-03-16","location":"{\"coordinates\":[75.7872709,26.9124336],\"type\":\"Point\"}","address":"Jaipur, Rajasthan, India","warehouseDetail":"[]","ibaNumber":"FI21 1234 5698 7654 3210"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = Invalid type
+      Message = 500
+      Time = 09:52 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"karan@mailinator.com","name":"Karan","role":"641d8ff96dd4ad243dc5f0e4","contact":"","otherDetails":"","permissions":["2_1","2","3_1","3","6_1","6","7_1","7"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/subAdmin.js:65:9)
+      Message = email already exists.
+      Time = 12:06 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"Samsung","masterCategoryId":"63c911c48975c71bd1f0fe06","subCategoryId":"63c8f5c0f67f4d44a89b1159","brandId":"641afbed18d704af7ad9cf5f","warehouses":"[\"641d99e482cea8e9ab890327\"]","price":"1500","discountedPrice":"1400","quantity":"5","featureTitle":"Features","ogImage":"undefined","features":"[{\"label\":\"Colour\",\"value\":\"All Major Colours Available\"}]","description":"Description","isPublished":"false"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = Invalid type
+      Message = 500
+      Time = 12:40 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"Samsung","masterCategoryId":"63c911c48975c71bd1f0fe06","subCategoryId":"63c8f5c0f67f4d44a89b1159","brandId":"641afbed18d704af7ad9cf5f","warehouses":"[\"641d99e482cea8e9ab890327\"]","price":"1500","discountedPrice":"1400","quantity":"5","featureTitle":"Features","ogImage":"undefined","features":"[{\"label\":\"Colour\",\"value\":\"All Major Colours Available\"}]","description":"Description","isPublished":"false"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = Invalid type
+      Message = 500
+      Time = 12:41 PM
+    

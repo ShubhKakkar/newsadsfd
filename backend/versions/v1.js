@@ -1,0 +1,42 @@
+const express = require("express");
+const router = express.Router();
+
+const addressRoutes = require("../routes/v1/address");
+const cartRoutes = require("../routes/v1/cart");
+const checkoutRoutes = require("../routes/v1/checkout");
+const contactUsRoutes = require("../routes/v1/contactUs");
+const countriesRoutes = require("../routes/v1/country");
+const currenciesRoutes = require("../routes/v1/currency");
+const customerFrontendRoutes = require("../routes/v1/customer");
+const homeFrontendRoutes = require("../routes/v1/home");
+const listRoutes = require("../routes/v1/list");
+const notificationRoutes = require("../routes/v1/notification");
+const orderRoutes = require("../routes/v1/order");
+const productRoutes = require("../routes/v1/product");
+const productCategoriesRoutes = require("../routes/v1/productCategory");
+const reelRoutes = require("../routes/v1/reel");
+const reviewRoutes = require("../routes/v1/review");
+const userRoutes = require("../routes/v1/user");
+const vendorFrontendRoutes = require("../routes/v1/vendor");
+const wishlistRoutes = require("../routes/v1/wishlist");
+
+router.use("/address", addressRoutes);
+router.use("/cart", cartRoutes);
+router.use("/checkout", checkoutRoutes);
+router.use("/contact-us", contactUsRoutes);
+router.use("/countries", countriesRoutes);
+router.use("/currencies", currenciesRoutes);
+router.use("/customer", customerFrontendRoutes);
+router.use("/home", homeFrontendRoutes);
+router.use("/list", listRoutes);
+router.use("/notification", notificationRoutes);
+router.use("/order", orderRoutes);
+router.use("/product", productRoutes);
+router.use("/product-categories", productCategoriesRoutes);
+router.use("/reel", reelRoutes);
+router.use("/review", reviewRoutes);
+router.use("/user", userRoutes);
+router.use("/vendor", vendorFrontendRoutes);
+router.use("/wishlist", wishlistRoutes);
+
+module.exports = router;

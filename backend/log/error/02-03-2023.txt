@@ -1,0 +1,29 @@
+
+    ----------------------------
+      URL = /all
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjQwMzUxM30.XLPhOmWKD77Clx3cXhAkpaDPBuPO_FfDVAbwRWlZAy0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjQwMzUxM30.XLPhOmWKD77Clx3cXhAkpaDPBuPO_FfDVAbwRWlZAy0
+      AT = exports.getAll (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/user.js:326:7)
+      Message = Page Query is required.
+      Time = 09:42 AM
+    
+    ----------------------------
+      URL = /all
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjQwMzUxM30.XLPhOmWKD77Clx3cXhAkpaDPBuPO_FfDVAbwRWlZAy0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjQwMzUxM30.XLPhOmWKD77Clx3cXhAkpaDPBuPO_FfDVAbwRWlZAy0
+      AT = exports.getAll (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/user.js:326:7)
+      Message = Page Query is required.
+      Time = 09:42 AM
+    

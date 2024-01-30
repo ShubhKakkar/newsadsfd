@@ -1,0 +1,43 @@
+
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"647075c0898c44ef847acc00","contactOtp":"1234","emailOtp":"1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:623:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 02:33 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"647075c0898c44ef847acc00","contactOtp":"1234","emailOtp":"1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:623:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 02:33 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6470783d898c44ef847accbe","contactOtp":"7575","emailOtp":"5755"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:623:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 02:43 PM
+    

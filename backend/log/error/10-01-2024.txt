@@ -1,0 +1,127 @@
+
+    ----------------------------
+      URL = /all
+      Method = GET
+      userId = 6481c4d3127796e2ff338e3b
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODFjNGQzMTI3Nzk2ZTJmZjMzOGUzYiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg5NTk1NDU2LCJleHAiOjE3MjExNTMwNTYsImlzcyI6Im5vb25tYXIifQ.GTT8sGbviifrko2S-szeI4ky1VEUDTh5EuI1rrh42Sg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODFjNGQzMTI3Nzk2ZTJmZjMzOGUzYiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg5NTk1NDU2LCJleHAiOjE3MjExNTMwNTYsImlzcyI6Im5vb25tYXIifQ.GTT8sGbviifrko2S-szeI4ky1VEUDTh5EuI1rrh42Sg
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 10:58 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Vendor123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:239:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:40 AM
+    
+    ----------------------------
+      URL = /payment-status
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"orderId":"659e88cc373fd82e66fd6b01"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ0NDgwNDYsImV4cCI6MTczNjAwNTY0NiwiaXNzIjoibm9vbm1hciJ9.WBbRNZMtxPXxspaK5c27FFpGP8JKKqr6SopXVMRyOSE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ0NDgwNDYsImV4cCI6MTczNjAwNTY0NiwiaXNzIjoibm9vbm1hciJ9.WBbRNZMtxPXxspaK5c27FFpGP8JKKqr6SopXVMRyOSE
+      AT = exports.paymentStatus (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/order.js:2626:7)
+      Message = Could not confirm payment. Please try again.
+      Time = 05:47 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"utgopu","password":"znvzqx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:239:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 06:53 PM
+    
+    ----------------------------
+      URL = /payment-status
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"orderId":["6","5","9","e","a","9","a","5","3","7","3","f","d","8","2","e","6","6","f","d","7","2","7","6"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ4Njc0MzEsImV4cCI6MTczNjQyNTAzMSwiaXNzIjoibm9vbm1hciJ9.rjeZP_DzxuM60uwDKU1fvp-EoX8ECGu4TGRe5LvuQjs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ4Njc0MzEsImV4cCI6MTczNjQyNTAzMSwiaXNzIjoibm9vbm1hciJ9.rjeZP_DzxuM60uwDKU1fvp-EoX8ECGu4TGRe5LvuQjs
+      AT = exports.paymentStatus (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/order.js:2504:7)
+      Message = Something went wrong 1
+      Time = 08:00 PM
+    
+    ----------------------------
+      URL = /payment-status
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"orderId":["6","5","9","e","a","9","a","5","3","7","3","f","d","8","2","e","6","6","f","d","7","2","7","6"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ4Njc0MzEsImV4cCI6MTczNjQyNTAzMSwiaXNzIjoibm9vbm1hciJ9.rjeZP_DzxuM60uwDKU1fvp-EoX8ECGu4TGRe5LvuQjs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ4Njc0MzEsImV4cCI6MTczNjQyNTAzMSwiaXNzIjoibm9vbm1hciJ9.rjeZP_DzxuM60uwDKU1fvp-EoX8ECGu4TGRe5LvuQjs
+      AT = exports.paymentStatus (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/order.js:2504:7)
+      Message = Something went wrong 1
+      Time = 08:00 PM
+    
+    ----------------------------
+      URL = /payment-status
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"orderId":["6","5","9","e","a","9","a","5","3","7","3","f","d","8","2","e","6","6","f","d","7","2","7","6"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ4Njc0MzEsImV4cCI6MTczNjQyNTAzMSwiaXNzIjoibm9vbm1hciJ9.rjeZP_DzxuM60uwDKU1fvp-EoX8ECGu4TGRe5LvuQjs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ4Njc0MzEsImV4cCI6MTczNjQyNTAzMSwiaXNzIjoibm9vbm1hciJ9.rjeZP_DzxuM60uwDKU1fvp-EoX8ECGu4TGRe5LvuQjs
+      AT = exports.paymentStatus (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/order.js:2504:7)
+      Message = Something went wrong 1
+      Time = 08:00 PM
+    
+    ----------------------------
+      URL = /payment-status
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"orderId":["6","5","9","e","a","9","a","5","3","7","3","f","d","8","2","e","6","6","f","d","7","2","7","6"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ4Njc0MzEsImV4cCI6MTczNjQyNTAzMSwiaXNzIjoibm9vbm1hciJ9.rjeZP_DzxuM60uwDKU1fvp-EoX8ECGu4TGRe5LvuQjs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ4Njc0MzEsImV4cCI6MTczNjQyNTAzMSwiaXNzIjoibm9vbm1hciJ9.rjeZP_DzxuM60uwDKU1fvp-EoX8ECGu4TGRe5LvuQjs
+      AT = exports.paymentStatus (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/order.js:2504:7)
+      Message = Something went wrong 1
+      Time = 08:00 PM
+    
+    ----------------------------
+      URL = /payment-status
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"orderId":"659eb0e9373fd82e66fd7570"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ0NDgwNDYsImV4cCI6MTczNjAwNTY0NiwiaXNzIjoibm9vbm1hciJ9.WBbRNZMtxPXxspaK5c27FFpGP8JKKqr6SopXVMRyOSE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ0NDgwNDYsImV4cCI6MTczNjAwNTY0NiwiaXNzIjoibm9vbm1hciJ9.WBbRNZMtxPXxspaK5c27FFpGP8JKKqr6SopXVMRyOSE
+      AT = exports.paymentStatus (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/order.js:2626:7)
+      Message = Could not confirm payment. Please try again.
+      Time = 08:37 PM
+    

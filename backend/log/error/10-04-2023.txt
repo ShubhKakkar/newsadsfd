@@ -1,0 +1,505 @@
+
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6433ae7d10b104656c62e10f"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = Something went wrong while sending mail.
+      Message = 500
+      Time = 06:37 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6433ae7d10b104656c62e10f"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = Something went wrong while sending mail.
+      Message = 500
+      Time = 06:37 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"hritik@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:36:9)
+      Message = Customer not found
+      Time = 06:38 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6433ae7d10b104656c62e10f"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = Something went wrong while sending mail.
+      Message = 500
+      Time = 06:41 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6433ae7d10b104656c62e10f"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = Something went wrong while sending mail.
+      Message = 500
+      Time = 06:42 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6433ae7d10b104656c62e10f"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = Something went wrong while sending mail.
+      Message = 500
+      Time = 06:43 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"hrithik@yopmaill.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:36:9)
+      Message = Customer not found
+      Time = 06:45 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"hrithik@yopmaill.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:36:9)
+      Message = Customer not found
+      Time = 06:45 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"hrithik@yopmaill.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:36:9)
+      Message = Customer not found
+      Time = 06:46 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"hrithik@yopmaill.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:36:9)
+      Message = Customer not found
+      Time = 06:46 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"hrithik@yopmaill.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:36:9)
+      Message = Customer not found
+      Time = 06:46 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"hrithik@yopmaill.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:36:9)
+      Message = Customer not found
+      Time = 06:46 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6433ae7d10b104656c62e10f"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:344:7)
+      Message = Please request otp after 179 seconds
+      Time = 06:47 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6433ae7d10b104656c62e10f","otp":"9249"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:459:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 06:47 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"badalparnami@gmail.com","password":"System@123","firstName":"badal","lastName":"parnami","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:230:9)
+      Message = The email is already associated with another account.
+      Time = 07:00 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:139:9)
+      Message = Business email is already exists.
+      Time = 07:26 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:139:9)
+      Message = Business email is already exists.
+      Time = 07:27 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/customer.js:1184:7)
+      Message = Something went wrong #b
+      Time = 07:28 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/customer.js:1184:7)
+      Message = Something went wrong #b
+      Time = 07:28 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"badalparnami@gmail.com","password":"System@123","firstName":"badal","lastName":"parnami","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:230:9)
+      Message = The email is already associated with another account.
+      Time = 07:31 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:717:7)
+      Message = Please request otp after 164 seconds
+      Time = 07:32 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642a739ccb5a048baccd9bca","otp":6050}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:629:7)
+      Message = Your OTP is incorrect.
+      Time = 07:32 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:139:9)
+      Message = Business email is already exists.
+      Time = 07:32 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"badalparnami@gmail.com","password":"System@123","firstName":"badal","lastName":"parnami","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:230:9)
+      Message = The email is already associated with another account.
+      Time = 07:34 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:717:7)
+      Message = Please request otp after 176 seconds
+      Time = 07:34 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642a739ccb5a048baccd9bca","otp":6050}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:629:7)
+      Message = Your OTP is incorrect.
+      Time = 07:34 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:139:9)
+      Message = Business email is already exists.
+      Time = 07:34 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"badalparnami@gmail.com","password":"System@123","firstName":"badal","lastName":"parnami","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:230:9)
+      Message = The email is already associated with another account.
+      Time = 07:41 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"badalparnami@gmail.com","password":"System@123","firstName":"badal","lastName":"parnami","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:230:9)
+      Message = The email is already associated with another account.
+      Time = 07:43 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:717:7)
+      Message = Please request otp after 179 seconds
+      Time = 07:43 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642a739ccb5a048baccd9bca","otp":6050}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:629:7)
+      Message = Your OTP is incorrect.
+      Time = 07:43 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:139:9)
+      Message = Business email is already exists.
+      Time = 07:43 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:139:9)
+      Message = Business email is already exists.
+      Time = 08:26 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Prmod@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:36:9)
+      Message = Customer not found
+      Time = 11:53 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"abhijeet@yopmil.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:195:9)
+      Message = Vendor not found
+      Time = 01:26 PM
+    
+    ----------------------------
+      URL = /profile-pic
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzQwZTA4M2NhNjBhNzJkNTE5ZTM3MSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxMTMzNDA3fQ.PAdAdgwNREyNo1P6MXGFtzN_KnrDGqBI3U3wmpeCgSQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzQwZTA4M2NhNjBhNzJkNTE5ZTM3MSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxMTMzNDA3fQ.PAdAdgwNREyNo1P6MXGFtzN_KnrDGqBI3U3wmpeCgSQ
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 01:34 PM
+    

@@ -1,0 +1,267 @@
+
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"rakesh@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:768:9)
+      Message = Customer not found
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"name\":\"Samsung\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"سامسنج\",\"slug\":\"سامسنج\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MTY0MSwiZXhwIjoxNzI4MDQ5MjQxLCJpc3MiOiJub29ubWFyIn0.Ppww40k8wtjLokcIq7NwJVQwrjQ6i3sAGra1_ku4p4s
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MTY0MSwiZXhwIjoxNzI4MDQ5MjQxLCJpc3MiOiJub29ubWFyIn0.Ppww40k8wtjLokcIq7NwJVQwrjQ6i3sAGra1_ku4p4s
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: Samsung
+      Time = 01:12 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"name\":\"Samsung\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"سامسنج\",\"slug\":\"سامسنج\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Samsung\",\"slug\":\"samsung\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MTY0MSwiZXhwIjoxNzI4MDQ5MjQxLCJpc3MiOiJub29ubWFyIn0.Ppww40k8wtjLokcIq7NwJVQwrjQ6i3sAGra1_ku4p4s
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MTY0MSwiZXhwIjoxNzI4MDQ5MjQxLCJpc3MiOiJub29ubWFyIn0.Ppww40k8wtjLokcIq7NwJVQwrjQ6i3sAGra1_ku4p4s
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: Samsung
+      Time = 01:18 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"name":"Qatar","langData":"[{\"languageCode\":\"en\",\"name\":\"Qatar\"},{\"languageCode\":\"ar\",\"name\":\"قطر\"},{\"languageCode\":\"tr\",\"name\":\"Katar\"}]","currency":"6481c487127796e2ff338e26","pinCode":"12345","customCurrency":"6481c487127796e2ff338e26","customCell":"0","customFixedValue":"0","customPercentageValue":"0","groupId":"undefined"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MjM2MiwiZXhwIjoxNzI4MDQ5OTYyLCJpc3MiOiJub29ubWFyIn0.OMQi3Yh7qT6RG-oj_7UZsKimkRXI3QrxYfFD9oYpqwU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MjM2MiwiZXhwIjoxNzI4MDQ5OTYyLCJpc3MiOiJub29ubWFyIn0.OMQi3Yh7qT6RG-oj_7UZsKimkRXI3QrxYfFD9oYpqwU
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/country.js:98:9)
+      Message = Could not create country.
+      Time = 01:26 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"name":"Qatar","langData":"[{\"languageCode\":\"en\",\"name\":\"Qatar\"},{\"languageCode\":\"ar\",\"name\":\"قطر\"},{\"languageCode\":\"tr\",\"name\":\"Katar\"}]","currency":"6481c487127796e2ff338e26","pinCode":"12345","customCurrency":"6481c487127796e2ff338e26","customCell":"0","customFixedValue":"0","customPercentageValue":"0","groupId":"undefined"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MjM2MiwiZXhwIjoxNzI4MDQ5OTYyLCJpc3MiOiJub29ubWFyIn0.OMQi3Yh7qT6RG-oj_7UZsKimkRXI3QrxYfFD9oYpqwU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MjM2MiwiZXhwIjoxNzI4MDQ5OTYyLCJpc3MiOiJub29ubWFyIn0.OMQi3Yh7qT6RG-oj_7UZsKimkRXI3QrxYfFD9oYpqwU
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/country.js:89:9)
+      Message = name field already exists.
+      Time = 01:27 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"name":"Qatar","langData":"[{\"languageCode\":\"en\",\"name\":\"Qatar\"},{\"languageCode\":\"ar\",\"name\":\"قطر\"},{\"languageCode\":\"tr\",\"name\":\"Katar\"}]","currency":"6481c487127796e2ff338e26","pinCode":"12345","customCurrency":"6481c487127796e2ff338e26","customCell":"0","customFixedValue":"0","customPercentageValue":"0","groupId":"undefined"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MjM2MiwiZXhwIjoxNzI4MDQ5OTYyLCJpc3MiOiJub29ubWFyIn0.OMQi3Yh7qT6RG-oj_7UZsKimkRXI3QrxYfFD9oYpqwU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5MjM2MiwiZXhwIjoxNzI4MDQ5OTYyLCJpc3MiOiJub29ubWFyIn0.OMQi3Yh7qT6RG-oj_7UZsKimkRXI3QrxYfFD9oYpqwU
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/country.js:89:9)
+      Message = name field already exists.
+      Time = 01:27 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"651e758fc4bfaeadc751db15"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTE2OSwiZXhwIjoxNzI4MDUyNzY5LCJpc3MiOiJub29ubWFyIn0.YjblTUV92DAseRvVyKUyFSA8FohGhHg3K_SZDr1PRCY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTE2OSwiZXhwIjoxNzI4MDUyNzY5LCJpc3MiOiJub29ubWFyIn0.YjblTUV92DAseRvVyKUyFSA8FohGhHg3K_SZDr1PRCY
+      AT = exports.delete (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subAdmin.js:279:7)
+      Message = Could not delete subadmin.
+      Time = 02:09 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"651e758fc4bfaeadc751db15"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTE4MCwiZXhwIjoxNzI4MDUyNzgwLCJpc3MiOiJub29ubWFyIn0.-futpMcer06csZZ3X70MYpUsrWKprHNqNcqJERWieh4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTE4MCwiZXhwIjoxNzI4MDUyNzgwLCJpc3MiOiJub29ubWFyIn0.-futpMcer06csZZ3X70MYpUsrWKprHNqNcqJERWieh4
+      AT = exports.delete (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subAdmin.js:279:7)
+      Message = Could not delete subadmin.
+      Time = 02:09 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"651e758fc4bfaeadc751db15"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTIwNCwiZXhwIjoxNzI4MDUyODA0LCJpc3MiOiJub29ubWFyIn0.dBGVR5zFvf2e-TWWFfKWBJEXhjFL9ol2Rl0ahVESLm8
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTIwNCwiZXhwIjoxNzI4MDUyODA0LCJpc3MiOiJub29ubWFyIn0.dBGVR5zFvf2e-TWWFfKWBJEXhjFL9ol2Rl0ahVESLm8
+      AT = exports.delete (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subAdmin.js:279:7)
+      Message = Could not delete subadmin.
+      Time = 02:10 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"651e758fc4bfaeadc751db15"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTIzNCwiZXhwIjoxNzI4MDUyODM0LCJpc3MiOiJub29ubWFyIn0.fBHbTBTR8PBMB4eG2viOTXNbe7A6I-dl47i-_usqcG4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTIzNCwiZXhwIjoxNzI4MDUyODM0LCJpc3MiOiJub29ubWFyIn0.fBHbTBTR8PBMB4eG2viOTXNbe7A6I-dl47i-_usqcG4
+      AT = exports.delete (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subAdmin.js:279:7)
+      Message = Could not delete subadmin.
+      Time = 02:10 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"651e758fc4bfaeadc751db15"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTY3NCwiZXhwIjoxNzI4MDUzMjc0LCJpc3MiOiJub29ubWFyIn0.sK-x8D9AybDRLgZppzFEk6MOsKMyPKJmSQfDAMOzic8
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NTY3NCwiZXhwIjoxNzI4MDUzMjc0LCJpc3MiOiJub29ubWFyIn0.sK-x8D9AybDRLgZppzFEk6MOsKMyPKJmSQfDAMOzic8
+      AT = exports.delete (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subAdmin.js:279:7)
+      Message = Could not delete subadmin.
+      Time = 02:18 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"businessName":"Folan","businessEmail":"example@example.com","businessCountry":"6515268d01fd174be7c7c2d6","businessContact":"1234567890","productCategories":"[\"64f8167e7d99201a091fa003\"]","serveCountries":"[\"6515267a01fd174be7c7aa43\",\"651e6c38c4bfaeadc751d9a2\"]","currency":"6481c487127796e2ff338e26","language":"Arabic","storefrontSubscription":"true","firstName":"Folan","lastName":"benaalan","email":"example@example.com","countryCode":"+undefined","contact":"0123456789","location":"{\"coordinates\":[44.831834,26.3098543],\"type\":\"Point\"}","address":"Zulfi Saudi Arabia","warehouseDetail":"[{\"name\":\"folan house\",\"geoLocation\":{\"coordinates\":[8.889388799999999,33.6812679],\"type\":\"Point\"},\"address\":\"Stade Gataya, Ebness, Tunisia\",\"country\":\"6515268d01fd174be7c7c2d6\",\"city\":\"Kebili Nord\",\"state\":\"Kebili Governorate\",\"street\":\"\",\"zipCode\":\"\"}]","ibaNumber":"123456789","group":"65018411b6c978ce6adca36c","brands":"[\"651d2749c4bfaeadc751cc87\"]","newBrands":"[]","isManufacturer":"true"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NjYzMywiZXhwIjoxNzI4MDU0MjMzLCJpc3MiOiJub29ubWFyIn0.B5XRhfudx7zPSLsUBMCIuUgsANjO44ciPJmfWhehCVs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NjYzMywiZXhwIjoxNzI4MDU0MjMzLCJpc3MiOiJub29ubWFyIn0.B5XRhfudx7zPSLsUBMCIuUgsANjO44ciPJmfWhehCVs
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/vendor.js:200:9)
+      Message = businessEmail already exists.
+      Time = 02:38 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"businessName":"Folan","businessEmail":"example1@example.com","businessCountry":"6515268d01fd174be7c7c2d6","businessContact":"1234567890","productCategories":"[\"64f8167e7d99201a091fa003\"]","serveCountries":"[\"6515267a01fd174be7c7aa43\",\"651e6c38c4bfaeadc751d9a2\"]","currency":"6481c487127796e2ff338e26","language":"Arabic","storefrontSubscription":"true","firstName":"Folan","lastName":"benaalan","email":"example1@example.com","countryCode":"+undefined","contact":"0123456789","location":"{\"coordinates\":[44.831834,26.3098543],\"type\":\"Point\"}","address":"Zulfi Saudi Arabia","warehouseDetail":"[{\"name\":\"folan house\",\"geoLocation\":{\"coordinates\":[8.889388799999999,33.6812679],\"type\":\"Point\"},\"address\":\"Stade Gataya, Ebness, Tunisia\",\"country\":\"6515268d01fd174be7c7c2d6\",\"city\":\"Kebili Nord\",\"state\":\"Kebili Governorate\",\"street\":\"\",\"zipCode\":\"\"}]","ibaNumber":"123456789","group":"65018411b6c978ce6adca36c","brands":"[\"651d2749c4bfaeadc751cc87\"]","newBrands":"[]","isManufacturer":"true"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NjYzMywiZXhwIjoxNzI4MDU0MjMzLCJpc3MiOiJub29ubWFyIn0.B5XRhfudx7zPSLsUBMCIuUgsANjO44ciPJmfWhehCVs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NjYzMywiZXhwIjoxNzI4MDU0MjMzLCJpc3MiOiJub29ubWFyIn0.B5XRhfudx7zPSLsUBMCIuUgsANjO44ciPJmfWhehCVs
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/vendor.js:200:9)
+      Message = contact already exists.
+      Time = 02:39 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"businessName":"Folan","businessEmail":"example1@example.com","businessCountry":"6515268d01fd174be7c7c2d6","businessContact":"9876543208","productCategories":"[\"64f8167e7d99201a091fa003\"]","serveCountries":"[\"6515267a01fd174be7c7aa43\",\"651e6c38c4bfaeadc751d9a2\"]","currency":"6481c487127796e2ff338e26","language":"Arabic","storefrontSubscription":"true","firstName":"Folan","lastName":"benaalan","email":"example1@example.com","countryCode":"+undefined","contact":"0123456789","location":"{\"coordinates\":[44.831834,26.3098543],\"type\":\"Point\"}","address":"Zulfi Saudi Arabia","warehouseDetail":"[{\"name\":\"folan house\",\"geoLocation\":{\"coordinates\":[8.889388799999999,33.6812679],\"type\":\"Point\"},\"address\":\"Stade Gataya, Ebness, Tunisia\",\"country\":\"6515268d01fd174be7c7c2d6\",\"city\":\"Kebili Nord\",\"state\":\"Kebili Governorate\",\"street\":\"\",\"zipCode\":\"\"}]","ibaNumber":"123456789","group":"65018411b6c978ce6adca36c","brands":"[\"651d2749c4bfaeadc751cc87\"]","newBrands":"[]","isManufacturer":"true"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NjYzMywiZXhwIjoxNzI4MDU0MjMzLCJpc3MiOiJub29ubWFyIn0.B5XRhfudx7zPSLsUBMCIuUgsANjO44ciPJmfWhehCVs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NjYzMywiZXhwIjoxNzI4MDU0MjMzLCJpc3MiOiJub29ubWFyIn0.B5XRhfudx7zPSLsUBMCIuUgsANjO44ciPJmfWhehCVs
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/vendor.js:200:9)
+      Message = contact already exists.
+      Time = 02:39 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"businessName":"Folan","businessEmail":"example1@example.com","businessCountry":"6515268d01fd174be7c7c2d6","businessContact":"7894651232","productCategories":"[\"64f8167e7d99201a091fa003\"]","serveCountries":"[\"6515267a01fd174be7c7aa43\",\"651e6c38c4bfaeadc751d9a2\"]","currency":"6481c487127796e2ff338e26","language":"Arabic","storefrontSubscription":"true","firstName":"Folan","lastName":"benaalan","email":"example1@example.com","countryCode":"+undefined","contact":"0123456789","location":"{\"coordinates\":[44.831834,26.3098543],\"type\":\"Point\"}","address":"Zulfi Saudi Arabia","warehouseDetail":"[{\"name\":\"folan house\",\"geoLocation\":{\"coordinates\":[8.889388799999999,33.6812679],\"type\":\"Point\"},\"address\":\"Stade Gataya, Ebness, Tunisia\",\"country\":\"6515268d01fd174be7c7c2d6\",\"city\":\"Kebili Nord\",\"state\":\"Kebili Governorate\",\"street\":\"\",\"zipCode\":\"\"}]","ibaNumber":"123456789","group":"65018411b6c978ce6adca36c","brands":"[\"651d2749c4bfaeadc751cc87\"]","newBrands":"[]","isManufacturer":"true"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NjYzMywiZXhwIjoxNzI4MDU0MjMzLCJpc3MiOiJub29ubWFyIn0.B5XRhfudx7zPSLsUBMCIuUgsANjO44ciPJmfWhehCVs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NjQ5NjYzMywiZXhwIjoxNzI4MDU0MjMzLCJpc3MiOiJub29ubWFyIn0.B5XRhfudx7zPSLsUBMCIuUgsANjO44ciPJmfWhehCVs
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/vendor.js:200:9)
+      Message = contact already exists.
+      Time = 02:39 PM
+    
+    ----------------------------
+      URL = /all
+      Method = POST
+      userId = 64677e1ad60ae9cb64b42938
+      isAdmin = undefined
+      Body = {"page":1,"per_page":10,"order":"asc","sortBy":"name","warehouses":["642ec3d78f055e664648a2a3"],"masterCategories":["642e98fef95d77871e0eefdc"],"name":"tv"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NTEyOTI4LCJleHAiOjE3MTcwNzA1MjgsImlzcyI6Im5vb25tYXIifQ.OvJ9R8Cirb-Tu7ftjmb-KzUFxHz3NxmXYmJl6C1TkSY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NTEyOTI4LCJleHAiOjE3MTcwNzA1MjgsImlzcyI6Im5vb25tYXIifQ.OvJ9R8Cirb-Tu7ftjmb-KzUFxHz3NxmXYmJl6C1TkSY
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 04:33 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"admin@samsung.co.in","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:235:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 04:33 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"anas@noonmar.com","password":"AnAs1050@"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:83:7)
+      Message = Your email is not registered with noonmar.
+      Time = 11:58 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"anas@noonmar.com","password":"AnAs1050@"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:83:7)
+      Message = Your email is not registered with noonmar.
+      Time = 11:58 PM
+    

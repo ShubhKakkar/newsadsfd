@@ -1,0 +1,127 @@
+
+    ----------------------------
+      URL = /by-country
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:24 AM
+    
+    ----------------------------
+      URL = /all
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MDMwMThmY2JhYWIwMDczMzdkZjFlYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzA0OTUxNDYxLCJleHAiOjE3MzY1MDkwNjEsImlzcyI6Im5vb25tYXIifQ.45TPEveEkbbPeBNh8NHjFup__2vZIDPeickTd2D39eQ
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 11:08 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJkODhjOGMxZjg5ZDJmYzBkZWZkMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzA0OTU0MjI1LCJleHAiOjE3MzY1MTE4MjUsImlzcyI6Im5vb25tYXIifQ.YfztEVntY4CrDTFDGayGcUx8JMjtos58L9x3EmByt_A
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:68:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 03:57 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJkODhjOGMxZjg5ZDJmYzBkZWZkMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzA0OTU0MjI1LCJleHAiOjE3MzY1MTE4MjUsImlzcyI6Im5vb25tYXIifQ.YfztEVntY4CrDTFDGayGcUx8JMjtos58L9x3EmByt_A
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:68:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 03:57 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJkODhjOGMxZjg5ZDJmYzBkZWZkMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzA0OTU0MjI1LCJleHAiOjE3MzY1MTE4MjUsImlzcyI6Im5vb25tYXIifQ.YfztEVntY4CrDTFDGayGcUx8JMjtos58L9x3EmByt_A
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:68:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 03:57 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJkODhjOGMxZjg5ZDJmYzBkZWZkMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzA0OTU0MjI1LCJleHAiOjE3MzY1MTE4MjUsImlzcyI6Im5vb25tYXIifQ.YfztEVntY4CrDTFDGayGcUx8JMjtos58L9x3EmByt_A
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:68:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 03:57 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJkODhjOGMxZjg5ZDJmYzBkZWZkMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzA0OTU0MjI1LCJleHAiOjE3MzY1MTE4MjUsImlzcyI6Im5vb25tYXIifQ.YfztEVntY4CrDTFDGayGcUx8JMjtos58L9x3EmByt_A
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:68:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 03:57 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJkODhjOGMxZjg5ZDJmYzBkZWZkMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzA0OTY5OTc1LCJleHAiOjE3MzY1Mjc1NzUsImlzcyI6Im5vb25tYXIifQ.kb-w75ImifPZmcQqReZwhL_AJ8KysQLqBqlP7qxiftI
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:68:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 04:41 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:29:7)
+      Message = Request Failed!
+      Time = 04:41 PM
+    

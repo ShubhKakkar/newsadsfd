@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTRjYzU2MDVlN2IxYzc3ZTA5NDRhZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMyODIzNjZ9.2knMD6oI7njYphdG4mzEChGVS7C5Q5ijYOgfNio0INI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:92:7)
+      Message = Something went wrong
+      Time = 06:49 PM
+    

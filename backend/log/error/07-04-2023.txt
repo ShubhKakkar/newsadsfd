@@ -1,0 +1,2059 @@
+
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"tes business","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"7687897856","businessEmail":"testuser23@mailinator.com","warehouseDetail":"[{\"name\":\"test\",\"address\":\"Texas, USA\",\"geoLocation\":\"{\\\"coordinates\\\":[-99.9018131,31.9685988],\\\"type\\\":\\\"Point\\\"}\",\"country\":\"63a5814e202586c94cefbc8a\"}]","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5813b202586c94cefbc84\",\"63a58155202586c94cefbc90\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"Neha","lastName":"Gupta","contact":"8745987478","email":"testuser23@mailinator.com","address":"Saudi Arabia","location":"{\"coordinates\":[45.079162,23.885942],\"type\":\"Point\"}","country":"63a58155202586c94cefbc90","dob":"2023-03-28","password":"System@123","countryCode":"+213","ibaNumber":"1232131"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:133:9)
+      Message = Business contact is already exists.
+      Time = 04:31 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhM2I2ODFjNTRjOGI1MmI0NDcxMiIsIk9UUCI6ODYwMiwiaWF0IjoxNjgwODQzNzAzfQ.A7jLTf0yjc5AkYGIzZ-1j5MLhqBXUrzBtk8nlVKUztk","otp":"8602"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:878:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:03 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhM2I2ODFjNTRjOGI1MmI0NDcxMiIsIk9UUCI6ODYwMiwiaWF0IjoxNjgwODQzNzAzfQ.A7jLTf0yjc5AkYGIzZ-1j5MLhqBXUrzBtk8nlVKUztk","otp":"ssss"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:878:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:05 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"Handbag","masterCategoryId":"642e98fef95d77871e0eefdc","subCategoryId":"642e998ec127907e65785c7f","brandId":"641afbed18d704af7ad9cf5f","warehouses":"[\"642ec3d78f055e664648a2a3\"]","price":"100","discountedPrice":"90","quantity":"10","featureTitle":"Features","ogImage":"undefined","features":"[{\"label\":\"Color\",\"value\":\"All Major Colours Available\"}]","description":"<p>Description</p>\r\n","isPublished":"false","featuredMediaId":"0","metaData":"{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}","vendor":"642e99e719370f400ed7460e","mediaIds":"{\"0\":[0],\"1\":[1,2],\"main\":[0,1,2]}","variants":"[{\"id\":\"642e98e4f95d77871e0eefc2\",\"name\":\"Size\"}]","subVariants":"[{\"firstVariantId\":\"642e98e4f95d77871e0eefc2\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"642e996c86d184c1884856d2\",\"firstSubVariantName\":\"28\",\"price\":\"100\",\"discountedPrice\":\"90\",\"quantity\":\"10\"},{\"firstVariantId\":\"642e98e4f95d77871e0eefc2\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":0,\"firstSubVariantName\":\"30\",\"price\":\"100\",\"discountedPrice\":\"90\",\"quantity\":\"10\"}]","newSubVariants":"[{\"id\":0,\"variantId\":\"642e98e4f95d77871e0eefc2\",\"subCategoryId\":\"642e998ec127907e65785c7f\",\"languagesData\":[{\"code\":\"en\",\"name\":\"30\"},{\"code\":\"ar\",\"name\":\"\"},{\"code\":\"tr\",\"name\":\"\"}],\"name\":\"30\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:160:7)
+      Message = Could not create product.
+      Time = 05:21 AM
+    
+    ----------------------------
+      URL = /signup-verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhM2I2ODFjNTRjOGI1MmI0NDcxMiIsIk9UUCI6ODYwMiwiaWF0IjoxNjgwODQzNzAzfQ.A7jLTf0yjc5AkYGIzZ-1j5MLhqBXUrzBtk8nlVKUztk"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signupVerify (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:226:7)
+      Message = This user is already verified.
+      Time = 05:23 AM
+    
+    ----------------------------
+      URL = /signup-verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhM2I2ODFjNTRjOGI1MmI0NDcxMiIsIk9UUCI6ODYwMiwiaWF0IjoxNjgwODQzNzAzfQ.A7jLTf0yjc5AkYGIzZ-1j5MLhqBXUrzBtk8nlVKUztk"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signupVerify (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:226:7)
+      Message = This user is already verified.
+      Time = 05:24 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"Handbag","masterCategoryId":"642e98fef95d77871e0eefdc","subCategoryId":"642e998ec127907e65785c7f","brandId":"641afbed18d704af7ad9cf5f","warehouses":"[\"642ec3d78f055e664648a2a3\"]","price":"100","discountedPrice":"90","quantity":"10","featureTitle":"Features","ogImage":"undefined","features":"[{\"label\":\"Color\",\"value\":\"All Major Colours Available\"}]","description":"<p>Description</p>\r\n","isPublished":"false","featuredMediaId":"0","metaData":"{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}","vendor":"642e99e719370f400ed7460e","mediaIds":"{\"0\":[0],\"1\":[1,2],\"main\":[0,1,2]}","variants":"[{\"id\":\"642e98e4f95d77871e0eefc2\",\"name\":\"Size\"}]","subVariants":"[{\"firstVariantId\":\"642e98e4f95d77871e0eefc2\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"642e996c86d184c1884856d2\",\"firstSubVariantName\":\"28\",\"price\":\"100\",\"discountedPrice\":\"90\",\"quantity\":\"10\"},{\"firstVariantId\":\"642e98e4f95d77871e0eefc2\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":0,\"firstSubVariantName\":\"30\",\"price\":\"100\",\"discountedPrice\":\"90\",\"quantity\":\"10\"}]","newSubVariants":"[{\"id\":0,\"variantId\":\"642e98e4f95d77871e0eefc2\",\"subCategoryId\":\"642e998ec127907e65785c7f\",\"languagesData\":[{\"code\":\"en\",\"name\":\"30\"},{\"code\":\"ar\",\"name\":\"\"},{\"code\":\"tr\",\"name\":\"\"}],\"name\":\"30\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:161:7)
+      Message = Could not create product.
+      Time = 05:25 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"Handbag","masterCategoryId":"642e98fef95d77871e0eefdc","subCategoryId":"642e998ec127907e65785c7f","brandId":"641afbed18d704af7ad9cf5f","warehouses":"[\"642ec3d78f055e664648a2a3\"]","price":"100","discountedPrice":"90","quantity":"10","featureTitle":"Features","ogImage":"undefined","features":"[{\"label\":\"Color\",\"value\":\"All Major Colours Available\"}]","description":"<p>Description</p>\r\n","isPublished":"false","featuredMediaId":"0","metaData":"{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}","vendor":"642e99e719370f400ed7460e","mediaIds":"{\"0\":[0],\"1\":[1,2],\"main\":[0,1,2]}","variants":"[{\"id\":\"642e98e4f95d77871e0eefc2\",\"name\":\"Size\"}]","subVariants":"[{\"firstVariantId\":\"642e98e4f95d77871e0eefc2\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"642e996c86d184c1884856d2\",\"firstSubVariantName\":\"28\",\"price\":\"100\",\"discountedPrice\":\"90\",\"quantity\":\"10\"},{\"firstVariantId\":\"642e98e4f95d77871e0eefc2\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":0,\"firstSubVariantName\":\"30\",\"price\":\"100\",\"discountedPrice\":\"90\",\"quantity\":\"10\"}]","newSubVariants":"[{\"id\":0,\"variantId\":\"642e98e4f95d77871e0eefc2\",\"subCategoryId\":\"642e998ec127907e65785c7f\",\"languagesData\":[{\"code\":\"en\",\"name\":\"30\"},{\"code\":\"ar\",\"name\":\"\"},{\"code\":\"tr\",\"name\":\"\"}],\"name\":\"30\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:161:7)
+      Message = Could not create product.
+      Time = 05:26 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"test business","businessCountry":"63a58155202586c94cefbc90","businessContact":"7687897856","businessEmail":"test123@mailinator.com","warehouseDetail":"[{\"name\":\"test one\",\"address\":\"Testour, Tunisia\",\"geoLocation\":\"{\\\"coordinates\\\":[9.4422664,36.5499],\\\"type\\\":\\\"Point\\\"}\",\"country\":\"63a5814e202586c94cefbc8a\"}]","productCategories":"[\"63d380f58f10cc0e2014ebd8\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\",\"63a58155202586c94cefbc90\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"Neha","lastName":"Gupta","contact":"2345678901","email":"testusertwo@mailinator.com","address":"Sri Lanka","location":"{\"coordinates\":[80.77179699999999,7.873053999999999],\"type\":\"Point\"}","country":"63c5238ec9cc346964520bce","dob":"2023-03-28","password":"System@123","countryCode":"+45","ibaNumber":"1232131"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:133:9)
+      Message = Business email is already exists.
+      Time = 05:28 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"test business","businessCountry":"63a58155202586c94cefbc90","businessContact":"7687897856","businessEmail":"testuser78@mailinator.com","warehouseDetail":"[{\"name\":\"test one\",\"address\":\"Testour, Tunisia\",\"geoLocation\":\"{\\\"coordinates\\\":[9.4422664,36.5499],\\\"type\\\":\\\"Point\\\"}\",\"country\":\"63a5814e202586c94cefbc8a\"}]","productCategories":"[\"63d380f58f10cc0e2014ebd8\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\",\"63a58155202586c94cefbc90\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"Neha","lastName":"Gupta","contact":"2345678901","email":"testuser78@mailinator.com","address":"Sri Lanka","location":"{\"coordinates\":[80.77179699999999,7.873053999999999],\"type\":\"Point\"}","country":"63c5238ec9cc346964520bce","dob":"2023-03-28","password":"System@123","countryCode":"+45","ibaNumber":"1232131"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:133:9)
+      Message = Business contact is already exists.
+      Time = 05:28 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhYTFkYjBjYjUxOWFkN2U4NDg0YSIsIk9UUCI6NTM4NSwiaWF0IjoxNjgwODQ1MzQyfQ.hQBoZhijN-NB8oLF86fzWcttYj1cZxtxkupBE3SkUDE","otp":"9482"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:869:7)
+      Message = Your email is already verified.
+      Time = 05:37 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NDU5NjZ9.KIfHUGXrytaB52z7QpgBNUTSmS4whLmaMvujFLUPfjU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NDU5NjZ9.KIfHUGXrytaB52z7QpgBNUTSmS4whLmaMvujFLUPfjU
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 05:39 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhYzlmYjk0ZGE3MTBiNDUwMDc5YSIsIk9UUCI6MzI2OCwiaWF0IjoxNjgwODQ1OTg0fQ._7NZfIlfTSqf_GlC7140x_rZT-wFpbwVbDd6AMUczDY","otp":"2222"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:886:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:40 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhYzlmYjk0ZGE3MTBiNDUwMDc5YSIsIk9UUCI6MzI2OCwiaWF0IjoxNjgwODQ1OTg0fQ._7NZfIlfTSqf_GlC7140x_rZT-wFpbwVbDd6AMUczDY","otp":"2222"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:886:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:40 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhYzlmYjk0ZGE3MTBiNDUwMDc5YSIsIk9UUCI6MzI2OCwiaWF0IjoxNjgwODQ1OTg0fQ._7NZfIlfTSqf_GlC7140x_rZT-wFpbwVbDd6AMUczDY","otp":"2222"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:886:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:40 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhYzlmYjk0ZGE3MTBiNDUwMDc5YSIsIk9UUCI6MzI2OCwiaWF0IjoxNjgwODQ1OTg0fQ._7NZfIlfTSqf_GlC7140x_rZT-wFpbwVbDd6AMUczDY","otp":"2222"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:886:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:40 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhYzlmYjk0ZGE3MTBiNDUwMDc5YSIsIk9UUCI6MzI2OCwiaWF0IjoxNjgwODQ1OTg0fQ._7NZfIlfTSqf_GlC7140x_rZT-wFpbwVbDd6AMUczDY","otp":"2222"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:886:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:40 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZhYzlmYjk0ZGE3MTBiNDUwMDc5YSIsIk9UUCI6MzI2OCwiaWF0IjoxNjgwODQ1OTg0fQ._7NZfIlfTSqf_GlC7140x_rZT-wFpbwVbDd6AMUczDY","otp":"2222"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:886:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 05:40 AM
+    
+    ----------------------------
+      URL = /forgot-password-verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"qwewqe.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6Nzc0MywiaWF0IjoxNjgwODQ3NDc5fQ.gPTRRtYYAe6f4IdQ_8BjG9fripgUy57Yb_-KQ7Z1y2o"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPasswordVerify (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:248:7)
+      Message = Something went wrong.
+      Time = 06:05 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MTUzMCwiaWF0IjoxNjgwODQ4ODEzfQ.cW19Gx8oqKkNoJavcoZAJw8wPgjpaOzIJQhy79P3X3Q"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:755:7)
+      Message = Please request otp after 108 seconds
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MTUzMCwiaWF0IjoxNjgwODQ4ODEzfQ.cW19Gx8oqKkNoJavcoZAJw8wPgjpaOzIJQhy79P3X3Q","otp":"1530"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:651:7)
+      Message = Your OTP is incorrect.
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MTUzMCwiaWF0IjoxNjgwODQ4ODEzfQ.cW19Gx8oqKkNoJavcoZAJw8wPgjpaOzIJQhy79P3X3Q"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:755:7)
+      Message = Please request otp after 105 seconds
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MTUzMCwiaWF0IjoxNjgwODQ4ODEzfQ.cW19Gx8oqKkNoJavcoZAJw8wPgjpaOzIJQhy79P3X3Q","otp":"1530"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:651:7)
+      Message = Your OTP is incorrect.
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /all-faua
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"all-faua"}
+      Header = undefined
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/faq.js:190:7)
+      Message = Something went wrong
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:10:7)
+      Message = Request Failed!
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MTUzMCwiaWF0IjoxNjgwODQ4ODEzfQ.cW19Gx8oqKkNoJavcoZAJw8wPgjpaOzIJQhy79P3X3Q"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:755:7)
+      Message = Please request otp after 80 seconds
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MTUzMCwiaWF0IjoxNjgwODQ4ODEzfQ.cW19Gx8oqKkNoJavcoZAJw8wPgjpaOzIJQhy79P3X3Q","otp":"1530"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:651:7)
+      Message = Your OTP is incorrect.
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MTUzMCwiaWF0IjoxNjgwODQ4ODEzfQ.cW19Gx8oqKkNoJavcoZAJw8wPgjpaOzIJQhy79P3X3Q","otp":"1530"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:651:7)
+      Message = Your OTP is incorrect.
+      Time = 06:37 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"TV","masterCategoryId":"642e98fef95d77871e0eefdc","subCategoryId":"642e998ec127907e65785c7f","brandId":"641afbed18d704af7ad9cf5f","warehouses":"[\"642ec3d78f055e664648a2a3\"]","price":"454","discountedPrice":"454","quantity":"115","featureTitle":"sdfsdfsdf","ogImage":"undefined","features":"[]","description":"<p>sdsfsdf</p>\r\n","isPublished":"false","featuredMediaId":"0","metaData":"{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}","vendor":"642e99e719370f400ed7460e","mediaIds":"{\"0\":[0],\"main\":[0]}","variants":"[{\"id\":\"642e98e4f95d77871e0eefc2\",\"name\":\"Size\"}]","subVariants":"[{\"firstVariantId\":\"642e98e4f95d77871e0eefc2\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"642e996c86d184c1884856d2\",\"firstSubVariantName\":\"28\",\"price\":\"454\",\"discountedPrice\":\"454\",\"quantity\":\"115\",\"width\":\"14\",\"height\":\"45\",\"weight\":\"45\"}]","newSubVariants":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:161:7)
+      Message = Could not create product.
+      Time = 06:42 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"TV","masterCategoryId":"642e98fef95d77871e0eefdc","subCategoryId":"642e998ec127907e65785c7f","brandId":"641afbed18d704af7ad9cf5f","warehouses":"[\"642ec3d78f055e664648a2a3\"]","price":"454","discountedPrice":"454","quantity":"115","featureTitle":"sdfsdfsdf","ogImage":"undefined","features":"[]","description":"<p>sdsfsdf</p>\r\n","isPublished":"false","featuredMediaId":"0","metaData":"{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}","vendor":"642e99e719370f400ed7460e","mediaIds":"{\"0\":[0],\"main\":[0]}","variants":"[{\"id\":\"642e98e4f95d77871e0eefc2\",\"name\":\"Size\"}]","subVariants":"[{\"firstVariantId\":\"642e98e4f95d77871e0eefc2\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"642e996c86d184c1884856d2\",\"firstSubVariantName\":\"28\",\"price\":\"454\",\"discountedPrice\":\"454\",\"quantity\":\"115\",\"width\":\"14\",\"height\":\"45\",\"weight\":\"45\"}]","newSubVariants":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:161:7)
+      Message = Could not create product.
+      Time = 06:44 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmZiZDUyYzI3Mzg5NGY4YzdhODRiMiIsIk9UUCI6MjgwNiwiaWF0IjoxNjgwODUwMjU5fQ.1uWQP_qxIZIycCcy7HEjO3yQGYtRpiEuNBCNI6ihnL4","otp":"2806"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:968:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 06:54 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 06:55 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6NjcyOCwiaWF0IjoxNjgwODUwNTY3fQ.06sxiL_BvAJIapju4gTw23785AMORCAp91w60AjdOHU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:756:7)
+      Message = Please request otp after 129 seconds
+      Time = 06:56 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6NjcyOCwiaWF0IjoxNjgwODUwNTY3fQ.06sxiL_BvAJIapju4gTw23785AMORCAp91w60AjdOHU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:756:7)
+      Message = Please request otp after 112 seconds
+      Time = 06:57 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6NjcyOCwiaWF0IjoxNjgwODUwNTY3fQ.06sxiL_BvAJIapju4gTw23785AMORCAp91w60AjdOHU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:756:7)
+      Message = Please request otp after 106 seconds
+      Time = 06:57 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6NjcyOCwiaWF0IjoxNjgwODUwNTY3fQ.06sxiL_BvAJIapju4gTw23785AMORCAp91w60AjdOHU","otp":"2222"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:652:7)
+      Message = Your OTP is incorrect.
+      Time = 06:57 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 06:58 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 06:58 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 06:58 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6NjcyOCwiaWF0IjoxNjgwODUwNTY3fQ.06sxiL_BvAJIapju4gTw23785AMORCAp91w60AjdOHU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:756:7)
+      Message = Please request otp after 6 seconds
+      Time = 06:59 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 07:00 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 07:00 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:03 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:04 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:07 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:07 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:13 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:13 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:13 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:14 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:17 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:758:7)
+      Message = Please request otp after 177 seconds
+      Time = 07:19 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:758:7)
+      Message = Please request otp after 170 seconds
+      Time = 07:19 AM
+    
+    ----------------------------
+      URL = /all-faqs
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:11:7)
+      Message = Request Failed!
+      Time = 07:19 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM","otp":"3424"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:652:7)
+      Message = Your OTP is incorrect.
+      Time = 07:19 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:758:7)
+      Message = Please request otp after 125 seconds
+      Time = 07:20 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM","otp":"3424"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:652:7)
+      Message = Your OTP is incorrect.
+      Time = 07:20 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:758:7)
+      Message = Please request otp after 118 seconds
+      Time = 07:20 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM","otp":"3424"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:652:7)
+      Message = Your OTP is incorrect.
+      Time = 07:20 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:758:7)
+      Message = Please request otp after 18 seconds
+      Time = 07:22 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM","otp":"3424"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:652:7)
+      Message = Your OTP is incorrect.
+      Time = 07:22 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsIk9UUCI6MjQzNSwiaWF0IjoxNjgwODUxOTYzfQ.OndqUqCMHWDk6S-lVbPDi-AHiGqedL1MkyG7y0ZjKvM","otp":"3424"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:652:7)
+      Message = Your OTP is incorrect.
+      Time = 07:22 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testusersix@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:294:11)
+      Message = Your password is incorrect
+      Time = 07:25 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testusersix@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:294:11)
+      Message = Your password is incorrect
+      Time = 07:25 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testusersix@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:294:11)
+      Message = Your password is incorrect
+      Time = 07:30 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"testusercustomer@mailinator.com","password":"System@123","firstName":"test","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"usercustomer","zipCode":"302002","dob":"2023-04-04","contact":"8745987456"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:293:9)
+      Message = Signing up failed #b
+      Time = 07:39 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"testusercustomer@mailinator.com","password":"System@123","firstName":"test","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"usercustomer","zipCode":"302002","dob":"2023-04-04","contact":"8745987456"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:293:9)
+      Message = Signing up failed #b
+      Time = 07:40 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testusersix@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:294:11)
+      Message = Your password is incorrect
+      Time = 07:40 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testusersix@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:36:9)
+      Message = Customer not found
+      Time = 07:44 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testusersix@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:294:11)
+      Message = Your password is incorrect
+      Time = 07:45 AM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 642e88888586d6111077f76a
+      isAdmin = undefined
+      Body = {"currentPassword":"Neha@123","newPassword":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODUzNTI4fQ.Qp9BjwSoyDXAf9rM57kCTH1GFRK4JjARij0k0E6VPqg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODUzNTI4fQ.Qp9BjwSoyDXAf9rM57kCTH1GFRK4JjARij0k0E6VPqg
+      AT = exports.changePassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:1231:7)
+      Message = Current password has been entered incorrectly.
+      Time = 07:46 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"vishalchaudhary@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:345:9)
+      Message = Customer not found
+      Time = 07:49 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"customerneha@mailinator.com","password":"System@123","firstName":"customer","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"neha","zipCode":"302002","dob":"2023-04-05","contact":"1234567890"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:293:9)
+      Message = Signing up failed #b
+      Time = 07:49 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"customerneha@mailinator.com","password":"System@123","firstName":"customer","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"neha","zipCode":"302002","dob":"2023-04-05","contact":"1234567890"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:293:9)
+      Message = Signing up failed #b
+      Time = 07:49 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"customerneha@mailinator.com","password":"System@123","firstName":"customer","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"neha","zipCode":"302002","dob":"2023-04-05","contact":"1234567890"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:293:9)
+      Message = Signing up failed #b
+      Time = 07:52 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"customerneha@mailinator.com","password":"System@123","firstName":"customer","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"neha","zipCode":"302002","dob":"2023-04-05","contact":"1234567890"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:293:9)
+      Message = Signing up failed #b
+      Time = 07:52 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"vishalchaudhary@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:345:9)
+      Message = Customer not found
+      Time = 07:53 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"vishalchaudhary@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:345:9)
+      Message = Customer not found
+      Time = 07:54 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"vishalchaudhary@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:345:9)
+      Message = Customer not found
+      Time = 07:54 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"customerneha@mailinator.com","password":"System@123","firstName":"customer","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"neha","zipCode":"302002","dob":"2023-04-05","contact":"1234567890"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:293:9)
+      Message = Signing up failed #b
+      Time = 07:54 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"jacky@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:345:9)
+      Message = Customer not found
+      Time = 07:54 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsIk9UUCI6NDMzMywiaWF0IjoxNjgwODUzOTY5fQ.z5mtaJy7tIAYPU0kYNrkkMukZ4L_04QVb8phpWrY7qs","otp":"5894"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:643:7)
+      Message = You have to request otp first.
+      Time = 07:55 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"customerneha@mailinator.com","password":"System@123","firstName":"customer","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"neha","zipCode":"302002","dob":"2023-04-05","contact":"1234567890"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:293:9)
+      Message = Signing up failed #b
+      Time = 07:55 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642a739ccb5a048baccd9bca"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:556:7)
+      Message = Please request otp after 176 seconds
+      Time = 08:03 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testusersix@mailinator.com","password":"Neha@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:294:11)
+      Message = Your password is incorrect
+      Time = 08:51 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3NDc0fQ.rMmP-w0PdLCy1k341VbwM8tXEEP94zjvJp8xvZee9Q8
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3NDc0fQ.rMmP-w0PdLCy1k341VbwM8tXEEP94zjvJp8xvZee9Q8
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 08:51 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3NDc0fQ.rMmP-w0PdLCy1k341VbwM8tXEEP94zjvJp8xvZee9Q8
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3NDc0fQ.rMmP-w0PdLCy1k341VbwM8tXEEP94zjvJp8xvZee9Q8
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 08:51 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3NDc0fQ.rMmP-w0PdLCy1k341VbwM8tXEEP94zjvJp8xvZee9Q8
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3NDc0fQ.rMmP-w0PdLCy1k341VbwM8tXEEP94zjvJp8xvZee9Q8
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 08:51 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3NDc0fQ.rMmP-w0PdLCy1k341VbwM8tXEEP94zjvJp8xvZee9Q8
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3NDc0fQ.rMmP-w0PdLCy1k341VbwM8tXEEP94zjvJp8xvZee9Q8
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 08:51 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642a739ccb5a048baccd9bca"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:556:7)
+      Message = Please request otp after 174 seconds
+      Time = 08:52 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3OTAzfQ.taMkumh9uXN_z7UTjRth6JHotq9yBUCZ-Y4AZQTTYiE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3OTAzfQ.taMkumh9uXN_z7UTjRth6JHotq9yBUCZ-Y4AZQTTYiE
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 08:58 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3OTAzfQ.taMkumh9uXN_z7UTjRth6JHotq9yBUCZ-Y4AZQTTYiE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU3OTAzfQ.taMkumh9uXN_z7UTjRth6JHotq9yBUCZ-Y4AZQTTYiE
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 08:58 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:10 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:12 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTgzMzl9.G7EInsIwNMMLGNivnbiQD1sHW0oo0LKrzkVYUwtf11o
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:18 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU5MTA0fQ.zNg8ipjZufhyJt1e5lLNkdUoVUl-Ief-8P5gYdD6JTA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU5MTA0fQ.zNg8ipjZufhyJt1e5lLNkdUoVUl-Ief-8P5gYdD6JTA
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:21 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU5MTA0fQ.zNg8ipjZufhyJt1e5lLNkdUoVUl-Ief-8P5gYdD6JTA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODU5MTA0fQ.zNg8ipjZufhyJt1e5lLNkdUoVUl-Ief-8P5gYdD6JTA
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:21 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:33 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:34 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:34 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:34 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:34 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:35 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:35 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:36 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:36 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:37 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:38 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:39 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:39 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:49 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:49 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:50 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:50 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NTk3Nzh9.dvZtN50J86aJ5ez-1_9uDJtKAKfI5luM1WcpsBofQ-c
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:50 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxMzQxfQ.PyEDiqKIlWpuncQqXqZIxPoBN62rlN9HJeY5ZP3SG6Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxMzQxfQ.PyEDiqKIlWpuncQqXqZIxPoBN62rlN9HJeY5ZP3SG6Y
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:56 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxMzQxfQ.PyEDiqKIlWpuncQqXqZIxPoBN62rlN9HJeY5ZP3SG6Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxMzQxfQ.PyEDiqKIlWpuncQqXqZIxPoBN62rlN9HJeY5ZP3SG6Y
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 09:56 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"Neha@123","newPassword":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NjEzODh9.dglNpJ7jFXqMkajd8i3EtyP8oZNgL333I0OXDxpTpGQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA4NjEzODh9.dglNpJ7jFXqMkajd8i3EtyP8oZNgL333I0OXDxpTpGQ
+      AT = exports.updatePassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:895:7)
+      Message = Your old password is worong.
+      Time = 10:12 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxNzUyfQ.ut2TjbJbmwDMQDVnDYtLtU9ho_zc2YEvqzKd1DvCzh0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxNzUyfQ.ut2TjbJbmwDMQDVnDYtLtU9ho_zc2YEvqzKd1DvCzh0
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 10:13 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxNzUyfQ.ut2TjbJbmwDMQDVnDYtLtU9ho_zc2YEvqzKd1DvCzh0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxNzUyfQ.ut2TjbJbmwDMQDVnDYtLtU9ho_zc2YEvqzKd1DvCzh0
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 10:13 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxNzUyfQ.ut2TjbJbmwDMQDVnDYtLtU9ho_zc2YEvqzKd1DvCzh0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxNzUyfQ.ut2TjbJbmwDMQDVnDYtLtU9ho_zc2YEvqzKd1DvCzh0
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 10:14 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxNzUyfQ.ut2TjbJbmwDMQDVnDYtLtU9ho_zc2YEvqzKd1DvCzh0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYxNzUyfQ.ut2TjbJbmwDMQDVnDYtLtU9ho_zc2YEvqzKd1DvCzh0
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 10:14 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYzMzE1fQ.nc-La_4X0wJDr6XRNMRKb3m19O5mxzB1SUQIsuI0CyQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYzMzE1fQ.nc-La_4X0wJDr6XRNMRKb3m19O5mxzB1SUQIsuI0CyQ
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYzMzE1fQ.nc-La_4X0wJDr6XRNMRKb3m19O5mxzB1SUQIsuI0CyQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmU4ODg4ODU4NmQ2MTExMDc3Zjc2YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODYzMzE1fQ.nc-La_4X0wJDr6XRNMRKb3m19O5mxzB1SUQIsuI0CyQ
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642a739ccb5a048baccd9bca","otp":"3544"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:468:7)
+      Message = Your OTP is incorrect.
+      Time = 10:53 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"subhash@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:474:9)
+      Message = Vendor not found
+      Time = 11:11 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlhdCI6MTY4MDg2NzIxM30.R3SZLec_x325Px42sFZy4j7IDOXvI3RwVVN32NZRArA","otp":"1309"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:655:7)
+      Message = Your OTP is incorrect.
+      Time = 11:33 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlhdCI6MTY4MDg2NzIxM30.R3SZLec_x325Px42sFZy4j7IDOXvI3RwVVN32NZRArA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:758:7)
+      Message = Please request otp after 155 seconds
+      Time = 11:33 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlhdCI6MTY4MDg2NzIxM30.R3SZLec_x325Px42sFZy4j7IDOXvI3RwVVN32NZRArA","otp":"1309"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:655:7)
+      Message = Your OTP is incorrect.
+      Time = 11:33 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlhdCI6MTY4MDg2NzIxM30.R3SZLec_x325Px42sFZy4j7IDOXvI3RwVVN32NZRArA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:758:7)
+      Message = Please request otp after 152 seconds
+      Time = 11:34 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlhdCI6MTY4MDg2NzIxM30.R3SZLec_x325Px42sFZy4j7IDOXvI3RwVVN32NZRArA","otp":"1309"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:655:7)
+      Message = Your OTP is incorrect.
+      Time = 11:34 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcxNzQxfQ.8N06pMbVQvd29YOFO9JiNeDIzFyiStsr6ugZeY5U9z0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcxNzQxfQ.8N06pMbVQvd29YOFO9JiNeDIzFyiStsr6ugZeY5U9z0
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 12:49 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcxNzQxfQ.8N06pMbVQvd29YOFO9JiNeDIzFyiStsr6ugZeY5U9z0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcxNzQxfQ.8N06pMbVQvd29YOFO9JiNeDIzFyiStsr6ugZeY5U9z0
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 12:49 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcyNjAyfQ.wkNyOm5xfBZEP1s7OPNwc_CLMlAbFhtflNewY1HETnY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcyNjAyfQ.wkNyOm5xfBZEP1s7OPNwc_CLMlAbFhtflNewY1HETnY
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 01:11 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcyNjAyfQ.wkNyOm5xfBZEP1s7OPNwc_CLMlAbFhtflNewY1HETnY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcyNjAyfQ.wkNyOm5xfBZEP1s7OPNwc_CLMlAbFhtflNewY1HETnY
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 01:11 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcyNjAyfQ.wkNyOm5xfBZEP1s7OPNwc_CLMlAbFhtflNewY1HETnY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcyNjAyfQ.wkNyOm5xfBZEP1s7OPNwc_CLMlAbFhtflNewY1HETnY
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 01:16 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcyNjAyfQ.wkNyOm5xfBZEP1s7OPNwc_CLMlAbFhtflNewY1HETnY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwODcyNjAyfQ.wkNyOm5xfBZEP1s7OPNwc_CLMlAbFhtflNewY1HETnY
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 01:16 PM
+    

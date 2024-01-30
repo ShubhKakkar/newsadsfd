@@ -1,0 +1,323 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"badalparnamiji@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:50:7)
+      Message = Something went wrong
+      Time = 05:02 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"badalparnamiji@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:50:7)
+      Message = Something went wrong
+      Time = 05:03 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"Pramod@yopmail.com","password":"System@123","firstName":"Pramod","lastName":"Sharma","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 07:12 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"Pramod@yopmail.com","password":"System@123","firstName":"Pramod","lastName":"Sharma","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 07:13 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"Pramod@yopmail.com","password":"System@123","firstName":"Pramod","lastName":"Sharma","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 07:15 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423e09dcaa1d4fc5629f43a","otp":"2225"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:717:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 07:20 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"gouravm@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:339:9)
+      Message = Customer not found
+      Time = 07:27 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"badalparnami@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:377:7)
+      Message = Your email is not verified.
+      Time = 07:52 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:549:7)
+      Message = Please request otp after 172 seconds
+      Time = 09:02 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:535:7)
+      Message = Invalid route.
+      Time = 09:03 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":2222}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:466:7)
+      Message = Your OTP is incorrect.
+      Time = 09:10 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":2222}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:462:7)
+      Message = Your OTP is incorrect.
+      Time = 09:21 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":2222}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:461:7)
+      Message = You have to request otp first.
+      Time = 09:40 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:544:7)
+      Message = Invalid route.
+      Time = 09:41 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":7858}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:461:7)
+      Message = You have to request otp first.
+      Time = 09:58 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":7858}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:461:7)
+      Message = You have to request otp first.
+      Time = 09:59 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":7858}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:461:7)
+      Message = You have to request otp first.
+      Time = 10:02 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":7858}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:462:7)
+      Message = You have to request otp first.
+      Time = 10:03 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":7858}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:464:7)
+      Message = You have to request otp first.
+      Time = 10:04 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":7858}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:473:7)
+      Message = Your OTP is incorrect.
+      Time = 10:07 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"badalparnami@gmail.com","password":"System@123","firstName":"badal","lastName":"parnami","country":"63a5813b202586c94cefbc84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:279:9)
+      Message = The email is already associated with another account.
+      Time = 12:45 PM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:547:7)
+      Message = Invalid route.
+      Time = 12:45 PM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6423edd53c068dc1976031f3","otp":7650}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:464:7)
+      Message = You have to request otp first.
+      Time = 12:45 PM
+    

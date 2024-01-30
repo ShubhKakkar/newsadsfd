@@ -1,0 +1,435 @@
+
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:38 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:38 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:38 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:38 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:38 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 02:39 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 03:30 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 03:30 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 03:30 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 03:30 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 03:30 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 04:18 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 04:18 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 04:18 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 04:18 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 04:18 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&country=&name=&dateFrom=1970-01-01&dateTo=2023-07-24
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","country":"","name":"","dateFrom":"1970-01-01","dateTo":"2023-07-24"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5MDA5NTIyMSwiZXhwIjoxNjkwMDk4ODIxLCJpc3MiOiJub29ubWFyIn0.UBgI7jSjpt-yOPzFc1CUtjhWdzYAZssmtYaCLi1TwOQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5MDA5NTIyMSwiZXhwIjoxNjkwMDk4ODIxLCJpc3MiOiJub29ubWFyIn0.UBgI7jSjpt-yOPzFc1CUtjhWdzYAZssmtYaCLi1TwOQ
+      AT = exports.getAll (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/tax.js:152:7)
+      Message = Could not fetch taxes.
+      Time = 12:23 PM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 05:50 PM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 05:50 PM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 05:50 PM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 05:50 PM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 05:50 PM
+    

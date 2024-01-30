@@ -1,0 +1,57 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"blackpanther@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:83:7)
+      Message = Your email is not registered with noonmar.
+      Time = 03:26 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 03:27 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 6481c4d3127796e2ff338e3b
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODFjNGQzMTI3Nzk2ZTJmZjMzOGUzYiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjkwMzY5MzYyLCJleHAiOjE3MjE5MjY5NjIsImlzcyI6Im5vb25tYXIifQ.6t0QWEEAKmlB4A5Rq4b-akY3qLIKjwx0G-LABi-41Ng
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODFjNGQzMTI3Nzk2ZTJmZjMzOGUzYiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjkwMzY5MzYyLCJleHAiOjE3MjE5MjY5NjIsImlzcyI6Im5vb25tYXIifQ.6t0QWEEAKmlB4A5Rq4b-akY3qLIKjwx0G-LABi-41Ng
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 04:06 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"aimal@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 04:07 PM
+    

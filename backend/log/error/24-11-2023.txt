@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"name":"Shoes and Bags Specifications","subData":"[{\"languageCode\":\"en\",\"name\":\"Shoes and Bags Specifications\"},{\"languageCode\":\"ar\",\"name\":\"\"},{\"languageCode\":\"tr\",\"name\":\"\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMDgwMzg3NSwiZXhwIjoxNzMyMzYxNDc1LCJpc3MiOiJub29ubWFyIn0.GKBgAynPoen71XPJXyWoc0JefcWtBZXS6LO2h569-DA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMDgwMzg3NSwiZXhwIjoxNzMyMzYxNDc1LCJpc3MiOiJub29ubWFyIn0.GKBgAynPoen71XPJXyWoc0JefcWtBZXS6LO2h569-DA
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/specificationGroup.js:50:7)
+      Message = This specification group already exists.
+      Time = 11:01 AM
+    

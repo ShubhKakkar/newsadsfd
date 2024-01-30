@@ -1,0 +1,1625 @@
+
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalms@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874580","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","name":"Gourav Goyal","email":"gouravmg@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987222","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:158:9)
+      Message = Business email is already exists.
+      Time = 10:24 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2Y4MGIxYmY0YzIzN2I3ODE0YzZjNiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxOTAzODE2fQ.ZOG8Q5N6B6m9mNSE7NkG1RUsuI3GqYy8HyfkFDf40i4
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:40 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2Y4MGIxYmY0YzIzN2I3ODE0YzZjNiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxOTAzODE2fQ.ZOG8Q5N6B6m9mNSE7NkG1RUsuI3GqYy8HyfkFDf40i4
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:40 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2Y4MGIxYmY0YzIzN2I3ODE0YzZjNiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxOTAzODE2fQ.ZOG8Q5N6B6m9mNSE7NkG1RUsuI3GqYy8HyfkFDf40i4
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 11:09 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 64410abc89f363abb9c99697
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEwYWJjODlmMzYzYWJiOWM5OTY5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE5ODUwNTF9.phTXHsLAyZed0eqlM6LVWYqo1XKL-WBR52aHML6uVfI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEwYWJjODlmMzYzYWJiOWM5OTY5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE5ODUwNTF9.phTXHsLAyZed0eqlM6LVWYqo1XKL-WBR52aHML6uVfI
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 11:23 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEwYWJjODlmMzYzYWJiOWM5OTY5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE5ODUwNTF9.phTXHsLAyZed0eqlM6LVWYqo1XKL-WBR52aHML6uVfI
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 11:23 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 64410abc89f363abb9c99697
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEwYWJjODlmMzYzYWJiOWM5OTY5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE5ODUwNTF9.phTXHsLAyZed0eqlM6LVWYqo1XKL-WBR52aHML6uVfI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEwYWJjODlmMzYzYWJiOWM5OTY5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE5ODUwNTF9.phTXHsLAyZed0eqlM6LVWYqo1XKL-WBR52aHML6uVfI
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 11:33 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEwYWJjODlmMzYzYWJiOWM5OTY5NyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE5ODUwNTF9.phTXHsLAyZed0eqlM6LVWYqo1XKL-WBR52aHML6uVfI
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 11:33 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"monubusiness12345@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 11:34 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"monubusiness12345@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 11:34 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"monubusiness12345@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 11:34 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:34 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 11:35 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 643e39356da6fd061c939b00
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2UzOTM1NmRhNmZkMDYxYzkzOWIwMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE4ODY2ODh9.Uet6lC6UkiezoQa0uwAGm8CE2NCNhzPsCMBchB63ABs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2UzOTM1NmRhNmZkMDYxYzkzOWIwMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE4ODY2ODh9.Uet6lC6UkiezoQa0uwAGm8CE2NCNhzPsCMBchB63ABs
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 11:35 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2UzOTM1NmRhNmZkMDYxYzkzOWIwMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE4ODY2ODh9.Uet6lC6UkiezoQa0uwAGm8CE2NCNhzPsCMBchB63ABs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 11:35 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2UzOTM1NmRhNmZkMDYxYzkzOWIwMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE4ODY2ODh9.Uet6lC6UkiezoQa0uwAGm8CE2NCNhzPsCMBchB63ABs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 11:35 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 643e39356da6fd061c939b00
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2UzOTM1NmRhNmZkMDYxYzkzOWIwMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE4ODY2ODh9.Uet6lC6UkiezoQa0uwAGm8CE2NCNhzPsCMBchB63ABs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2UzOTM1NmRhNmZkMDYxYzkzOWIwMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE4ODY2ODh9.Uet6lC6UkiezoQa0uwAGm8CE2NCNhzPsCMBchB63ABs
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 11:35 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2UzOTM1NmRhNmZkMDYxYzkzOWIwMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODE4ODY2ODh9.Uet6lC6UkiezoQa0uwAGm8CE2NCNhzPsCMBchB63ABs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 11:35 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:40 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:41 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:42 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:43 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:43 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:44 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:44 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer [object Object]
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:45 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer [object Object]
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:45 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer [object Object]
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:45 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer [object Object]
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:45 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer [object Object]
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:45 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer [object Object]
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:45 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer [object Object]
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:46 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer [object Object]
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:46 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:46 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:46 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:49 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:50 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:50 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:51 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:51 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:52 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:52 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:53 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:53 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:55 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:55 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:56 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:57 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:57 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:59 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:59 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:59 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:59 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:59 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:59 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 11:59 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer [object Object]
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU1Mzk4fQ.HHgxvzAeC7ztEih0nMqCjrZoe6GygpBbrGNNdoSVHVk"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:02 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:04 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:09 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:13 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:13 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:15 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:15 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDU4ODI5fQ.Dwet4ArtVoK1GUhSsQ6e80sp5ahj-04s7xLowwdsY3s"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:38:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 12:17 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:27 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:27 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:28 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzAyMzIzODgyNTY5YjgzYTA0YWFiYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYwMjg5fQ.Uu1K-nPQoRIVR5S1XUY0X_Y4Wvzwt3mm8sIh49MlSmQ
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:35 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzAyMzIzODgyNTY5YjgzYTA0YWFiYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYwMjg5fQ.Uu1K-nPQoRIVR5S1XUY0X_Y4Wvzwt3mm8sIh49MlSmQ
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:39 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzAyMzIzODgyNTY5YjgzYTA0YWFiYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYwMjg5fQ.Uu1K-nPQoRIVR5S1XUY0X_Y4Wvzwt3mm8sIh49MlSmQ
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:40 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MzAyMzIzODgyNTY5YjgzYTA0YWFiYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYwMjg5fQ.Uu1K-nPQoRIVR5S1XUY0X_Y4Wvzwt3mm8sIh49MlSmQ
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:42 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYxMTIxfQ.TSomkOPjxIJJMkZLgd9WggHHeiITDlO8J4j_Ikq1V4A
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 02:48 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"3322111122","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 03:01 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"3322111122","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 03:01 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"3322111122","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 03:01 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"3322111122","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 03:01 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"3322111122","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 03:01 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYxMTIxfQ.TSomkOPjxIJJMkZLgd9WggHHeiITDlO8J4j_Ikq1V4A
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 03:01 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDI1NWE3MjMxY2QzYjhkMWZiNmFmMiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwNjk1MDZ9.adCoXsdRJ6Udrn_vMm23n2IUPvDQwPoOuhQVSe3UHCI
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 03:03 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems111","businessEmail":"goyalms@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874580","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","email":"gouravmg@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987222","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]","name":"\"----dfafads"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Business email is already exists.
+      Time = 05:40 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems111","businessEmail":"goyalm333s@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874580","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","email":"gouravmg@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987222","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]","name":"\"----dfafads"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Business contact is already exists.
+      Time = 05:41 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems111","businessEmail":"goyalm333s@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874580","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","email":"gouravmgjkhjkhj@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987222","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]","name":"\"----dfafads"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Business contact is already exists.
+      Time = 05:41 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems111","businessEmail":"goyalm333s@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874580","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","email":"gouravmgjkhjkhj@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"3695898989","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]","name":"\"----dfafads"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Business contact is already exists.
+      Time = 05:41 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYxMTIxfQ.TSomkOPjxIJJMkZLgd9WggHHeiITDlO8J4j_Ikq1V4A
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:15 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYxMTIxfQ.TSomkOPjxIJJMkZLgd9WggHHeiITDlO8J4j_Ikq1V4A
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:15 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYxMTIxfQ.TSomkOPjxIJJMkZLgd9WggHHeiITDlO8J4j_Ikq1V4A
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems111","businessEmail":"goyalm333s@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"3698569856","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","email":"gouravmgjkhjkhj@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"3695898989","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]","name":"\"----dfafads"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Business email is already exists.
+      Time = 06:18 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems111","businessEmail":"goyalm3334s@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"3698569856","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","email":"gouravmgjkhjkhj@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"3695898989","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]","name":"\"----dfafads"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Business contact is already exists.
+      Time = 06:18 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems111","businessEmail":"goyalm3334s@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"3698569858","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","email":"gouravmgjkhjkhj@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"3695898989","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]","name":"\"----dfafads"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Contact number is already exists.
+      Time = 06:18 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems111","businessEmail":"goyalm3334s@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"3698569858","productCategories":"[\"641dac3c2c05b0149d9f99e1\"]","serveCountries":"[\"641daa9904c72dd412f7936e\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","email":"gouravmgjkhjkhj@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"3695898987","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"641daa9904c72dd412f7936e","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]","name":"\"----dfafads"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Email address is already exists.
+      Time = 06:18 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"newdemo@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:220:9)
+      Message = Vendor not found
+      Time = 06:19 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"newdemo@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:220:9)
+      Message = Vendor not found
+      Time = 06:20 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Newdemo@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:220:9)
+      Message = Vendor not found
+      Time = 06:20 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Newdemo@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:220:9)
+      Message = Vendor not found
+      Time = 06:20 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"newdemo@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:220:9)
+      Message = Vendor not found
+      Time = 06:21 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"demo2@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:220:9)
+      Message = Vendor not found
+      Time = 06:21 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYxMTIxfQ.TSomkOPjxIJJMkZLgd9WggHHeiITDlO8J4j_Ikq1V4A
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:21 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"newdemo@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 06:25 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYxMTIxfQ.TSomkOPjxIJJMkZLgd9WggHHeiITDlO8J4j_Ikq1V4A
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:28 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"monu12345@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:220:9)
+      Message = Vendor not found
+      Time = 06:29 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"monu12345@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:220:9)
+      Message = Vendor not found
+      Time = 06:33 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYxMTIxfQ.TSomkOPjxIJJMkZLgd9WggHHeiITDlO8J4j_Ikq1V4A
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:34 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDEyYzM5NjAyOGY0N2RhYWQzMjAzMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDYxMTIxfQ.TSomkOPjxIJJMkZLgd9WggHHeiITDlO8J4j_Ikq1V4A
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:41 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDI4YjRjMzMxMjcxODhiMDFlMzU3MiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwODI2Njd9.XlJrN8pZjBQDNZvQmsBXULLG8-Ecfu_qzH-PxzQwRhM
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:44 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDI4YjRjMzMxMjcxODhiMDFlMzU3MiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwODI2Njd9.XlJrN8pZjBQDNZvQmsBXULLG8-Ecfu_qzH-PxzQwRhM
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:45 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDI4YjRjMzMxMjcxODhiMDFlMzU3MiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwODI2Njd9.XlJrN8pZjBQDNZvQmsBXULLG8-Ecfu_qzH-PxzQwRhM
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 06:48 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Gggg","serveCountries":"[[\"6433bc0dc1ab63d89e7ca2a0\",\"643e69506997aeea987a5e88\"]]","businessCountry":"641daa9904c72dd412f7936e","businessContact":"3658963256","businessEmail":"Jjjj@yopmail.com","name":"Gggg","address":"Japan","productCategories":"[\"641db1d4940529083406dfb6\"]","currency":"6437eac4ab7e56e391735cbe","language":"Turkish","storefrontSubscription":"No","contact":"6985235652","email":"Hh344h@yopmail.com","password":"System@123","country":"641db1d4940529083406dfb6","countryCode":"91","businessDoc":"[[]]","ibaNumber":"6985236586","location":"{\"coordinates\":[\"36.204824\",\"138.252924\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hhhh\",\"State\":\"Rajasthan\",\"street\":\"Hhhh\",\"City\":\"Jaisalmer\",\"zipCode\":\"345001\",\"countryName\":\"India\",\"country\":\"641daa9904c72dd412f7936e\",\"address\":\"Jaisalmer, Rajasthan 345001, India\",\"geoLocation\":[\"26.9157487\",\"70.9083443\"]}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:168:9)
+      Message = Could not create vendor.
+      Time = 06:50 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Gggg","serveCountries":"[\"641dac3c2c05b0149d9f99e1\",\"6433bc0dc1ab63d89e7ca2a0\"]","businessCountry":"641daa9904c72dd412f7936e","businessContact":"3658963256","businessEmail":"Jjjj@yopmail.com","name":"Gggg","address":"Japan","productCategories":"[\"641db1d4940529083406dfb6\"]","currency":"6437eac4ab7e56e391735cbe","language":"Turkish","storefrontSubscription":"No","contact":"6985235652","email":"Hh344h@yopmail.com","password":"System@123","country":"641db1d4940529083406dfb6","countryCode":"91","businessDoc":"[[]]","ibaNumber":"6985236586","location":"{\"coordinates\":[\"36.204824\",\"138.252924\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hhhh\",\"State\":\"Rajasthan\",\"street\":\"Hhhh\",\"City\":\"Jaisalmer\",\"zipCode\":\"345001\",\"countryName\":\"India\",\"country\":\"641daa9904c72dd412f7936e\",\"address\":\"Jaisalmer, Rajasthan 345001, India\",\"geoLocation\":[\"26.9157487\",\"70.9083443\"]}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Business email is already exists.
+      Time = 06:59 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Yyyy","serveCountries":"[\"643e69506997aeea987a5e88\"]","businessCountry":"641daa9904c72dd412f7936e","businessContact":"3658563658","businessEmail":"Jjjj123@yopmail.com","name":"Ghhh","address":"Jaipur, Rajasthan, India","productCategories":"[\"641daa9904c72dd412f7936e\"]","currency":"641dad41940529083406de55","language":"Turkish","storefrontSubscription":"No","contact":"3658632565","email":"Hhhffffyyyy@yopmail.com","password":"System@123","country":"641daa9904c72dd412f7936e","countryCode":"91","businessDoc":"[[{\"size\":110311,\"fileCopyUri\":null,\"name\":\"ATS-C-1096.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.downloads.documents/document/25\"},{\"size\":110311,\"fileCopyUri\":null,\"name\":\"ATS-C-1096.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.downloads.documents/document/25\"}]]","ibaNumber":"365656365232","location":"{\"coordinates\":[\"26.9124336\",\"75.7872709\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hhhh\",\"State\":\"Rajasthan\",\"street\":\"Gghh\",\"City\":\"Jaipur\",\"zipCode\":\"8888888888\",\"countryName\":\"India\",\"country\":\"641daa9904c72dd412f7936e\",\"address\":\"Jaipur, Rajasthan, India\",\"geoLocation\":[\"26.9124336\",\"75.7872709\"]},{\"name\":\"Hhhh\",\"State\":\"Delhi\",\"street\":\"Ggggg\",\"City\":\"Hhhhh\",\"zipCode\":\"555555555\",\"countryName\":\"India\",\"country\":\"641daa9904c72dd412f7936e\",\"address\":\"Delhi, India\",\"geoLocation\":[\"28.7040592\",\"77.10249019999999\"]}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Business email is already exists.
+      Time = 07:33 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Yyyy","serveCountries":"[\"643e69506997aeea987a5e88\"]","businessCountry":"641daa9904c72dd412f7936e","businessContact":"3658563658","businessEmail":"Jjjj1ttttttt23@yopmail.com","name":"Ghhh","address":"Jaipur, Rajasthan, India","productCategories":"[\"641daa9904c72dd412f7936e\"]","currency":"641dad41940529083406de55","language":"Turkish","storefrontSubscription":"No","contact":"3658632565","email":"Hhhffffyyyy@yopmail.com","password":"System@123","country":"641daa9904c72dd412f7936e","countryCode":"91","businessDoc":"[[{\"size\":110311,\"fileCopyUri\":null,\"name\":\"ATS-C-1096.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.downloads.documents/document/25\"},{\"size\":110311,\"fileCopyUri\":null,\"name\":\"ATS-C-1096.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.downloads.documents/document/25\"}]]","ibaNumber":"365656365232","location":"{\"coordinates\":[\"26.9124336\",\"75.7872709\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hhhh\",\"State\":\"Rajasthan\",\"street\":\"Gghh\",\"City\":\"Jaipur\",\"zipCode\":\"8888888888\",\"countryName\":\"India\",\"country\":\"641daa9904c72dd412f7936e\",\"address\":\"Jaipur, Rajasthan, India\",\"geoLocation\":[\"26.9124336\",\"75.7872709\"]},{\"name\":\"Hhhh\",\"State\":\"Delhitt\",\"street\":\"Ggggg\",\"City\":\"Hhhhh\",\"zipCode\":\"555555555\",\"countryName\":\"India\",\"country\":\"641daa9904c72dd412f7936e\",\"address\":\"Delhi, India\",\"geoLocation\":[\"28.7040592\",\"77.10249019999999\"]}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Business contact is already exists.
+      Time = 07:34 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Yyyy","serveCountries":"[\"643e69506997aeea987a5e88\"]","businessCountry":"641daa9904c72dd412f7936e","businessContact":"9852365689","businessEmail":"Jjjj1ttttttt23@yopmail.com","name":"Ghhh","address":"Jaipur, Rajasthan, India","productCategories":"[\"641daa9904c72dd412f7936e\"]","currency":"641dad41940529083406de55","language":"Turkish","storefrontSubscription":"No","contact":"3658632565","email":"Hhhffffyyyy@yopmail.com","password":"System@123","country":"641daa9904c72dd412f7936e","countryCode":"91","businessDoc":"[[{\"size\":110311,\"fileCopyUri\":null,\"name\":\"ATS-C-1096.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.downloads.documents/document/25\"},{\"size\":110311,\"fileCopyUri\":null,\"name\":\"ATS-C-1096.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.downloads.documents/document/25\"}]]","ibaNumber":"365656365232","location":"{\"coordinates\":[\"26.9124336\",\"75.7872709\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hhhh\",\"State\":\"Rajasthan\",\"street\":\"Gghh\",\"City\":\"Jaipur\",\"zipCode\":\"988776666\",\"countryName\":\"India\",\"country\":\"641daa9904c72dd412f7936e\",\"address\":\"Jaipur, Rajasthan, India\",\"geoLocation\":[\"26.9124336\",\"75.7872709\"]},{\"name\":\"Hhhh\",\"State\":\"Delhitt\",\"street\":\"Ggggg\",\"City\":\"Hhhhh\",\"zipCode\":\"555555555\",\"countryName\":\"India\",\"country\":\"641daa9904c72dd412f7936e\",\"address\":\"Delhi, India\",\"geoLocation\":[\"28.7040592\",\"77.10249019999999\"]}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:159:9)
+      Message = Contact number is already exists.
+      Time = 07:34 PM
+    

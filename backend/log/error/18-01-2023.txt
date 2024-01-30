@@ -1,0 +1,323 @@
+
+    ----------------------------
+      URL = /languages
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/adminAuth.js:11:7)
+      Message = Request Failed!
+      Time = 05:23 AM
+    
+    ----------------------------
+      URL = /languages
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/adminAuth.js:11:7)
+      Message = Request Failed!
+      Time = 06:46 AM
+    
+    ----------------------------
+      URL = /languages
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/adminAuth.js:11:7)
+      Message = Request Failed!
+      Time = 06:46 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"test test","subData":[{"languageCode":"en","title":"test test"},{"languageCode":"ar","title":"testing"},{"languageCode":"tr","title":"test"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/reportReason.js:48:7
+      Message = Could not create a reason's language data
+      Time = 07:49 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"test test","subData":[{"languageCode":"en","title":"test test"},{"languageCode":"ar","title":"testing"},{"languageCode":"tr","title":"test"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/reportReason.js:49:7
+      Message = Could not create a reason's language data
+      Time = 07:52 AM
+    
+    ----------------------------
+      URL = /63c7a60e7f717f086d5d5910
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7a60e7f717f086d5d5910"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/reportReason.js:214:7)
+      Message = Could not fetch reasons
+      Time = 09:07 AM
+    
+    ----------------------------
+      URL = /63c7a60e7f717f086d5d5910
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7a60e7f717f086d5d5910"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/reportReason.js:215:7)
+      Message = Could not fetch reasons
+      Time = 09:07 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"test","duration":"1","amount":"100","country":["63a5814e202586c94cefbc8a"],"subData":[{"languageCode":"en","title":"test"},{"languageCode":"ar","title":"testing"},{"languageCode":"tr","title":"testing testing"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:31:11)
+      Message = This package is already exists.
+      Time = 10:42 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"test testing testing testing","duration":"1","amount":"100","country":["63a5814e202586c94cefbc8a"],"subData":[{"languageCode":"en","title":"test testing testing testing"},{"languageCode":"ar","title":"testing"},{"languageCode":"tr","title":"testing testing"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:32:11)
+      Message = This package is already exists.
+      Time = 10:44 AM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"63c7cd4ac6c213e75b42b4bd"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:330:9)
+      Message = Could not delete promotion package.
+      Time = 10:44 AM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"63c7cd4ac6c213e75b42b4bd"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:330:9)
+      Message = Could not delete promotion package.
+      Time = 10:45 AM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"63c780771559bda1142d8be9"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:330:9)
+      Message = Could not delete promotion package.
+      Time = 10:45 AM
+    
+    ----------------------------
+      URL = /63c685c988404c1252b402ec
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c685c988404c1252b402ec"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:233:7)
+      Message = Could not fetch promotion package's data
+      Time = 10:45 AM
+    
+    ----------------------------
+      URL = /63c7cdbec961262e22091fea
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7cdbec961262e22091fea"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:233:7)
+      Message = Could not fetch promotion package's data
+      Time = 10:45 AM
+    
+    ----------------------------
+      URL = /63c7cdbec961262e22091fea
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7cdbec961262e22091fea"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:233:7)
+      Message = Could not fetch promotion package's data
+      Time = 10:45 AM
+    
+    ----------------------------
+      URL = /63c7cdbec961262e22091fea
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7cdbec961262e22091fea"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:233:7)
+      Message = Could not fetch promotion package's data
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /63c7cdbec961262e22091fea
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7cdbec961262e22091fea"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:233:7)
+      Message = Could not fetch promotion package's data
+      Time = 10:47 AM
+    
+    ----------------------------
+      URL = /63c7cdbec961262e22091fea
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7cdbec961262e22091fea"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:237:7)
+      Message = Could not fetch promotion package's data
+      Time = 10:48 AM
+    
+    ----------------------------
+      URL = /63c7cdbec961262e22091fea
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7cdbec961262e22091fea"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:257:7)
+      Message = Could not fetch promotion package's data
+      Time = 12:36 PM
+    
+    ----------------------------
+      URL = /63c7cdbec961262e22091fea
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7cdbec961262e22091fea"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:257:7)
+      Message = Could not fetch promotion package's data
+      Time = 12:37 PM
+    
+    ----------------------------
+      URL = /63c7cdbec961262e22091fea
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7cdbec961262e22091fea"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:259:7)
+      Message = Could not fetch promotion package's data
+      Time = 12:56 PM
+    
+    ----------------------------
+      URL = /63c7cdbec961262e22091fea
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c7cdbec961262e22091fea"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:259:7)
+      Message = Could not fetch promotion package's data
+      Time = 12:57 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"test","duration":"3","amount":"123","country":["63a5814e202586c94cefbc8a","63a58161202586c94cefbc96"],"subData":[{"languageCode":"en","title":"test"},{"languageCode":"ar","title":"test test"},{"languageCode":"tr","title":"test test test"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/promotionPackages.js:33:11)
+      Message = This package is already exists.
+      Time = 01:19 PM
+    

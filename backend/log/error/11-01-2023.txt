@@ -1,0 +1,43 @@
+
+    ----------------------------
+      URL = /63bd649886d71bc374d8fb40
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63bd649886d71bc374d8fb40"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/subscriptionPlans.js:211:7)
+      Message = Could not fetch subscription plan's data
+      Time = 09:35 AM
+    
+    ----------------------------
+      URL = /send-alert
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"63bd649886d71bc374d8fb40"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.sendAlert (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/subscriptionPlans.js:346:7)
+      Message = Could not send alerts.
+      Time = 10:18 AM
+    
+    ----------------------------
+      URL = /send-alert
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"63bd649886d71bc374d8fb40"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.sendAlert (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/subscriptionPlans.js:347:7)
+      Message = Could not send alerts.
+      Time = 10:21 AM
+    

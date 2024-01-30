@@ -1,0 +1,827 @@
+
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"787655785","password":"rtghrtgr","country":"644b5dc86a02dc34dd7b3c80"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTI4Nzd9.I4kiUvCE0BUsL_8Qv9N-ZRVJpqsdYEJTGGZHflEO428
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTI4Nzd9.I4kiUvCE0BUsL_8Qv9N-ZRVJpqsdYEJTGGZHflEO428
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2127:7)
+      Message = You have entered incorrect password.
+      Time = 11:24 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"d","newPassword":"o"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:33 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"d","newPassword":"o"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:33 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"d","newPassword":"o"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:33 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"d","newPassword":"o"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:33 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"o","newPassword":"o"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:34 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"o","newPassword":"o"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:34 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"h","newPassword":"o"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:35 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"h","newPassword":"o"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:35 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"o","newPassword":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:40 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"o","newPassword":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTM3MDN9.xEObHU45JTCM5aYq9Fx1dBel8ykprSPkZY3wmozF-EA
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:40 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"0","newPassword":"1"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTQyNjV9.fbxoMzt-Amdh5Mn25_04guQ7p-n52UneFAjUKufMgtw
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTQyNjV9.fbxoMzt-Amdh5Mn25_04guQ7p-n52UneFAjUKufMgtw
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:41 AM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"0","newPassword":"1"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTQyNjV9.fbxoMzt-Amdh5Mn25_04guQ7p-n52UneFAjUKufMgtw
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwOTQyNjV9.fbxoMzt-Amdh5Mn25_04guQ7p-n52UneFAjUKufMgtw
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1348:7)
+      Message = Your old password is worong.
+      Time = 11:41 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 01:30 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 01:30 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 01:42 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 01:42 PM
+    
+    ----------------------------
+      URL = /all?page=[object%20Object]&perPage=10
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"page":{},"per_page":10,"order":"asc"}
+      Query = {"page":"[object Object]","perPage":"10"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.getAllProducts (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:1855:7)
+      Message = Page Query is required
+      Time = 02:55 PM
+    
+    ----------------------------
+      URL = /all?page=false&perPage=10
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"page":false,"per_page":10,"order":"asc"}
+      Query = {"page":"false","perPage":"10"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.getAllProducts (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:1855:7)
+      Message = Page Query is required
+      Time = 03:41 PM
+    
+    ----------------------------
+      URL = /all?page=false&perPage=10
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"page":false,"per_page":10,"order":"asc"}
+      Query = {"page":"false","perPage":"10"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.getAllProducts (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:1855:7)
+      Message = Page Query is required
+      Time = 03:42 PM
+    
+    ----------------------------
+      URL = /all?page=false&perPage=10
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"page":false,"per_page":10,"order":"asc"}
+      Query = {"page":"false","perPage":"10"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.getAllProducts (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:1855:7)
+      Message = Page Query is required
+      Time = 03:42 PM
+    
+    ----------------------------
+      URL = /all?page=false&perPage=10
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"page":false,"per_page":10,"order":"asc"}
+      Query = {"page":"false","perPage":"10"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.getAllProducts (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:1855:7)
+      Message = Page Query is required
+      Time = 03:45 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"United States"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 04:04 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"United States"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 04:10 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"United States"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 04:11 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text","password":"textext"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 04:14 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text","password":"textext"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 04:14 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"United States","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"United States"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 04:23 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"India","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"India","currency":"644b5e316a02dc34dd7b3cca","language":"Turkish","storefrontSubscription":false}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDkyODgxfQ.toUEkUFkJCCDngOWCm4wb8Qi4lkm1cz4Ustufn535RM
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 04:40 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 04:51 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"pradeep280696@gmail.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:51:11)
+      Message = Your password is incorrect
+      Time = 04:51 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"pradeep280696@gmail.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:51:11)
+      Message = Your password is incorrect
+      Time = 04:52 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"     ","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6587452103","businessEmail":"footwear2806@gmail.com","warehouseDetail":"[{\"name\":\"        \",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"\",\"state\":\"\",\"street\":\"       \",\"zipCode\":\"\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"                  ","contact":"9865201254","email":"footwear2806@gmail.com","address":"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"6978678967868976"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"     ","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6587452103","businessEmail":"footwear2806@gmail.com","warehouseDetail":"[{\"name\":\"        \",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"\",\"state\":\"\",\"street\":\"       \",\"zipCode\":\"\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"                  ","contact":"9865201254","email":"footwear2806@gmail.com","address":"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"6978678967868976"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"     ","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6587452103","businessEmail":"footwear2806@gmail.com","warehouseDetail":"[{\"name\":\"        \",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"\",\"state\":\"\",\"street\":\"       \",\"zipCode\":\"\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"                  ","contact":"9865201254","email":"footwear2806@gmail.com","address":"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"6978678967868976"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"     ","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6587452103","businessEmail":"footwear2806@gmail.com","warehouseDetail":"[{\"name\":\"        \",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"\",\"state\":\"\",\"street\":\"       \",\"zipCode\":\"\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"                  ","contact":"9865201254","email":"footwear2806@gmail.com","address":"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"6978678967868976"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"     ","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6587452103","businessEmail":"footwear2806@gmail.com","warehouseDetail":"[{\"name\":\"        \",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"\",\"state\":\"\",\"street\":\"       \",\"zipCode\":\"\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"                  ","contact":"9865201254","email":"footwear2806@gmail.com","address":"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"6978678967868976"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"     ","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6587452103","businessEmail":"footwear2806@gmail.com","warehouseDetail":"[{\"name\":\"        \",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"\",\"state\":\"\",\"street\":\"       \",\"zipCode\":\"\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"                  ","contact":"9865201254","email":"footwear2806@gmail.com","address":"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"6978678967868976"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"     ","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6587452103","businessEmail":"footwear2806@gmail.com","warehouseDetail":"[{\"name\":\"        \",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"\",\"state\":\"\",\"street\":\"       \",\"zipCode\":\"\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"                  ","contact":"9865201254","email":"footwear2806@gmail.com","address":"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"6978678967868976"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"     ","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6587452103","businessEmail":"footwear2806@gmail.com","warehouseDetail":"[{\"name\":\"        \",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"\",\"state\":\"\",\"street\":\"       \",\"zipCode\":\"\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"                  ","contact":"9865201254","email":"footwear2806@gmail.com","address":"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"6978678967868976"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"     ","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"6587452103","businessEmail":"footwear2806@gmail.com","warehouseDetail":"[{\"name\":\"        \",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"\",\"state\":\"\",\"street\":\"       \",\"zipCode\":\"\"}]","productCategories":"[\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"                  ","contact":"9865201254","email":"footwear2806@gmail.com","address":"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India","location":"{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"6978678967868976"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 644baef8204718d92302aad4
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZWY4MjA0NzE4ZDkyMzAyYWFkNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMxMDE2ODB9.wKusmLi5WSk7KrMRz_3MpLAjWqfnLFmcUUl20Co3Esc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZWY4MjA0NzE4ZDkyMzAyYWFkNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMxMDE2ODB9.wKusmLi5WSk7KrMRz_3MpLAjWqfnLFmcUUl20Co3Esc
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 05:33 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 644baef8204718d92302aad4
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZWY4MjA0NzE4ZDkyMzAyYWFkNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMxMDE2ODB9.wKusmLi5WSk7KrMRz_3MpLAjWqfnLFmcUUl20Co3Esc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZWY4MjA0NzE4ZDkyMzAyYWFkNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMxMDE2ODB9.wKusmLi5WSk7KrMRz_3MpLAjWqfnLFmcUUl20Co3Esc
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 05:33 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015454","businessEmail":"footwear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Business email is already exists.
+      Time = 05:53 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015454","businessEmail":"footwear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Business email is already exists.
+      Time = 05:53 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015454","businessEmail":"footwear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Business email is already exists.
+      Time = 05:53 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015454","businessEmail":"footwear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Business email is already exists.
+      Time = 05:54 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015454","businessEmail":"footwear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Business email is already exists.
+      Time = 05:54 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015454","businessEmail":"footwdvfear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Contact number is already exists.
+      Time = 05:54 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015454","businessEmail":"footwdvfear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Contact number is already exists.
+      Time = 05:54 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015454","businessEmail":"footwdvfear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Contact number is already exists.
+      Time = 05:54 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015454","businessEmail":"footwdvfear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Contact number is already exists.
+      Time = 05:54 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"categoryRequest":"[]","storefrontSubscription":"false","businessName":"1st Footwear business","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9852015450","businessEmail":"footwdvfear28006@gmail.com","warehouseDetail":"[{\"name\":\"Fowewot warehouse\",\"geoLocation\":{\"coordinates\":[75.8161886,26.847293],\"type\":\"Point\"},\"address\":\"Pradhan Marg, Sector 3, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"city\":\"Jaipur\",\"state\":\"Rajasthan\",\"street\":\"pradhan marg\",\"zipCode\":\"302017\"}]","productCategories":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","serveCountries":"[\"644b5dc86a02dc34dd7b3c80\",\"644b5e6f6a02dc34dd7b3cdb\",\"644b55a56f9d6685312addcf\"]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","name":"Akash kumar","contact":"9852015454","email":"akash280696@gmail.com","address":"Pradhan Mantri Jan Aushadhi Kendra, Pocket A, Pocket 4, Sector 16E, Rohini, New Delhi, Delhi, India","location":"{\"coordinates\":[77.1233323,28.7391187],\"type\":\"Point\"}","country":"644b5dc86a02dc34dd7b3c80","password":"Admin@123","countryCode":"+91","ibaNumber":"9875643210"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Contact number is already exists.
+      Time = 05:55 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:750:9)
+      Message = Customer not found
+      Time = 06:19 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9829740583","country":"91","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZWY4MjA0NzE4ZDkyMzAyYWFkNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMxMTg3MzZ9.92ej3E0ee63RxXJxGj_CWvgaDZaTu6LfrRRvybo_ToE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZWY4MjA0NzE4ZDkyMzAyYWFkNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMxMTg3MzZ9.92ej3E0ee63RxXJxGj_CWvgaDZaTu6LfrRRvybo_ToE
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2148:7)
+      Message = Please provide new contact.
+      Time = 06:29 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9829740584","country":"91","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZWY4MjA0NzE4ZDkyMzAyYWFkNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMxMTg3MzZ9.92ej3E0ee63RxXJxGj_CWvgaDZaTu6LfrRRvybo_ToE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZWY4MjA0NzE4ZDkyMzAyYWFkNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMxMTg3MzZ9.92ej3E0ee63RxXJxGj_CWvgaDZaTu6LfrRRvybo_ToE
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2200:7)
+      Message = Something went wrong.
+      Time = 06:30 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2Y4NzY2YmY0YzIzN2I3ODE0YzdlNyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxOTY3ODM1fQ.GsBkJZmwYO_AADvPvQMMD3wer8h_07Yg6C-FfIQfjyE"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:44:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 07:26 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0M2Y4NzY2YmY0YzIzN2I3ODE0YzdlNyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxOTY3ODM1fQ.GsBkJZmwYO_AADvPvQMMD3wer8h_07Yg6C-FfIQfjyE"
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:44:9)
+      Message = Not authenticated, Login again to perform actions.
+      Time = 07:26 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:32 PM
+    

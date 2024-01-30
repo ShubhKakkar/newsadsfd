@@ -1,0 +1,183 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"country":"[\"63a5814e202586c94cefbc8a\",\"63a58161202586c94cefbc96\",\"63c5238ec9cc346964520bce\"]","commissionRate":"12","name":"product category en","subData":"[{\"languageCode\":\"en\",\"title\":\"product category en\"},{\"languageCode\":\"ar\",\"title\":\"product category ar\"},{\"languageCode\":\"tr\",\"title\":\"product category tr\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:45:9)
+      Message = This product category is already exists.
+      Time = 06:02 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"country":"[\"63a5814e202586c94cefbc8a\",\"63a58155202586c94cefbc90\",\"63a58161202586c94cefbc96\"]","commissionRate":"12","name":"product category en","subData":"[{\"languageCode\":\"en\",\"title\":\"product category en\"},{\"languageCode\":\"ar\",\"title\":\"product category ar\"},{\"languageCode\":\"tr\",\"title\":\"product category tr\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:42:9
+      Message = Could not create a product category's language data
+      Time = 06:04 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"country":"[\"63a5814e202586c94cefbc8a\",\"63a58155202586c94cefbc90\",\"63a58161202586c94cefbc96\"]","commissionRate":"12","name":"product category en","subData":"[{\"languageCode\":\"en\",\"title\":\"product category en\"},{\"languageCode\":\"ar\",\"title\":\"product category ar\"},{\"languageCode\":\"tr\",\"title\":\"product categoryy tr\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:65:9)
+      Message = This product category is already exists.
+      Time = 06:06 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"country":"[\"63a5814e202586c94cefbc8a\",\"63a58155202586c94cefbc90\",\"63a58161202586c94cefbc96\"]","commissionRate":"12","name":"product categoryy en","subData":"[{\"languageCode\":\"en\",\"title\":\"product categoryy en\"},{\"languageCode\":\"ar\",\"title\":\"product categoryy ar\"},{\"languageCode\":\"tr\",\"title\":\"product categoryy tr\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:43:9
+      Message = Could not create a product category's language data
+      Time = 06:06 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"country":"[\"63a5814e202586c94cefbc8a\",\"63a58155202586c94cefbc90\",\"63a58161202586c94cefbc96\"]","commissionRate":"12","name":"product categoryyy en","subData":"[{\"languageCode\":\"en\",\"title\":\"product categoryyy en\"},{\"languageCode\":\"ar\",\"title\":\"product categoryyy ar\"},{\"languageCode\":\"tr\",\"title\":\"product categoryyy tr\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:44:9
+      Message = Could not create a product category's language data
+      Time = 06:07 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"country":"[\"63a5814e202586c94cefbc8a\",\"63a58155202586c94cefbc90\",\"63a58161202586c94cefbc96\"]","commissionRate":"12","name":"product categoryyy en","subData":"[{\"languageCode\":\"en\",\"title\":\"product categoryyy en\"},{\"languageCode\":\"ar\",\"title\":\"product categoryyy ar\"},{\"languageCode\":\"tr\",\"title\":\"product categoryyy tr\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:66:9)
+      Message = This product category is already exists.
+      Time = 06:08 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"country":"[\"63a5814e202586c94cefbc8a\",\"63a58155202586c94cefbc90\",\"63a58161202586c94cefbc96\"]","commissionRate":"12","name":"product categoryyyy en","subData":"[{\"languageCode\":\"en\",\"title\":\"product categoryyyy en\"},{\"languageCode\":\"ar\",\"title\":\"product categoryyyy ar\"},{\"languageCode\":\"tr\",\"title\":\"product categoryyyy tr\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:44:9
+      Message = Could not create a product category's language data
+      Time = 06:08 AM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"63c8e473f0148424cd67787b","country":"[\"63a5814e202586c94cefbc8a\"]","commissionRate":"12","name":"Product Catgeory en","data":"[{\"name\":\"Product Catgeory en\",\"id\":\"63c8e473f0148424cd67787e\"},{\"name\":\"sadsad\",\"id\":\"63c8e473f0148424cd67787f\"},{\"name\":\"sadsad\",\"id\":\"63c8e473f0148424cd677880\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.update (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:306:9)
+      Message = This product category is already exists.
+      Time = 06:34 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"country":"[\"63a58161202586c94cefbc96\"]","commissionRate":"12","name":"Product en","subData":"[{\"languageCode\":\"en\",\"name\":\"Product en\"},{\"languageCode\":\"ar\",\"name\":\"sda\"},{\"languageCode\":\"tr\",\"name\":\"asdas\"}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:64:9)
+      Message = This product category is already exists.
+      Time = 06:37 AM
+    
+    ----------------------------
+      URL = /63c8f5c0f67f4d44a89b1159
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c8f5c0f67f4d44a89b1159"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/subProductCategories.js:272:7)
+      Message = Could not fetch sub product category's data
+      Time = 08:57 AM
+    
+    ----------------------------
+      URL = /63c8f5c0f67f4d44a89b1159
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c8f5c0f67f4d44a89b1159"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/subProductCategories.js:272:7)
+      Message = Could not fetch sub product category's data
+      Time = 08:57 AM
+    
+    ----------------------------
+      URL = /63c920b23b5591f6ec18989f
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c920b23b5591f6ec18989f"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/subscriptionPlans.js:283:7)
+      Message = Could not fetch subscription plan's data
+      Time = 10:56 AM
+    
+    ----------------------------
+      URL = /63c920b23b5591f6ec18989f
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"63c920b23b5591f6ec18989f"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/subscriptionPlans.js:284:7)
+      Message = Could not fetch subscription plan's data
+      Time = 10:57 AM
+    

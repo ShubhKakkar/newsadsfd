@@ -1,0 +1,29 @@
+
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 644fbb1854e84015eafb2ef0
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 11:20 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"nnn@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:235:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:53 PM
+    

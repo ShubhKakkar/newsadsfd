@@ -1,0 +1,57 @@
+
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:121:9)
+      Message = businessEmail already exists.
+      Time = 06:15 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.co","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:121:9)
+      Message = businessContact already exists.
+      Time = 06:16 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Goyal Gems","businessEmail":"goyalgems@yopmail.com","businessCountry":"63a58161202586c94cefbc96","businessContact":"6956874589","productCategories":"[\"63c8df65013a5e76306dddf4\"]","serveCountries":"[\"63a58161202586c94cefbc96\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"yes","firstName":"Gourav","lastName":"Goyal","email":"gouravgems@yopmail.con","password":"System@123","countryCode":"91","dob":"2023-03-24","address":"India","ibaNumber":"456 584 969 123","contact":"6565987586","location":"{\"type\":\"Point\",\"coordinates\":[78.5199399,17.4015693]}","country":"63a58161202586c94cefbc96","warehouseDetail":"[{\"name\":\"Warehouse\",\"geoLocation\":{\"coordinates\":[75.837103,26.922228],\"type\":\"Point\"},\"address\":\"AK COMPUTER EDUCATION, Hida Ki Mori, Ramganj Bazar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"\",\"zipCode\":\"302003\"}]"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:121:9)
+      Message = businessEmail already exists.
+      Time = 06:16 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"mahesh01@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:378:7)
+      Message = Your email is not verified.
+      Time = 01:51 PM
+    

@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /adidas
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"adidas"}
+      Header = undefined
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/brand.js:195:7)
+      Message = Something went wrong
+      Time = 09:18 AM
+    

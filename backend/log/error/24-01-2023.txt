@@ -1,0 +1,57 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"tax":"23","productCategoryId":["63c8df65013a5e76306dddf4"],"countryId":"63a58155202586c94cefbc90"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/taxes.js:39:9)
+      Message = Could not create tax.
+      Time = 04:56 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"tax":"23","productCategoryId":["63c8df65013a5e76306dddf4"],"countryId":"63a58155202586c94cefbc90"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/taxes.js:40:9)
+      Message = Could not create tax.
+      Time = 04:58 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"tax":"45","productCategoryId":["63c8df65013a5e76306dddf4"],"countryId":"63a58161202586c94cefbc96"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/taxes.js:40:9)
+      Message = Could not create tax.
+      Time = 05:00 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"tax":"45","productCategoryId":["63c8df65013a5e76306dddf4"],"countryId":"63a58161202586c94cefbc96"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MjM4NzA0OH0.-y_K8fuC2OenYuKBRcu7UcT4L8nix9n3EFxLBglKDGU
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/taxes.js:40:9)
+      Message = Could not create tax.
+      Time = 05:06 AM
+    

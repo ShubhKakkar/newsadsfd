@@ -1,0 +1,463 @@
+
+    ----------------------------
+      URL = /?page=1&name=
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","name":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODJiMTAzOGQ2YzAzYzNlYWIwYzFhZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODYyODY1OTYsImV4cCI6MTcxNzg0NDE5NiwiaXNzIjoibm9vbm1hciJ9.koi2B9jsyxp4mmGCGLW4WCqOSXfBVM5FyDcRzSJfbDw
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODJiMTAzOGQ2YzAzYzNlYWIwYzFhZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODYyODY1OTYsImV4cCI6MTcxNzg0NDE5NiwiaXNzIjoibm9vbm1hciJ9.koi2B9jsyxp4mmGCGLW4WCqOSXfBVM5FyDcRzSJfbDw
+      AT = exports.wishlist (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/wishlist.js:293:7)
+      Message = Something went wrong.
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU0NDkxMTgsImV4cCI6MTcxNzAwNjcxOCwiaXNzIjoibm9vbm1hciJ9.8laNzlE1J2HjmgwWbOaMNvZa5QOxg6TGoq602rOdfSE"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:92:7)
+      Message = Something went wrong
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU0NDkxMTgsImV4cCI6MTcxNzAwNjcxOCwiaXNzIjoibm9vbm1hciJ9.8laNzlE1J2HjmgwWbOaMNvZa5QOxg6TGoq602rOdfSE"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:92:7)
+      Message = Something went wrong
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU0NDkxMTgsImV4cCI6MTcxNzAwNjcxOCwiaXNzIjoibm9vbm1hciJ9.8laNzlE1J2HjmgwWbOaMNvZa5QOxg6TGoq602rOdfSE"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:92:7)
+      Message = Something went wrong
+      Time = 10:55 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU0NDkxMTgsImV4cCI6MTcxNzAwNjcxOCwiaXNzIjoibm9vbm1hciJ9.8laNzlE1J2HjmgwWbOaMNvZa5QOxg6TGoq602rOdfSE"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:92:7)
+      Message = Something went wrong
+      Time = 10:55 AM
+    
+    ----------------------------
+      URL = /?page=1&name=
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","name":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODJiMTAzOGQ2YzAzYzNlYWIwYzFhZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODYyODY1OTYsImV4cCI6MTcxNzg0NDE5NiwiaXNzIjoibm9vbm1hciJ9.koi2B9jsyxp4mmGCGLW4WCqOSXfBVM5FyDcRzSJfbDw
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODJiMTAzOGQ2YzAzYzNlYWIwYzFhZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODYyODY1OTYsImV4cCI6MTcxNzg0NDE5NiwiaXNzIjoibm9vbm1hciJ9.koi2B9jsyxp4mmGCGLW4WCqOSXfBVM5FyDcRzSJfbDw
+      AT = exports.wishlist (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/wishlist.js:293:7)
+      Message = Something went wrong.
+      Time = 10:57 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vvv@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:235:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:03 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 11:06 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 11:06 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 11:07 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Nnn@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:235:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:07 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"bhavna@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:10 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Nnn@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:235:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:13 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:29:7)
+      Message = Request Failed!
+      Time = 11:41 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:29:7)
+      Message = Request Failed!
+      Time = 01:16 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6481c718127796e2ff338eb5"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:29:7)
+      Message = Request Failed!
+      Time = 01:26 PM
+    
+    ----------------------------
+      URL = /remove
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6481c718127796e2ff338eb5"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:29:7)
+      Message = Request Failed!
+      Time = 01:26 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Npm@yopmail.com","password":"System@223"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:54:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 01:31 PM
+    
+    ----------------------------
+      URL = /undefined
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"slug":"undefined"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODJkMGMzOGQ2YzAzYzNlYWIwYzU4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODYyOTc3MTAsImV4cCI6MTcxNzg1NTMxMCwiaXNzIjoibm9vbm1hciJ9.aqevv061Pgudx_uhgtTXi6fS4XUMooKImNMq7vO4mIM
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 01:39 PM
+    
+    ----------------------------
+      URL = /undefined
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"slug":"undefined"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODJkMGMzOGQ2YzAzYzNlYWIwYzU4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODYyOTc3MTAsImV4cCI6MTcxNzg1NTMxMCwiaXNzIjoibm9vbm1hciJ9.aqevv061Pgudx_uhgtTXi6fS4XUMooKImNMq7vO4mIM
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 01:40 PM
+    
+    ----------------------------
+      URL = /undefined
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"slug":"undefined"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODJkMGMzOGQ2YzAzYzNlYWIwYzU4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODYyOTc3MTAsImV4cCI6MTcxNzg1NTMxMCwiaXNzIjoibm9vbm1hciJ9.aqevv061Pgudx_uhgtTXi6fS4XUMooKImNMq7vO4mIM
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 01:40 PM
+    
+    ----------------------------
+      URL = /undefined
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"slug":"undefined"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODJkMGMzOGQ2YzAzYzNlYWIwYzU4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODYyOTc3MTAsImV4cCI6MTcxNzg1NTMxMCwiaXNzIjoibm9vbm1hciJ9.aqevv061Pgudx_uhgtTXi6fS4XUMooKImNMq7vO4mIM
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 01:40 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:29:7)
+      Message = Request Failed!
+      Time = 03:20 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"aimal@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:22 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 05:18 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 05:18 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 05:18 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 05:37 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 05:41 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 06:14 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:93:7)
+      Message = Email or Password is incorrect
+      Time = 06:15 PM
+    
+    ----------------------------
+      URL = /edit-data/6481ca7ed5b2c617f7605d1b
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"6481ca7ed5b2c617f7605d1b"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NjMxNDc3NywiZXhwIjoxNjg2MzE2MjE3LCJpc3MiOiJub29ubWFyIn0.7C1F1T9BQSygI_hVG7X4td8GucMbIVerKjm05-WGils
+      Token = undefined
+      AT = exports.getEditData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/product.js:3122:7)
+      Message = Could not fetch data
+      Time = 06:16 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"aimal@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:235:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 06:50 PM
+    

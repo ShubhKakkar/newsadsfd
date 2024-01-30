@@ -1,0 +1,1023 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"78777777777","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Customer not found
+      Time = 10:26 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:37 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"sonu123@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:37 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"rahul@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:38 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"rahul@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:38 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"book2806@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:43 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"book2806@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:43 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"book@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:43 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"book@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:43 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"book@mailinator.cim"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:765:9)
+      Message = Customer not found
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"book2806@mailinator.om"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:765:9)
+      Message = Customer not found
+      Time = 10:47 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6461c6f1364ed718219d9808","otp":"1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1017:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 11:15 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hdhdh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4563217890","businessEmail":"Ali@yopmail.com","name":"Yddhhdhd","address":"3875 Holman St, Houston, TX 77004, USA","productCategories":"[null]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5287415639","email":"Ali123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5768","location":"{\"coordinates\":[\"29.722006\",\"-95.34917399999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hzhzhx\",\"State\":\"Niedersachsen\",\"street\":\"Theodor-Heuss-Platz\",\"City\":\"Hannover\",\"zipCode\":\"30175\",\"countryName\":\"Turkey\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"Theodor-Heuss-Platz 1-3, 30175 Hannover, Germany\",\"geoLocation\":[\"52.37599300000001\",\"9.7692544\"]}]","categoryRequest":"[\"Nike\"]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 11:56 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hdhdh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4563217890","businessEmail":"Ali@yopmail.com","name":"Yddhhdhd","address":"3875 Holman St, Houston, TX 77004, USA","productCategories":"[null]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5287415639","email":"Ali123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5768","location":"{\"coordinates\":[\"29.722006\",\"-95.34917399999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hzhzhx\",\"State\":\"Niedersachsen\",\"street\":\"Theodor-Heuss-Platz\",\"City\":\"Hannover\",\"zipCode\":\"30175\",\"countryName\":\"Turkey\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"Theodor-Heuss-Platz 1-3, 30175 Hannover, Germany\",\"geoLocation\":[\"52.37599300000001\",\"9.7692544\"]}]","categoryRequest":"[\"Nike\"]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 12:00 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hdhdh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4563217890","businessEmail":"Ali@yopmail.com","name":"Yddhhdhd","address":"3875 Holman St, Houston, TX 77004, USA","productCategories":"[null]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5287415639","email":"Ali123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5768","location":"{\"coordinates\":[\"29.722006\",\"-95.34917399999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hzhzhx\",\"State\":\"Niedersachsen\",\"street\":\"Theodor-Heuss-Platz\",\"City\":\"Hannover\",\"zipCode\":\"30175\",\"countryName\":\"Turkey\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"Theodor-Heuss-Platz 1-3, 30175 Hannover, Germany\",\"geoLocation\":[\"52.37599300000001\",\"9.7692544\"]}]","categoryRequest":"[\"Nike\"]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 12:00 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:00 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.cim"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:00 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"kamal123@yopmail.com","password":"System@12345"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hdhdh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4563217890","businessEmail":"Ali@yopmail.com","name":"Yddhhdhd","address":"3875 Holman St, Houston, TX 77004, USA","productCategories":"[null]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5287415639","email":"Ali123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5768","location":"{\"coordinates\":[\"29.722006\",\"-95.34917399999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hzhzhx\",\"State\":\"Niedersachsen\",\"street\":\"Theodor-Heuss-Platz\",\"City\":\"Hannover\",\"zipCode\":\"30175\",\"countryName\":\"Turkey\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"Theodor-Heuss-Platz 1-3, 30175 Hannover, Germany\",\"geoLocation\":[\"52.37599300000001\",\"9.7692544\"]}]","categoryRequest":"[\"Nike\"]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@gmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:01 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"book@mailinator.cim"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:02 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hdhdh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4563217890","businessEmail":"Ali@yopmail.com","name":"Yddhhdhd","address":"3875 Holman St, Houston, TX 77004, USA","productCategories":"[\"United States\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5287415639","email":"Ali123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5768","location":"{\"coordinates\":[\"29.722006\",\"-95.34917399999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hzhzhx\",\"State\":\"Niedersachsen\",\"street\":\"Theodor-Heuss-Platz\",\"City\":\"Hannover\",\"zipCode\":\"30175\",\"countryName\":\"Turkey\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"Theodor-Heuss-Platz 1-3, 30175 Hannover, Germany\",\"geoLocation\":[\"52.37599300000001\",\"9.7692544\"]}]","categoryRequest":"[\"Nike\"]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 12:05 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hdhdh","serveCountries":"[\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4563217890","businessEmail":"Ali@yopmail.com","name":"Yddhhdhd","address":"3875 Holman St, Houston, TX 77004, USA","productCategories":"[\"United States\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5287415639","email":"Ali123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5768","location":"{\"coordinates\":[\"29.722006\",\"-95.34917399999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hzhzhx\",\"State\":\"Niedersachsen\",\"street\":\"Theodor-Heuss-Platz\",\"City\":\"Hannover\",\"zipCode\":\"30175\",\"countryName\":\"Turkey\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"Theodor-Heuss-Platz 1-3, 30175 Hannover, Germany\",\"geoLocation\":[\"52.37599300000001\",\"9.7692544\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 12:05 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hdhdh","serveCountries":"[\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4563217890","businessEmail":"Ali@yopmail.com","name":"Yddhhdhd","address":"3875 Holman St, Houston, TX 77004, USA","productCategories":"[\"United States\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5287415639","email":"Ali123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5768","location":"{\"coordinates\":[\"29.722006\",\"-95.34917399999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hzhzhx\",\"State\":\"Niedersachsen\",\"street\":\"Theodor-Heuss-Platz\",\"City\":\"Hannover\",\"zipCode\":\"30175\",\"countryName\":\"Turkey\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"Theodor-Heuss-Platz 1-3, 30175 Hannover, Germany\",\"geoLocation\":[\"52.37599300000001\",\"9.7692544\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 12:05 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hdhdh","serveCountries":"[\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4563217890","businessEmail":"Ali@yopmail.com","name":"Yddhhdhd","address":"3875 Holman St, Houston, TX 77004, USA","productCategories":"[\"644b55a56f9d6685312addcf\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5287415639","email":"Ali123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5768","location":"{\"coordinates\":[\"29.722006\",\"-95.34917399999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hzhzhx\",\"State\":\"Niedersachsen\",\"street\":\"Theodor-Heuss-Platz\",\"City\":\"Hannover\",\"zipCode\":\"30175\",\"countryName\":\"Turkey\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"Theodor-Heuss-Platz 1-3, 30175 Hannover, Germany\",\"geoLocation\":[\"52.37599300000001\",\"9.7692544\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Business email is already exists.
+      Time = 12:11 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Hdhdh","serveCountries":"[\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4563217890","businessEmail":"Ali@yopmail.com","name":"Yddhhdhd","address":"3875 Holman St, Houston, TX 77004, USA","productCategories":"[\"644b55a56f9d6685312addcf\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"yes","contact":"5287415639","email":"Ali123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"5768","location":"{\"coordinates\":[\"29.722006\",\"-95.34917399999999\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hzhzhx\",\"State\":\"Niedersachsen\",\"street\":\"Theodor-Heuss-Platz\",\"City\":\"Hannover\",\"zipCode\":\"30175\",\"countryName\":\"Turkey\",\"country\":\"644b55a56f9d6685312addcf\",\"address\":\"Theodor-Heuss-Platz 1-3, 30175 Hannover, Germany\",\"geoLocation\":[\"52.37599300000001\",\"9.7692544\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:175:9)
+      Message = Business email is already exists.
+      Time = 12:13 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"book@mailinator.cim"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6461d666364ed718219d9a1e","otp":"8556"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1017:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 12:21 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Ejeh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4569874568","businessEmail":"Zxcv@yopmail.com","name":"Hxhc","address":"Fort Worth, TX, USA","productCategories":"[[{\"label\":\"India\",\"value\":\"644b5dc86a02dc34dd7b3c80\",\"_id\":\"644b5dc86a02dc34dd7b3c80\",\"name\":\"India\",\"countryCode\":\"91\",\"selected\":true},{\"label\":\"Turkey\",\"value\":\"644b55a56f9d6685312addcf\",\"_id\":\"644b55a56f9d6685312addcf\",\"name\":\"Turkey\",\"countryCode\":\"90\",\"selected\":true}]]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","storefrontSubscription":"yes","contact":"4567898520","email":"Vnd123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"68","location":"{\"coordinates\":[\"32.7554883\",\"-97.3307658\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hfhfhf\",\"State\":\"Gujarat\",\"street\":\"Sarkhej - Gandhinagar Highway\",\"City\":\"Ahmedabad\",\"zipCode\":\"380054\",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"NH 8C, Sarkhej - Gandhinagar Hwy, opp. Gurudwara, Bodakdev, Ahmedabad, Gujarat 380054, India\",\"geoLocation\":[\"23.04238130000001\",\"72.51455680000001\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 01:00 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Ejeh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4569874568","businessEmail":"Zxcv@yopmail.com","name":"Hxhc","address":"Fort Worth, TX, USA","productCategories":"[[{\"label\":\"India\",\"value\":\"644b5dc86a02dc34dd7b3c80\",\"_id\":\"644b5dc86a02dc34dd7b3c80\",\"name\":\"India\",\"countryCode\":\"91\",\"selected\":true},{\"label\":\"Turkey\",\"value\":\"644b55a56f9d6685312addcf\",\"_id\":\"644b55a56f9d6685312addcf\",\"name\":\"Turkey\",\"countryCode\":\"90\",\"selected\":true}]]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","storefrontSubscription":"yes","contact":"4567898520","email":"Vnd123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"68","location":"{\"coordinates\":[\"32.7554883\",\"-97.3307658\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hfhfhf\",\"State\":\"Gujarat\",\"street\":\"Sarkhej - Gandhinagar Highway\",\"City\":\"Ahmedabad\",\"zipCode\":\"380054\",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"NH 8C, Sarkhej - Gandhinagar Hwy, opp. Gurudwara, Bodakdev, Ahmedabad, Gujarat 380054, India\",\"geoLocation\":[\"23.04238130000001\",\"72.51455680000001\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 01:01 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"Ejeh","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"4569874568","businessEmail":"Zxcv@yopmail.com","name":"Hxhc","address":"Fort Worth, TX, USA","productCategories":"[[{\"label\":\"India\",\"value\":\"644b5dc86a02dc34dd7b3c80\",\"_id\":\"644b5dc86a02dc34dd7b3c80\",\"name\":\"India\",\"countryCode\":\"91\",\"selected\":true},{\"label\":\"Turkey\",\"value\":\"644b55a56f9d6685312addcf\",\"_id\":\"644b55a56f9d6685312addcf\",\"name\":\"Turkey\",\"countryCode\":\"90\",\"selected\":true}]]","currency":"644b5e506a02dc34dd7b3cd0","language":"English","storefrontSubscription":"yes","contact":"4567898520","email":"Vnd123@yopmail.com","password":"System@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"fileCopyUri\":null,\"size\":3028,\"name\":\"sample.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.providers.media.documents/document/document%3A1000000012\"}]]","ibaNumber":"68","location":"{\"coordinates\":[\"32.7554883\",\"-97.3307658\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"Hfhfhf\",\"State\":\"Gujarat\",\"street\":\"Sarkhej - Gandhinagar Highway\",\"City\":\"Ahmedabad\",\"zipCode\":\"380054\",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"NH 8C, Sarkhej - Gandhinagar Hwy, opp. Gurudwara, Bodakdev, Ahmedabad, Gujarat 380054, India\",\"geoLocation\":[\"23.04238130000001\",\"72.51455680000001\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 01:01 PM
+    
+    ----------------------------
+      URL = /all
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"page":1,"per_page":10,"order":"asc"}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 01:24 PM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 01:37 PM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 01:37 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"64620e43364ed718219da0c1","otp":"1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1017:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 04:19 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"8956460646","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:12 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"8956460646","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:12 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"cloth2806@mailinator.com","password":"Ad.in@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:246:11)
+      Message = Your password is incorrect
+      Time = 05:14 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"akash2806@mailinator.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:22 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk@mailinator.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:23 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mwilinator.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:23 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mwilinator.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:23 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@gmail.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:24 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@mailinator.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:24 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"shiv2806@mailinator.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:24 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"rahul@yopmail.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:24 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"rahul@yopmail.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:24 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"rahul@yopmail.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 05:24 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"ram@yopmail.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:246:11)
+      Message = Your password is incorrect
+      Time = 05:34 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"ram@yopmail.com","password":"cnncjcj"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:246:11)
+      Message = Your password is incorrect
+      Time = 05:34 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ram@yopmail.com","password":"System@123tyy"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:246:11)
+      Message = Your password is incorrect
+      Time = 05:34 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"xafe@mailinator.com","password":"System@123 ytrd65d6t"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:246:11)
+      Message = Your password is incorrect
+      Time = 05:34 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ram@yopmail.com","password":"System@123tyy"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:246:11)
+      Message = Your password is incorrect
+      Time = 05:34 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ju@gmjj.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 05:41 PM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"645130c06680b2147f3021df","otp":"5465"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:636:7)
+      Message = Your OTP is incorrect.
+      Time = 05:42 PM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"645130c06680b2147f3021df","otp":"5555"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:636:7)
+      Message = Your OTP is incorrect.
+      Time = 05:45 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"aimal@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 06:09 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"ahmethaider@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 06:10 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"xafe@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Customer not found
+      Time = 06:13 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Xafe@mailinator.com","password":"Sysyem@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:246:11)
+      Message = Your password is incorrect
+      Time = 06:28 PM
+    
+    ----------------------------
+      URL = /update-profile
+      Method = PUT
+      userId = 644653fb2d947f6a61a95322
+      isAdmin = undefined
+      Body = {"firstName":"Gourav","lastName":"goyal","dob":"2000-5-22"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDY1M2ZiMmQ5NDdmNmE2MWE5NTMyMiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMzM0OTgyfQ.vQPkto_88hW-KziTAj_oU1e02Z3N7_15khSO8uqUb3Q
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDY1M2ZiMmQ5NDdmNmE2MWE5NTMyMiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMzM0OTgyfQ.vQPkto_88hW-KziTAj_oU1e02Z3N7_15khSO8uqUb3Q
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 06:55 PM
+    
+    ----------------------------
+      URL = /status
+      Method = PUT
+      userId = 644653fb2d947f6a61a95322
+      isAdmin = undefined
+      Body = {"firstName":"Gourav","lastName":"goyal","dob":"2000-5-22"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDY1M2ZiMmQ5NDdmNmE2MWE5NTMyMiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMzM0OTgyfQ.vQPkto_88hW-KziTAj_oU1e02Z3N7_15khSO8uqUb3Q
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDY1M2ZiMmQ5NDdmNmE2MWE5NTMyMiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMzM0OTgyfQ.vQPkto_88hW-KziTAj_oU1e02Z3N7_15khSO8uqUb3Q
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 06:55 PM
+    

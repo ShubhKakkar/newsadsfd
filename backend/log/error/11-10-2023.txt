@@ -1,0 +1,183 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"6525844e7e05105565779a4f\",\"name\":\"Free Shipping Offers\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":true,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Free Shipping Offers\",\"slug\":\"free-shipping-offers\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"عروض الشحن المجاني\",\"slug\":\"عروض-الشحن-المجاني\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Ücretsiz kargo Kampanyaları\",\"slug\":\"ücretsiz-kargo-kampanyaları\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NzAwMzUzMiwiZXhwIjoxNzI4NTYxMTMyLCJpc3MiOiJub29ubWFyIn0.9YgEFyYh-g2h3s17PSOI53zsIBMs_t_dR9LjnT58dUc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NzAwMzUzMiwiZXhwIjoxNzI4NTYxMTMyLCJpc3MiOiJub29ubWFyIn0.9YgEFyYh-g2h3s17PSOI53zsIBMs_t_dR9LjnT58dUc
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:101:9)
+      Message = Already Exist Name(s): Ücretsiz kargo Kampanyaları, Free Shipping Offers, عروض الشحن المجاني
+      Time = 11:23 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"health-and-beauty","page":1,"dynamicFilters":[],"brand":"tonics-and-nutritional-supplements-0cnmkrovz","subCategory":"tonics-and-nutritional-supplements-0cnmkrovz","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:52 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"health-and-beauty","page":1,"dynamicFilters":[],"brand":"tonics-and-nutritional-supplements-0cnmkrovz","subCategory":"tonics-and-nutritional-supplements-0cnmkrovz","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:52 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"shoes-and-bags","page":1,"dynamicFilters":[],"brand":"shoes-Idlc1uB-AO","subCategory":"shoes-Idlc1uB-AO","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:52 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"shoes-and-bags","page":1,"dynamicFilters":[],"brand":"shoes-Idlc1uB-AO","subCategory":"shoes-Idlc1uB-AO","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:52 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"gift","page":1,"dynamicFilters":[],"brand":"men-s-gifts","subCategory":"men-s-gifts","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:53 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"gift","page":1,"dynamicFilters":[],"brand":"men-s-gifts","subCategory":"men-s-gifts","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:53 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"food-drinks","page":1,"dynamicFilters":[],"brand":"foodstuff","subCategory":"foodstuff","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:53 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"food-drinks","page":1,"dynamicFilters":[],"brand":"foodstuff","subCategory":"foodstuff","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:53 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"food-drinks","page":1,"dynamicFilters":[],"brand":"drinks","subCategory":"drinks","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:54 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"category":"food-drinks","page":1,"dynamicFilters":[],"brand":"drinks","subCategory":"drinks","sortBy":"new"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 01:54 PM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 07:01 PM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 07:01 PM
+    

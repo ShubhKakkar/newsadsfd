@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 6481c4d3127796e2ff338e3b
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODFjNGQzMTI3Nzk2ZTJmZjMzOGUzYiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg5NTgxNjYyLCJleHAiOjE3MjExMzkyNjIsImlzcyI6Im5vb25tYXIifQ.UFnC1PDpJBdfam5LL7zKcLq-jpYngxeQSVLMkPELRrg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ODFjNGQzMTI3Nzk2ZTJmZjMzOGUzYiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg5NTgxNjYyLCJleHAiOjE3MjExMzkyNjIsImlzcyI6Im5vb25tYXIifQ.UFnC1PDpJBdfam5LL7zKcLq-jpYngxeQSVLMkPELRrg
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 11:19 AM
+    

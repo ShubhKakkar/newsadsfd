@@ -1,0 +1,155 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"systemhere@yopmail.com","password":"system123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:55:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"systemhere@yopmail.com","password":"system@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:55:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /?page=1&perPage=%2210
+      Method = GET
+      userId = 658e6e02558a6e3aadad2a0c
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","perPage":"\"10"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDU5MDIzNzcsImV4cCI6MTczNzQ1OTk3NywiaXNzIjoibm9vbm1hciJ9.N9oWtWhdd5mxKD5gtbpZbwHSeAgz0IKbe9VaSMAaIQU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDU5MDIzNzcsImV4cCI6MTczNzQ1OTk3NywiaXNzIjoibm9vbm1hciJ9.N9oWtWhdd5mxKD5gtbpZbwHSeAgz0IKbe9VaSMAaIQU
+      AT = exports.get (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 02:20 PM
+    
+    ----------------------------
+      URL = /?page=1&perPage=%2220
+      Method = GET
+      userId = 658e6e02558a6e3aadad2a0c
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","perPage":"\"20"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDU5MDIzNzcsImV4cCI6MTczNzQ1OTk3NywiaXNzIjoibm9vbm1hciJ9.N9oWtWhdd5mxKD5gtbpZbwHSeAgz0IKbe9VaSMAaIQU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDU5MDIzNzcsImV4cCI6MTczNzQ1OTk3NywiaXNzIjoibm9vbm1hciJ9.N9oWtWhdd5mxKD5gtbpZbwHSeAgz0IKbe9VaSMAaIQU
+      AT = exports.get (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 02:20 PM
+    
+    ----------------------------
+      URL = /?status=success
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"status":"success"}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 03:29 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"customerone@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:45:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:29 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"customerone@yopmail.com","password":"System123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:45:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:29 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"customerone@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:45:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:29 PM
+    
+    ----------------------------
+      URL = /?page=1&perPage=%2220T
+      Method = GET
+      userId = 658e6e02558a6e3aadad2a0c
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","perPage":"\"20T"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDYwMTcyMzUsImV4cCI6MTczNzU3NDgzNSwiaXNzIjoibm9vbm1hciJ9.dY7QVwbFv9NtbxP6_Juetz_1wu55Qpd0gK-R1UWXwbI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDYwMTcyMzUsImV4cCI6MTczNzU3NDgzNSwiaXNzIjoibm9vbm1hciJ9.dY7QVwbFv9NtbxP6_Juetz_1wu55Qpd0gK-R1UWXwbI
+      AT = exports.get (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 07:11 PM
+    
+    ----------------------------
+      URL = /?page=1&perPage=%2220
+      Method = GET
+      userId = 658e6e02558a6e3aadad2a0c
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","perPage":"\"20"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDYwMTcyMzUsImV4cCI6MTczNzU3NDgzNSwiaXNzIjoibm9vbm1hciJ9.dY7QVwbFv9NtbxP6_Juetz_1wu55Qpd0gK-R1UWXwbI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDYwMTcyMzUsImV4cCI6MTczNzU3NDgzNSwiaXNzIjoibm9vbm1hciJ9.dY7QVwbFv9NtbxP6_Juetz_1wu55Qpd0gK-R1UWXwbI
+      AT = exports.get (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 07:11 PM
+    
+    ----------------------------
+      URL = /?page=1&perPage=%2220%22
+      Method = GET
+      userId = 658e6e02558a6e3aadad2a0c
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","perPage":"\"20\""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDYwMTcyMzUsImV4cCI6MTczNzU3NDgzNSwiaXNzIjoibm9vbm1hciJ9.dY7QVwbFv9NtbxP6_Juetz_1wu55Qpd0gK-R1UWXwbI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDYwMTcyMzUsImV4cCI6MTczNzU3NDgzNSwiaXNzIjoibm9vbm1hciJ9.dY7QVwbFv9NtbxP6_Juetz_1wu55Qpd0gK-R1UWXwbI
+      AT = exports.get (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 07:11 PM
+    

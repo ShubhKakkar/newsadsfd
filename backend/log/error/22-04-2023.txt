@@ -1,0 +1,29 @@
+
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDI4Y2Y2MzMxMjcxODhiMDFlMzU5NSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDgzMTI3fQ.GbJfRB1jWWMkUf8oadjxncJbclfEjQJiZ8MmjaN7Ko4
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:35 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDI4Y2Y2MzMxMjcxODhiMDFlMzU5NSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMDgzMTI3fQ.GbJfRB1jWWMkUf8oadjxncJbclfEjQJiZ8MmjaN7Ko4
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:35 AM
+    

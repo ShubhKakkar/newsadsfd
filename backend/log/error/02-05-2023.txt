@@ -1,0 +1,1415 @@
+
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTQ2OTc1fQ.ekZJ1iaKeg4xQnabCFTyriZvb2kJQ9VkSvChtztrxXY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTQ2OTc1fQ.ekZJ1iaKeg4xQnabCFTyriZvb2kJQ9VkSvChtztrxXY
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 10:13 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTQ2OTc1fQ.ekZJ1iaKeg4xQnabCFTyriZvb2kJQ9VkSvChtztrxXY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTQ2OTc1fQ.ekZJ1iaKeg4xQnabCFTyriZvb2kJQ9VkSvChtztrxXY
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 10:13 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:33 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Kamal@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 10:34 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:35 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:45 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = 64462d072d947f6a61a95193
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyZDA3MmQ5NDdmNmE2MWE5NTE5MyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMzM0MjA1fQ.VxdAub4p9nqiVoaA-FBz64orZRkKX2kQIsRPNCQWKhs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyZDA3MmQ5NDdmNmE2MWE5NTE5MyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMzM0MjA1fQ.VxdAub4p9nqiVoaA-FBz64orZRkKX2kQIsRPNCQWKhs
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 10:45 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:47 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTQ2OTc1fQ.ekZJ1iaKeg4xQnabCFTyriZvb2kJQ9VkSvChtztrxXY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTQ2OTc1fQ.ekZJ1iaKeg4xQnabCFTyriZvb2kJQ9VkSvChtztrxXY
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 10:47 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTQ2OTc1fQ.ekZJ1iaKeg4xQnabCFTyriZvb2kJQ9VkSvChtztrxXY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTQ2OTc1fQ.ekZJ1iaKeg4xQnabCFTyriZvb2kJQ9VkSvChtztrxXY
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 10:47 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:48 AM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Gdbx","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"67","buyingPrice":"57","serialNumber":"67","featureTitle":"Xbxb","shortDescription":"Dhhx","longDescription":"<p>Xhhx</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"67\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"Xhhx\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Xhhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Xh\",\"keywords\":\"Dhxh\",\"description\":\"Dhhx\",\"author\":\"Xxh\",\"twitterCard\":\"Xbxh\",\"twitterSite\":\"Xh\",\"ogUrl\":\"Xh\",\"ogType\":\"Shhx\",\"ogTitle\":\"Xbxh\",\"ogDescription\":\"Xhbx\",\"ogTag\":\"Xj\",\"ogAltTag\":\"\"}","height":"77","weight":"78","width":"78","length":"67","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 11:54 AM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Gdbx","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"67","buyingPrice":"57","serialNumber":"67","featureTitle":"Xbxb","shortDescription":"Dhhx","longDescription":"<p>Xhhx</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"67\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"Xhhx\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Xhhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Xh\",\"keywords\":\"Dhxh\",\"description\":\"Dhhx\",\"author\":\"Xxh\",\"twitterCard\":\"Xbxh\",\"twitterSite\":\"Xh\",\"ogUrl\":\"Xh\",\"ogType\":\"Shhx\",\"ogTitle\":\"Xbxh\",\"ogDescription\":\"Xhbx\",\"ogTag\":\"Xj\",\"ogAltTag\":\"\"}","height":"77","weight":"78","width":"78","length":"67","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 11:54 AM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Gdbx","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"67","buyingPrice":"57","serialNumber":"67","featureTitle":"Xbxb","shortDescription":"Dhhx","longDescription":"<p>Xhhx</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"67\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"Xhhx\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Xhhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Xh\",\"keywords\":\"Dhxh\",\"description\":\"Dhhx\",\"author\":\"Xxh\",\"twitterCard\":\"Xbxh\",\"twitterSite\":\"Xh\",\"ogUrl\":\"Xh\",\"ogType\":\"Shhx\",\"ogTitle\":\"Xbxh\",\"ogDescription\":\"Xhbx\",\"ogTag\":\"Xj\",\"ogAltTag\":\"\"}","height":"77","weight":"78","width":"78","length":"67","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 11:55 AM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Gdbx","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"67","buyingPrice":"57","serialNumber":"67","featureTitle":"Xbxb","shortDescription":"Dhhx","longDescription":"<p>Xhhx</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"67\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"Xhhx\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Xhhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Xh\",\"keywords\":\"Dhxh\",\"description\":\"Dhhx\",\"author\":\"Xxh\",\"twitterCard\":\"Xbxh\",\"twitterSite\":\"Xh\",\"ogUrl\":\"Xh\",\"ogType\":\"Shhx\",\"ogTitle\":\"Xbxh\",\"ogDescription\":\"Xhbx\",\"ogTag\":\"Xj\",\"ogAltTag\":\"\"}","height":"77","weight":"78","width":"78","length":"67","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 11:56 AM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Gdbx","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"67","buyingPrice":"57","serialNumber":"67","featureTitle":"Xbxb","shortDescription":"Dhhx","longDescription":"<p>Xhhx</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"67\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"Xhhx\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Xhhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Xh\",\"keywords\":\"Dhxh\",\"description\":\"Dhhx\",\"author\":\"Xxh\",\"twitterCard\":\"Xbxh\",\"twitterSite\":\"Xh\",\"ogUrl\":\"Xh\",\"ogType\":\"Shhx\",\"ogTitle\":\"Xbxh\",\"ogDescription\":\"Xhbx\",\"ogTag\":\"Xj\",\"ogAltTag\":\"Hh\"}","height":"77","weight":"78","width":"78","length":"67","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 11:57 AM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Gdbx","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"67","buyingPrice":"57","serialNumber":"67","featureTitle":"Xbxb","shortDescription":"Dhhx","longDescription":"<p>Xhhx</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"67\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"Xhhx\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Xhhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Xh\",\"keywords\":\"Dhxh\",\"description\":\"Dhhx\",\"author\":\"Xxh\",\"twitterCard\":\"Xbxh\",\"twitterSite\":\"Xh\",\"ogUrl\":\"Xh\",\"ogType\":\"Shhx\",\"ogTitle\":\"Xbxh\",\"ogDescription\":\"Xhbx\",\"ogTag\":\"Xj \",\"ogAltTag\":\"Hh\"}","height":"77","weight":"78","width":"78","length":"67","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 11:57 AM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Xvxv","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5aac6a02dc34dd7b3a5d","quantity":"56","buyingPrice":"55","serialNumber":"Fgg","featureTitle":"Ggg","shortDescription":"Fgg","longDescription":"<p>Fgg</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"55\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Fgg\"}]","ogImage":"undefined","metaData":"{\"title\":\"Gg\",\"keywords\":\"Gg\",\"description\":\"Gg\",\"author\":\"Gh\",\"twitterCard\":\"Bb\",\"twitterSite\":\"Vv\",\"ogUrl\":\"Gg\",\"ogType\":\"Gg\",\"ogTitle\":\"Hh\",\"ogDescription\":\"Hg\",\"ogTag\":\"\",\"ogAltTag\":\"\"}","height":"66","weight":"56","width":"76","length":"67","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 12:08 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Xvxv","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5aac6a02dc34dd7b3a5d","quantity":"56","buyingPrice":"55","serialNumber":"Fgg","featureTitle":"Ggg","shortDescription":"Fgg","longDescription":"<p>Fgg</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"55\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Fgg\"}]","metaData":"{\"title\":\"Gg\",\"keywords\":\"Gg\",\"description\":\"Gg\",\"author\":\"Gh\",\"twitterCard\":\"Bb\",\"twitterSite\":\"Vv\",\"ogUrl\":\"Gg\",\"ogType\":\"Gg\",\"ogTitle\":\"Hh\",\"ogDescription\":\"Hg\",\"ogTag\":\"Gg\",\"ogAltTag\":\"Gh\"}","height":"66","weight":"56","width":"76","length":"67","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 12:09 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Xvxv","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5aac6a02dc34dd7b3a5d","quantity":"56","buyingPrice":"55","serialNumber":"Fgg","featureTitle":"Ggg","shortDescription":"Fgg","longDescription":"<p>Fgg</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"55\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Fgg\"}]","metaData":"{\"title\":\"Gg\",\"keywords\":\"Gg\",\"description\":\"Gg\",\"author\":\"Gh\",\"twitterCard\":\"Bb\",\"twitterSite\":\"Vv\",\"ogUrl\":\"Gg\",\"ogType\":\"Gg\",\"ogTitle\":\"Hh\",\"ogDescription\":\"Hg\",\"ogTag\":\"Gg\",\"ogAltTag\":\"Gh\"}","height":"66","weight":"56","width":"76","length":"67","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0,1,2,3]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 12:10 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Chbc","masterCategoryId":"644b592e6a02dc34dd7b39c6","subCategoryId":"644b5a696a02dc34dd7b3a19","brandId":"644b5a4c6a02dc34dd7b3a06","quantity":"66","buyingPrice":"56","serialNumber":"66","featureTitle":"Dhhf","shortDescription":"Fbbc","longDescription":"<p>Djfh</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"66\"}]","faqs":"[{\"question\":\"Shrinking\",\"answer\":\"Dh\"}]","ogImage":"undefined","metaData":"{\"title\":\"Du\",\"keywords\":\"Dhyd\",\"description\":\"Dyd\",\"author\":\"Dhhd\",\"twitterCard\":\"Dyyd\",\"twitterSite\":\"Duhd\",\"ogUrl\":\"Dyd\",\"ogType\":\"Dhy\",\"ogTitle\":\"Dhhd\",\"ogDescription\":\"Dhyx\",\"ogTag\":\"\",\"ogAltTag\":\"\"}","height":"77","weight":"67","width":"77","length":"77","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0,1]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 12:12 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Chbc","masterCategoryId":"644b592e6a02dc34dd7b39c6","subCategoryId":"644b5a696a02dc34dd7b3a19","brandId":"644b5a4c6a02dc34dd7b3a06","quantity":"66","buyingPrice":"56","serialNumber":"66","featureTitle":"Dhhf","shortDescription":"Fbbc","longDescription":"<p>Djfh</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"66\"}]","faqs":"[{\"question\":\"Shrinking\",\"answer\":\"Dh\"}]","ogImage":"undefined","metaData":"{\"title\":\"Du\",\"keywords\":\"Dhyd\",\"description\":\"Dyd\",\"author\":\"Dhhd\",\"twitterCard\":\"Dyyd\",\"twitterSite\":\"Duhd\",\"ogUrl\":\"Dyd\",\"ogType\":\"Dhy\",\"ogTitle\":\"Dhhd\",\"ogDescription\":\"Dhyx\",\"ogTag\":\"\",\"ogAltTag\":\"\"}","height":"77","weight":"67","width":"77","length":"77","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0,1]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 12:15 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"9829740583","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:50:11)
+      Message = Your password is incorrect
+      Time = 12:19 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 12:30 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 12:30 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Gzvx","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"67","buyingPrice":"57","serialNumber":"56","featureTitle":"Xhhx","shortDescription":"Hdhx","longDescription":"<p>Dhdh</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"57\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Dh hdhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Bdhx\",\"keywords\":\"Xbbx\",\"description\":\"Bzbx\",\"author\":\"Zb\",\"twitterCard\":\"Zhhx\",\"twitterSite\":\"Xxhxh\",\"ogUrl\":\"Zbbz\",\"ogType\":\"Zbbz\",\"ogTitle\":\"Zhhz\",\"ogDescription\":\"Zhxz\",\"ogTag\":\"Gxx\",\"ogAltTag\":\"Xbbx\"}","height":"76","weight":"67","width":"86","length":"85","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0,1,2]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 12:56 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Gzvx","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"67","buyingPrice":"57","serialNumber":"56","featureTitle":"Xhhx","shortDescription":"Hdhx","longDescription":"<p>Dhdh</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"57\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Dh hdhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Bdhx\",\"keywords\":\"Xbbx\",\"description\":\"Bzbx\",\"author\":\"Zb\",\"twitterCard\":\"Zhhx\",\"twitterSite\":\"Xxhxh\",\"ogUrl\":\"Zbbz\",\"ogType\":\"Zbbz\",\"ogTitle\":\"Zhhz\",\"ogDescription\":\"Zhxz\",\"ogTag\":\"Gxx\",\"ogAltTag\":\"Xbbx\"}","height":"76","weight":"67","width":"86","length":"85","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0,1,2]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 12:56 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Gzvx","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"67","buyingPrice":"57","serialNumber":"56","featureTitle":"Xhhx","shortDescription":"Hdhx","longDescription":"<p>Dhdh</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"57\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Dh hdhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Bdhx\",\"keywords\":\"Xbbx\",\"description\":\"Bzbx\",\"author\":\"Zb\",\"twitterCard\":\"Zhhx\",\"twitterSite\":\"Xxhxh\",\"ogUrl\":\"Zbbz\",\"ogType\":\"Zbbz\",\"ogTitle\":\"Zhhz\",\"ogDescription\":\"Zhxz\",\"ogTag\":\"Gxxvg\",\"ogAltTag\":\"Xbbx\"}","height":"76","weight":"67","width":"86","length":"85","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0,1,2]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 12:57 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Hsbd","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"57","buyingPrice":"56","serialNumber":"67","featureTitle":"Dbbd","shortDescription":"56","longDescription":"<p>Hshd</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b521ba5158061799593b1","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"46\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Shhx\"}]","ogImage":"undefined","metaData":"{\"title\":\"Xhhx\",\"keywords\":\"Shhs\",\"description\":\"Syhs\",\"author\":\"Shdh\",\"twitterCard\":\"Sbsv\",\"twitterSite\":\"Shdh\",\"ogUrl\":\"Shhz\",\"ogType\":\"Shhs\",\"ogTitle\":\"Shhz\",\"ogDescription\":\"Suhs\",\"ogTag\":\"\",\"ogAltTag\":\"\"}","height":"76","weight":"56","width":"57","length":"57","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 01:27 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Hsbd","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"57","buyingPrice":"56","serialNumber":"67","featureTitle":"Dbbd","shortDescription":"56","longDescription":"<p>Hshd</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b521ba5158061799593b1","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"46\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Shhx\"}]","metaData":"{\"title\":\"Xhhx\",\"keywords\":\"Shhs\",\"description\":\"Syhs\",\"author\":\"Shdh\",\"twitterCard\":\"Sbsv\",\"twitterSite\":\"Shdh\",\"ogUrl\":\"Shhz\",\"ogType\":\"Shhs\",\"ogTitle\":\"Shhz\",\"ogDescription\":\"Suhs\",\"ogTag\":\"Gh\",\"ogAltTag\":\"Hhz\"}","height":"76","weight":"56","width":"57","length":"57","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 01:28 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Hsbd","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"57","buyingPrice":"56","serialNumber":"67","featureTitle":"Dbbd","shortDescription":"56","longDescription":"<p>Hshd</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b521ba5158061799593b1","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"46\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Shhx\"}]","metaData":"{\"title\":\"Xhhx\",\"keywords\":\"Shhs\",\"description\":\"Syhs\",\"author\":\"Shdh\",\"twitterCard\":\"Sbsv\",\"twitterSite\":\"Shdh\",\"ogUrl\":\"Shhz\",\"ogType\":\"Shhs\",\"ogTitle\":\"Shhz\",\"ogDescription\":\"Suhs\",\"ogTag\":\"Gh\",\"ogAltTag\":\"Hhz\"}","height":"76","weight":"56","width":"57","length":"57","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 01:30 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Hsbd","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"57","buyingPrice":"56","serialNumber":"67","featureTitle":"Dbbd","shortDescription":"56","longDescription":"<p>Hshd</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b521ba5158061799593b1","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"46\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Shhx\"}]","metaData":"{\"title\":\"Xhhx\",\"keywords\":\"Shhs\",\"description\":\"Syhs\",\"author\":\"Shdh\",\"twitterCard\":\"Sbsv\",\"twitterSite\":\"Shdh\",\"ogUrl\":\"Shhz\",\"ogType\":\"Shhs\",\"ogTitle\":\"Shhz\",\"ogDescription\":\"Suhs\",\"ogTag\":\"Gh\",\"ogAltTag\":\"Hhz\"}","height":"76","weight":"56","width":"57","length":"57","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 01:31 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"name":"Hsbd","masterCategoryId":"644b595f6a02dc34dd7b39d7","subCategoryId":"644b5a9d6a02dc34dd7b3a48","brandId":"644b5ab96a02dc34dd7b3a68","quantity":"57","buyingPrice":"56","serialNumber":"67","featureTitle":"Dbbd","shortDescription":"56","longDescription":"<p>Hshd</p>\r\n","warehouses":"[\"644b67466a02dc34dd7b3ebe\"]","countries":"[\"644b5e6f6a02dc34dd7b3cdb\"]","unitId":"644b521ba5158061799593b1","prices":"[{\"countryId\":\"644b5e6f6a02dc34dd7b3cdb\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[]","features":"[{\"label\":\"Size\",\"value\":\"46\"}]","faqs":"[{\"question\":\"Colour Fading\",\"answer\":\"Shhx\"}]","metaData":"{\"title\":\"Xhhx\",\"keywords\":\"Shhs\",\"description\":\"Syhs\",\"author\":\"Shdh\",\"twitterCard\":\"Sbsv\",\"twitterSite\":\"Shdh\",\"ogUrl\":\"Shhz\",\"ogType\":\"Shhs\",\"ogTitle\":\"Shhz\",\"ogDescription\":\"Suhs\",\"ogTag\":\"Gh\",\"ogAltTag\":\"Hhz\"}","height":"76","weight":"56","width":"57","length":"57","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[]","subVariants":"[]","mediaIds":"{\"0\":[],\"main\":[0,1,2]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyOTIwMTgxfQ.Mcin8GuX6LyVTy4Vklr2VsMuTsp6ie5xWe3U_KcCHKc
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4265:7)
+      Message = Could not create product.
+      Time = 01:32 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"9829740583","password":"System@124"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:50:11)
+      Message = Your password is incorrect
+      Time = 01:38 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"9829740583","password":"system@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:50:11)
+      Message = Your password is incorrect
+      Time = 02:12 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"9829740583","password":"system@1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:50:11)
+      Message = Your password is incorrect
+      Time = 02:12 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"9829740583","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:50:11)
+      Message = Your password is incorrect
+      Time = 02:12 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"ditQhcJe3dhSxVHruxk25LwSTjJ2","email":"owebest.test@gmail.com","deviceType":"Android","userData":{"email":"@","id":"@"}}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:21 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"ditQhcJe3dhSxVHruxk25LwSTjJ2","email":"owebest.test@gmail.com","deviceType":"Android","userData":{"email":"@","id":"@"}}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:21 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"VsFy461qGmaGuGIoK4kOdwfjcdG3","email":"bourashubhamsingh@gmail.com","deviceType":"Android","userData":{"email":"@","id":"@"}}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:23 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"ditQhcJe3dhSxVHruxk25LwSTjJ2","email":"owebest.test@gmail.com","type":"Android","userData":{"email":"@","id":"@"}}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:26 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"VsFy461qGmaGuGIoK4kOdwfjcdG3","email":"bourashubhamsingh@gmail.com","type":"Android","userData":{"email":"@","id":"@"}}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:35 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"VsFy461qGmaGuGIoK4kOdwfjcdG3","email":"bourashubhamsingh@gmail.com","type":"Android","userData":{"email":"@","id":"@"}}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:35 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"VsFy461qGmaGuGIoK4kOdwfjcdG3","email":"bourashubhamsingh@gmail.com","type":"Android","userData":{"email":"@","id":"@"}}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:41 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"userData":{"id":"@vsfy461qgmagugiok4kodwfjcdg3","email":"@"},"type":"Android","deviceId":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:42 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"userData":{"id":"@vsfy461qgmagugiok4kodwfjcdg3","email":"@"},"type":"Android","deviceId":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:42 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"userData":{"id":"@vsfy461qgmagugiok4kodwfjcdg3","email":"@"},"type":"Android","deviceId":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:43 PM
+    
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"userData":{"id":"@vsfy461qgmagugiok4kodwfjcdg3","email":"@"},"type":"Android","deviceId":"1"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1487:11)
+      Message = Signing up failed #b
+      Time = 03:44 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"efefm@gmail.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:84:7)
+      Message = Your email is not registered with noonmar.
+      Time = 03:52 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"efefm@gmail","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:58:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 03:52 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"efefm@gmail","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:58:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 03:52 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"efefm@gmail","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:58:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 03:52 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"asd@gmail"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:275:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 03:53 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"asd@gmail"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:275:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 03:53 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Jaipur","houseNo":"Jaipur","pinCode":"302006","landmark":"Hhh","state":"Rajasthan","street":"117, Ajmer Rd, Civil Lines, Jaipur, Rajasthan 302006, India","type":"home","name":"Fjfh","country":{"value":"641daa9904c72dd412f7936e"},"contact":"6523563652","location":{"coordinates":["26.9125961","75.7875605"],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/address.js:68:7)
+      Message = Something went wrong.
+      Time = 05:25 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Jaipur","houseNo":"Jaipur","pinCode":"302006","landmark":"Hhh","state":"Rajasthan","street":"117, Ajmer Rd, Civil Lines, Jaipur, Rajasthan 302006, India","type":"home","name":"Fjfh","country":{"value":"644b5dc86a02dc34dd7b3c80"},"contact":"6523563652","location":{"coordinates":["26.9125961","75.7875605"],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/address.js:68:7)
+      Message = Something went wrong.
+      Time = 05:25 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Jaipur","houseNo":"Jaipur","pinCode":"302006","landmark":"Hhh","state":"Rajasthan","street":"117, Ajmer Rd, Civil Lines, Jaipur, Rajasthan 302006, India","type":"home","name":"Fjfh","country":{"value":"644b5dc86a02dc34dd7b3c80"},"contact":"6523563652","location":{"coordinates":["26.9125961","75.7875605"],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/address.js:68:7)
+      Message = Something went wrong.
+      Time = 05:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Jaipur","houseNo":"Jaipur","pinCode":"302006","landmark":"Hhh","state":"Rajasthan","street":"117, Ajmer Rd, Civil Lines, Jaipur, Rajasthan 302006, India","type":"home","name":"Fjfh","country":{"value":"644b5dc86a02dc34dd7b3c80"},"contact":"9823561238","location":{"coordinates":["26.9125961","75.7875605"],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/address.js:68:7)
+      Message = Something went wrong.
+      Time = 05:26 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"6450fac96680b2147f300d22","contactOtp":"8835","emailOtp":"8835"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:622:9)
+      Message = The contact otp you've entered is incorrect.
+      Time = 05:29 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Yatala","houseNo":"Jaipur","pinCode":"4207","landmark":"Jaipur","state":"Queensland","street":"Octal St, Yatala QLD 4207, Australia","type":"home","name":"Vvv","country":{"value":"641daa9904c72dd412f7936e"},"contact":"8523656239","location":{"coordinates":["-27.7610107","153.2345066"],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/address.js:68:7)
+      Message = Something went wrong.
+      Time = 05:33 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"city":"Yatala","houseNo":"Jaipur","pinCode":"4207","landmark":"Jaipur","state":"Queensland","street":"Octal St, Yatala QLD 4207, Australia","type":"home","name":"Vvv","country":{"value":"641daa9904c72dd412f7936e"},"contact":"8523656239","location":{"coordinates":["-27.7610107","153.2345066"],"type":"Point"}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTBmOWUyNjY4MGIyMTQ3ZjMwMGMxZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMjg0NTF9.8YLYxohal03sNPYxkCIRrgUPX0QeQVZQGYIo07J3jlk
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/address.js:68:7)
+      Message = Something went wrong.
+      Time = 05:35 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"Turkey","productCategories":[{"_id":"644b592e6a02dc34dd7b39c6","name":"Men's Clothing"},{"_id":"644b595f6a02dc34dd7b39d7","name":"Footwear"},{"_id":"644b5af46a02dc34dd7b3a84","name":"Electronics"}],"currency":"644b5eb06a02dc34dd7b3cef","language":"English","storefrontSubscription":"No"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:06 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"Turkey","productCategories":[{"_id":"644b592e6a02dc34dd7b39c6","name":"Men's Clothing"},{"_id":"644b595f6a02dc34dd7b39d7","name":"Footwear"},{"_id":"644b5af46a02dc34dd7b3a84","name":"Electronics"}],"currency":"644b5eb06a02dc34dd7b3cef","language":"English","storefrontSubscription":"No"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:06 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 644baf6b204718d92302aaf1
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 06:10 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:10 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 644baf6b204718d92302aaf1
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:99:7)
+      Message = Login again to perform actions.
+      Time = 06:10 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:10 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:10 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:10 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:10 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGJhZjZiMjA0NzE4ZDkyMzAyYWFmMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDMwODcxfQ.E3saBMM8oqLjU2bARBlug0NLTxLG5LboM_A9yrqUFaU"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:11 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"akash2806@mailinator.com","password":"Admin@123","firstName":"Akash","country":"644b5dc86a02dc34dd7b3c80","lastName":"kumar","dob":"2011-03-25","contact":"8618396899","gender":"male","countryCode":"91"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:334:9)
+      Message = The email is already associated with another account.
+      Time = 06:19 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"645107526680b2147f301660","contactOtp":"3857","emailOtp":"3857"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:622:9)
+      Message = The contact otp you've entered is incorrect.
+      Time = 06:22 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"644b55a56f9d6685312addcf","currency":"644b5eb06a02dc34dd7b3cef","language":"English","storefrontSubscription":"No"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:28 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"pawan28@mailinator.com","password":"Admin@123","firstName":"pawan","country":"644b5dc86a02dc34dd7b3c80","lastName":"kumar","dob":"2023-05-02","contact":"8618396890","gender":"male","countryCode":"91"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:334:9)
+      Message = The email is already associated with another account.
+      Time = 06:29 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"9523617402","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 06:36 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"9523617402","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:41:9)
+      Message = Customer not found
+      Time = 06:36 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"Turkey","productCategories":[{"_id":"644b592e6a02dc34dd7b39c6","name":"Men's Clothing"},{"_id":"644b595f6a02dc34dd7b39d7","name":"Footwear"},{"_id":"644b5af46a02dc34dd7b3a84","name":"Electronics"}],"currency":"Turkish Lira","language":"Turkish","storefrontSubscription":false}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:38 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"Turkey","productCategories":[{"_id":"644b592e6a02dc34dd7b39c6","name":"Men's Clothing"},{"_id":"644b595f6a02dc34dd7b39d7","name":"Footwear"},{"_id":"644b5af46a02dc34dd7b3a84","name":"Electronics"}],"currency":"5475726b697368204c697261","language":"Arabic","storefrontSubscription":false}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:39 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"United States","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"productCategories":[{"_id":"644b592e6a02dc34dd7b39c6","name":"Men's Clothing"},{"_id":"644b595f6a02dc34dd7b39d7","name":"Footwear"}],"currency":"5475726b697368204c697261","language":"Arabic","storefrontSubscription":false}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:40 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"Turkey","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"productCategories":[{"_id":"644b592e6a02dc34dd7b39c6","name":"Men's Clothing"},{"_id":"644b595f6a02dc34dd7b39d7","name":"Footwear"},{"_id":"644b5af46a02dc34dd7b3a84","name":"Electronics"}],"currency":"5475726b697368204c697261","language":"Arabic","storefrontSubscription":false}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:41 PM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 644b67456a02dc34dd7b3eba
+      isAdmin = undefined
+      Body = {"businessName":"Futuristic","businessCountry":"644b55a56f9d6685312addcf","addWarehouse":[{"_id":"644b67466a02dc34dd7b3ebe","name":"Futuristic First ","geoLocation":{"coordinates":[40.7017443,30.1394813],"type":"Point"},"address":"Maşukiye, Kaşmir Cd., Kartepe/Kocaeli, Türkiye","city":"Kartepe","state":"Kocaeli","street":"Kartepe Caddesi","zipCode":"41295","country":null,"City":"Kartepe","State":"Kocaeli","WGPinCode":"41295","countryName":"644b55a56f9d6685312addcf"}],"updateWarehouse":[],"removeWarehouse":[],"serveCountries":"Turkey","productCategories":[{"_id":"644b592e6a02dc34dd7b39c6","name":"Men's Clothing"},{"_id":"644b595f6a02dc34dd7b39d7","name":"Footwear"},{"_id":"644b5af46a02dc34dd7b3a84","name":"Electronics"}],"currency":"5475726b697368204c697261","language":"Arabic","storefrontSubscription":false}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGI2NzQ1NmEwMmRjMzRkZDdiM2ViYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgzMDI5NTIxfQ.4IrH0_PI0g_bXnje_eRs8KNw-H_fqRHlNsnvjvD4kC4
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1546:7)
+      Message = Something went wrong while updating business information.
+      Time = 06:43 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"8618396899","password":"yh","country":"644b55a56f9d6685312addcf"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2127:7)
+      Message = You have entered incorrect password.
+      Time = 06:46 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"8618396899","password":"yh","country":"644b55a56f9d6685312addcf"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2127:7)
+      Message = You have entered incorrect password.
+      Time = 06:46 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"8618396899","password":"dsdsf","country":"644b5e6f6a02dc34dd7b3cdb"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2127:7)
+      Message = You have entered incorrect password.
+      Time = 07:00 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"8618396899","password":"dsdsf","country":"644b5e6f6a02dc34dd7b3cdb"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2127:7)
+      Message = You have entered incorrect password.
+      Time = 07:01 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"8618396899","password":"dsdsf","country":"644b5e6f6a02dc34dd7b3cdb"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2127:7)
+      Message = You have entered incorrect password.
+      Time = 07:01 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"8618396899","password":"dsdsf","country":"644b5e6f6a02dc34dd7b3cdb"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2127:7)
+      Message = You have entered incorrect password.
+      Time = 07:01 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"8618396899","password":"Admin@123","country":"644b5dc86a02dc34dd7b3c80"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2147:7)
+      Message = Please provide new contact.
+      Time = 07:01 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"8618396000","password":"Admin@123","country":"644b5dc86a02dc34dd7b3c80"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEwNzUyNjY4MGIyMTQ3ZjMwMTY2MCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODMwMzI5NTJ9.fDkIpEZRFS-qeoXwOxKSSxoxvoZJgcuA-g3HX1PREt4
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2173:7)
+      Message = Contact already exists.
+      Time = 07:01 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 08:28 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"kamal123@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 09:04 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"kamal123@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 09:04 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"kamal123@yopmail.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 09:04 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"kamal123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 09:05 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"kamal123@yopmail.com","password":"System@12345"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 09:05 PM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"645130c06680b2147f3021df","otp":"5558"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1017:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 09:20 PM
+    

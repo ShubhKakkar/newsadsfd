@@ -1,0 +1,30 @@
+@media (min-width: 576px) {
+  .ReactModal__Content.ReactModal__Content--after-open.model_block {
+    max-width: 450px !important;
+    margin: 1.75rem auto;
+    box-shadow: 0 1px 9px 5px rgb(164 164 161 / 10%) !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+  }
+}
+
+.dataTables_wrapper .dataTable a.no_sort {
+  color: #3699ff !important;
+}
+
+input[type="checkbox"][readonly] {
+  pointer-events: none;
+}
+
+#kt_footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* .swal2-icon {
+  margin: 10px auto 0 auto;
+} */

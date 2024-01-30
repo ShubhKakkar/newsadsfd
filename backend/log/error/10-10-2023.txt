@@ -1,0 +1,29 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"652581cd7e05105565779921\",\"name\":\"Tableau\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":true,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Tableau\",\"slug\":\"tableau\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"اللوحات\",\"slug\":\"اللوحات\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Tablolar\",\"slug\":\"tablolar\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5Njk1Njg5MCwiZXhwIjoxNzI4NTE0NDkwLCJpc3MiOiJub29ubWFyIn0.icHi6L1Nv0oTfTaAW52Ed9zG7Ka3yL7U-JrOZbwuHwo
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5Njk1Njg5MCwiZXhwIjoxNzI4NTE0NDkwLCJpc3MiOiJub29ubWFyIn0.icHi6L1Nv0oTfTaAW52Ed9zG7Ka3yL7U-JrOZbwuHwo
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:101:9)
+      Message = Already Exist Name(s): اللوحات, Tableau
+      Time = 10:25 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"652584157e05105565779a2e\",\"name\":\"5%\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":true,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"5%\",\"slug\":\"5%\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"5%\",\"slug\":\"5%\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"5%\",\"slug\":\"5%\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5Njk1NzUyMywiZXhwIjoxNzI4NTE1MTIzLCJpc3MiOiJub29ubWFyIn0.p8iDBn0NUTdcXbFftQr3DnaaoREY1CJIXJe4BXEkbxE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5Njk1NzUyMywiZXhwIjoxNzI4NTE1MTIzLCJpc3MiOiJub29ubWFyIn0.p8iDBn0NUTdcXbFftQr3DnaaoREY1CJIXJe4BXEkbxE
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:41:9)
+      Message = Already Exist Name: 5%
+      Time = 10:35 PM
+    

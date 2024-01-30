@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"656980acafbb91682e62658a","name":"TEST","defaultDataSV":[{"id":"656980acafbb91682e62658b","name":"1","categoriesId":[]}],"defaultDataDataNewSv":[{"name":"2"},{"name":"3"},{"name":"4"}],"dataToSend":[{"id":"656980acafbb91682e626592","name":"TEST"},{"id":"656980acafbb91682e626593","name":"Test"},{"id":"656980acafbb91682e626594","name":"Test"}],"dataToSendSV":[{"id":"656980acafbb91682e62658c","name":"1"},{"id":"656980acafbb91682e62658d","name":"1"},{"id":"656980acafbb91682e62658e","name":"1"}],"dataToSendNewSV":[{"name":"2","code":"en"},{"name":"3","code":"en"},{"name":"4","code":"en"},{"name":"2","code":"ar"},{"name":"3","code":"ar"},{"name":"4","code":"ar"},{"name":"2","code":"tr"},{"name":"3","code":"tr"},{"name":"4","code":"tr"}],"deleteIds":["656985a0afbb91682e62665c","656985a0afbb91682e62665a","656985a0afbb91682e62665b"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTc3MzEzMiwiZXhwIjoxNzMzMzMwNzMyLCJpc3MiOiJub29ubWFyIn0.GHXRa3HU096QIUMJfx_r8uXsfD07xd4DCw53GHGeImw
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTc3MzEzMiwiZXhwIjoxNzMzMzMwNzMyLCJpc3MiOiJub29ubWFyIn0.GHXRa3HU096QIUMJfx_r8uXsfD07xd4DCw53GHGeImw
+      AT = exports.update (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/variant.js:643:7)
+      Message = Something went wrong.
+      Time = 04:16 PM
+    

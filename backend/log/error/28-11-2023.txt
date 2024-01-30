@@ -1,0 +1,113 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Vendor123@yop.mail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:235:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:42 AM
+    
+    ----------------------------
+      URL = /import
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"ids":["6565c50d36501d02d745f3f4"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      AT = exports.createVariant (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subSpecificationGroup.js:808:7)
+      Message = Something went wrong while importing
+      Time = 04:37 PM
+    
+    ----------------------------
+      URL = /import
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"ids":["6565c50d36501d02d745f3f4"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      AT = exports.createVariant (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subSpecificationGroup.js:808:7)
+      Message = Something went wrong while importing
+      Time = 04:46 PM
+    
+    ----------------------------
+      URL = /import
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"ids":["6565c50d36501d02d745f3f4"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      AT = exports.createVariant (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subSpecificationGroup.js:808:7)
+      Message = Something went wrong while importing
+      Time = 04:46 PM
+    
+    ----------------------------
+      URL = /import
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"ids":["6565c50d36501d02d745f3f4","64c91c5c77913dcdce55f915"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      AT = exports.createVariant (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subSpecificationGroup.js:808:7)
+      Message = Something went wrong while importing
+      Time = 04:47 PM
+    
+    ----------------------------
+      URL = /import
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"ids":["6565c50d36501d02d745f3f4","64c91c5c77913dcdce55f915"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      AT = exports.createVariant (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subSpecificationGroup.js:808:7)
+      Message = Something went wrong while importing
+      Time = 06:22 PM
+    
+    ----------------------------
+      URL = /import
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"ids":["6565c50d36501d02d745f3f4","64c91c5c77913dcdce55f915"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      AT = exports.createVariant (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subSpecificationGroup.js:808:7)
+      Message = Something went wrong while importing
+      Time = 06:23 PM
+    
+    ----------------------------
+      URL = /import
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"ids":["6565c50d36501d02d745f3f4","64c91c5c77913dcdce55f915"]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMTE2OTQ5NCwiZXhwIjoxNzMyNzI3MDk0LCJpc3MiOiJub29ubWFyIn0.W-VCJwHBxOdyyILJeNarEkOcG52wik4xuampsta1QMQ
+      AT = exports.createVariant (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/subSpecificationGroup.js:808:7)
+      Message = Something went wrong while importing
+      Time = 06:24 PM
+    

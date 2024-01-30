@@ -1,0 +1,533 @@
+
+    ----------------------------
+      URL = /category?id=6437b680abfb9953c7449b5f
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"id":"6437b680abfb9953c7449b5f"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgwMjQ2MX0.YAPuCyuiui32bu2aCU3NMgqIhv0p8kBhGH2Endam4KE
+      Token = undefined
+      AT = exports.getVariantByCategory (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/variant.js:650:7)
+      Message = Something went wrong
+      Time = 06:55 AM
+    
+    ----------------------------
+      URL = /category?id=643674548e616d0b730022b5
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"id":"643674548e616d0b730022b5"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgwMjQ2MX0.YAPuCyuiui32bu2aCU3NMgqIhv0p8kBhGH2Endam4KE
+      Token = undefined
+      AT = exports.getVariantByCategory (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/variant.js:650:7)
+      Message = Something went wrong
+      Time = 06:55 AM
+    
+    ----------------------------
+      URL = /category?id=6434ff132d9552c430627765
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"id":"6434ff132d9552c430627765"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgwMjQ2MX0.YAPuCyuiui32bu2aCU3NMgqIhv0p8kBhGH2Endam4KE
+      Token = undefined
+      AT = exports.getVariantByCategory (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/variant.js:650:7)
+      Message = Something went wrong
+      Time = 06:55 AM
+    
+    ----------------------------
+      URL = /category?id=6437c9a6ecfd82fc8d82e126
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"id":"6437c9a6ecfd82fc8d82e126"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgwMjQ2MX0.YAPuCyuiui32bu2aCU3NMgqIhv0p8kBhGH2Endam4KE
+      Token = undefined
+      AT = exports.getVariantByCategory (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/variant.js:650:7)
+      Message = Something went wrong
+      Time = 06:56 AM
+    
+    ----------------------------
+      URL = /category?id=6437c9a6ecfd82fc8d82e126
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"id":"6437c9a6ecfd82fc8d82e126"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgwMjQ2MX0.YAPuCyuiui32bu2aCU3NMgqIhv0p8kBhGH2Endam4KE
+      Token = undefined
+      AT = exports.getVariantByCategory (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/variant.js:650:7)
+      Message = Something went wrong
+      Time = 06:59 AM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Wendy Nielsen","businessEmail":"lecedev@mailinator.com","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"4147589874","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\"]","currency":"643fab0b37e7628fbb82fbdc","language":"English","storefrontSubscription":"true","firstName":"Yeo","lastName":"Beasley","email":"rapomalan@mailinator.com","countryCode":"+213","contact":"6858475895","dob":"undefined","location":"{\"coordinates\":[76.6345735,27.5529907],\"type\":\"Point\"}","address":"Alwar, Rajasthan, India","removeWarehouse":"[]","addWarehouse":"[{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\"}]","updateWarehouse":"[{\"name\":\"Isadora Reyes\",\"geoLocation\":{\"coordinates\":[75.8137943,26.8558993],\"type\":\"Point\"},\"address\":\"Hari Marg, Block-B, Sector 4, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Hari Marg\",\"zipCode\":\"302017\",\"id\":\"6440dccfabce41829dd06d62\"}]","id":"6440dccaabce41829dd06d5e","ibaNumber":"915","isProfilePicRemove":"false"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.update (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:892:9)
+      Message = Signing up failed #b
+      Time = 07:05 AM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Wendy Nielsen","businessEmail":"lecedev@mailinator.com","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"4147589874","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\"]","currency":"643fab0b37e7628fbb82fbdc","language":"English","storefrontSubscription":"true","firstName":"Yeo","lastName":"Beasley","email":"rapomalan@mailinator.com","countryCode":"+213","contact":"6858475895","dob":"undefined","location":"{\"coordinates\":[76.6345735,27.5529907],\"type\":\"Point\"}","address":"Alwar, Rajasthan, India","removeWarehouse":"[]","addWarehouse":"[{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\"}]","updateWarehouse":"[{\"name\":\"Isadora Reyes\",\"geoLocation\":{\"coordinates\":[75.8137943,26.8558993],\"type\":\"Point\"},\"address\":\"Hari Marg, Block-B, Sector 4, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Hari Marg\",\"zipCode\":\"302017\",\"id\":\"6440dccfabce41829dd06d62\"}]","id":"6440dccaabce41829dd06d5e","ibaNumber":"915","isProfilePicRemove":"false"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.update (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:894:9)
+      Message = Signing up failed #b
+      Time = 07:07 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"brands":["6437d69e11b7a1f7243049bb"],"name":"AGAIN 1","category":"642e98fef95d77871e0eefdc","subData":[{"languageCode":"en","name":"AGAIN 1"},{"languageCode":"ar","name":""},{"languageCode":"tr","name":""}],"add":[],"addVariant":[],"featuresObj":{"main":["ok","ok1 en"],"en":["ok","ok1 en"],"ar":["ok ar",""],"tr":["ok tr","ok tr"]},"faqsObj":{"main":["Colour","Colour 1 en"],"en":["Colour","Colour 1 en"],"ar":["Colour en","Colour 1 ar"],"tr":["Colour tr",""]}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgwMjQ2MX0.YAPuCyuiui32bu2aCU3NMgqIhv0p8kBhGH2Endam4KE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgwMjQ2MX0.YAPuCyuiui32bu2aCU3NMgqIhv0p8kBhGH2Endam4KE
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/subProductCategories.js:70:9)
+      Message = This sub category is already exists.
+      Time = 07:07 AM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Wendy Nielsen","businessEmail":"lecedev@mailinator.com","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"4147589874","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\"]","currency":"643fab0b37e7628fbb82fbdc","language":"English","storefrontSubscription":"true","firstName":"Yeo","lastName":"Beasley","email":"rapomalan@mailinator.com","countryCode":"+213","contact":"6858475895","dob":"undefined","location":"{\"coordinates\":[76.6345735,27.5529907],\"type\":\"Point\"}","address":"Alwar, Rajasthan, India","removeWarehouse":"[]","addWarehouse":"[]","updateWarehouse":"[{\"name\":\"Isadora Reyes\",\"geoLocation\":{\"coordinates\":[75.813174,26.8549209],\"type\":\"Point\"},\"address\":\"Octal IT Solution, Hari Marg, Near Kardhani Shopping Center, Block-B, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Hari Marg\",\"zipCode\":\"\",\"id\":\"6440dccfabce41829dd06d62\"},{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\",\"id\":\"6440e42aad4031db03b74c71\"},{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\",\"id\":\"6440e4a82011bcd104d9e292\"}]","id":"6440dccaabce41829dd06d5e","ibaNumber":"915","isProfilePicRemove":"false"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.update (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:894:9)
+      Message = Signing up failed #b
+      Time = 07:08 AM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Wendy Nielsen","businessEmail":"lecedev@mailinator.com","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"4147589874","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\"]","currency":"643fab0b37e7628fbb82fbdc","language":"English","storefrontSubscription":"true","firstName":"Yeo","lastName":"Beasley","email":"rapomalan@mailinator.com","countryCode":"+213","contact":"6858475895","dob":"undefined","location":"{\"coordinates\":[76.6345735,27.5529907],\"type\":\"Point\"}","address":"Alwar, Rajasthan, India","removeWarehouse":"[]","addWarehouse":"[]","updateWarehouse":"[{\"name\":\"Isadora Reyes\",\"geoLocation\":{\"coordinates\":[75.813174,26.8549209],\"type\":\"Point\"},\"address\":\"Octal IT Solution, Hari Marg, Near Kardhani Shopping Center, Block-B, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Hari Marg\",\"zipCode\":\"\",\"id\":\"6440dccfabce41829dd06d62\"},{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\",\"id\":\"6440e42aad4031db03b74c71\"},{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\",\"id\":\"6440e4a82011bcd104d9e292\"}]","id":"6440dccaabce41829dd06d5e","ibaNumber":"915","isProfilePicRemove":"false"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.update (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:896:9)
+      Message = Signing up failed #b
+      Time = 07:10 AM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Wendy Nielsen","businessEmail":"lecedev@mailinator.com","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"4147589874","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\"]","currency":"643fab0b37e7628fbb82fbdc","language":"English","storefrontSubscription":"true","firstName":"Yeo","lastName":"Beasley","email":"rapomalan@mailinator.com","countryCode":"+213","contact":"6858475895","dob":"undefined","location":"{\"coordinates\":[76.6345735,27.5529907],\"type\":\"Point\"}","address":"Alwar, Rajasthan, India","removeWarehouse":"[]","addWarehouse":"[]","updateWarehouse":"[{\"name\":\"Isadora Reyes\",\"geoLocation\":{\"coordinates\":[75.813174,26.8549209],\"type\":\"Point\"},\"address\":\"Octal IT Solution, Hari Marg, Near Kardhani Shopping Center, Block-B, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Hari Marg\",\"zipCode\":\"\",\"id\":\"6440dccfabce41829dd06d62\"},{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\",\"id\":\"6440e42aad4031db03b74c71\"},{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\",\"id\":\"6440e4a82011bcd104d9e292\"}]","id":"6440dccaabce41829dd06d5e","ibaNumber":"915","isProfilePicRemove":"false"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.update (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:897:9)
+      Message = Signing up failed #b
+      Time = 07:12 AM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"businessName":"Wendy Nielsen","businessEmail":"lecedev@mailinator.com","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"4147589874","productCategories":"[\"63c911c48975c71bd1f0fe06\"]","serveCountries":"[\"63a5814e202586c94cefbc8a\"]","currency":"643fab0b37e7628fbb82fbdc","language":"English","storefrontSubscription":"true","firstName":"Yeo","lastName":"Beasley","email":"rapomalan@mailinator.com","countryCode":"+213","contact":"6858475895","dob":"undefined","location":"{\"coordinates\":[76.6345735,27.5529907],\"type\":\"Point\"}","address":"Alwar, Rajasthan, India","removeWarehouse":"[]","addWarehouse":"[]","updateWarehouse":"[{\"name\":\"Isadora Reyes\",\"geoLocation\":{\"coordinates\":[75.813174,26.8549209],\"type\":\"Point\"},\"address\":\"Octal IT Solution, Hari Marg, Near Kardhani Shopping Center, Block-B, Malviya Nagar, Jaipur, Rajasthan, India\",\"country\":\"63a58155202586c94cefbc90\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Hari Marg\",\"zipCode\":\"\",\"id\":\"6440dccfabce41829dd06d62\"},{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\",\"id\":\"6440e42aad4031db03b74c71\"},{\"name\":\"Owebest warehouse Edit\",\"geoLocation\":{\"coordinates\":[75.8308801,26.9202177],\"type\":\"Point\"},\"address\":\"Ramganj, Jaipur, Rajasthan, India\",\"country\":\"63a5814e202586c94cefbc8a\",\"city\":\"Jaipur Division\",\"state\":\"Rajasthan\",\"street\":\"Edit\",\"zipCode\":\"302007\",\"id\":\"6440e4a82011bcd104d9e292\"}]","id":"6440dccaabce41829dd06d5e","ibaNumber":"915","isProfilePicRemove":"false"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = exports.update (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/vendor.js:896:9)
+      Message = Signing up failed #b
+      Time = 07:13 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"64410ca63ffa47622970c3bc","otp":"6062"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:1000:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 10:01 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jysytaqeb@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:229:11)
+      Message = Your password is incorrect
+      Time = 10:02 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:41 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:42 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:45 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:51 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:51 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:52 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:52 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:53 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:53 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:54 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:54 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:54 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:54 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:54 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:54 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:54 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:55 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:55 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:55 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjQyYTg2OTY4N2Y0NTdlYjk1ZDRjZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY29hY2giLCJjbHViSWQiOiI2NDI0NmNkMTFmMTAzMDNlYThkZDQxYmIiLCJpYXQiOjE2ODE4OTU0NzV9.X_xoj1-gxW_RoSNRzHGQuOql4Gn3Y6x2lZ1UX9qTouQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjQyYTg2OTY4N2Y0NTdlYjk1ZDRjZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY29hY2giLCJjbHViSWQiOiI2NDI0NmNkMTFmMTAzMDNlYThkZDQxYmIiLCJpYXQiOjE2ODE4OTU0NzV9.X_xoj1-gxW_RoSNRzHGQuOql4Gn3Y6x2lZ1UX9qTouQ
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 11:08 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjQyYTg2OTY4N2Y0NTdlYjk1ZDRjZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY29hY2giLCJjbHViSWQiOiI2NDI0NmNkMTFmMTAzMDNlYThkZDQxYmIiLCJpYXQiOjE2ODE4OTU0NzV9.X_xoj1-gxW_RoSNRzHGQuOql4Gn3Y6x2lZ1UX9qTouQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjQyYTg2OTY4N2Y0NTdlYjk1ZDRjZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY29hY2giLCJjbHViSWQiOiI2NDI0NmNkMTFmMTAzMDNlYThkZDQxYmIiLCJpYXQiOjE2ODE4OTU0NzV9.X_xoj1-gxW_RoSNRzHGQuOql4Gn3Y6x2lZ1UX9qTouQ
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 11:08 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjQyYTg2OTY4N2Y0NTdlYjk1ZDRjZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY29hY2giLCJjbHViSWQiOiI2NDI0NmNkMTFmMTAzMDNlYThkZDQxYmIiLCJpYXQiOjE2ODE4OTU0NzV9.X_xoj1-gxW_RoSNRzHGQuOql4Gn3Y6x2lZ1UX9qTouQ
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 11:08 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 11:12 AM
+    

@@ -1,0 +1,323 @@
+
+    ----------------------------
+      URL = /features-data/642e998ec127907e65785c7f
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {}
+      Params = {"id":"642e998ec127907e65785c7f"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.featuresData (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:1219:7)
+      Message = Could not fetch features
+      Time = 06:10 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:291:7)
+      Message = Something went wrong
+      Time = 06:18 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:291:7)
+      Message = Something went wrong
+      Time = 06:19 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:291:7)
+      Message = Something went wrong
+      Time = 06:33 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:291:7)
+      Message = Something went wrong
+      Time = 06:34 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:291:7)
+      Message = Something went wrong
+      Time = 06:34 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:291:7)
+      Message = Something went wrong
+      Time = 06:35 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:291:7)
+      Message = Something went wrong
+      Time = 06:36 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:10 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:25 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:25 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:42 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:44 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:44 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:52 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:53 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:53 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:55 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:55 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:55 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:56 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendSignupOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:304:7)
+      Message = Something went wrong
+      Time = 10:56 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"454","otp":"1546"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:421:7)
+      Message = Something went wrong #a
+      Time = 10:59 AM
+    

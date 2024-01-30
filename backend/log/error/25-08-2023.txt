@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /transfer
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"senderWarehouseId":"64ba6f21628ac5132d347fb3","receiverWarehouseId":"64d371cfb03793f62886c1ec","products":[{"id":"64ba95fd628ac5132d348244","quantity":"454545"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5Mjk3MTM0MCwiZXhwIjoxNzI0NTI4OTQwLCJpc3MiOiJub29ubWFyIn0.O29Lbb3jEXTGk1_A-9jU8lnCXCeZSveX9cY89JYw3CM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5Mjk3MTM0MCwiZXhwIjoxNzI0NTI4OTQwLCJpc3MiOiJub29ubWFyIn0.O29Lbb3jEXTGk1_A-9jU8lnCXCeZSveX9cY89JYw3CM
+      AT = exports.transferProducts (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/warehouse.js:920:7)
+      Message = You cannot transfer these products as quantity you are transferring is greater than quantity present in the warehouse. Customizable men's silver ring with Arabic calligraphy has 5 quantity.
+      Time = 07:19 PM
+    

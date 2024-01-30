@@ -1,0 +1,29 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"randtashtash@gmail.com","password":"ran--d/n5o*6o-+N"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 07:20 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"noonmarstaff@gmail.com","password":"a14530011N--**"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 07:28 PM
+    

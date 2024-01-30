@@ -1,0 +1,295 @@
+
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 05:05 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:46:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 05:05 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxODg2NDkyfQ.cG4ckhgNCSv_nGQ84ZR2HjNaH49auAFMAcRHhUMPfrs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxODg2NDkyfQ.cG4ckhgNCSv_nGQ84ZR2HjNaH49auAFMAcRHhUMPfrs
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 06:41 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxODg2NDkyfQ.cG4ckhgNCSv_nGQ84ZR2HjNaH49auAFMAcRHhUMPfrs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MjE3YTljOTViYzZkYjJiOWRlNzVjNCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgxODg2NDkyfQ.cG4ckhgNCSv_nGQ84ZR2HjNaH49auAFMAcRHhUMPfrs
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/customerAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 06:41 AM
+    
+    ----------------------------
+      URL = /home/section-one
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"subData":"[{\"languageCode\":\"en\"},{\"languageCode\":\"ar\"},{\"languageCode\":\"tr\"}]","data":"{\"linkOne\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkTwo\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkThree\":\"https://noonmarssr.stage04.obdemo.com/\"}","fileIndexes":"{\"0\":\"imageOne-en\",\"1\":\"imageTwo-en\",\"2\":\"imageThree-en\",\"3\":\"imageOne-ar\",\"4\":\"imageTwo-ar\",\"5\":\"imageThree-ar\",\"6\":\"imageOne-tr\",\"7\":\"imageTwo-tr\",\"8\":\"imageThree-tr\"}"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/master.js:267:9
+      Message = Could not create about us
+      Time = 07:13 AM
+    
+    ----------------------------
+      URL = /home/section-one
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"subData":"[{\"languageCode\":\"en\"},{\"languageCode\":\"ar\"},{\"languageCode\":\"tr\"}]","data":"{\"linkOne\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkTwo\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkThree\":\"https://noonmarssr.stage04.obdemo.com/\"}","fileIndexes":"{\"0\":\"imageOne-en\",\"1\":\"imageTwo-en\",\"2\":\"imageThree-en\",\"3\":\"imageOne-ar\",\"4\":\"imageTwo-ar\",\"5\":\"imageThree-ar\",\"6\":\"imageOne-tr\",\"7\":\"imageTwo-tr\",\"8\":\"imageThree-tr\"}"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/master.js:268:9
+      Message = Could not create about us
+      Time = 07:14 AM
+    
+    ----------------------------
+      URL = /home/section-one
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"subData":"[{\"languageCode\":\"en\"},{\"languageCode\":\"ar\"},{\"languageCode\":\"tr\"}]","data":"{\"linkOne\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkTwo\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkThree\":\"https://noonmarssr.stage04.obdemo.com/\"}","fileIndexes":"{\"0\":\"imageOne-en\",\"1\":\"imageTwo-en\",\"2\":\"imageThree-en\",\"3\":\"imageOne-ar\",\"4\":\"imageTwo-ar\",\"5\":\"imageThree-ar\",\"6\":\"imageOne-tr\",\"7\":\"imageTwo-tr\",\"8\":\"imageThree-tr\"}"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/master.js:268:9
+      Message = Could not create about us
+      Time = 07:16 AM
+    
+    ----------------------------
+      URL = /home/section-one
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"subData":"[{\"languageCode\":\"en\"},{\"languageCode\":\"ar\"},{\"languageCode\":\"tr\"}]","data":"{\"linkOne\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkTwo\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkThree\":\"https://noonmarssr.stage04.obdemo.com/\"}","fileIndexes":"{\"0\":\"imageOne-en\",\"1\":\"imageTwo-en\",\"2\":\"imageThree-en\",\"3\":\"imageOne-ar\",\"4\":\"imageTwo-ar\",\"5\":\"imageThree-ar\",\"6\":\"imageOne-tr\",\"7\":\"imageTwo-tr\",\"8\":\"imageThree-tr\"}"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/master.js:268:9
+      Message = Could not create about us
+      Time = 07:18 AM
+    
+    ----------------------------
+      URL = /home/section-one
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"subData":"[{\"languageCode\":\"en\"},{\"languageCode\":\"ar\"},{\"languageCode\":\"tr\"}]","data":"{\"linkOne\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkTwo\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkThree\":\"https://noonmarssr.stage04.obdemo.com/\"}","fileIndexes":"{\"0\":\"imageOne-en\",\"1\":\"imageTwo-en\",\"2\":\"imageThree-en\",\"3\":\"imageOne-ar\",\"4\":\"imageTwo-ar\",\"5\":\"imageThree-ar\",\"6\":\"imageOne-tr\",\"7\":\"imageTwo-tr\",\"8\":\"imageThree-tr\"}"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/master.js:262:9
+      Message = Could not create section one
+      Time = 07:50 AM
+    
+    ----------------------------
+      URL = /home/section-one
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"subData":"[{\"languageCode\":\"en\"},{\"languageCode\":\"ar\"},{\"languageCode\":\"tr\"}]","data":"{\"linkOne\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkTwo\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkThree\":\"https://noonmarssr.stage04.obdemo.com/\"}","fileIndexes":"{\"0\":\"imageOne-en\",\"1\":\"imageTwo-en\",\"2\":\"imageThree-en\",\"3\":\"imageOne-ar\",\"4\":\"imageTwo-ar\",\"5\":\"imageThree-ar\",\"6\":\"imageOne-tr\",\"7\":\"imageTwo-tr\",\"8\":\"imageThree-tr\"}"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/master.js:263:9
+      Message = Could not create section one
+      Time = 07:51 AM
+    
+    ----------------------------
+      URL = /home/section-one
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"subData":"[{\"languageCode\":\"en\"},{\"languageCode\":\"ar\"},{\"languageCode\":\"tr\"}]","data":"{\"linkOne\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkTwo\":\"https://noonmarssr.stage04.obdemo.com/\",\"linkThree\":\"https://noonmarssr.stage04.obdemo.com/\"}","fileIndexes":"{\"0\":\"imageOne-en\",\"1\":\"imageTwo-en\",\"2\":\"imageThree-en\",\"3\":\"imageOne-ar\",\"4\":\"imageThree-tr\"}"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/master.js:263:9
+      Message = Could not create section one
+      Time = 07:56 AM
+    
+    ----------------------------
+      URL = /641ad83ef4c38c36ee4c4681
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"641ad83ef4c38c36ee4c4681"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgwMjQ2MX0.YAPuCyuiui32bu2aCU3NMgqIhv0p8kBhGH2Endam4KE
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/currency.js:211:7)
+      Message = Something went wrong
+      Time = 08:07 AM
+    
+    ----------------------------
+      URL = /643fb55819226d9f9b706238
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"643fb55819226d9f9b706238"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgwMjQ2MX0.YAPuCyuiui32bu2aCU3NMgqIhv0p8kBhGH2Endam4KE
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/productCategories.js:295:7)
+      Message = Could not fetch product category's data
+      Time = 09:52 AM
+    
+    ----------------------------
+      URL = /verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:264:9)
+      Message = Something went wrong while fetching setting
+      Time = 11:37 AM
+    
+    ----------------------------
+      URL = /verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:264:9)
+      Message = Something went wrong while fetching setting
+      Time = 11:37 AM
+    
+    ----------------------------
+      URL = /verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:264:9)
+      Message = Something went wrong while fetching setting
+      Time = 11:37 AM
+    
+    ----------------------------
+      URL = /verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:264:9)
+      Message = Something went wrong while fetching setting
+      Time = 11:37 AM
+    
+    ----------------------------
+      URL = /verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:264:9)
+      Message = Something went wrong while fetching setting
+      Time = 11:38 AM
+    
+    ----------------------------
+      URL = /verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:264:9)
+      Message = Something went wrong while fetching setting
+      Time = 11:38 AM
+    
+    ----------------------------
+      URL = /verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:264:9)
+      Message = Something went wrong while fetching setting
+      Time = 11:38 AM
+    
+    ----------------------------
+      URL = /verify
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3OTM3OTc4MX0.9UcuN7obJnLzGsBWs_U2L_348o-JHTRUsGFDU2ucQjA"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:265:9)
+      Message = Something went wrong while fetching setting
+      Time = 11:40 AM
+    

@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /oauth/google
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"userData":{"googleId":"109938218740206402432","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJeElVMnbbdy8kzwccwZ1w-PDws9y5RWZO8X4rPB9XP=s96-c","email":"zahiasmartinb@gmail.com","name":"zahia smartinb","givenName":"zahia","familyName":"smartinb","id":"@109938218740206402432"}}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.googleLogin (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1493:11)
+      Message = Signing up failed #b
+      Time = 02:06 PM
+    

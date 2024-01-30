@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /payment-status
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"orderId":"658bf584a625aadb57ae4947"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NmIzOTMwNDNmZjQwZjU5ODhjNmUzMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDM2NzEwNjgsImV4cCI6MTczNTIyODY2OCwiaXNzIjoibm9vbm1hciJ9.wnLLbO5sO59FPqn45bvSaOeVB-X3_sO-Fg5iscUUC4Q
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NmIzOTMwNDNmZjQwZjU5ODhjNmUzMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDM2NzEwNjgsImV4cCI6MTczNTIyODY2OCwiaXNzIjoibm9vbm1hciJ9.wnLLbO5sO59FPqn45bvSaOeVB-X3_sO-Fg5iscUUC4Q
+      AT = exports.paymentStatus (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/order.js:2538:7)
+      Message = Could not confirm payment. Please try again.
+      Time = 03:30 PM
+    

@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"655482d83ab6fb80457e8626\",\"name\":\"Cips\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Cips\",\"slug\":\"cips\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"test\",\"slug\":\"test\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Cips\",\"slug\":\"cips\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMDA0MDA3MiwiZXhwIjoxNzMxNTk3NjcyLCJpc3MiOiJub29ubWFyIn0.7jbBBPMMeuO-ltxERAkx9rMP86EPPadxQ5z-WMPocM8
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMDA0MDA3MiwiZXhwIjoxNzMxNTk3NjcyLCJpc3MiOiJub29ubWFyIn0.7jbBBPMMeuO-ltxERAkx9rMP86EPPadxQ5z-WMPocM8
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:41:9)
+      Message = Already Exist Name: Cips
+      Time = 02:57 PM
+    

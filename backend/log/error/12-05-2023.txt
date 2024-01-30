@@ -1,0 +1,323 @@
+
+    ----------------------------
+      URL = /import-file
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"fileLink":"https://noonmar.stage04.obdemo.com/products"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MzgxMzM0NH0.30FStgMTf32_N-7VxJWC3JdThk2HdrMqPNbdhlroA4Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MzgxMzM0NH0.30FStgMTf32_N-7VxJWC3JdThk2HdrMqPNbdhlroA4Y
+      AT = /home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin/products.js:3462:13
+      Message = Please provide valid xml link.
+      Time = 11:30 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDI1NWE3MjMxY2QzYjhkMWZiNmFmMiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIwNjk1MDZ9.adCoXsdRJ6Udrn_vMm23n2IUPvDQwPoOuhQVSe3UHCI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 11:56 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"        ","serveCountries":"[\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9865314000","businessEmail":"akash28@mailinator.com","name":"       ","address":"W385+3F9, Nueva Vizcaya - Ifugao - Mountain Province Rd, Banaue, Ifugao, Philippines","productCategories":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":"No","contact":"9861606560","email":"akash6@mailinator.com","password":"ADMIN@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"size\":1821766,\"fileCopyUri\":null,\"name\":\"1.73Mb.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.externalstorage.documents/document/primary%3Atest%20case%2Ftesting-document%2Fpdf%2F1.73Mb.pdf\"}]]","ibaNumber":"986865665905","location":"{\"coordinates\":[\"16.9151651\",\"121.0587342\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"        \",\"State\":\"     \",\"street\":\"     \",\"City\":\"      \",\"zipCode\":\"     \",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"306 Freesia St, Lynnwood Ridge, Pretoria, 0102, South Africa\",\"geoLocation\":[\"-25.7663502\",\"28.3016361\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 03:09 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"        ","serveCountries":"[\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9865314000","businessEmail":"akash28@mailinator.com","name":"       ","address":"W385+3F9, Nueva Vizcaya - Ifugao - Mountain Province Rd, Banaue, Ifugao, Philippines","productCategories":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":"No","contact":"9861606560","email":"akash6@mailinator.com","password":"ADMIN@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"size\":1821766,\"fileCopyUri\":null,\"name\":\"1.73Mb.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.externalstorage.documents/document/primary%3Atest%20case%2Ftesting-document%2Fpdf%2F1.73Mb.pdf\"}]]","ibaNumber":"986865665905","location":"{\"coordinates\":[\"16.9151651\",\"121.0587342\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"        \",\"State\":\"     \",\"street\":\"     \",\"City\":\"      \",\"zipCode\":\"     \",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"306 Freesia St, Lynnwood Ridge, Pretoria, 0102, South Africa\",\"geoLocation\":[\"-25.7663502\",\"28.3016361\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 03:09 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"        ","serveCountries":"[\"644b595f6a02dc34dd7b39d7\",\"644b5af46a02dc34dd7b3a84\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9865314000","businessEmail":"akash28@mailinator.com","name":"       ","address":"W385+3F9, Nueva Vizcaya - Ifugao - Mountain Province Rd, Banaue, Ifugao, Philippines","productCategories":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e316a02dc34dd7b3cca","language":"Arabic","storefrontSubscription":"No","contact":"9861606560","email":"akash6@mailinator.com","password":"ADMIN@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"size\":1821766,\"fileCopyUri\":null,\"name\":\"1.73Mb.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.externalstorage.documents/document/primary%3Atest%20case%2Ftesting-document%2Fpdf%2F1.73Mb.pdf\"}]]","ibaNumber":"986865665905","location":"{\"coordinates\":[\"16.9151651\",\"121.0587342\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"        \",\"State\":\"     \",\"street\":\"     \",\"City\":\"      \",\"zipCode\":\"     \",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"306 Freesia St, Lynnwood Ridge, Pretoria, 0102, South Africa\",\"geoLocation\":[\"-25.7663502\",\"28.3016361\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 03:10 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"        ","serveCountries":"[\"644b592e6a02dc34dd7b39c6\",\"644b595f6a02dc34dd7b39d7\"]","businessCountry":"644b5dc86a02dc34dd7b3c80","businessContact":"9658280665","businessEmail":"akash2806@mailinator.com","name":"     ","address":"Pradhan Marg, Block C, Malviya Nagar, Jaipur, Rajasthan 302017, India","productCategories":"[\"644b5dc86a02dc34dd7b3c80\"]","currency":"644b5e316a02dc34dd7b3cca","language":"English","storefrontSubscription":"No","contact":"9355005669","email":"akash286@mailinator.com","password":"Admin@123","country":"644b5dc86a02dc34dd7b3c80","countryCode":"91","businessDoc":"[[{\"size\":1821766,\"fileCopyUri\":null,\"name\":\"1.73Mb.pdf\",\"type\":\"application/pdf\",\"uri\":\"content://com.android.externalstorage.documents/document/primary%3Atest%20case%2Ftesting-document%2Fpdf%2F1.73Mb.pdf\"}]]","ibaNumber":"9638383836866","location":"{\"coordinates\":[\"26.855825\",\"75.8085251\"],\"type\":\"Point\"}","warehouseDetail":"[{\"name\":\"       \",\"State\":\"      \",\"street\":\"     \",\"City\":\"      \",\"zipCode\":\"     \",\"countryName\":\"India\",\"country\":\"644b5dc86a02dc34dd7b3c80\",\"address\":\"Pradhan Marg, Block C, Malviya Nagar, Jaipur, Rajasthan 302017, India\",\"geoLocation\":[\"26.855825\",\"75.8085251\"]}]","categoryRequest":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:184:9)
+      Message = Could not create vendor.
+      Time = 03:16 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"      "}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 04:35 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"H2uk@j70h9$8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:94:7)
+      Message = Email or Password is incorrect
+      Time = 05:33 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"H2uk@j70h9$8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:94:7)
+      Message = Email or Password is incorrect
+      Time = 05:33 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"H2uk@j70h9$8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:94:7)
+      Message = Email or Password is incorrect
+      Time = 05:38 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jivan28@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:430:9)
+      Message = Vendor not found
+      Time = 06:07 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 06:47 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 06:47 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"jk2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:236:9)
+      Message = Vendor not found
+      Time = 06:47 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Testuser111@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Customer not found
+      Time = 06:57 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"firstName":"Sss123","lastName":"Manral","password":"System@123","email":"","country":"644b5dc86a02dc34dd7b3c80","contact":"1234567890","countryCode":"644b5dc86a02dc34dd7b3c80","gender":"male","dob":"2023-05-11"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:311:9)
+      Message = The contact is already associated with another account.
+      Time = 07:38 PM
+    
+    ----------------------------
+      URL = /import-file
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"fileLink":"https://www.noontek.com/TicimaxXml/D1FDDB882825464181B34698F94F2A0F/"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgxMjE3MH0.LLokX09NTCVeIkGkiQUULFLUepXtvnwmydVJG7aeuXI
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4MTgxMjE3MH0.LLokX09NTCVeIkGkiQUULFLUepXtvnwmydVJG7aeuXI
+      AT = /home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin/products.js:3462:13
+      Message = Please provide valid xml link.
+      Time = 07:38 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:765:9)
+      Message = Customer not found
+      Time = 07:59 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:765:9)
+      Message = Customer not found
+      Time = 07:59 PM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 08:02 PM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 08:02 PM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:35 PM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:35 PM
+    

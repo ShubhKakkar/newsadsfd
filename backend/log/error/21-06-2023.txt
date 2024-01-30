@@ -1,0 +1,29 @@
+
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"64928e6f95f9dadf19d96bfc","contactOtp":"1234","emailOtp":"7757"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:623:9)
+      Message = The email otp you've entered is incorrect.
+      Time = 11:15 AM
+    
+    ----------------------------
+      URL = /6481c478127796e2ff338e1d
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"6481c478127796e2ff338e1d"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NzM1ODQ5MSwiZXhwIjoxNjg3MzU5OTMxLCJpc3MiOiJub29ubWFyIn0.oRtbERIBaE4E43aK2M2_AeUC1LcSedbQqCQ7GOj_GyA
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/country.js:174:7)
+      Message = Could not fetch country's data
+      Time = 08:11 PM
+    

@@ -1,0 +1,29 @@
+
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"name":"Supermino Tekstil Mağazacılık E-ticaret İthalat İhracat San.. ve Tic. Ltd. Şti.","industry":"children clothes","employees":"0-50","location":"6481c478127796e2ff338e1d","brands":["651535df2822cb9d3a8d94c7","651535df2822cb9d3a8d94c8","651535df2822cb9d3a8d94c9","651535df2822cb9d3a8d94ca"],"newBrands":[{"label":"disnep","value":"disnep","langData":[{"languageCode":"en","value":"disnep"},{"languageCode":"ar","value":""},{"languageCode":"tr","value":""}]},{"label":"looney tunes","value":"looney tunes","langData":[{"languageCode":"en","value":"looney tunes"},{"languageCode":"ar","value":""},{"languageCode":"tr","value":""}]},{"label":"Looney Tunes","value":"Looney Tunes","langData":[{"languageCode":"en","value":"Looney Tunes"},{"languageCode":"ar","value":""},{"languageCode":"tr","value":""}]},{"label":"warner Bros","value":"warner Bros","langData":[{"languageCode":"en","value":"warner Bros"},{"languageCode":"ar","value":""},{"languageCode":"tr","value":""}]}],"id":"65019477b6c978ce6adcab75"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NTg4ODMxNCwiZXhwIjoxNzI3NDQ1OTE0LCJpc3MiOiJub29ubWFyIn0.s88aPklStz8kasg4Ul3K69DuDXLSg5F8RD9BHWl2ZIU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NTg4ODMxNCwiZXhwIjoxNzI3NDQ1OTE0LCJpc3MiOiJub29ubWFyIn0.s88aPklStz8kasg4Ul3K69DuDXLSg5F8RD9BHWl2ZIU
+      AT = exports.update (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/manufacture.js:337:7)
+      Message = Something went wrong
+      Time = 01:44 PM
+    
+    ----------------------------
+      URL = /import-file
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"fileLink":"https://www.noonmar.com/xml/?R=2283&K=602a&Seo=1&Imgs=1&AltUrun=1&TamLink&Dislink"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NTg5MzYzMSwiZXhwIjoxNzI3NDUxMjMxLCJpc3MiOiJub29ubWFyIn0.Mn3k-B4415oPB8g_9VqBgX0If1CMkneZ2NkOhekAifo
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5NTg5MzYzMSwiZXhwIjoxNzI3NDUxMjMxLCJpc3MiOiJub29ubWFyIn0.Mn3k-B4415oPB8g_9VqBgX0If1CMkneZ2NkOhekAifo
+      AT = /home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/product.js:4403:13
+      Message = Invalid container provided.
+      Time = 03:03 PM
+    

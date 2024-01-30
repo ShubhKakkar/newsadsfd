@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"WOW","category":"63c911c48975c71bd1f0fe06","subData":[{"languageCode":"en","name":"WOW"},{"languageCode":"ar","name":""},{"languageCode":"tr","name":""}],"add":[{"_id":"641aa780f72ef90e93c78f5c","vId":"641aaa90a9bf2e11cb7a9de4"},{"_id":"641aa780f72ef90e93c78f5c","vId":"641aaa90a9bf2e11cb7a9de5"},{"_id":"641aa780f72ef90e93c78f5c","vId":1679911286866},{"_id":"641c2d122ef2faeaf2d1abb1","vId":"641c2d122ef2faeaf2d1abb4"},{"_id":"641c2d122ef2faeaf2d1abb1","vId":1679911292076}],"addVariant":[{"name":"34","_id":1679911286866,"languageData":[{"languageCode":"en","name":"34"},{"languageCode":"ar","name":""},{"languageCode":"tr","name":""}]},{"name":"Orange","_id":1679911292076,"languageData":[{"languageCode":"en","name":"Orange"},{"languageCode":"ar","name":""},{"languageCode":"tr","name":""}]}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3ODg3MzcyNX0.QRwD1YcrOPaLeH_Eac-qdJnTIH8jLZFesLYFGnnZH9Y
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/subProductCategories.js:14:5)
+      Message = Could not create product category.
+      Time = 10:01 AM
+    

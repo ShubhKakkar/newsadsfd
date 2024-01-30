@@ -1,0 +1,57 @@
+
+    ----------------------------
+      URL = /add-data
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NzE5NTM3MiwiZXhwIjoxNjg3MTk2ODEyLCJpc3MiOiJub29ubWFyIn0.nZj6r20Y4w3892cKHf9FfOfzXfqOlcIRhAAh5wbvgZc
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 11:10 AM
+    
+    ----------------------------
+      URL = /search-data
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NzIzOTc4NCwiZXhwIjoxNjg3MjQxMjI0LCJpc3MiOiJub29ubWFyIn0.JOouoYeSDNiiS3-LvR0DL87f5XKzG7lixkWYMO257UU
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 12:46 PM
+    
+    ----------------------------
+      URL = /search-data
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NzI4MDUxNSwiZXhwIjoxNjg3MjgxOTU1LCJpc3MiOiJub29ubWFyIn0.OOpeoH2AwP8YdYiA10HtS_uv80vJ0O1q2eAFVchlB2I
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 11:12 PM
+    
+    ----------------------------
+      URL = /search-data
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NzI4MTY1NiwiZXhwIjoxNjg3MjgzMDk2LCJpc3MiOiJub29ubWFyIn0.a5Z_vRnQu28hn2w61doc_FLMOjS2b0SXG3OZh472Zwc
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 11:22 PM
+    

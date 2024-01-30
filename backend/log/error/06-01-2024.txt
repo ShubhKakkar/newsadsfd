@@ -1,0 +1,85 @@
+
+    ----------------------------
+      URL = /details/undefined
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"undefined"}
+      Header = Bearer undefined
+      Token = undefined
+      AT = exports.vendorDetails (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1697:7)
+      Message = Invalid vendor id.
+      Time = 12:09 PM
+    
+    ----------------------------
+      URL = /details/undefined
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"undefined"}
+      Header = Bearer undefined
+      Token = undefined
+      AT = exports.vendorDetails (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1697:7)
+      Message = Invalid vendor id.
+      Time = 12:10 PM
+    
+    ----------------------------
+      URL = /65687c59aadedc1c5811b3e7
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"65687c59aadedc1c5811b3e7"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDU0MjQyOSwiZXhwIjoxNzM2MTAwMDI5LCJpc3MiOiJub29ubWFyIn0.LTzXY2s4SqnLFE2Ma8BlqvIj0Vmksux8hrPW3_xu1_I
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/variant.js:413:7)
+      Message = Something went wrong
+      Time = 05:31 PM
+    
+    ----------------------------
+      URL = /65687c59aadedc1c5811b3e7
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"65687c59aadedc1c5811b3e7"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDU0MjQ3MCwiZXhwIjoxNzM2MTAwMDcwLCJpc3MiOiJub29ubWFyIn0.Edb1ykuQizuNBroGBc9COdsTug1iY5hChsSTMbLgF28
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/variant.js:413:7)
+      Message = Something went wrong
+      Time = 05:31 PM
+    
+    ----------------------------
+      URL = /65687c59aadedc1c5811b3e7
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"65687c59aadedc1c5811b3e7"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDU0MjUzMywiZXhwIjoxNzM2MTAwMTMzLCJpc3MiOiJub29ubWFyIn0.-74iwLrGjnIyrRV6dKTrhWrTKAQnmKQTDY2ujhCGDPU
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/variant.js:413:7)
+      Message = Something went wrong
+      Time = 05:32 PM
+    
+    ----------------------------
+      URL = /65687c59aadedc1c5811b3e7
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"65687c59aadedc1c5811b3e7"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDU0MjU1NywiZXhwIjoxNzM2MTAwMTU3LCJpc3MiOiJub29ubWFyIn0.IKUbrYCMoYch4jyNYf_XdRndiuOd_uOi9hnjuqORqFQ
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/variant.js:413:7)
+      Message = Something went wrong
+      Time = 05:32 PM
+    

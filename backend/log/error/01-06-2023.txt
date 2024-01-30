@@ -1,0 +1,1135 @@
+
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 11:54 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 11:54 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 11:54 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 11:55 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 11:55 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 11:55 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:06 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:06 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:06 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:07 PM
+    
+    ----------------------------
+      URL = /?page=1?name=undefined
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1?name=undefined"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      AT = exports.wishlist (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/wishlist.js:293:7)
+      Message = Something went wrong.
+      Time = 12:09 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:14 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:16 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:16 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:17 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:17 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:17 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:18 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:18 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:18 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:18 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:18 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:19 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:19 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:19 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:22 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:22 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:22 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:29 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:29 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:29 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:30 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:30 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:30 PM
+    
+    ----------------------------
+      URL = /?page=M&name=
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"M","name":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      AT = exports.wishlist (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/wishlist.js:293:7)
+      Message = Something went wrong.
+      Time = 12:50 PM
+    
+    ----------------------------
+      URL = /?page=Me&name=
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"Me","name":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      AT = exports.wishlist (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/wishlist.js:293:7)
+      Message = Something went wrong.
+      Time = 12:50 PM
+    
+    ----------------------------
+      URL = /?page=Men&name=
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"Men","name":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      AT = exports.wishlist (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/wishlist.js:293:7)
+      Message = Something went wrong.
+      Time = 12:50 PM
+    
+    ----------------------------
+      URL = /?page=M&name=
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"M","name":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTM2MmFlMDVlN2IxYzc3ZTA5Mjk0YSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1OTgwNDAsImV4cCI6MTcxNzE1NTY0MCwiaXNzIjoibm9vbm1hciJ9.Qf4eVsoGhKNZmRhD50U-WaCQOcvroEHelex-WpAAqRE
+      AT = exports.wishlist (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/wishlist.js:293:7)
+      Message = Something went wrong.
+      Time = 12:52 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 64677e1ad60ae9cb64b42938
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NTEyOTI4LCJleHAiOjE3MTcwNzA1MjgsImlzcyI6Im5vb25tYXIifQ.OvJ9R8Cirb-Tu7ftjmb-KzUFxHz3NxmXYmJl6C1TkSY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NTEyOTI4LCJleHAiOjE3MTcwNzA1MjgsImlzcyI6Im5vb25tYXIifQ.OvJ9R8Cirb-Tu7ftjmb-KzUFxHz3NxmXYmJl6C1TkSY
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 02:55 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"nnn@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:55 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"nnn@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:55 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vvv@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:55 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Sss123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:03 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Sss123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:04 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"mainData":"{\"parentId\":\"6478675858c0582690367f27\",\"name\":\"Men's Clothing\",\"specificationIds\":[],\"variantIds\":[\"647865b558c0582690367eb3\"],\"masterVariantId\":\"647865b558c0582690367eb3\",\"isActive\":true,\"specificationFilterIds\":[],\"variantFilterIds\":[\"647865b558c0582690367eb3\"]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Men's Clothing\",\"slug\":\"men's-clothing\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}},{\"languageCode\":\"ar\",\"name\":\"إلكترونيات\",\"slug\":\"إلكترونيات\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}},{\"languageCode\":\"tr\",\"name\":\"Elektronik\",\"slug\":\"elektronik\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NTYxMjQyNSwiZXhwIjoxNjg1NjEzODY1LCJpc3MiOiJub29ubWFyIn0.s9WNNs-f28lfrMpgwS2s29YAo-8phgGHpelo0ifJGw4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NTYxMjQyNSwiZXhwIjoxNjg1NjEzODY1LCJpc3MiOiJub29ubWFyIn0.s9WNNs-f28lfrMpgwS2s29YAo-8phgGHpelo0ifJGw4
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:73:9)
+      Message = Slug إلكترونيات already exists
+      Time = 03:11 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"mainData":"{\"parentId\":\"6478675858c0582690367f27\",\"name\":\"Men's Clothing\",\"specificationIds\":[],\"variantIds\":[\"647865b558c0582690367eb3\"],\"masterVariantId\":\"647865b558c0582690367eb3\",\"isActive\":true,\"specificationFilterIds\":[],\"variantFilterIds\":[\"647865b558c0582690367eb3\"]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Men's Clothing\",\"slug\":\"men's-clothing\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}},{\"languageCode\":\"ar\",\"name\":\"إلكترونيات\",\"slug\":\"إلكترونيات1\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}},{\"languageCode\":\"tr\",\"name\":\"Elektronik\",\"slug\":\"elektronik\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NTYxMjQyNSwiZXhwIjoxNjg1NjEzODY1LCJpc3MiOiJub29ubWFyIn0.s9WNNs-f28lfrMpgwS2s29YAo-8phgGHpelo0ifJGw4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NTYxMjQyNSwiZXhwIjoxNjg1NjEzODY1LCJpc3MiOiJub29ubWFyIn0.s9WNNs-f28lfrMpgwS2s29YAo-8phgGHpelo0ifJGw4
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:73:9)
+      Message = Slug men's-clothing already exists
+      Time = 03:11 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"mainData":"{\"parentId\":\"6478675858c0582690367f27\",\"name\":\"Men's Clothing\",\"specificationIds\":[],\"variantIds\":[\"647865b558c0582690367eb3\"],\"masterVariantId\":\"647865b558c0582690367eb3\",\"isActive\":true,\"specificationFilterIds\":[],\"variantFilterIds\":[\"647865b558c0582690367eb3\"]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Men's Clothing\",\"slug\":\"men's-clothing\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}},{\"languageCode\":\"ar\",\"name\":\"ملابس رجالية\",\"slug\":\"ملابس-رجالية\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}},{\"languageCode\":\"tr\",\"name\":\"Erkek giyim\",\"slug\":\"erkek-giyim\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NTYxMjU0NiwiZXhwIjoxNjg1NjEzOTg2LCJpc3MiOiJub29ubWFyIn0.Ykgg4mVoE6rCd76DIQNdbURBWcjBl_Vy-9wyTOz5A2k
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NTYxMjU0NiwiZXhwIjoxNjg1NjEzOTg2LCJpc3MiOiJub29ubWFyIn0.Ykgg4mVoE6rCd76DIQNdbURBWcjBl_Vy-9wyTOz5A2k
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:73:9)
+      Message = Slug men's-clothing already exists
+      Time = 03:12 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Sss123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:15 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Sss123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:15 PM
+    
+    ----------------------------
+      URL = /?page=1&name=
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","name":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Nzg2M2M5ODk4YzQ0ZWY4NDdiM2E3ZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2MTI3MzIsImV4cCI6MTcxNzE3MDMzMiwiaXNzIjoibm9vbm1hciJ9.jHabvpjmmFJWddSoEVxAzjEjO8Gcyc7zybGzKIXJPl4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Nzg2M2M5ODk4YzQ0ZWY4NDdiM2E3ZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2MTI3MzIsImV4cCI6MTcxNzE3MDMzMiwiaXNzIjoibm9vbm1hciJ9.jHabvpjmmFJWddSoEVxAzjEjO8Gcyc7zybGzKIXJPl4
+      AT = exports.wishlist (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/wishlist.js:293:7)
+      Message = Something went wrong.
+      Time = 03:15 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 644fbb1854e84015eafb2ef0
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 03:48 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 644fbb1854e84015eafb2ef0
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 03:48 PM
+    
+    ----------------------------
+      URL = /?page=1&name=
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","name":""}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Nzg2M2M5ODk4YzQ0ZWY4NDdiM2E3ZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2MTI3MzIsImV4cCI6MTcxNzE3MDMzMiwiaXNzIjoibm9vbm1hciJ9.jHabvpjmmFJWddSoEVxAzjEjO8Gcyc7zybGzKIXJPl4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Nzg2M2M5ODk4YzQ0ZWY4NDdiM2E3ZCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU2MTI3MzIsImV4cCI6MTcxNzE3MDMzMiwiaXNzIjoibm9vbm1hciJ9.jHabvpjmmFJWddSoEVxAzjEjO8Gcyc7zybGzKIXJPl4
+      AT = exports.wishlist (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/wishlist.js:293:7)
+      Message = Something went wrong.
+      Time = 04:15 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 644fbb1854e84015eafb2ef0
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 05:27 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 644fbb1854e84015eafb2ef0
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGZiYjE4NTRlODQwMTVlYWZiMmVmMCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDY5OTEzLCJleHAiOjE3MTcwMjc1MTMsImlzcyI6Im5vb25tYXIifQ.7Rr6no6a7QtYpWv51AmdhzBZq_mjJNKqBaA2Jbsf8W4
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 05:27 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vvv@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:235:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 05:41 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 64677e1ad60ae9cb64b42938
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NTEyOTI4LCJleHAiOjE3MTcwNzA1MjgsImlzcyI6Im5vb25tYXIifQ.OvJ9R8Cirb-Tu7ftjmb-KzUFxHz3NxmXYmJl6C1TkSY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NTEyOTI4LCJleHAiOjE3MTcwNzA1MjgsImlzcyI6Im5vb25tYXIifQ.OvJ9R8Cirb-Tu7ftjmb-KzUFxHz3NxmXYmJl6C1TkSY
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 05:41 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 64677e1ad60ae9cb64b42938
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDcxODE4LCJleHAiOjE3MTcwMjk0MTgsImlzcyI6Im5vb25tYXIifQ.eM4ed3eYFThgflNj4U9IU6_0Aw6rLCIDcOSdt1VhkZE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDcxODE4LCJleHAiOjE3MTcwMjk0MTgsImlzcyI6Im5vb25tYXIifQ.eM4ed3eYFThgflNj4U9IU6_0Aw6rLCIDcOSdt1VhkZE
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 10:40 PM
+    
+    ----------------------------
+      URL = /update-bank-info
+      Method = PUT
+      userId = 64677e1ad60ae9cb64b42938
+      isAdmin = undefined
+      Body = {"ibaNumber":"4555"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDcxODE4LCJleHAiOjE3MTcwMjk0MTgsImlzcyI6Im5vb25tYXIifQ.eM4ed3eYFThgflNj4U9IU6_0Aw6rLCIDcOSdt1VhkZE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDcxODE4LCJleHAiOjE3MTcwMjk0MTgsImlzcyI6Im5vb25tYXIifQ.eM4ed3eYFThgflNj4U9IU6_0Aw6rLCIDcOSdt1VhkZE
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 10:48 PM
+    
+    ----------------------------
+      URL = /update-bank-info
+      Method = PUT
+      userId = 64677e1ad60ae9cb64b42938
+      isAdmin = undefined
+      Body = {"ibaNumber":"4555"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDcxODE4LCJleHAiOjE3MTcwMjk0MTgsImlzcyI6Im5vb25tYXIifQ.eM4ed3eYFThgflNj4U9IU6_0Aw6rLCIDcOSdt1VhkZE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDcxODE4LCJleHAiOjE3MTcwMjk0MTgsImlzcyI6Im5vb25tYXIifQ.eM4ed3eYFThgflNj4U9IU6_0Aw6rLCIDcOSdt1VhkZE
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 10:48 PM
+    
+    ----------------------------
+      URL = /update-bank-info
+      Method = PUT
+      userId = 64677e1ad60ae9cb64b42938
+      isAdmin = undefined
+      Body = {"ibaNumber":"4555"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDcxODE4LCJleHAiOjE3MTcwMjk0MTgsImlzcyI6Im5vb25tYXIifQ.eM4ed3eYFThgflNj4U9IU6_0Aw6rLCIDcOSdt1VhkZE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NDcxODE4LCJleHAiOjE3MTcwMjk0MTgsImlzcyI6Im5vb25tYXIifQ.eM4ed3eYFThgflNj4U9IU6_0Aw6rLCIDcOSdt1VhkZE
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 10:49 PM
+    

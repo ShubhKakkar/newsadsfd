@@ -1,0 +1,169 @@
+
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:17:7)
+      Message = Request Failed!
+      Time = 12:10 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:17:7)
+      Message = Request Failed!
+      Time = 12:11 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:17:7)
+      Message = Request Failed!
+      Time = 12:11 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 12:19 PM
+    
+    ----------------------------
+      URL = /?listName=savedForLater&perPage=5
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"listName":"savedForLater","perPage":"5"}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 12:19 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 12:20 PM
+    
+    ----------------------------
+      URL = /?listName=savedForLater&perPage=5
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"listName":"savedForLater","perPage":"5"}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 12:20 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 01:24 PM
+    
+    ----------------------------
+      URL = /?listName=savedForLater&perPage=5
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"listName":"savedForLater","perPage":"5"}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 01:24 PM
+    
+    ----------------------------
+      URL = /add-product
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"65857fd0b9c640ae33ecb571","productType":"main","quantity":1}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/customerAuth.js:29:7)
+      Message = Request Failed!
+      Time = 06:01 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":"658a6d26823e2a24f46a721e"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MDMwNTcwY2JhYWIwMDczMzdkZjNlOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ0NjM3MjUsImV4cCI6MTczNjAyMTMyNSwiaXNzIjoibm9vbm1hciJ9.o-FO-6obksIMDMfJWQLmLwDuTPUZunfzliK-PtkT2uc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MDMwNTcwY2JhYWIwMDczMzdkZjNlOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ0NjM3MjUsImV4cCI6MTczNjAyMTMyNSwiaXNzIjoibm9vbm1hciJ9.o-FO-6obksIMDMfJWQLmLwDuTPUZunfzliK-PtkT2uc
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:256:9)
+      Message = Invalid shipping address
+      Time = 07:39 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":"658a6d26823e2a24f46a721e"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MDMwNTcwY2JhYWIwMDczMzdkZjNlOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ0NjM3MjUsImV4cCI6MTczNjAyMTMyNSwiaXNzIjoibm9vbm1hciJ9.o-FO-6obksIMDMfJWQLmLwDuTPUZunfzliK-PtkT2uc
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MDMwNTcwY2JhYWIwMDczMzdkZjNlOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ0NjM3MjUsImV4cCI6MTczNjAyMTMyNSwiaXNzIjoibm9vbm1hciJ9.o-FO-6obksIMDMfJWQLmLwDuTPUZunfzliK-PtkT2uc
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:256:9)
+      Message = Invalid shipping address
+      Time = 07:39 PM
+    

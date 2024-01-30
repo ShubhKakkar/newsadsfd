@@ -1,0 +1,295 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"admin@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:78:7)
+      Message = Your email is not registered with noonmar.
+      Time = 07:11 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"neha@mailinator.com","firstName":"Neha","lastName":"Gupta"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:39:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 07:55 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"nehagupta@mailinator.com","firstName":"neha","lastName":"gupta"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:39:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 07:56 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"nehagupta12@mailinator.com","firstName":"neha","lastName":"gupta"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:39:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 07:57 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"nehagupta@mailinator.com","firstName":"Neha","lastName":"Gupta","role":"Customer"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:39:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 07:58 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"neha@mailinator.com","firstName":"Neha","lastName":"Gupta","role":"Customer"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:39:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 08:52 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"neha@mailinator.com","firstName":"Neha","lastName":"Gupta","role":"Customer"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:77:9)
+      Message = Could not create user.
+      Time = 08:54 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"neha@mailinator.com","firstName":"Neha","lastName":"Gupta","role":"Customer"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:77:9)
+      Message = Could not create user.
+      Time = 08:58 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"neha@mailinator.com","firstName":"Neha","lastName":"Gupta","role":"Customer"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:77:9)
+      Message = Could not create user.
+      Time = 09:00 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"neha@mailinator.com","firstName":"Neha","lastName":"Gupta","role":"Customer"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:79:9)
+      Message = Could not create user.
+      Time = 09:04 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"neha@mailinator.com","firstName":"Neha","lastName":"Gupta","role":"customer"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:68:9)
+      Message = email already exists.
+      Time = 09:40 AM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"id":"63984b6a5076124ee836c1dd"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:515:7)
+      Message = Could not delete user.
+      Time = 09:52 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"nehavendor@mailinator.com","businessName":"Business Test","role":"vendor"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:39:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 10:26 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"email":"nehavendor@mailinator.com","businessName":"Business Test","role":"vendor"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:40:7)
+      Message = Validation failed, entered data is incorrect
+      Time = 10:28 AM
+    
+    ----------------------------
+      URL = /639857b5d5727875b9907a4c
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"639857b5d5727875b9907a4c"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:429:7)
+      Message = Could not fetch user's data
+      Time = 10:56 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"First Name"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/registration-fields.js:36:9)
+      Message = name already exists.
+      Time = 12:15 PM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"name":"First Name"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/registration-fields.js:36:9)
+      Message = name field already exists.
+      Time = 12:17 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"id":"63987256b410e7fb12f23894"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:513:7)
+      Message = Could not delete user.
+      Time = 12:46 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"id":"63987256b410e7fb12f23894"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:513:7)
+      Message = Could not delete user.
+      Time = 12:47 PM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"id":"63987256b410e7fb12f23894"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/user.js:513:7)
+      Message = Could not delete user.
+      Time = 12:48 PM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"name":"First Name","id":"639875cc9d56c37b141695e8"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3MDkxNTg1M30.935_LXQWu0y9BEezAy0jszjqEBcYEtxysZABDbRAj-I
+      AT = exports.update (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/registration-fields.js:215:9)
+      Message = name already exists.
+      Time = 01:13 PM
+    

@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"name":"sana","id":"651548c0afd01d6a00d4412c","data":[{"languageCode":"en","name":"sana","id":"651548c0afd01d6a00d4412d","slug":"sana"},{"languageCode":"ar","name":"صنعاء","id":"651548c0afd01d6a00d4412e","slug":"صنعاء"},{"languageCode":"tr","name":"sana","id":"651548c0afd01d6a00d4412f","slug":"sana"}]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNTIxMjExMCwiZXhwIjoxNzM2NzY5NzEwLCJpc3MiOiJub29ubWFyIn0.NzlemBbgPln-4wifYee7uMo_MyIjz4LKEoC-gLculiE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNTIxMjExMCwiZXhwIjoxNzM2NzY5NzEwLCJpc3MiOiJub29ubWFyIn0.NzlemBbgPln-4wifYee7uMo_MyIjz4LKEoC-gLculiE
+      AT = exports.update (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/brand.js:330:9)
+      Message = Already Exist Slug: sana
+      Time = 11:33 AM
+    

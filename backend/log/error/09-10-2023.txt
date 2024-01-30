@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"6523f90cc4bfaeadc751e844\",\"name\":\"Men's Necklaces\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"Men's Necklaces\",\"slug\":\"men's-necklaces\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"قلائد رجالية\",\"slug\":\"قلائد-رجالية\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"قلائد رجالية\",\"slug\":\"قلائد-رجالية\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5Njg1NjkyNSwiZXhwIjoxNzI4NDE0NTI1LCJpc3MiOiJub29ubWFyIn0.d-hWCWgvXBT6hq4LxhmYWc12baTOuYqj4GyEB4dbNdQ
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY5Njg1NjkyNSwiZXhwIjoxNzI4NDE0NTI1LCJpc3MiOiJub29ubWFyIn0.d-hWCWgvXBT6hq4LxhmYWc12baTOuYqj4GyEB4dbNdQ
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:40:9)
+      Message = Already Exist Name: قلائد رجالية
+      Time = 06:39 PM
+    

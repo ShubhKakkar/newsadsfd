@@ -1,0 +1,71 @@
+
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQwZjUyZGYzODhiYTdiODRmMGJiYTAiLCJlbWFpbCI6IkFhcm9uY2hpQGdtYWlsLmNvbSIsImZ1bGxOYW1lIjoiQWFyb24gIGNoaSIsImZpcnN0TmFtZSI6IkFhcm9uICIsImF2YXRhciI6bnVsbCwic3RhdHVzIjoiYWN0aXZlIiwicGhvbmUiOiI5ODc2NTQzMjExIiwiaWF0IjoxNjk4OTAxNjk3LCJleHAiOjE2OTk1MDY0OTd9.DZ9U9jw-LBTrApQle740-e2nXY-oy1h3r5uvjF9HFj8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:39:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 02:29 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQwZjUyZGYzODhiYTdiODRmMGJiYTAiLCJlbWFpbCI6IkFhcm9uY2hpQGdtYWlsLmNvbSIsImZ1bGxOYW1lIjoiQWFyb24gIGNoaSIsImZpcnN0TmFtZSI6IkFhcm9uICIsImF2YXRhciI6bnVsbCwic3RhdHVzIjoiYWN0aXZlIiwicGhvbmUiOiI5ODc2NTQzMjExIiwiaWF0IjoxNjk4OTAxNjk3LCJleHAiOjE2OTk1MDY0OTd9.DZ9U9jw-LBTrApQle740-e2nXY-oy1h3r5uvjF9HFj8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:39:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 02:30 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQwZjUyZGYzODhiYTdiODRmMGJiYTAiLCJlbWFpbCI6IkFhcm9uY2hpQGdtYWlsLmNvbSIsImZ1bGxOYW1lIjoiQWFyb24gIGNoaSIsImZpcnN0TmFtZSI6IkFhcm9uICIsImF2YXRhciI6bnVsbCwic3RhdHVzIjoiYWN0aXZlIiwicGhvbmUiOiI5ODc2NTQzMjExIiwiaWF0IjoxNjk4OTAxNjk3LCJleHAiOjE2OTk1MDY0OTd9.DZ9U9jw-LBTrApQle740-e2nXY-oy1h3r5uvjF9HFj8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:39:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 02:31 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQwZjUyZGYzODhiYTdiODRmMGJiYTAiLCJlbWFpbCI6IkFhcm9uY2hpQGdtYWlsLmNvbSIsImZ1bGxOYW1lIjoiQWFyb24gIGNoaSIsImZpcnN0TmFtZSI6IkFhcm9uICIsImF2YXRhciI6bnVsbCwic3RhdHVzIjoiYWN0aXZlIiwicGhvbmUiOiI5ODc2NTQzMjExIiwiaWF0IjoxNjk4OTAxNjk3LCJleHAiOjE2OTk1MDY0OTd9.DZ9U9jw-LBTrApQle740-e2nXY-oy1h3r5uvjF9HFj8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:39:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 02:31 PM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTQwZjUyZGYzODhiYTdiODRmMGJiYTAiLCJlbWFpbCI6IkFhcm9uY2hpQGdtYWlsLmNvbSIsImZ1bGxOYW1lIjoiQWFyb24gIGNoaSIsImZpcnN0TmFtZSI6IkFhcm9uICIsImF2YXRhciI6bnVsbCwic3RhdHVzIjoiYWN0aXZlIiwicGhvbmUiOiI5ODc2NTQzMjExIiwiaWF0IjoxNjk4OTAxNjk3LCJleHAiOjE2OTk1MDY0OTd9.DZ9U9jw-LBTrApQle740-e2nXY-oy1h3r5uvjF9HFj8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/user.js:39:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 02:32 PM
+    

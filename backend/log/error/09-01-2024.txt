@@ -1,0 +1,365 @@
+
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bbcf8373fd82e66fd25de","type":"home","name":"Test Changes","contact":"9856856984","countryCode":"6515261601fd174be7c6da5d","houseNo":"jsss","street":"Jaipur, Rajasthan, India","landmark":"jaipur","pinCode":"302001","city":"Jaipur Division","state":"Rajasthan","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":true,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T09:14:32.585Z","updatedAt":"2024-01-08T09:14:32.585Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bca51373fd82e66fd281a","type":"home","name":"sohan","contact":"3652656565","countryCode":"6515261801fd174be7c6daba","houseNo":"sdasd","street":"Jaipur, Rajasthan, India","landmark":"323","pinCode":"302000","city":"Jaipur Division","state":"Rajasthan","countryId":"6515262101fd174be7c7017a","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:11:29.824Z","updatedAt":"2024-01-08T10:44:19.637Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bca51373fd82e66fd281a","type":"home","name":"sohan","contact":"3652656565","countryCode":"6515261801fd174be7c6daba","houseNo":"sdasd","street":"Jaipur, Rajasthan, India","landmark":"323","pinCode":"302000","city":"Jaipur Division","state":"Rajasthan","countryId":"6515262101fd174be7c7017a","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:11:29.824Z","updatedAt":"2024-01-08T10:44:19.637Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 12:54 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 12:59 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 12:59 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bbcf8373fd82e66fd25de","type":"home","name":"Test Changes","contact":"9856856984","countryCode":"6515261601fd174be7c6da5d","houseNo":"jsss","street":"Jaipur, Rajasthan, India","landmark":"jaipur","pinCode":"302001","city":"Jaipur Division","state":"Rajasthan","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":true,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T09:14:32.585Z","updatedAt":"2024-01-08T09:14:32.585Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 12:59 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bca51373fd82e66fd281a","type":"home","name":"sohan","contact":"3652656565","countryCode":"6515261801fd174be7c6daba","houseNo":"sdasd","street":"Jaipur, Rajasthan, India","landmark":"323","pinCode":"302000","city":"Jaipur Division","state":"Rajasthan","countryId":"6515262101fd174be7c7017a","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:11:29.824Z","updatedAt":"2024-01-08T10:44:19.637Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:59 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bca51373fd82e66fd281a","type":"home","name":"sohan","contact":"3652656565","countryCode":"6515261801fd174be7c6daba","houseNo":"sdasd","street":"Jaipur, Rajasthan, India","landmark":"323","pinCode":"302000","city":"Jaipur Division","state":"Rajasthan","countryId":"6515262101fd174be7c7017a","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:11:29.824Z","updatedAt":"2024-01-08T10:44:19.637Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:59 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bc9eb373fd82e66fd27d8","type":"home","name":"dasd","contact":"325698565659","countryCode":"6515264e01fd174be7c7684d","houseNo":"sadas","street":"Delhi, India","landmark":"asdas","pinCode":"302002","city":"Delhi Division","state":"Delhi","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[77.10249019999999,28.7040592]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:09:47.809Z","updatedAt":"2024-01-08T10:09:47.809Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:59 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bbcf8373fd82e66fd25de","type":"home","name":"Test Changes","contact":"9856856984","countryCode":"6515261601fd174be7c6da5d","houseNo":"jsss","street":"Jaipur, Rajasthan, India","landmark":"jaipur","pinCode":"302001","city":"Jaipur Division","state":"Rajasthan","countryId":"6515264e01fd174be7c7684d","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":true,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T09:14:32.585Z","updatedAt":"2024-01-08T09:14:32.585Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 12:59 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bca51373fd82e66fd281a","type":"home","name":"sohan","contact":"3652656565","countryCode":"6515261801fd174be7c6daba","houseNo":"sdasd","street":"Jaipur, Rajasthan, India","landmark":"323","pinCode":"302000","city":"Jaipur Division","state":"Rajasthan","countryId":"6515262101fd174be7c7017a","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:11:29.824Z","updatedAt":"2024-01-08T10:44:19.637Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 01:05 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bca51373fd82e66fd281a","type":"home","name":"sohan","contact":"3652656565","countryCode":"6515261801fd174be7c6daba","houseNo":"sdasd","street":"Jaipur, Rajasthan, India","landmark":"323","pinCode":"302000","city":"Jaipur Division","state":"Rajasthan","countryId":"6515262101fd174be7c7017a","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:11:29.824Z","updatedAt":"2024-01-08T10:44:19.637Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 01:05 PM
+    
+    ----------------------------
+      URL = /tax
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"billingAddressId":{"_id":"659bca51373fd82e66fd281a","type":"home","name":"sohan","contact":"3652656565","countryCode":"6515261801fd174be7c6daba","houseNo":"sdasd","street":"Jaipur, Rajasthan, India","landmark":"323","pinCode":"302000","city":"Jaipur Division","state":"Rajasthan","countryId":"6515262101fd174be7c7017a","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:11:29.824Z","updatedAt":"2024-01-08T10:44:19.637Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getTaxData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:65:7)
+      Message = Something went wrong.
+      Time = 01:06 PM
+    
+    ----------------------------
+      URL = /custom-fees
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"shippingAddressId":{"_id":"659bca51373fd82e66fd281a","type":"home","name":"sohan","contact":"3652656565","countryCode":"6515261801fd174be7c6daba","houseNo":"sdasd","street":"Jaipur, Rajasthan, India","landmark":"323","pinCode":"302000","city":"Jaipur Division","state":"Rajasthan","countryId":"6515262101fd174be7c7017a","location":{"type":"Point","coordinates":[75.7872709,26.9124336]},"defaultAddress":false,"customerId":"658e6e02558a6e3aadad2a0c","createdAt":"2024-01-08T10:11:29.824Z","updatedAt":"2024-01-08T10:44:19.637Z","__v":0}}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTkxNzAsImV4cCI6MTczNjI3Njc3MCwiaXNzIjoibm9vbm1hciJ9.R6F8KZCkM-o7axshfo_xRZBNOj21m1nfq9yNEBXuVsE
+      AT = exports.getCustomData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/checkout.js:278:7)
+      Message = Something went wrong.
+      Time = 01:06 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MDMwMThmY2JhYWIwMDczMzdkZjFlYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzA0NzAwNDc1LCJleHAiOjE3MzYyNTgwNzUsImlzcyI6Im5vb25tYXIifQ.3E06gw4OnXdZTghUfW376QMSDNA4OaFqI-eylM1iEPE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 03:33 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MDMwMThmY2JhYWIwMDczMzdkZjFlYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzA0NzAwNDc1LCJleHAiOjE3MzYyNTgwNzUsImlzcyI6Im5vb25tYXIifQ.3E06gw4OnXdZTghUfW376QMSDNA4OaFqI-eylM1iEPE
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 03:33 PM
+    
+    ----------------------------
+      URL = /reels
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJkODhjOGMxZjg5ZDJmYzBkZWZkMyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNzAzODI1MzEyLCJleHAiOjE3MzUzODI5MTIsImlzcyI6Im5vb25tYXIifQ.YkT6kq-MZ8XIUNYS64jpQ97EsPDxnYmBdPNxxfftjME
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:68:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 03:42 PM
+    
+    ----------------------------
+      URL = /payment-status
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"orderId":"659d4837373fd82e66fd549e"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTA2MzEsImV4cCI6MTczNjI2ODIzMSwiaXNzIjoibm9vbm1hciJ9.nSK6bavXfI5oV1uhIy2EX4jlz00pSeYDsigdoBjDyz4
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQ3MTA2MzEsImV4cCI6MTczNjI2ODIzMSwiaXNzIjoibm9vbm1hciJ9.nSK6bavXfI5oV1uhIy2EX4jlz00pSeYDsigdoBjDyz4
+      AT = exports.paymentStatus (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/order.js:2626:7)
+      Message = Could not confirm payment. Please try again.
+      Time = 06:51 PM
+    

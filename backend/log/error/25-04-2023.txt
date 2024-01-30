@@ -1,0 +1,869 @@
+
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyZDA3MmQ5NDdmNmE2MWE5NTE5MyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgyMzM0MjA1fQ.VxdAub4p9nqiVoaA-FBz64orZRkKX2kQIsRPNCQWKhs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:07 AM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:27 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODIzMTkwMzJ9.GPrtPI9CCqtFyr8zhjbdeFEkQfqzh680vxLCon6mcD8
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:27 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDc3YTA2N2M2ZmVlZWE5ODE0YmI5OSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDYwMTZ9.cV5bGhHhlBYwc7ggHZT_U7lfXAwLJD3Xh-eyoqhUFfw
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:30 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDc3YTA2N2M2ZmVlZWE5ODE0YmI5OSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDYwMTZ9.cV5bGhHhlBYwc7ggHZT_U7lfXAwLJD3Xh-eyoqhUFfw
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 12:31 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"cc@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:233:11)
+      Message = Your password is incorrect
+      Time = 12:31 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"cc@yopmail.com","password":"System@12345"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:233:11)
+      Message = Your password is incorrect
+      Time = 12:31 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":" monubusiness12345@yopmail.com","password":"System@12345"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:233:11)
+      Message = Your password is incorrect
+      Time = 12:32 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDc3YTA2N2M2ZmVlZWE5ODE0YmI5OSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDYwMTZ9.cV5bGhHhlBYwc7ggHZT_U7lfXAwLJD3Xh-eyoqhUFfw
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 01:05 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"test1111@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 01:21 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"test1111@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 01:21 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDc3YTA2N2M2ZmVlZWE5ODE0YmI5OSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDYwMTZ9.cV5bGhHhlBYwc7ggHZT_U7lfXAwLJD3Xh-eyoqhUFfw
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 02:50 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text111@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 02:50 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 02:50 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 02:51 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"okmeok@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:223:9)
+      Message = Vendor not found
+      Time = 04:06 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"okmeok@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:223:9)
+      Message = Vendor not found
+      Time = 04:07 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"okmeok@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:223:9)
+      Message = Vendor not found
+      Time = 04:09 PM
+    
+    ----------------------------
+      URL = /update-password
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {"oldPassword":"Hhhhh","newPassword":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:1345:7)
+      Message = Your old password is worong.
+      Time = 04:26 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 04:37 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956988","password":"System@123","country":"641db1d4940529083406dfb6"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2124:7)
+      Message = You have entered incorrect password.
+      Time = 04:41 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956988","password":"System@1234","country":"641db1d4940529083406dfb6"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 04:41 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956988","password":"System@1234","country":"641db1d4940529083406dfb6"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 04:41 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"5553525222","country":"","password":"Ggg"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2124:7)
+      Message = You have entered incorrect password.
+      Time = 05:02 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 05:05 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956981","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 05:15 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956981","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 05:15 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956981","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 05:16 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956981","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956981","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956981","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 05:17 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956981","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 05:18 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956981","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 05:19 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9658956981","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 05:19 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"98569859985","password":"System@123","country":"641daa9904c72dd412f7936e"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2124:7)
+      Message = You have entered incorrect password.
+      Time = 05:20 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"98569859985","password":"System@123","country":"641daa9904c72dd412f7936e"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2124:7)
+      Message = You have entered incorrect password.
+      Time = 05:21 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985998","country":"","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2124:7)
+      Message = You have entered incorrect password.
+      Time = 05:42 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985998","country":"","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2192:7)
+      Message = Something went wrong.
+      Time = 05:42 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985922","country":"","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2192:7)
+      Message = Something went wrong.
+      Time = 05:43 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856925255","country":"","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2192:7)
+      Message = Something went wrong.
+      Time = 05:45 PM
+    
+    ----------------------------
+      URL = /resend-change-phone-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.resendChangePhoneOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2277:7)
+      Message = Please request otp after 109 seconds
+      Time = 05:54 PM
+    
+    ----------------------------
+      URL = /resend-change-phone-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.resendChangePhoneOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2277:7)
+      Message = Please request otp after 38 seconds
+      Time = 05:55 PM
+    
+    ----------------------------
+      URL = /resend-change-phone-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.resendChangePhoneOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2277:7)
+      Message = Please request otp after 18 seconds
+      Time = 05:56 PM
+    
+    ----------------------------
+      URL = /resend-change-phone-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.resendChangePhoneOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2277:7)
+      Message = Please request otp after 16 seconds
+      Time = 05:56 PM
+    
+    ----------------------------
+      URL = /resend-change-phone-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.resendChangePhoneOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2277:7)
+      Message = Please request otp after 83 seconds
+      Time = 06:00 PM
+    
+    ----------------------------
+      URL = /resend-change-phone-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.resendChangePhoneOtp (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2277:7)
+      Message = Please request otp after 46 seconds
+      Time = 06:01 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985991","country":"","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2192:7)
+      Message = Something went wrong.
+      Time = 06:08 PM
+    
+    ----------------------------
+      URL = /verify-change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"otp":"1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.verifyChangePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2346:7)
+      Message = You have to request change emcontactail first.
+      Time = 06:08 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"98569859989","password":"System@1233","country":"641daa9904c72dd412f7936e"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2124:7)
+      Message = You have entered incorrect password.
+      Time = 06:09 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985932","country":"641daa9904c72dd412f7936e","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2124:7)
+      Message = You have entered incorrect password.
+      Time = 06:30 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985932","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2124:7)
+      Message = You have entered incorrect password.
+      Time = 06:50 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985932","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 06:50 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985931","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2183:9)
+      Message = Please select country code.
+      Time = 06:50 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9356985931","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2183:9)
+      Message = Please select country code.
+      Time = 06:51 PM
+    
+    ----------------------------
+      URL = /change-phone
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"contact":"9856985931","country":"641daa9904c72dd412f7936e","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MDkwNzF9.7ULDbEg9p_P4amyPIFV58urAol2hWJvYbjx7mcQbIp0
+      AT = exports.changePhone (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:2144:7)
+      Message = Please provide new contact.
+      Time = 06:53 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 07:18 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:05 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:05 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:05 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:05 PM
+    
+    ----------------------------
+      URL = /newsletter
+      Method = PUT
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDYyMmQwMmQ5NDdmNmE2MWE5NTBiMSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODI0MTQ0NDZ9.--DNEl1qa0hrNzFE2DdKP848FhQwyNT1OksnWRJ-bIs
+      Token = undefined
+      AT = exports.verifyNewsletterSubscription (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/home.js:92:7)
+      Message = Invalid data sent.
+      Time = 10:05 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"owebest01@gmail.com","password":"H2uk@j70h9$8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:40:9)
+      Message = Customer not found
+      Time = 10:07 PM
+    

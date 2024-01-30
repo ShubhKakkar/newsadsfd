@@ -1,0 +1,211 @@
+
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:06 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:06 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:06 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:06 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 12:06 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"toUser":[{"value":"all","label":"Select All"}],"subject":"Drrrcdf","email_template_body":"Fffff"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk2ODk5MSwiZXhwIjoxNjg5OTcyNTkxLCJpc3MiOiJub29ubWFyIn0.j0SwCX-pr_oTcpW5Syo10JrXoZEKHdv7WOnSwE1F1j8
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk2ODk5MSwiZXhwIjoxNjg5OTcyNTkxLCJpc3MiOiJub29ubWFyIn0.j0SwCX-pr_oTcpW5Syo10JrXoZEKHdv7WOnSwE1F1j8
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/notificationLog.js:25:7)
+      Message = Something went wrong.
+      Time = 01:19 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"name":"Hfyvyhvhvy","currency":"64a420ff0b4581bf76883016","customType":"Percentage","customAmount":"Sfghi"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk3MjI2NiwiZXhwIjoxNjg5OTc1ODY2LCJpc3MiOiJub29ubWFyIn0.I2yKJhNSs3RBA5gQOAEWvXKcthanhaCAzqI2p2Pn-uE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk3MjI2NiwiZXhwIjoxNjg5OTc1ODY2LCJpc3MiOiJub29ubWFyIn0.I2yKJhNSs3RBA5gQOAEWvXKcthanhaCAzqI2p2Pn-uE
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/country.js:58:9)
+      Message = Could not create country.
+      Time = 02:15 AM
+    
+    ----------------------------
+      URL = /create
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"name":"Hfyvyhvhvy","currency":"64a420ff0b4581bf76883016","customType":"Fixed","customAmount":"Sfghi"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk3MjI2NiwiZXhwIjoxNjg5OTc1ODY2LCJpc3MiOiJub29ubWFyIn0.I2yKJhNSs3RBA5gQOAEWvXKcthanhaCAzqI2p2Pn-uE
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk3MjI2NiwiZXhwIjoxNjg5OTc1ODY2LCJpc3MiOiJub29ubWFyIn0.I2yKJhNSs3RBA5gQOAEWvXKcthanhaCAzqI2p2Pn-uE
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/country.js:58:9)
+      Message = Could not create country.
+      Time = 02:16 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&country=&name=&dateFrom=1970-01-01&dateTo=2023-07-22
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","country":"","name":"","dateFrom":"1970-01-01","dateTo":"2023-07-22"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk3MjY5NSwiZXhwIjoxNjg5OTc2Mjk1LCJpc3MiOiJub29ubWFyIn0.2WBtN2WYYx6yWs7-45eRphn3cyZMy_6ljzbzOJsCt20
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk3MjY5NSwiZXhwIjoxNjg5OTc2Mjk1LCJpc3MiOiJub29ubWFyIn0.2WBtN2WYYx6yWs7-45eRphn3cyZMy_6ljzbzOJsCt20
+      AT = exports.getAll (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/tax.js:152:7)
+      Message = Could not fetch taxes.
+      Time = 02:21 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&country=&name=&dateFrom=1970-01-01&dateTo=2023-07-22
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","country":"","name":"","dateFrom":"1970-01-01","dateTo":"2023-07-22"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk3MjcyNSwiZXhwIjoxNjg5OTc2MzI1LCJpc3MiOiJub29ubWFyIn0.epWNAzu1k0he7fqKGcj0H2--AqwbYruIMSC4ladlP0Y
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4OTk3MjcyNSwiZXhwIjoxNjg5OTc2MzI1LCJpc3MiOiJub29ubWFyIn0.epWNAzu1k0he7fqKGcj0H2--AqwbYruIMSC4ladlP0Y
+      AT = exports.getAll (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/tax.js:152:7)
+      Message = Could not fetch taxes.
+      Time = 02:22 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 07:08 PM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 07:08 PM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 07:08 PM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 07:08 PM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 07:08 PM
+    

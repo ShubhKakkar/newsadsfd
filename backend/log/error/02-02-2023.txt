@@ -1,0 +1,113 @@
+
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"product one","price":"20000","description":"product description","quantity":"2","country":["63a5813b202586c94cefbc84","63a5814e202586c94cefbc8a"],"category":"63c8df65013a5e76306dddf4","vendor":"63b28615fb884b432c173751","warehouse":"63d7684f9285c74f1cb0b3f3"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:14:9)
+      Message = Could not create product.
+      Time = 09:06 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"product one","price":"20000","description":"test","quantity":"2","country":["63a5814e202586c94cefbc8a","63a58155202586c94cefbc90","63a58161202586c94cefbc96"],"category":"63d380f58f10cc0e2014ebd8","vendor":"63b28615fb884b432c173751","warehouse":"63d7684f9285c74f1cb0b3f3"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:14:9)
+      Message = Could not create product.
+      Time = 09:08 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"product one","price":"20000","description":"test","quantity":"2","country":["63a5814e202586c94cefbc8a","63a58155202586c94cefbc90","63a58161202586c94cefbc96"],"category":"63d380f58f10cc0e2014ebd8","vendor":"63b28615fb884b432c173751","warehouse":"63d7684f9285c74f1cb0b3f3"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:14:9)
+      Message = Could not create product.
+      Time = 09:08 AM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=registered%20on&order=desc&isActive=&name=&vendor=&country=&dateFrom=1970-01-01&dateTo=2023-02-03&role=customer
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"registered on","order":"desc","isActive":"","name":"","vendor":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-02-03","role":"customer"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      AT = exports.getAll (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:101:7)
+      Message = Could not fetch products.
+      Time = 09:12 AM
+    
+    ----------------------------
+      URL = /
+      Method = DELETE
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"id":"63db7e0d6218f30cc7342fdd"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      AT = exports.delete (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/warehouses.js:302:9)
+      Message = Could not delete warehouse.
+      Time = 09:24 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"product one","price":"20000","description":"description","quantity":"2","metaData":"test data","country":["63a5813b202586c94cefbc84","63a5814e202586c94cefbc8a"],"category":"63c911c48975c71bd1f0fe06","vendor":"63b28615fb884b432c173751","warehouse":"63d7684f9285c74f1cb0b3f3"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:14:9)
+      Message = Could not create product.
+      Time = 09:25 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"title":"product one","price":"20000","description":"description","quantity":"2","metaData":"test data","country":["63a5813b202586c94cefbc84","63a5814e202586c94cefbc8a"],"category":"63c911c48975c71bd1f0fe06","vendor":"63b28615fb884b432c173751","warehouse":"63d7684f9285c74f1cb0b3f3"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/products.js:14:9)
+      Message = Could not create product.
+      Time = 09:27 AM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = undefined
+      Body = {"tax":"78","productCategoryId":["63d380f58f10cc0e2014ebd8"],"countryId":"63a58161202586c94cefbc96"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NTIzMDQ4OH0.MFBnH7G6uh6DuY4HHmDvrJ4hlLhoInw685p1VSGA8MA
+      AT = exports.create (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin/taxes.js:26:9)
+      Message = Tax is already added to this country.
+      Time = 11:55 AM
+    

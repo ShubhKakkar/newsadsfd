@@ -1,0 +1,1527 @@
+
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"test business","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"8765432189","businessEmail":"nehavendor@mailinator.com","warehouseDetail":"[{\"name\":\"wqewqe\",\"address\":\"Texas, USA\",\"geoLocation\":\"{\\\"coordinates\\\":[-99.9018131,31.9685988],\\\"type\\\":\\\"Point\\\"}\",\"country\":\"63a5814e202586c94cefbc8a\"}]","productCategories":"[\"63d380f58f10cc0e2014ebd8\"]","serveCountries":"[\"63a58155202586c94cefbc90\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"Neha","lastName":"Gupta","contact":"8745987456","email":"nehavendorthree@mailinator.com","address":"Testour, Tunisia","location":"{\"coordinates\":[9.4422664,36.5499],\"type\":\"Point\"}","country":"63a58155202586c94cefbc90","dob":"2023-04-04","password":"System@123","countryCode":"+213","ibaNumber":"1232131"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:121:9)
+      Message = businessEmail already exists.
+      Time = 05:34 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"test business","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"8765432189","businessEmail":"nehavendor@mailinator.com","warehouseDetail":"[{\"name\":\"wqewqe\",\"address\":\"Texas, USA\",\"geoLocation\":\"{\\\"coordinates\\\":[-99.9018131,31.9685988],\\\"type\\\":\\\"Point\\\"}\",\"country\":\"63a5814e202586c94cefbc8a\"}]","productCategories":"[\"63d380f58f10cc0e2014ebd8\"]","serveCountries":"[\"63a58155202586c94cefbc90\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"Neha","lastName":"Gupta","contact":"8745987456","email":"nehavendorthree@mailinator.com","address":"Testour, Tunisia","location":"{\"coordinates\":[9.4422664,36.5499],\"type\":\"Point\"}","country":"63a58155202586c94cefbc90","dob":"2023-04-04","password":"System@123","countryCode":"+213","ibaNumber":"1232131"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:121:9)
+      Message = businessEmail already exists.
+      Time = 05:35 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"test business","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"8765432189","businessEmail":"nehavendorthree@mailinator.com","warehouseDetail":"[{\"name\":\"wqewqe\",\"address\":\"Texas, USA\",\"geoLocation\":\"{\\\"coordinates\\\":[-99.9018131,31.9685988],\\\"type\\\":\\\"Point\\\"}\",\"country\":\"63a5814e202586c94cefbc8a\"}]","productCategories":"[\"63d380f58f10cc0e2014ebd8\"]","serveCountries":"[\"63a58155202586c94cefbc90\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"Neha","lastName":"Gupta","contact":"8745987456","email":"nehavendorthree@mailinator.com","address":"Testour, Tunisia","location":"{\"coordinates\":[9.4422664,36.5499],\"type\":\"Point\"}","country":"63a58155202586c94cefbc90","dob":"2023-04-04","password":"System@123","countryCode":"+213","ibaNumber":"1232131"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:121:9)
+      Message = businessContact already exists.
+      Time = 05:35 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"businessName":"test business","businessCountry":"63a5814e202586c94cefbc8a","businessContact":"8765432180","businessEmail":"nehavendorthree@mailinator.com","warehouseDetail":"[{\"name\":\"wqewqe\",\"address\":\"Texas, USA\",\"geoLocation\":\"{\\\"coordinates\\\":[-99.9018131,31.9685988],\\\"type\\\":\\\"Point\\\"}\",\"country\":\"63a5814e202586c94cefbc8a\"}]","productCategories":"[\"63d380f58f10cc0e2014ebd8\"]","serveCountries":"[\"63a58155202586c94cefbc90\"]","currency":"641ad83ef4c38c36ee4c4681","language":"English","storefrontSubscription":"true","firstName":"Neha","lastName":"Gupta","contact":"8745987456","email":"nehavendorthree@mailinator.com","address":"Testour, Tunisia","location":"{\"coordinates\":[9.4422664,36.5499],\"type\":\"Point\"}","country":"63a58155202586c94cefbc90","dob":"2023-04-04","password":"System@123","countryCode":"+213","ibaNumber":"1232131"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:121:9)
+      Message = contact already exists.
+      Time = 05:35 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"hirym@mailinator.com","password":"Hello@123","firstName":"Valentine","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"Nieves","zipCode":"64523","dob":"2019-11-09","contact":"7945454544"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:289:9)
+      Message = Signing up failed #b
+      Time = 05:47 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"hirym@mailinator.com","password":"Hello@123","firstName":"Valentine","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"Nieves","zipCode":"64523","dob":"2019-11-09","contact":"7945454544"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:289:9)
+      Message = Signing up failed #b
+      Time = 05:47 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"hirym@mailinator.com","password":"Hello@123","firstName":"Valentine","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"Nieves","zipCode":"64523","dob":"2019-11-09","contact":"7945454544"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:289:9)
+      Message = Signing up failed #b
+      Time = 05:47 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"hirym@mailinator.com","password":"Hello@123","firstName":"Valentine","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"Nieves","zipCode":"64523","dob":"2019-11-09","contact":"7945454544"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:289:9)
+      Message = Signing up failed #b
+      Time = 05:47 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"hirym@mailinator.com","password":"Hello@123","firstName":"Valentine","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"Nieves","zipCode":"64523","dob":"2019-11-09","contact":"7945454544"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:289:9)
+      Message = Signing up failed #b
+      Time = 05:47 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"voji@mailinator.com","password":"Hello@123","firstName":"Alden","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"Mills","zipCode":"25396","dob":"1971-10-13","contact":"8231141414"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:289:9)
+      Message = Signing up failed #b
+      Time = 05:58 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"gotyd@mailinator.com","password":"Pa$$w0rd!","firstName":"Imogene","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"George","zipCode":"67136","dob":"1995-01-15","contact":"2212345678"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:289:9)
+      Message = Signing up failed #b
+      Time = 06:02 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"gotyd@mailinator.com","password":"Pa$$w0rd!","firstName":"Imogene","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"George","zipCode":"67136","dob":"1995-01-15","contact":"2212345678"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:289:9)
+      Message = Signing up failed #b
+      Time = 06:02 AM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"waso@mailinator.com","password":"Pa$$w0rd!","firstName":"Zeus","country":[{"_id":"63a5813b202586c94cefbc84","name":"Afghanistan"},{"_id":"63a5814e202586c94cefbc8a","name":"Albania"},{"_id":"63a58155202586c94cefbc90","name":"Algeria"},{"_id":"63c5238ec9cc346964520bce","name":"Denmark"},{"_id":"63a58161202586c94cefbc96","name":"India"}],"lastName":"Brennan","zipCode":"10045","dob":"1972-03-14","contact":"9112121212"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:289:9)
+      Message = Signing up failed #b
+      Time = 06:05 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:35:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 06:10 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:89:7)
+      Message = Something went wrong
+      Time = 06:12 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:13 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:13 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:14 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:14 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:15 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:17 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:20 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:20 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:23 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MTU0MTl9.5p4LwfKSHnHgn_YXc-Wfm9E_xsOtVPCs13xosgxUklI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 06:23 AM
+    
+    ----------------------------
+      URL = /resend-verfication
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendVerfication (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:842:7)
+      Message = Your email is already verified.
+      Time = 06:53 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84","otp":"7961"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:773:7)
+      Message = Your email is already verified.
+      Time = 06:58 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"testusertwo@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:414:7)
+      Message = Your profile is not approved yet by the admin.
+      Time = 07:08 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"testusertwo@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:414:7)
+      Message = Your profile is not approved yet by the admin.
+      Time = 07:09 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84","otp":"s222"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:528:7)
+      Message = Your OTP is incorrect.
+      Time = 07:09 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84","otp":"1222"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:528:7)
+      Message = Your OTP is incorrect.
+      Time = 07:09 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:616:7)
+      Message = Please request otp after 173 seconds
+      Time = 07:12 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"tesusertwo@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:366:9)
+      Message = Vendor not found
+      Time = 07:16 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84","otp":"5885"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:528:7)
+      Message = Your OTP is incorrect.
+      Time = 07:16 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:616:7)
+      Message = Please request otp after 117 seconds
+      Time = 07:17 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84","otp":"5885"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:528:7)
+      Message = Your OTP is incorrect.
+      Time = 07:17 AM
+    
+    ----------------------------
+      URL = /resend-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.resendOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:616:7)
+      Message = Please request otp after 110 seconds
+      Time = 07:17 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84","otp":"5885"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:528:7)
+      Message = Your OTP is incorrect.
+      Time = 07:17 AM
+    
+    ----------------------------
+      URL = /verify-reset-otp
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84","otp":"2885"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyResetOtp (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:528:7)
+      Message = Your OTP is incorrect.
+      Time = 07:17 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NzIxNTY1NX0.PzYQ_fKaSW-tOHihtioHSVE1AirbcwLeCkmA4woNZ5c"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 07:19 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY3NzIxNTY1NX0.PzYQ_fKaSW-tOHihtioHSVE1AirbcwLeCkmA4woNZ5c"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 07:23 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testusertwo@mailinator.com","password":"System@1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:187:11)
+      Message = Your password is incorrect
+      Time = 07:33 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmFjNjdiZmUzMDFmMGIzOTA5YjgxYiIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MDc3MDR9.e43oWd6Axge0nRHz78Qd43ZgQ2Dst5mU4S2xzZXhz1k"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 07:37 AM
+    
+    ----------------------------
+      URL = /verify-account
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"id":"642d194b9f8bdfede289ec84","otp":"7716"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyAccount (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:800:7)
+      Message = The email otp you've entered is incorrect.
+      Time = 07:49 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testuser@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:177:9)
+      Message = Vendor not found
+      Time = 07:57 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmFjNjdiZmUzMDFmMGIzOTA5YjgxYiIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2ODA2MDc3MDR9.e43oWd6Axge0nRHz78Qd43ZgQ2Dst5mU4S2xzZXhz1k"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/user.js:90:7)
+      Message = Something went wrong
+      Time = 08:52 AM
+    
+    ----------------------------
+      URL = /cms
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:10:7)
+      Message = Request Failed!
+      Time = 09:07 AM
+    
+    ----------------------------
+      URL = /cms
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/LanguageAuth.js:10:7)
+      Message = Request Failed!
+      Time = 09:07 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:05 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:05 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:06 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:06 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:07 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:07 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:08 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:08 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:08 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:08 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:09 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:09 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:09 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:09 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:09 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:10 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:10 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:10 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:10 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:12 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:12 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:12 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:14 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:14 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:14 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:15 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:16 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:19 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:19 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:19 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:21 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:21 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:21 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:26 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:27 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:27 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:27 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:27 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/userAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:28 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:31 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:31 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:34 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:35 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:35 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:11:7)
+      Message = Request Failed!
+      Time = 10:35 AM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 642a739ccb5a048baccd9bca
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA2Nzg4OTd9.Mf52akH29E8ResFg2aHcyXBuuX4sGsaNPEz8029yWv0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmE3MzljY2I1YTA0OGJhY2NkOWJjYSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODA2Nzg4OTd9.Mf52akH29E8ResFg2aHcyXBuuX4sGsaNPEz8029yWv0
+      AT = module.exports (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/middleware/vendorAuth.js:93:7)
+      Message = Login again to perform actions.
+      Time = 12:26 PM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 642d194b9f8bdfede289ec84
+      isAdmin = undefined
+      Body = {"currentPassword":"Neha@123","newPassword":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmQxOTRiOWY4YmRmZWRlMjg5ZWM4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwNjkwNzczfQ.sRpBaDGYGTtGwMfsKNKtQg9-YjZz-8yfRxSW0GBKqX0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmQxOTRiOWY4YmRmZWRlMjg5ZWM4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwNjkwNzczfQ.sRpBaDGYGTtGwMfsKNKtQg9-YjZz-8yfRxSW0GBKqX0
+      AT = exports.changePassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:1027:7)
+      Message = Your current password is incorrect.
+      Time = 12:32 PM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 642d194b9f8bdfede289ec84
+      isAdmin = undefined
+      Body = {"currentPassword":"Neha@123","newPassword":"System@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmQxOTRiOWY4YmRmZWRlMjg5ZWM4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwNjkwNzczfQ.sRpBaDGYGTtGwMfsKNKtQg9-YjZz-8yfRxSW0GBKqX0
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmQxOTRiOWY4YmRmZWRlMjg5ZWM4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwNjkwNzczfQ.sRpBaDGYGTtGwMfsKNKtQg9-YjZz-8yfRxSW0GBKqX0
+      AT = exports.changePassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:1027:7)
+      Message = Current password has been entered incorrectly.
+      Time = 12:33 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"testusertwo@mailinator.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:186:11)
+      Message = Your password is incorrect
+      Time = 12:35 PM
+    
+    ----------------------------
+      URL = /change-password
+      Method = PUT
+      userId = 642d194b9f8bdfede289ec84
+      isAdmin = undefined
+      Body = {"currentPassword":"System@123","newPassword":"Neha@123"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmQxOTRiOWY4YmRmZWRlMjg5ZWM4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwNjk4MTMxfQ.XG87SC1hHA66mYw8rdIt9NZudOrzI_p5T9CIfDWXDFM
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MmQxOTRiOWY4YmRmZWRlMjg5ZWM4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjgwNjk4MTMxfQ.XG87SC1hHA66mYw8rdIt9NZudOrzI_p5T9CIfDWXDFM
+      AT = exports.changePassword (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/vendor.js:1027:7)
+      Message = Current password has been entered incorrectly.
+      Time = 12:59 PM
+    

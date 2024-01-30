@@ -1,0 +1,29 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"dontchangepass@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/admin.js:78:7)
+      Message = Your email is not registered with noonmar.
+      Time = 10:27 AM
+    
+    ----------------------------
+      URL = undefined
+      Method = undefined
+      userId = undefined
+      isAdmin = undefined
+      Body = undefined
+      Query = undefined
+      Params = undefined
+      Header = undefined
+      Token = undefined
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/utils/helper.js:111:9
+      Message = Something went wrong while sending email #a
+      Time = 10:31 AM
+    

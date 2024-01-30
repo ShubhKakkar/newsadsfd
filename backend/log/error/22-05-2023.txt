@@ -1,0 +1,757 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"lokesh2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 10:46 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"lokesh2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 10:47 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"lokesh2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 10:47 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"lokesh2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 10:47 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"lokesh2806@mailinator.com","password":"Admin@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 10:48 AM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"lokesh2806@mailinator.com"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:432:9)
+      Message = Vendor not found
+      Time = 10:48 AM
+    
+    ----------------------------
+      URL = /update-business-info
+      Method = PUT
+      userId = 64677e1ad60ae9cb64b42938
+      isAdmin = undefined
+      Body = {"businessName":"Nnnbchc 12","businessCountry":"644b5dc86a02dc34dd7b3c80","serveCountries":["India","Turkey"],"currency":"644b5eb06a02dc34dd7b3cef","language":"Arabic","storefrontSubscription":false,"productCategories":["644b592e6a02dc34dd7b39c6","644b5af46a02dc34dd7b3a84"],"updateWarehouse":[{"_id":"64677e1bd60ae9cb64b4293c","name":"Gdhchc","address":"Heggadadevankote, Karnataka 571114, India","city":"Heggadadevankote","state":"Karnataka","street":"Hxxb","zipCode":"571114","country":"644b5dc86a02dc34dd7b3c80","geoLocation":{"coordinates":[null,null],"type":"Point"},"City":"Heggadadevankote","State":"Karnataka","WGPinCode":"571114","countryName":"India","id":"64677e1bd60ae9cb64b4293c"}],"categoryRequest":[],"addWarehouse":[],"removeWarehouse":[]}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyOTEzLCJleHAiOjE3MTYyOTA1MTMsImlzcyI6Im5vb25tYXIifQ.l4UGgTVBok5KTol91VoqSU55yefjD30lwsuGualOBMA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyOTEzLCJleHAiOjE3MTYyOTA1MTMsImlzcyI6Im5vb25tYXIifQ.l4UGgTVBok5KTol91VoqSU55yefjD30lwsuGualOBMA
+      AT = exports.updateBusinessInfo (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:1566:7)
+      Message = Something went wrong while updating business information.
+      Time = 01:22 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Hdjdjdjbevejebebejehejejejejj","password":"bdjdjdjbeee"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 01:51 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Hdjdjdjbevejebebejehejejejejj","password":"bdjdjdjbeee"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 01:51 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Hdjdjdjbevejebebejehejejejejj","password":"bdjdjdjbeee"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 01:51 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Hdjdjdjbevejebebejehejejejejj","password":"bdjdjdjbeee"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 01:51 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Sssssssss@yopmail.com","password":"ssssssss"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 01:57 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Sss@yopmail.com","password":"System@123445667788"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:54:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 01:58 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Dadsfsdfsdfsdfsd","password":"sdfsdfsd"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 01:59 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Hdhdh@djdj.com","password":"jdjdjd"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 02:03 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Ndnd","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:17 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Jejsjejejejejejenejejebeneje","password":"xhhxx"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:18 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Jejsjejejejejejenejejebeneje","password":"bhhhhhhhhhhhh"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:18 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Gdhd","password":"Hdhdud"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:44:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:18 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Jejsjejejejejejenejejebeneje","password":"bhhhhhhhhhhhh"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:19 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Jejsjejejejejejenejejebeneje","password":"bhhhhhhhhhhhh"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:21 PM
+    
+    ----------------------------
+      URL = /all
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"page":1,"per_page":10,"order":"asc"}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 04:31 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 6465d5242ef39dc86c819c29
+      isAdmin = undefined
+      Body = {"name":"gregr","masterCategoryId":"644b592e6a02dc34dd7b39c6","subCategoryId":"644b5a696a02dc34dd7b3a19","brandId":"644b5a806a02dc34dd7b3a35","quantity":"11","buyingPrice":"650","serialNumber":"4SF15ME110","featureTitle":"regt","shortDescription":"retg","longDescription":"<p>rere</p>\r\n","warehouses":"[\"646b071bd60ae9cb64b461ed\"]","countries":"[\"644b5dc86a02dc34dd7b3c80\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b60426a02dc34dd7b3d6a\",\"isSelected\":false},{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b604c6a02dc34dd7b3d7b\",\"isSelected\":false}]","features":"[{\"label\":\"Size\",\"value\":\"21\"}]","faqs":"[{\"question\":\"Shrinking\",\"answer\":\"5t\"}]","metaData":"{\"title\":\"6rty\",\"keywords\":\"6rty\",\"description\":\"6rt\",\"author\":\"hg\",\"twitterCard\":\"ygh\",\"twitterSite\":\"ygh\",\"ogUrl\":\"ygh\",\"ogType\":\"gh\",\"ogTitle\":\"gh\",\"ogDescription\":\"gh\",\"ogTag\":\"gh\",\"ogAltTag\":\"gh\"}","height":"548","weight":"758758","width":"758","length":"75","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[{\"id\":\"644b5c266a02dc34dd7b3b10\",\"name\":\"Size\"},{\"id\":\"644b5cd56a02dc34dd7b3ba9\",\"name\":\"Colour\"}]","subVariants":"[{\"secondVariantId\":\"644b5cd56a02dc34dd7b3ba9\",\"secondVariantName\":\"Colour\",\"secondSubVariantId\":\"644b5cd56a02dc34dd7b3baa\",\"secondSubVariantName\":\"Red\",\"firstVariantId\":\"644b5c266a02dc34dd7b3b10\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"644b5c266a02dc34dd7b3b11\",\"firstSubVariantName\":\"S\",\"quantity\":1,\"height\":1,\"weight\":1,\"width\":1,\"length\":1,\"prices\":[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":1,\"discountPrice\":1}]}]","mediaIds":"{\"0\":[0],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4877:7)
+      Message = Could not create product.
+      Time = 05:01 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 6465d5242ef39dc86c819c29
+      isAdmin = undefined
+      Body = {"name":"gregr","masterCategoryId":"644b592e6a02dc34dd7b39c6","subCategoryId":"644b5a696a02dc34dd7b3a19","brandId":"644b5a806a02dc34dd7b3a35","quantity":"11","buyingPrice":"650","serialNumber":"4SF15ME110","featureTitle":"regt","shortDescription":"retg","longDescription":"<p>rere</p>\r\n","warehouses":"[\"646b071bd60ae9cb64b461ed\"]","countries":"[\"644b5dc86a02dc34dd7b3c80\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b60426a02dc34dd7b3d6a\",\"isSelected\":false},{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b604c6a02dc34dd7b3d7b\",\"isSelected\":false}]","features":"[{\"label\":\"Size\",\"value\":\"21\"}]","faqs":"[{\"question\":\"Shrinking\",\"answer\":\"5t\"}]","metaData":"{\"title\":\"6rty\",\"keywords\":\"6rty\",\"description\":\"6rt\",\"author\":\"hg\",\"twitterCard\":\"ygh\",\"twitterSite\":\"ygh\",\"ogUrl\":\"ygh\",\"ogType\":\"gh\",\"ogTitle\":\"gh\",\"ogDescription\":\"gh\",\"ogTag\":\"gh\",\"ogAltTag\":\"gh\"}","height":"548","weight":"758758","width":"758","length":"75","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[{\"id\":\"644b5c266a02dc34dd7b3b10\",\"name\":\"Size\"},{\"id\":\"644b5cd56a02dc34dd7b3ba9\",\"name\":\"Colour\"}]","subVariants":"[{\"secondVariantId\":\"644b5cd56a02dc34dd7b3ba9\",\"secondVariantName\":\"Colour\",\"secondSubVariantId\":\"644b5cd56a02dc34dd7b3baa\",\"secondSubVariantName\":\"Red\",\"firstVariantId\":\"644b5c266a02dc34dd7b3b10\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"644b5c266a02dc34dd7b3b11\",\"firstSubVariantName\":\"S\",\"quantity\":1,\"height\":1,\"weight\":1,\"width\":1,\"length\":1,\"prices\":[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":1,\"discountPrice\":1}]}]","mediaIds":"{\"0\":[0],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4877:7)
+      Message = Could not create product.
+      Time = 05:03 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 6465d5242ef39dc86c819c29
+      isAdmin = undefined
+      Body = {"name":"gregr","masterCategoryId":"644b592e6a02dc34dd7b39c6","subCategoryId":"644b5a696a02dc34dd7b3a19","brandId":"644b5a806a02dc34dd7b3a35","quantity":"11","buyingPrice":"650","serialNumber":"4SF15ME110","featureTitle":"regt","shortDescription":"retg","longDescription":"<p>rere</p>\r\n","warehouses":"[\"646b071bd60ae9cb64b461ed\"]","countries":"[\"644b5dc86a02dc34dd7b3c80\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b60426a02dc34dd7b3d6a\",\"isSelected\":false},{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b604c6a02dc34dd7b3d7b\",\"isSelected\":false}]","features":"[{\"label\":\"Size\",\"value\":\"21\"}]","faqs":"[{\"question\":\"Shrinking\",\"answer\":\"5t\"}]","metaData":"{\"title\":\"6rty\",\"keywords\":\"6rty\",\"description\":\"6rt\",\"author\":\"hg\",\"twitterCard\":\"ygh\",\"twitterSite\":\"ygh\",\"ogUrl\":\"ygh\",\"ogType\":\"gh\",\"ogTitle\":\"gh\",\"ogDescription\":\"gh\",\"ogTag\":\"gh\",\"ogAltTag\":\"gh\"}","height":"548","weight":"758758","width":"758","length":"75","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[{\"id\":\"644b5c266a02dc34dd7b3b10\",\"name\":\"Size\"},{\"id\":\"644b5cd56a02dc34dd7b3ba9\",\"name\":\"Colour\"}]","subVariants":"[{\"secondVariantId\":\"644b5cd56a02dc34dd7b3ba9\",\"secondVariantName\":\"Colour\",\"secondSubVariantId\":\"644b5cd56a02dc34dd7b3baa\",\"secondSubVariantName\":\"Red\",\"firstVariantId\":\"644b5c266a02dc34dd7b3b10\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"644b5c266a02dc34dd7b3b11\",\"firstSubVariantName\":\"S\",\"quantity\":1,\"height\":1,\"weight\":1,\"width\":1,\"length\":1,\"prices\":[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":1,\"discountPrice\":1}]}]","mediaIds":"{\"0\":[0],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4877:7)
+      Message = Could not create product.
+      Time = 05:04 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 6465d5242ef39dc86c819c29
+      isAdmin = undefined
+      Body = {"name":"gregr","masterCategoryId":"644b592e6a02dc34dd7b39c6","subCategoryId":"644b5a696a02dc34dd7b3a19","brandId":"644b5a806a02dc34dd7b3a35","quantity":"11","buyingPrice":"650","serialNumber":"4SF15ME110","featureTitle":"regt","shortDescription":"retg","longDescription":"<p>rere</p>\r\n","warehouses":"[\"646b071bd60ae9cb64b461ed\"]","countries":"[\"644b5dc86a02dc34dd7b3c80\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b60426a02dc34dd7b3d6a\",\"isSelected\":false},{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b604c6a02dc34dd7b3d7b\",\"isSelected\":false}]","features":"[{\"label\":\"Size\",\"value\":\"21\"}]","faqs":"[{\"question\":\"Shrinking\",\"answer\":\"5t\"}]","metaData":"{\"title\":\"6rty\",\"keywords\":\"6rty\",\"description\":\"6rt\",\"author\":\"hg\",\"twitterCard\":\"ygh\",\"twitterSite\":\"ygh\",\"ogUrl\":\"ygh\",\"ogType\":\"gh\",\"ogTitle\":\"gh\",\"ogDescription\":\"gh\",\"ogTag\":\"gh\",\"ogAltTag\":\"gh\"}","height":"548","weight":"758758","width":"758","length":"75","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[{\"id\":\"644b5c266a02dc34dd7b3b10\",\"name\":\"Size\"},{\"id\":\"644b5cd56a02dc34dd7b3ba9\",\"name\":\"Colour\"}]","subVariants":"[{\"secondVariantId\":\"644b5cd56a02dc34dd7b3ba9\",\"secondVariantName\":\"Colour\",\"secondSubVariantId\":\"644b5cd56a02dc34dd7b3baa\",\"secondSubVariantName\":\"Red\",\"firstVariantId\":\"644b5c266a02dc34dd7b3b10\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"644b5c266a02dc34dd7b3b11\",\"firstSubVariantName\":\"S\",\"quantity\":1,\"height\":1,\"weight\":1,\"width\":1,\"length\":1,\"prices\":[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":1,\"discountPrice\":1}]}]","mediaIds":"{\"0\":[0],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4877:7)
+      Message = Could not create product.
+      Time = 05:05 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 6465d5242ef39dc86c819c29
+      isAdmin = undefined
+      Body = {"name":"gregr","masterCategoryId":"644b592e6a02dc34dd7b39c6","subCategoryId":"644b5a696a02dc34dd7b3a19","brandId":"644b5a806a02dc34dd7b3a35","quantity":"11","buyingPrice":"650","serialNumber":"4SF15ME110","featureTitle":"regt","shortDescription":"retg","longDescription":"<p>rere</p>\r\n","warehouses":"[\"646b071bd60ae9cb64b461ed\"]","countries":"[\"644b5dc86a02dc34dd7b3c80\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b60426a02dc34dd7b3d6a\",\"isSelected\":false},{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b604c6a02dc34dd7b3d7b\",\"isSelected\":false}]","features":"[{\"label\":\"Size\",\"value\":\"21\"}]","faqs":"[{\"question\":\"Shrinking\",\"answer\":\"5t\"}]","metaData":"{\"title\":\"6rty\",\"keywords\":\"6rty\",\"description\":\"6rt\",\"author\":\"hg\",\"twitterCard\":\"ygh\",\"twitterSite\":\"ygh\",\"ogUrl\":\"ygh\",\"ogType\":\"gh\",\"ogTitle\":\"gh\",\"ogDescription\":\"gh\",\"ogTag\":\"gh\",\"ogAltTag\":\"gh\"}","height":"548","weight":"758758","width":"758","length":"75","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[{\"id\":\"644b5c266a02dc34dd7b3b10\",\"name\":\"Size\"},{\"id\":\"644b5cd56a02dc34dd7b3ba9\",\"name\":\"Colour\"}]","subVariants":"[{\"secondVariantId\":\"644b5cd56a02dc34dd7b3ba9\",\"secondVariantName\":\"Colour\",\"secondSubVariantId\":\"644b5cd56a02dc34dd7b3baa\",\"secondSubVariantName\":\"Red\",\"firstVariantId\":\"644b5c266a02dc34dd7b3b10\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"644b5c266a02dc34dd7b3b11\",\"firstSubVariantName\":\"S\",\"quantity\":1,\"height\":1,\"weight\":1,\"width\":1,\"length\":1,\"prices\":[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":1,\"discountPrice\":1}]}]","mediaIds":"{\"0\":[0],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4877:7)
+      Message = Could not create product.
+      Time = 05:05 PM
+    
+    ----------------------------
+      URL = /add
+      Method = POST
+      userId = 6465d5242ef39dc86c819c29
+      isAdmin = undefined
+      Body = {"name":"gregr","masterCategoryId":"644b592e6a02dc34dd7b39c6","subCategoryId":"644b5a696a02dc34dd7b3a19","brandId":"644b5a806a02dc34dd7b3a35","quantity":"11","buyingPrice":"650","serialNumber":"4SF15ME111","featureTitle":"regt","shortDescription":"retg","longDescription":"<p>rere</p>\r\n","warehouses":"[\"646b071bd60ae9cb64b461ed\"]","countries":"[\"644b5dc86a02dc34dd7b3c80\"]","unitId":"644b5217a5158061799593ac","prices":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":\"\",\"discountPrice\":\"\"}]","taxesData":"[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b60426a02dc34dd7b3d6a\",\"isSelected\":false},{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"tax\":\"644b604c6a02dc34dd7b3d7b\",\"isSelected\":false}]","features":"[{\"label\":\"Size\",\"value\":\"21\"}]","faqs":"[{\"question\":\"Shrinking\",\"answer\":\"5t\"}]","metaData":"{\"title\":\"6rty\",\"keywords\":\"6rty\",\"description\":\"6rt\",\"author\":\"hg\",\"twitterCard\":\"ygh\",\"twitterSite\":\"ygh\",\"ogUrl\":\"ygh\",\"ogType\":\"gh\",\"ogTitle\":\"gh\",\"ogDescription\":\"gh\",\"ogTag\":\"gh\",\"ogAltTag\":\"gh\"}","height":"548","weight":"758758","width":"758","length":"75","isPublished":"true","inStock":"true","featuredMediaId":"0","variants":"[{\"id\":\"644b5c266a02dc34dd7b3b10\",\"name\":\"Size\"},{\"id\":\"644b5cd56a02dc34dd7b3ba9\",\"name\":\"Colour\"}]","subVariants":"[{\"secondVariantId\":\"644b5cd56a02dc34dd7b3ba9\",\"secondVariantName\":\"Colour\",\"secondSubVariantId\":\"644b5cd56a02dc34dd7b3baa\",\"secondSubVariantName\":\"Red\",\"firstVariantId\":\"644b5c266a02dc34dd7b3b10\",\"firstVariantName\":\"Size\",\"firstSubVariantId\":\"644b5c266a02dc34dd7b3b11\",\"firstSubVariantName\":\"S\",\"quantity\":1,\"height\":1,\"weight\":1,\"width\":1,\"length\":1,\"prices\":[{\"countryId\":\"644b5dc86a02dc34dd7b3c80\",\"sellingPrice\":1,\"discountPrice\":1}]}]","mediaIds":"{\"0\":[0],\"main\":[0]}","alternateProductIds":"[]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NjVkNTI0MmVmMzlkYzg2YzgxOWMyOSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzMyODEzLCJleHAiOjE3MTYyOTA0MTMsImlzcyI6Im5vb25tYXIifQ.W-P8SGjrAAhkjLQccZYm1TjeipyPHF0liYooXmbeQ_M
+      AT = exports.addProduct (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/products.js:4877:7)
+      Message = Could not create product.
+      Time = 05:06 PM
+    
+    ----------------------------
+      URL = /all?page=1&isActive=true
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","isActive":"true"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDczMjcxMywiZXhwIjoxNjg0NzM0MTUzLCJpc3MiOiJub29ubWFyIn0.UbLd9jrBKprNsTHskcncNHX15u8eBsLFQ87hnpME6z0
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 05:06 PM
+    
+    ----------------------------
+      URL = /all?page=1&per_page=10&sortBy=createdAt&order=desc&isActive=&firstName=&lastName=&email=&country=&dateFrom=1970-01-01&dateTo=2023-05-23
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"page":"1","per_page":"10","sortBy":"createdAt","order":"desc","isActive":"","firstName":"","lastName":"","email":"","country":"","dateFrom":"1970-01-01","dateTo":"2023-05-23"}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4NDczMjcxMywiZXhwIjoxNjg0NzM0MTUzLCJpc3MiOiJub29ubWFyIn0.UbLd9jrBKprNsTHskcncNHX15u8eBsLFQ87hnpME6z0
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/authMiddleware.js:57:9)
+      Message = You have been logged out. Please login again.
+      Time = 05:06 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 646b55e1d60ae9cb64b47fff
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 05:54 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 646b55e1d60ae9cb64b47fff
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 05:54 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 646b55e1d60ae9cb64b47fff
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 06:20 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 646b55e1d60ae9cb64b47fff
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 06:20 PM
+    
+    ----------------------------
+      URL = /profile
+      Method = GET
+      userId = 646b55e1d60ae9cb64b47fff
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmI1NWUxZDYwYWU5Y2I2NGI0N2ZmZiIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg0NzU2MDUxLCJleHAiOjE3MTYzMTM2NTEsImlzcyI6Im5vb25tYXIifQ.hb-wKrPptXgRAk_5LpHsiOaVoF7_UIKnIs-M3CurBfg
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 06:20 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"sdfsdfgs@dsfsd.com","password":"Asdf1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:248:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 06:38 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"SS@SS.com","password":"Asdf1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 06:40 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"SS@SS.com","password":"aSDF1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 06:41 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"support@nnoonmar.com","password":"aSDF1234"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 06:42 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text","password":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 07:08 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text","password":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 07:08 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text","password":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 07:08 PM
+    
+    ----------------------------
+      URL = /forgot-password
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.forgotPassword (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:432:9)
+      Message = Vendor not found
+      Time = 07:09 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"text","password":"text"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:238:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 07:09 PM
+    

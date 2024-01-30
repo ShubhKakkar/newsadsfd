@@ -1,0 +1,79 @@
+[
+    {
+        "code": "TL",
+        "name": "Türk Lirası",
+        "sign": "₺",
+        "exchangeRate": "1",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "USD",
+        "name": "Amerikan Doları",
+        "sign": "$",
+        "exchangeRate": "30.0121",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "EUR",
+        "name": "Euro",
+        "sign": "€",
+        "exchangeRate": "32.9393",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "SAR",
+        "name": "Suudi Arabistan Riyali",
+        "sign": "﷼",
+        "exchangeRate": "8.0028",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "BD",
+        "name": "Bahreyn Dinarı",
+        "sign": "BD",
+        "exchangeRate": "0",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "JOD",
+        "name": "Ürdün Dinarı",
+        "sign": "JOD",
+        "exchangeRate": "0",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "KWD",
+        "name": "Kuveyt Dinarı",
+        "sign": "د.ك",
+        "exchangeRate": "98.2028",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "OMR",
+        "name": "Umman Riyali",
+        "sign": "﷼",
+        "exchangeRate": "0",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "QAR",
+        "name": "Katar Riyalı",
+        "sign": "﷼",
+        "exchangeRate": "8.28",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "AED",
+        "name": "Birleşik Arap Emirlikleri Dirhemi",
+        "sign": "د.إ",
+        "exchangeRate": "8.2171",
+        "exchangeType": "Automatic"
+    },
+    {
+        "code": "GBP",
+        "name": "İngiliz Sterlini",
+        "sign": "£",
+        "exchangeRate": "38.3562",
+        "exchangeType": "Automatic"
+    }
+]

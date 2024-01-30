@@ -1,0 +1,127 @@
+
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"gourav@yopmail.com","contact":"7458965745","firstName":"Gourav","lastName":"Goyal","country":"India","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:292:9)
+      Message = Signing up failed #b
+      Time = 01:07 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"gourav@yopmail.com","contact":"7458965745","firstName":"Gourav","lastName":"Goyal","country":"India","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:292:9)
+      Message = Signing up failed #b
+      Time = 01:10 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"gourav@yopmail.com","contact":"7458965745","firstName":"Gourav","lastName":"Goyal","country":"63a58161202586c94cefbc96","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:283:9)
+      Message = The email is already associated with another account.
+      Time = 01:11 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"gouravgoyal@yopmail.com","contact":"7458965745","firstName":"Gourav","lastName":"Goyal","country":"63a58161202586c94cefbc96","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:283:9)
+      Message = The email is already associated with another account.
+      Time = 01:11 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"gouravgoyall@yopmail.com","contact":"7458965745","firstName":"Gourav","lastName":"Goyal","country":"63a58161202586c94cefbc96","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:283:9)
+      Message = The contact is already associated with another account.
+      Time = 01:12 PM
+    
+    ----------------------------
+      URL = /signup
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"badalgoyal@yopmail.com","contact":"7458965745","firstName":"Badal","lastName":"Goyal","country":"63a58161202586c94cefbc96","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.signup (/home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/controllers/v1/customer.js:284:9)
+      Message = The contact is already associated with another account.
+      Time = 01:13 PM
+    
+    ----------------------------
+      URL = undefined
+      Method = undefined
+      userId = undefined
+      isAdmin = undefined
+      Body = undefined
+      Query = undefined
+      Params = undefined
+      Header = undefined
+      Token = undefined
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/utils/helper.js:117:9
+      Message = Something went wrong #b
+      Time = 01:14 PM
+    
+    ----------------------------
+      URL = undefined
+      Method = undefined
+      userId = undefined
+      isAdmin = undefined
+      Body = undefined
+      Query = undefined
+      Params = undefined
+      Header = undefined
+      Token = undefined
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/utils/helper.js:118:9
+      Message = Something went wrong #b
+      Time = 01:15 PM
+    
+    ----------------------------
+      URL = undefined
+      Method = undefined
+      userId = undefined
+      isAdmin = undefined
+      Body = undefined
+      Query = undefined
+      Params = undefined
+      Header = undefined
+      Token = undefined
+      AT = /home/noonmar/web/noonmar.dev21.obtech.in/public_html/backend/utils/helper.js:118:9
+      Message = Something went wrong #b
+      Time = 01:21 PM
+    

@@ -1,0 +1,71 @@
+
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 01:23 PM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 01:23 PM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 01:23 PM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 01:23 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"64a194d30b4581bf76882014\",\"name\":\"jewelry And Accessory\",\"specificationIds\":[\"64a14d480b4581bf76881f60\"],\"variantIds\":[\"64a1394b0b4581bf76881e72\"],\"masterVariantId\":\"64a1394b0b4581bf76881e72\",\"isActive\":false,\"specificationFilterIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"jewelry And Accessory\",\"slug\":\"jewelry-and-accessory\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}},{\"languageCode\":\"ar\",\"name\":\"dd\",\"slug\":\"dd\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}},{\"languageCode\":\"tr\",\"name\":\"ddd\",\"slug\":\"ddd\",\"metaData\":{\"title\":\"\",\"description\":\"\",\"author\":\"\",\"keywords\":\"\",\"twitterCard\":\"\",\"twitterSite\":\"\",\"ogUrl\":\"\",\"ogType\":\"\",\"ogTitle\":\"\",\"ogDescription\":\"\",\"ogTag\":\"\",\"ogAltTag\":\"\"}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4ODQ3MjU2NSwiZXhwIjoxNjg4NDc2MTY1LCJpc3MiOiJub29ubWFyIn0.nU3cd4HcZMJaVPFYBTHvKuv01rP2YN7rXe5JXclWoFA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY4ODQ3MjU2NSwiZXhwIjoxNjg4NDc2MTY1LCJpc3MiOiJub29ubWFyIn0.nU3cd4HcZMJaVPFYBTHvKuv01rP2YN7rXe5JXclWoFA
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:98:9)
+      Message = Already Exist Name(s): jewelry And Accessory
+      Time = 05:39 PM
+    

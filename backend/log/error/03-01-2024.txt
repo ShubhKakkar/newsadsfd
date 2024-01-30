@@ -1,0 +1,323 @@
+
+    ----------------------------
+      URL = /features/6504938dcbaab007337dfed2?term=di[
+      Method = GET
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {}
+      Query = {"term":"di["}
+      Params = {"id":"6504938dcbaab007337dfed2"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDIyMTI4MiwiZXhwIjoxNzM1Nzc4ODgyLCJpc3MiOiJub29ubWFyIn0.kg4rF4N5_JXXhTsAXEKq8vLmyySs5D2kNrEnwBVQJDw
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDIyMTI4MiwiZXhwIjoxNzM1Nzc4ODgyLCJpc3MiOiJub29ubWFyIn0.kg4rF4N5_JXXhTsAXEKq8vLmyySs5D2kNrEnwBVQJDw
+      AT = exports.featuresData (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/product.js:6495:7)
+      Message = Could not fetch features
+      Time = 12:40 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":" H2uk@j70h9$8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:92:7)
+      Message = Email or Password is incorrect
+      Time = 03:07 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":" H2uk@j70h9$8"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/admin.js:92:7)
+      Message = Email or Password is incorrect
+      Time = 03:07 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vendor@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:45:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 10:51 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vendor@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:45:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 10:52 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vendor123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/customer.js:45:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 10:52 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:58 AM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 10:58 AM
+    
+    ----------------------------
+      URL = /init
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:02 AM
+    
+    ----------------------------
+      URL = /alternate
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:52:9)
+      Message = Something went wrong #a. Please Login Again
+      Time = 11:02 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"Vendor123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:239:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 11:36 AM
+    
+    ----------------------------
+      URL = /undefined
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"undefined"}
+      Header = Bearer undefined
+      Token = undefined
+      AT = exports.getReel (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/reel.js:451:7)
+      Message = Invalid reel id.
+      Time = 12:58 PM
+    
+    ----------------------------
+      URL = /all
+      Method = POST
+      userId = 64677e1ad60ae9cb64b42938
+      isAdmin = undefined
+      Body = {"page":1,"per_page":10,"order":"asc","sortBy":"name","warehouses":["642ec3d78f055e664648a2a3"],"masterCategories":["642e98fef95d77871e0eefdc"],"name":"tv"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NTEyOTI4LCJleHAiOjE3MTcwNzA1MjgsImlzcyI6Im5vb25tYXIifQ.OvJ9R8Cirb-Tu7ftjmb-KzUFxHz3NxmXYmJl6C1TkSY
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0Njc3ZTFhZDYwYWU5Y2I2NGI0MjkzOCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoidmVuZG9yIiwiaWF0IjoxNjg1NTEyOTI4LCJleHAiOjE3MTcwNzA1MjgsImlzcyI6Im5vb25tYXIifQ.OvJ9R8Cirb-Tu7ftjmb-KzUFxHz3NxmXYmJl6C1TkSY
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/vendorAuth.js:107:7)
+      Message = Login again to perform actions.
+      Time = 03:03 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"admin@samsung.co.in","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:239:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:06 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vendor@yopomail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:239:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:07 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vendor123@yopomail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:239:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:08 PM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"vendor123@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/vendor.js:239:9)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 03:08 PM
+    
+    ----------------------------
+      URL = /most-viewed/?perPage=5&page=1
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"perPage":"5","page":"1"}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 03:47 PM
+    
+    ----------------------------
+      URL = /most-viewed/?perPage=5&page=1
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {"perPage":"5","page":"1"}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/country.js:10:7)
+      Message = Please provide country
+      Time = 04:01 PM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer null
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/optionalAuth.js:20:7)
+      Message = Request Failed!
+      Time = 05:09 PM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"barCode":"EGYT-811","hsCode":"711311","categoryId":"6523f958c4bfaeadc751e866","brandId":"651533632822cb9d3a8d9490","unitId":"65030416cbaab007337df2a3","isPublished":"true","buyingPrice":"14","sellingPrice":"26.6","buyingPriceCurrency":"6481c487127796e2ff338e26","height":"8","weight":"0.15","width":"8","length":"8","dc":"1","shippingCompany":"65576c8a3ab6fb80457e944f","alternateProductIds":"[]","name":"Tesbihevim Turquoise Stone 925 Silver Men's Ring ","langData":"[{\"languageCode\":\"en\",\"name\":\"Tesbihevim Turquoise Stone 925 Silver Men's Ring \",\"slug\":\"tesbihevim-turquoise-stone-925-silver-men's-ring-\",\"shortDescription\":\"<p>Tesbihevim Turquoise Stone 925 Silver Men&#39;s Ring</p>\\n\",\"longDescription\":\"<p>Tesbihevim Turquoise Stone 925 Silver Men&#39;s Ring</p>\\n\",\"features\":[{\"label\":\"6504938dcbaab007337dfed2\",\"value\":\"6504a658cbaab007337e006b\"},{\"label\":\"65049494cbaab007337dfef8\",\"value\":\"65049494cbaab007337dfefa\"},{\"label\":\"6504a129cbaab007337dffb6\",\"value\":\"6504a129cbaab007337dffb8\"}],\"faq\":[],\"metaData\":{\"title\":\"Tesbihevim Turquoise Stone 925 Silver Men's Ring \",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"خاتم فضة رجالي من تسبيح افيم مع حجر الفيروز عيار 925\",\"slug\":\"خاتم-فضة-رجالي-من-تسبيح-افيم-مع-حجر-الفيروز-عيار-925\",\"shortDescription\":\"<p>خاتم فضة رجالي من تسبيح افيم مع حجر الفيروز عيار 925</p>\\n\",\"longDescription\":\"<p>خاتم فضة رجالي من تسبيح افيم مع حجر الفيروز عيار 925</p>\\n\",\"features\":[{\"label\":\"6504938dcbaab007337dfed2\",\"value\":\"6504a658cbaab007337e006b\"},{\"label\":\"65049494cbaab007337dfef8\",\"value\":\"65049494cbaab007337dfefa\"},{\"label\":\"6504a129cbaab007337dffb6\",\"value\":\"6504a129cbaab007337dffb8\"}],\"faq\":[],\"metaData\":{\"title\":\"خاتم فضة رجالي من تسبيح افيم مع حجر الفيروز عيار 925\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Tesbihevim Firuze Taşlı yuvarlak 925 Ayar Erkek Gümüş Yüzük\",\"slug\":\"tesbihevim-firuze-taşlı-925-ayar-erkek-gümüş-yüzük\",\"shortDescription\":\"<p>Tesbihevim Firuze Taşlı 925 Ayar Erkek G&uuml;m&uuml;ş Y&uuml;z&uuml;k</p>\\n\",\"longDescription\":\"<p>Tesbihevim Firuze Taşlı 925 Ayar Erkek G&uuml;m&uuml;ş Y&uuml;z&uuml;k</p>\\n\",\"features\":[{\"label\":\"6504938dcbaab007337dfed2\",\"value\":\"6504a658cbaab007337e006b\"},{\"label\":\"65049494cbaab007337dfef8\",\"value\":\"65049494cbaab007337dfefa\"},{\"label\":\"6504a129cbaab007337dffb6\",\"value\":\"6504a129cbaab007337dffb8\"}],\"faq\":[],\"metaData\":{\"title\":\"Tesbihevim Firuze Taşlı 925 Ayar Erkek Gümüş Yüzük\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]","featuredMediaId":"0","mediaIds":"{\"main\":[0]}","variants":"[]","subVariants":"[]","newSubVariants":"[]","id":"6595443c67978d4bd8236494"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDI4MjE0OCwiZXhwIjoxNzM1ODM5NzQ4LCJpc3MiOiJub29ubWFyIn0.SNFKcfj2_LByPUc-n73Qvu2sGWTYL1P1rIRbTjwSABU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDI4MjE0OCwiZXhwIjoxNzM1ODM5NzQ4LCJpc3MiOiJub29ubWFyIn0.SNFKcfj2_LByPUc-n73Qvu2sGWTYL1P1rIRbTjwSABU
+      AT = exports.update (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/product.js:4047:9)
+      Message = Already Exist Slug(s): tesbihevim-firuze-taşlı-925-ayar-erkek-gümüş-yüzük
+      Time = 05:12 PM
+    
+    ----------------------------
+      URL = /
+      Method = PUT
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"barCode":"EGYT-811","hsCode":"711311","categoryId":"6523f958c4bfaeadc751e866","brandId":"651533632822cb9d3a8d9490","unitId":"65030416cbaab007337df2a3","isPublished":"true","buyingPrice":"14","sellingPrice":"26.6","buyingPriceCurrency":"6481c487127796e2ff338e26","height":"8","weight":"0.15","width":"8","length":"8","dc":"1","shippingCompany":"65576c8a3ab6fb80457e944f","alternateProductIds":"[]","name":"Tesbihevim Turquoise Stone 925 Silver Men's Ring ","langData":"[{\"languageCode\":\"en\",\"name\":\"Tesbihevim Turquoise Stone 925 Silver Men's Ring \",\"slug\":\"tesbihevim-turquoise-stone-925-silver-men's-ring-\",\"shortDescription\":\"<p>Tesbihevim Turquoise Stone 925 Silver Men&#39;s Ring</p>\\n\",\"longDescription\":\"<p>Tesbihevim Turquoise Stone 925 Silver Men&#39;s Ring</p>\\n\",\"features\":[{\"label\":\"6504938dcbaab007337dfed2\",\"value\":\"6504a658cbaab007337e006b\"},{\"label\":\"65049494cbaab007337dfef8\",\"value\":\"65049494cbaab007337dfefa\"},{\"label\":\"6504a129cbaab007337dffb6\",\"value\":\"6504a129cbaab007337dffb8\"}],\"faq\":[],\"metaData\":{\"title\":\"Tesbihevim Turquoise Stone 925 Silver Men's Ring \",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"خاتم فضة رجالي من تسبيح افيم مع حجر الفيروز عيار 925\",\"slug\":\"خاتم-فضة-رجالي-من-تسبيح-افيم-مع-حجر-الفيروز-عيار-925\",\"shortDescription\":\"<p>خاتم فضة رجالي من تسبيح افيم مع حجر الفيروز عيار 925</p>\\n\",\"longDescription\":\"<p>خاتم فضة رجالي من تسبيح افيم مع حجر الفيروز عيار 925</p>\\n\",\"features\":[{\"label\":\"6504938dcbaab007337dfed2\",\"value\":\"6504a658cbaab007337e006b\"},{\"label\":\"65049494cbaab007337dfef8\",\"value\":\"65049494cbaab007337dfefa\"},{\"label\":\"6504a129cbaab007337dffb6\",\"value\":\"6504a129cbaab007337dffb8\"}],\"faq\":[],\"metaData\":{\"title\":\"خاتم فضة رجالي من تسبيح افيم مع حجر الفيروز عيار 925\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"Tesbihevim Firuze Taşlı yuvarlak 925 Ayar Erkek Gümüş Yüzük\",\"slug\":\"tesbihevim-firuze-taşlı-925-ayar-erkek-gümüş-yüzük\",\"shortDescription\":\"<p>Tesbihevim Firuze Taşlı 925 Ayar Erkek G&uuml;m&uuml;ş Y&uuml;z&uuml;k</p>\\n\",\"longDescription\":\"<p>Tesbihevim Firuze Taşlı 925 Ayar Erkek G&uuml;m&uuml;ş Y&uuml;z&uuml;k</p>\\n\",\"features\":[{\"label\":\"6504938dcbaab007337dfed2\",\"value\":\"6504a658cbaab007337e006b\"},{\"label\":\"65049494cbaab007337dfef8\",\"value\":\"65049494cbaab007337dfefa\"},{\"label\":\"6504a129cbaab007337dffb6\",\"value\":\"6504a129cbaab007337dffb8\"}],\"faq\":[],\"metaData\":{\"title\":\"Tesbihevim Firuze Taşlı 925 Ayar Erkek Gümüş Yüzük\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]","featuredMediaId":"0","mediaIds":"{\"main\":[0]}","variants":"[]","subVariants":"[]","newSubVariants":"[]","id":"6595443c67978d4bd8236494"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDI4MjQwOCwiZXhwIjoxNzM1ODQwMDA4LCJpc3MiOiJub29ubWFyIn0.FJm-Bbo2jtNtb4of7bWCcaR3JcnO3uMjBeB1TBLjUaU
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNDI4MjQwOCwiZXhwIjoxNzM1ODQwMDA4LCJpc3MiOiJub29ubWFyIn0.FJm-Bbo2jtNtb4of7bWCcaR3JcnO3uMjBeB1TBLjUaU
+      AT = exports.update (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/product.js:4047:9)
+      Message = Already Exist Slug(s): tesbihevim-firuze-taşlı-925-ayar-erkek-gümüş-yüzük
+      Time = 05:16 PM
+    
+    ----------------------------
+      URL = /payment-status
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"orderId":"65956ae767978d4bd823757a"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQxNzYxMDksImV4cCI6MTczNTczMzcwOSwiaXNzIjoibm9vbm1hciJ9.CltrHtqdG1S3_Q1kCQ6Y7YdMswCAC5F-bBrHzGWjhzA
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1OGU2ZTAyNTU4YTZlM2FhZGFkMmEwYyIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDQxNzYxMDksImV4cCI6MTczNTczMzcwOSwiaXNzIjoibm9vbm1hciJ9.CltrHtqdG1S3_Q1kCQ6Y7YdMswCAC5F-bBrHzGWjhzA
+      AT = exports.paymentStatus (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/v1/order.js:2565:7)
+      Message = Could not confirm payment. Please try again.
+      Time = 07:42 PM
+    

@@ -1,0 +1,57 @@
+
+    ----------------------------
+      URL = /by-level
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"by-level"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMjQ1ODE1NiwiZXhwIjoxNzM0MDE1NzU2LCJpc3MiOiJub29ubWFyIn0.qvUsNFEyhE_wJhidiQ7jXt9swvB_HhZ8iIr9LaCeeSk
+      Token = undefined
+      AT = exports.getOne (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:820:7)
+      Message = Could not fetch product category's data
+      Time = 02:32 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"65638eb236501d02d745e09e\",\"name\":\"test\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"test\",\"slug\":\"test\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"test ar\",\"slug\":\"test-ar\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"test tr\",\"slug\":\"test-tr\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMjQ1ODUwOCwiZXhwIjoxNzM0MDE2MTA4LCJpc3MiOiJub29ubWFyIn0.IQxgLGdP-zd-_-WZJBvwM9Blj1T3domjQYiYs8saD8s
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMjQ1ODUwOCwiZXhwIjoxNzM0MDE2MTA4LCJpc3MiOiJub29ubWFyIn0.IQxgLGdP-zd-_-WZJBvwM9Blj1T3domjQYiYs8saD8s
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:122:9)
+      Message = Already Exist Slug(s): test
+      Time = 02:38 PM
+    
+    ----------------------------
+      URL = /
+      Method = POST
+      userId = 61ee3f7e40e94959d6f913a4
+      isAdmin = true
+      Body = {"mainData":"{\"parentId\":\"65638eb236501d02d745e09e\",\"name\":\"test\",\"specificationIds\":[],\"variantIds\":[],\"isActive\":false,\"specificationFilterIds\":[],\"requiredSpecificationIds\":[],\"variantFilterIds\":[]}","languageData":"[{\"languageCode\":\"en\",\"name\":\"test\",\"slug\":\"test\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"ar\",\"name\":\"test ar\",\"slug\":\"test-ar\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}},{\"languageCode\":\"tr\",\"name\":\"test tr\",\"slug\":\"test-tr1\",\"metaData\":{\"title\":\"\",\"author\":\"\",\"description\":\"\",\"keywords\":null}}]"}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMjQ1ODUwOCwiZXhwIjoxNzM0MDE2MTA4LCJpc3MiOiJub29ubWFyIn0.IQxgLGdP-zd-_-WZJBvwM9Blj1T3domjQYiYs8saD8s
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwMjQ1ODUwOCwiZXhwIjoxNzM0MDE2MTA4LCJpc3MiOiJub29ubWFyIn0.IQxgLGdP-zd-_-WZJBvwM9Blj1T3domjQYiYs8saD8s
+      AT = exports.create (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/controllers/productCategory.js:122:9)
+      Message = Already Exist Slug(s): test
+      Time = 02:38 PM
+    
+    ----------------------------
+      URL = /home/section-two
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (/home/noonmar/web/noonmarnode.stage04.obdemo.com/public_html/middleware/adminAuth.js:12:7)
+      Message = Request Failed!
+      Time = 05:26 PM
+    
