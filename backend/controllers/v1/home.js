@@ -12,6 +12,9 @@ const { isParentCategoriesActive } = require("../../utils/helper");
 const Reel = require("../../models/reel");
 const Setting = require("../../models/setting");
 
+const Product = require("../../models/product");
+const ProductDescription = require("../../models/productDescription");
+
 const sendMail = async (email, token, res, next) => {
   let emailTemplate;
 
@@ -631,6 +634,187 @@ exports.search = async (req, res, next) => {
   let results;
 
   try {
+
+    let productSearch = [
+      {
+        $match: {
+          name : { $regex: term, $options: 'i' },
+          languageCode: language,
+        }
+      },
+      {
+        $lookup: {
+          from: "productdescriptions",
+          localField: "productId",
+          foreignField: "productId",
+          pipeline : [
+            {
+              $match : {
+                languageCode: "en"
+              }
+            },
+          ],
+          as: "productdescriptions",
+        },
+      },
+      {
+        $lookup: {
+          from: "products",
+          localField: "productId",
+          foreignField: "_id",
+          pipeline : [
+            {
+              $match : {
+                isApproved: true,
+                isPublished: true,
+                isActive: true,
+                isDeleted: false,
+              }
+            },
+            {
+              $lookup: {
+                from: "vendorproducts",
+                localField: "_id",
+                foreignField: "productId",
+                pipeline: [
+                  {
+                    $match: {
+                      isDeleted: false,
+                      isActive: true,
+                    },
+                  },
+                ],
+                as: "vendorData",
+              }
+            },
+            {
+              $unwind: {
+                path: "$vendorData",
+              },
+            },
+          ],
+          as: "product",
+        },
+      },
+      {
+        $unwind: {
+          path: "$product",
+        },
+      },
+      {
+        $project: {
+          _id: 1,
+          name:"$name",
+          slug:"$productdescriptions.slug",
+          vendor:"$product.vendorData.vendorId",
+          searchType: "product",
+        },
+      },
+      {
+        $unionWith: {
+          coll: "productcategories",
+          pipeline: [
+            { $match: { isActive: true, isDeleted: false, } },
+            {
+              $lookup: {
+                from: "productcategorydescriptions",
+                localField: "_id",
+                foreignField: "productCategoryId",
+                pipeline : [
+                  {
+                    $match : {
+                      name: { $regex: term, $options: "i" },
+                      languageCode: language,
+                    }
+                  },
+                ],
+                as: "categorydescriptions",
+              },
+            },
+            {
+              $unwind: {
+                path: "$categorydescriptions",
+              },
+            },
+            {
+              $project: {
+                _id: 1,
+                name:"$categorydescriptions.name",
+                slug:"$categorydescriptions.slug",
+                searchType: "productCategory",
+              },
+            },
+          ]
+        }
+      },
+      {
+        $unionWith: {
+          coll: "brands",
+          pipeline: [
+            { $match: { isActive: true, isDeleted: false, } },
+            {
+              $lookup: {
+                from: "masterdescriptions",
+                localField: "_id",
+                foreignField: "mainPage",
+                pipeline : [
+                  {
+                    $match : {
+                      key: "brand",
+                      name: { $regex: term, $options: "i" },
+                      languageCode: language,
+                    }
+                  },
+                ],
+                as: "branddescriptions",
+              },
+            },
+            {
+              $unwind: {
+                path: "$branddescriptions",
+              },
+            },
+            {
+              $project: {
+                _id: 1,
+                name:"$branddescriptions.name",
+                slug:"$branddescriptions.slug",
+                searchType: "brand",
+              },
+            },
+          ]
+        }
+      },
+    ];
+
+    results = await ProductDescription.aggregate(productSearch);
+    res.status(200).json({
+      status: true,
+      message: "Search data found successfully.",
+      results: results,
+    });
+  } catch (err) {
+    console.log(err);
+    const error = new HttpError(
+      req,
+      new Error().stack.split("at ")[1].trim(),
+      "Something went wrong.",
+      500
+    );
+    return next(error);
+  }
+};
+
+exports.search_old = async (req, res, next) => {
+  const { term } = req.query;
+  const countryId = req.countryId;
+  const language = req.languageCode;
+
+  let results;
+
+
+
+  try {
     results = await Cms.aggregate([
       {
         $limit: 1,
@@ -1237,32 +1421,6 @@ exports.search = async (req, res, next) => {
         },
       },
 
-      // {
-      //   $lookup: {
-      //     from: "brands",
-      //     pipeline: [
-      //       {
-      //         $match: {
-      //           $and: [
-      //             {
-      //               name: new RegExp(term, "i"),
-      //               isActive: true,
-      //               isDeleted: false,
-      //             },
-      //           ],
-      //         },
-      //       },
-      //       {
-      //         $project: {
-      //           name: 1,
-      //           slug: 1,
-      //           searchType: "brand",
-      //         },
-      //       },
-      //     ],
-      //     as: "brands",
-      //   },
-      // },
       {
         $project: {
           union: {
@@ -1292,19 +1450,7 @@ exports.search = async (req, res, next) => {
     return next(error);
   }
 
-  // const newResults = [];
-
-  // for (let i = 0; i < results.length; i++) {
-  //   const result = results[i];
-  //   if (result.category && result.category.parentId) {
-  //     const status = await isParentCategoriesActive(result.category.parentId);
-  //     if (status) {
-  //       newResults.push(result);
-  //     }
-  //   } else {
-  //     newResults.push(result);
-  //   }
-  // }
+  console.log(results,"allsearch");
 
   res.status(200).json({
     status: true,

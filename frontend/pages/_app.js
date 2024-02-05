@@ -49,8 +49,9 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     dispatch(updateLanguage({ language: locale }));
-    localStorage.setItem("i18nextLng", "ar");
-    setCookie(null, "i18nextLng", "ar", {
+    let langLocale = (locale) ? locale : "ar";
+    localStorage.setItem("i18nextLng", langLocale);
+    setCookie(null, "i18nextLng", langLocale, {
       maxAge: 30 * 24 * 60 * 60 * 100,
       path: "/",
     });

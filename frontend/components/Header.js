@@ -173,15 +173,15 @@ const Header = () => {
   const loadOptionsDebounced = useCallback(
     debounce(async (inputValue, callback) => {
       if (inputValue.trim().length < 1) {
+        setSearchResults([]);
         callback([]);
       } else {
         const response = await request(
           "GET",
           `v1/home/search?term=${inputValue}`
         );
-
+        console.log("response",response);
         setSearchResults(response.data.results);
-
         callback(
           response.data.results.map((b) => ({ value: b._id, label: b.name }))
         );

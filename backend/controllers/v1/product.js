@@ -3049,16 +3049,6 @@ exports.getOne = async (req, res, next) => {
               limit: 1,
             },
           },
-          // pricesFiltered: {
-          //   $filter: {
-          //     input: "$prices",
-          //     cond: {
-          //       $eq: ["$$item.countryId", new ObjectId(countryId)],
-          //     },
-          //     as: "item",
-          //     limit: 1,
-          //   },
-          // },
         },
       },
       {
@@ -3066,35 +3056,6 @@ exports.getOne = async (req, res, next) => {
           path: "$descData",
         },
       },
-      // {
-      //   $unwind: {
-      //     path: "$pricesFiltered",
-      //   },
-      // },
-      // {
-      //   $addFields: {
-      //     price: "$pricesFiltered.sellingPrice",
-      //     discountedPrice: "$pricesFiltered.discountPrice",
-      //     discountPercentage: {
-      //       $round: [
-      //         {
-      //           $subtract: [
-      //             100,
-      //             {
-      //               $divide: [
-      //                 {
-      //                   $multiply: ["$pricesFiltered.discountPrice", 100],
-      //                 },
-      //                 "$pricesFiltered.sellingPrice",
-      //               ],
-      //             },
-      //           ],
-      //         },
-      //         2,
-      //       ],
-      //     },
-      //   },
-      // },
       {
         $lookup: {
           from: "products",
@@ -3166,41 +3127,6 @@ exports.getOne = async (req, res, next) => {
                 // },
               },
             },
-            // {
-            //   $unwind: {
-            //     path: "$pricesFiltered",
-            //   },
-            // },
-            // {
-            //   $unwind: {
-            //     path: "$media",
-            //     preserveNullAndEmptyArrays: true,
-            //   },
-            // },
-            // {
-            //   $addFields: {
-            //     price: "$pricesFiltered.sellingPrice",
-            //     discountedPrice: "$pricesFiltered.discountPrice",
-            //     discountPercentage: {
-            //       $round: [
-            //         {
-            //           $subtract: [
-            //             100,
-            //             {
-            //               $divide: [
-            //                 {
-            //                   $multiply: ["$pricesFiltered.discountPrice", 100],
-            //                 },
-            //                 "$pricesFiltered.sellingPrice",
-            //               ],
-            //             },
-            //           ],
-            //         },
-            //         2,
-            //       ],
-            //     },
-            //   },
-            // },
             {
               $lookup: {
                 from: "productdescriptions",
@@ -3457,9 +3383,6 @@ exports.getOne = async (req, res, next) => {
                 discountedPrice: 1,
                 discountPercentage: 1,
                 slug: 1,
-                // currency: {
-                //   $literal: "$",
-                // },
                 currency: { $literal: currentCurrency.sign },
                 vendor: 1,
               },
@@ -3500,7 +3423,6 @@ exports.getOne = async (req, res, next) => {
       {
         $project: {
           media: 1,
-          // name: "$descData.name",
           name: {
             $cond: [
               "$variantData",
@@ -3531,12 +3453,10 @@ exports.getOne = async (req, res, next) => {
             ],
           },
           vendorData: 1,
-          // slug: "$vDesc.slug",
           slug: {
             $cond: ["$variantData", "$vDesc.slug", "$descData.slug"],
           },
           price: 1,
-          // discountedPrice: "$price",
           discountedPrice: 1,
           ratings: 1,
           discountPercentage: 1,
@@ -3546,7 +3466,6 @@ exports.getOne = async (req, res, next) => {
           faqs: "$descData.faqs",
           metaData: "$descData.metaData",
           similarProducts: 1,
-          // currency: { $literal: "$" },
           currency: { $literal: currentCurrency.sign },
           featureTitle: 1,
           isWishlisted: {
@@ -3554,8 +3473,6 @@ exports.getOne = async (req, res, next) => {
           },
           ...wishlistObj.second,
           ...REVIEW_AGG.second,
-          // masterCategoryId: 1,
-          // subCategoryId: 1,
           categoryId: 1,
           brandId: 1,
           unitId: 1,
@@ -3642,16 +3559,6 @@ exports.getOne = async (req, res, next) => {
                 ],
               },
               as: "this",
-              // in: {
-              //   $mergeObjects: [
-              //     {
-              //       $arrayElemAt: ["$labels", "$$this"],
-              //     },
-              //     {
-              //       $arrayElemAt: ["$values", "$$this"],
-              //     },
-              //   ],
-              // },
               in: {
                 $mergeObjects: [
                   {
@@ -4041,11 +3948,6 @@ exports.getOne = async (req, res, next) => {
             isActive: true,
             isPublished: true,
             isApproved: true,
-            // countries: {
-            //   $in: [new ObjectId(countryId)],
-            // },
-            // isVendorActive: true,
-            // isHelper: false,
           },
         },
         {
@@ -4194,9 +4096,6 @@ exports.getOne = async (req, res, next) => {
         {
           $match: {
             productId: new ObjectId(product._id),
-            // vendorId: {
-            //   $ne: ObjectId(vendor),
-            // },
             vendorId: {
               $ne: ObjectId(product.vendorData._id),
             },
@@ -4346,7 +4245,6 @@ exports.getOne = async (req, res, next) => {
             slug,
             ratings: 0,
             reviewsCount: 0,
-            // discountPercentage: 0,
             sellingPrice: {
               $ifNull: [
                 "$variantData.productVendorData.sellingPrice",
@@ -4426,17 +4324,11 @@ exports.getOne = async (req, res, next) => {
           $project: {
             name: product.name,
             media: product.coverImage,
-            // price: "$sellingPrice",
-            // discountedPrice: "$sellingPrice",
             price: 1,
-            // discountedPrice: "$price",
             discountedPrice: 1,
             discountPercentage: 1,
             vendorData: 1,
             slug: 1,
-            // currency: {
-            //   $literal: "$",
-            // },
             currency: { $literal: currentCurrency.sign },
           },
         },
@@ -4474,8 +4366,6 @@ exports.getOne = async (req, res, next) => {
                   $expr: {
                     $eq: ["$$id", "$_id"],
                   },
-                  // isDeleted: false,
-                  // isActive: true,
                 },
               },
               {
@@ -4925,19 +4815,9 @@ exports.getOne = async (req, res, next) => {
       valuesTwo[firstVariant.langData.firstVariantId] =
         firstVariant.langData.firstVariantIdName;
 
-      // values[firstVariant.langData.firstVariantIdName] =
-      //   values[firstVariant.langData.firstVariantId];
-
-      // delete values[firstVariant.langData.firstVariantId];
-
       if (firstVariant.langData.secondVariantId) {
         valuesTwo[firstVariant.langData.secondVariantId] =
           firstVariant.langData.secondVariantIdName;
-
-        // values[firstVariant.langData.secondVariantIdName] =
-        //   values[firstVariant.langData.secondVariantId];
-
-        // delete values[firstVariant.langData.secondVariantId];
       }
 
       const order = {};
@@ -5235,8 +5115,6 @@ exports.getOne = async (req, res, next) => {
           },
         }).then();
       });
-
-      // "recentlyViewedProducts.id": { $ne: ObjectId(product._id) },
     }
   }
 
@@ -11634,6 +11512,25 @@ exports.getSponsoredItems = async (req, res, next) => {
               path: "$descData",
             },
           },
+          {
+            $lookup: {
+              from: "productvariantdescriptions",
+              let: {
+                id: "$_id",
+              },
+              pipeline: [
+                {
+                  $match: {
+                    $expr: {
+                      $eq: ["$productVariantId", "$$id"],
+                    },
+                    languageCode: "en",
+                  },
+                },
+              ],
+              as: "descEnLangData",
+            },
+          },
           // added new start
           {
             $lookup: {
@@ -11710,6 +11607,25 @@ exports.getSponsoredItems = async (req, res, next) => {
         path: "$descData",
       },
     },
+    {
+      $lookup: {
+        from: "productdescriptions",
+        let: {
+          id: "$_id",
+        },
+        pipeline: [
+          {
+            $match: {
+              $expr: {
+                $eq: ["$productId", "$$id"],
+              },
+              languageCode: "en",
+            },
+          },
+        ],
+        as: "descEnLangData",
+      },
+    },
     ...COMMON_AGG,
     {
       $addFields: {
@@ -11721,6 +11637,9 @@ exports.getSponsoredItems = async (req, res, next) => {
         // },
         slug: {
           $ifNull: ["$variantData.descData.slug", "$descData.slug"],
+        },
+        en_slug: {
+          $ifNull: ["$variantData.descEnLangData.slug", "$descEnLangData.slug"],
         },
         // discountedPrice: {
         //   $ifNull: [
@@ -11893,6 +11812,7 @@ exports.getSponsoredItems = async (req, res, next) => {
           // currency: { $literal: "$" },
           currency: { $literal: currentCurrency.sign },
           slug: 1,
+          en_slug: 1,
           isWishlisted: {
             $toBool: false,
           },
