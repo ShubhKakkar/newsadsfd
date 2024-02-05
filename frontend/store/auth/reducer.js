@@ -7,6 +7,7 @@ import {
   UPDATE,
   INIT,
   NOTIFICATION,
+  CART_TOTAL
 } from "./actionTypes";
 
 const initialState = {
@@ -21,6 +22,7 @@ const initialState = {
   role: null,
   contact: null,
   profilePic: null,
+  cartTotal:0,
   socialSettings: [],
   currencies: [],
   appLinks: [],
@@ -78,6 +80,11 @@ const authReducer = (state = initialState, action) => {
         ...action.updates,
       };
       case NOTIFICATION:
+        return {
+          ...state,
+          ...action.updates,
+        };
+        case CART_TOTAL:
         return {
           ...state,
           ...action.updates,

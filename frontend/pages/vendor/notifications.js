@@ -35,47 +35,49 @@ const Notifications = ({ allNotificationList, totalNotificationCount }) => {
   return (
     <Layout seoData={{ pageTitle: "Notifications- Noonmar" }}>
       <div className="main_content">
-        <div className="col-12">
-          <div className="headpageTitle mobile-title-show">
-            {t("Notifications")}
+        <div className="row"> 
+          <div className="col-12">
+            <div className="headpageTitle mobile-title-show">
+              {t("Notifications")}
+            </div>
           </div>
-        </div>
 
-        <div className="col-lg-9">
-          <ul style={{ maxHeight: "unset" }} class="notificationListDrop">
-            {allNotification.length > 0 ? (
-              allNotification.map((val) => {
-                return (
-                  <li key={val._id}>
-                    <a href="#!" class="dropdown-item">
-                      <div class="notiListCard">
-                        {/* <div class="notiListImg">
-                              <img src="./img/dash-userimg.jpg" alt="" />
-                            </div> */}
-                        <div class="notiListContent">
-                          <p>
-                            <span style={{ textTransform: "capitalize" }}>
-                              {val.actionFor}:{" "}
-                            </span>{" "}
-                            {val.text}
-                          </p>
-                          <small>
-                            {moment(val.createdAt).format(
-                              "DD MMMM, YYYY | hh:mm A"
-                            )}
-                          </small>
+          <div className="col-lg-9">
+            <ul style={{ maxHeight: "unset" }} class="notificationListDrop">
+              {allNotification.length > 0 ? (
+                allNotification.map((val) => {
+                  return (
+                    <li key={val._id}>
+                      <a href="#!" class="dropdown-item">
+                        <div class="notiListCard">
+                          {/* <div class="notiListImg">
+                                <img src="./img/dash-userimg.jpg" alt="" />
+                              </div> */}
+                          <div class="notiListContent">
+                            <p>
+                              <span style={{ textTransform: "capitalize" }}>
+                                {val.actionFor}:{" "}
+                              </span>{" "}
+                              {val.text}
+                            </p>
+                            <small>
+                              {moment(val.createdAt).format(
+                                "DD MMMM, YYYY | hh:mm A"
+                              )}
+                            </small>
+                          </div>
                         </div>
-                      </div>
-                    </a>
-                  </li>
-                );
-              })
-            ) : (
-              <div className="nofoundResult">
-                <div className="msgTitle">No notification found!</div>
-              </div>
-            )}
-          </ul>
+                      </a>
+                    </li>
+                  );
+                })
+              ) : (
+                <div className="nofoundResult">
+                  <div className="msgTitle">No notification found!</div>
+                </div>
+              )}
+            </ul>
+          </div>
         </div>
 
         {allNotification.length > 0 && (

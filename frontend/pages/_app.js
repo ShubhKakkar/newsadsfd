@@ -4,6 +4,7 @@ import { ToastContainer } from "react-toastify";
 import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 // import { gapi } from "gapi-script";
+
 import { setCookie, destroyCookie, parseCookies } from "nookies";
 import { NextIntlProvider } from "next-intl";
 import NextNProgress from "nextjs-progressbar";
@@ -47,6 +48,7 @@ function MyApp({ Component, pageProps }) {
     useRequest();
 
   useEffect(() => {
+    dispatch(updateLanguage({ language: locale }));
     localStorage.setItem("i18nextLng", "ar");
     setCookie(null, "i18nextLng", "ar", {
       maxAge: 30 * 24 * 60 * 60 * 100,
@@ -148,8 +150,10 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     if (response) {
+      console.log("response",response)
       if (response.status) {
         const {
+          cartTotal,
           email,
           firstName,
           lastName,
@@ -168,6 +172,7 @@ function MyApp({ Component, pageProps }) {
 
         dispatch(
           authSuccess({
+            cartTotal,
             email,
             firstName,
             lastName,

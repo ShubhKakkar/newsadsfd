@@ -1,8 +1,8 @@
 import useRequest from "@/hooks/useRequest";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import { useSelector } from "react-redux";
-
+import { useSelector, useDispatch } from "react-redux";
+import { updateCartTotal } from "@/store/auth/action";
 import { MEDIA_URL } from "@/api";
 import useTranslate from "@/hooks/useTranslate";
 import { toast } from "react-toastify";
@@ -13,6 +13,8 @@ const Product = ({ product }) => {
   const t = useTranslate();
 
   const router = useRouter();
+  const dispatch = useDispatch();
+  
   const { request: addToCartRequest, response: addToCartResponse } =
     useRequest();
 
@@ -40,11 +42,13 @@ const Product = ({ product }) => {
     }
   };
 
-  // useEffect(() => {
-  //   if (addToCartResponse) {
-  //     toast.success("Product added to the cart.");
-  //   }
-  // }, [addToCartResponse]);
+  useEffect(() => {
+     if (addToCartResponse) {
+      let cTotal = (addToCartResponse.data.cartTotal) ? addToCartResponse.data.cartTotal : 0;
+      dispatch(updateCartTotal({ cartTotal: cTotal }));
+       toast.success("Product added to the cart.");
+     }
+  }, [addToCartResponse]);
 
   const routeToProduct = () => {
     router.push(

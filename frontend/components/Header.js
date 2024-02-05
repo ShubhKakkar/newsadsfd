@@ -36,9 +36,8 @@ const Header = () => {
     countries,
     currentCountry,
     categories,
+    cartTotal
   } = useSelector((state) => state.auth);
-
-  const vijayData = useSelector((state) => state);
 
   const [selectedCountry, setSelectedCountry] = useState({
     id: null,
@@ -384,6 +383,7 @@ const Header = () => {
                       </svg>
                     </Link>
                     <Link href="/cart" className="iconLinks">
+                      {cartTotal > 0 && <span className="cartCounter"> {cartTotal} </span>}
                       <svg
                         width={33}
                         height={34}
@@ -624,6 +624,7 @@ const Header = () => {
 
                   <Link href="/cart" legacyBehavior>
                     <a className="iconLinks">
+                      {cartTotal > 0 && <span className="cartCounter"> {cartTotal} </span>}
                       <svg
                         width={33}
                         height={34}

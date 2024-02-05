@@ -152,6 +152,7 @@ exports.getCustomData = async (req, res, next) => {
 
   try {
     vendorCountryData = getCountryByName("Turkey");
+    console.log("asfsad", shippingAddressId, userId);
 
     shippingAddressData = Address.aggregate([
       {
@@ -288,6 +289,7 @@ exports.getCustomData = async (req, res, next) => {
   let shippingAddressPrice = totalPrice;
 
   //convert total price of cart to shipping address's customCurrency (only if they are different)
+  // console.log(shippingAddressData);
   let isCurrencyDifferent =
     shippingAddressData.customCurrencyData._id !== currentCurrency._id;
   if (isCurrencyDifferent) {

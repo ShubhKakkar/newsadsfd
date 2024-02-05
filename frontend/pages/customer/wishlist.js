@@ -13,7 +13,7 @@ import { MEDIA_URL } from "@/api";
 import useRequest from "@/hooks/useRequest";
 import Pagination from "@/components/Pagination";
 import { useDispatch } from "react-redux";
-import { logout } from "@/store/auth/action";
+import { logout, updateCartTotal } from "@/store/auth/action";
 import { Logout } from "@/components/Svg";
 import { Modal } from "react-bootstrap";
 import { useForm } from "react-hook-form";
@@ -83,6 +83,8 @@ const Wishlist = ({ totalProductsCount, allProducts }) => {
 
   useEffect(() => {
     if (addToCartResponse) {
+      let cTotal = (addToCartResponse.data.cartTotal) ? addToCartResponse.data.cartTotal : 0;
+      dispatch(updateCartTotal({ cartTotal: cTotal }));
       toast.success("Product added to the cart successfully.");
     }
   }, [addToCartResponse]);

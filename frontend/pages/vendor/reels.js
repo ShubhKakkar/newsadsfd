@@ -236,7 +236,7 @@ const Reels = ({ initialReels, initialTotalReels }) => {
           </div>
           <div className="order_listing_block listingCategoryInput">
             <div className="row">
-              <div className="col-lg-6 col-xl-4">
+              <div className="col-sm-6  col-xl-4 ">
                 <div className="form-group">
                   <Controller
                     className="form-control form-control-solid form-control-lg mb-10 col-4"
@@ -261,7 +261,7 @@ const Reels = ({ initialReels, initialTotalReels }) => {
                   />
                 </div>
               </div>
-              <div className="col-lg-6 col-xl-4">
+              <div className="col-sm-6 col-xl-4">
                 <div className="form-group">
                   <Controller
                     className="form-control form-control-solid form-control-lg mb-10 col-4"

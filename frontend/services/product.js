@@ -108,7 +108,6 @@ export const getProduct = async (slug, vendor) => {
       recentlyViewedProducts: [],
     };
   }
-
   return res.data;
 };
 

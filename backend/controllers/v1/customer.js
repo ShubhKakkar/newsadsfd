@@ -20,6 +20,7 @@ const {
   emailSend,
   decodeEntities,
   HttpErrorResponse,
+  userCartCounter,
   // createCustomerCart,
 } = require("../../utils/helper");
 
@@ -213,11 +214,17 @@ exports.login = async (req, res, next) => {
       return res.status(500).send(error);
     }
   }
+  
+  let cartTotal = 0;
+  if(customer){
+    cartTotal = await userCartCounter(customer._id);
+  }
 
   res.status(200).json({
     status: true,
     token: generateToken(customer._id, false, "customer"),
     message: translateHelper(req, "Login successfully"),
+    cartTotal : cartTotal,
     customer: {
       email: customer.email,
       firstName: customer.firstName,

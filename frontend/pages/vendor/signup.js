@@ -618,6 +618,7 @@ const Signup = ({ countries, currencies, categories, image }) => {
                       warehouseArray.length > 0 &&
                       warehouseArray.map((warehouse, index) => (
                         <>
+                          <div className="col-lg-12">
                           <div className="row warehouse-group">
                             {warehouseArray.length > 1 && (
                               <div class="col-lg-12">
@@ -913,6 +914,7 @@ const Signup = ({ countries, currencies, categories, image }) => {
                                   )}
                               </div>
                             </div>
+                          </div>
                           </div>
                         </>
                       ))}

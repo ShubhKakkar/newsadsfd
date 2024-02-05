@@ -313,7 +313,7 @@ const Products = ({
                     else
                   </p>
                 </div> */}
-                
+
                 <Pagination
                   currentPage={currentPage}
                   totalItems={totalProducts}
@@ -367,6 +367,8 @@ export async function getServerSideProps(context) {
       },
     };
   }
+
+  // console.log("categoryData", products);
 
   return {
     props: {

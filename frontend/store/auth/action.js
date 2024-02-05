@@ -7,6 +7,7 @@ import {
   UPDATE,
   INIT,
   NOTIFICATION,
+  CART_TOTAL,
 } from "./actionTypes";
 import { toast } from "react-toastify";
 import { destroyCookie, setCookie } from "nookies";
@@ -78,6 +79,13 @@ export const updateRedux = (updates) => {
 export const updateNotification = (updates) => {
   return {
     type: NOTIFICATION,
+    updates,
+  };
+};
+
+export const updateCartTotal = (updates) => {
+  return {
+    type: CART_TOTAL,
     updates,
   };
 };

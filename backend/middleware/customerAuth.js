@@ -8,7 +8,7 @@ module.exports = async (req, res, next) => {
   const language = req.headers["accept-language"];
   const country = req.headers["accept-country"];
 
-  req.languageCode = language ?? "en";
+  req.languageCode = language ?? "ar";
   req.countryId = country;
 
   if (!authHeader) {

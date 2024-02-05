@@ -1,5 +1,5 @@
 const seeding = {};
-const fs = require("fs").promises;
+const fs = require("fs");
 const path = require("path");
 const logsFilePath = path.resolve(__dirname, "logs", "index.txt");
 const languages = ["ar", "tr", "en"];
@@ -16,10 +16,17 @@ const Unit = require("../models/unit.js");
 const Currency = require("../models/currency.js");
 const ProductDescription = require("../models/productDescription.js");
 const ShippingCompany = require("../models/shippingCompany.js");
+
 const products = require("./data/products/mainEn.json");
+
 const enProducts = require("./data/products/en.json");
 const arProducts = require("./data/products/ar.json");
 const trProducts = require("./data/products/tr.json");
+
+const mainEnProducts = require("./newData/en.json");
+const mainArProducts = require("./newData/ar.json");
+const mainTrProducts = require("./newData/tr.json");
+
 const Product = require("../models/product.js");
 const ProductVariant = require("../models/productVariant.js");
 const ProductVariantDescription = require("../models/productVariantDescription.js");
@@ -42,11 +49,9 @@ const logAction = (action, status, error = null) => {
 };
 
 //* 1. Seed all brands ---------------------------------------------
-const addBrandDescription = async (brand, languageCode) => {
+const addBrandDescription = async (brand, originalBrand, languageCode) => {
   try {
-    const timestamp = new Date().getTime();
-    const uniqueIdentifier = Math.floor(Math.random() * 1000);
-    const slug = `${brand.name}-${languageCode}-${timestamp}-${uniqueIdentifier}`;
+    const slug = originalBrand.SeoLink;
     await MasterDescription.findOneAndUpdate(
       {
         mainPage: brand._id,
@@ -55,7 +60,7 @@ const addBrandDescription = async (brand, languageCode) => {
       {
         name: brand.name,
         key: "brand",
-        slug: slug,
+        slug: slug.trim() + "-" + languageCode,
         mainPage: brand._id,
         languageCode: languageCode,
       },
@@ -71,7 +76,6 @@ const addBrandDescription = async (brand, languageCode) => {
 };
 
 const processBrandsForLanguage = async (languageCode) => {
-  console.log(languageCode);
   try {
     const brandsApiUrl = process.env.BRANDS_API;
     const token = process.env.TSOFT_TOKEN;
@@ -88,15 +92,17 @@ const processBrandsForLanguage = async (languageCode) => {
     };
     const response = await axios.post(brandsApiUrl, formData, axiosConfig);
     const brands = response.data.data;
+    console.log(brands);
 
     // Add brands
     for (const brand of brands) {
+      console.log(brand);
       const updatedBrand = await Brand.findOneAndUpdate(
         {
           brandId: brand.BrandId,
         },
         {
-          name: brand.BrandName,
+          name: brand.BrandName.trim(),
           brandId: brand.BrandId,
           isActive: true,
           isDeleted: false,
@@ -106,7 +112,7 @@ const processBrandsForLanguage = async (languageCode) => {
           upsert: true,
         }
       );
-      await addBrandDescription(updatedBrand, languageCode);
+      await addBrandDescription(updatedBrand, brand, languageCode);
     }
 
     console.log(`Completed processing brands for ${languageCode}`);
@@ -338,7 +344,7 @@ seeding.seedUnits = async () => {
 };
 
 //* 4. Seed all products --------------------------------------------
-const updateProducts = async () => {
+seeding.newUpdateProducts = async () => {
   try {
     for (const product of products) {
       try {
@@ -366,7 +372,9 @@ const updateProducts = async () => {
                 .split(".png")[0]
                 .split(".jpg")[0];
 
-              await fs.writeFile(imagePath, response.data);
+              fs.writeFile(imagePath, response.data, (err) => {
+                console.log(err);
+              });
 
               if (
                 imageTarget ===
@@ -391,7 +399,7 @@ const updateProducts = async () => {
           })
         );
 
-        const listProduct = enProducts.filter((item) => {
+        const listProduct = await enProducts.filter((item) => {
           return item.ProductId === product.ProductId;
         })[0];
 
@@ -403,7 +411,9 @@ const updateProducts = async () => {
         const [category, brand, unit, currency, shippingCompany] =
           await Promise.all([
             Category.findOne({ categoryId: mainCategory }),
-            Brand.findOne({ name: product.Brand }),
+            Brand.findOne({
+              name: product.Brand,
+            }),
             Unit.findOne({ name: product.StockUnit }),
             Currency.findOne({ code: product.Currency }),
             ShippingCompany.findOne({ name: "AJEX" }),
@@ -456,7 +466,7 @@ const updateProducts = async () => {
         const newProduct = new Product({
           name: listProduct.ProductName || " ",
           barCode:
-            listProduct.BarCode ||
+            listProduct.Barcode ||
             `TST-${product.ProductName.substring(
               1,
               3
@@ -494,15 +504,17 @@ const updateProducts = async () => {
 
         const savedProduct = await newProduct.save();
 
-        let enProduct = enProducts.find((product) => {
-          return product.ProductId === savedProduct.productId;
-        });
-        let arProduct = arProducts.find((product) => {
-          return product.ProductId === savedProduct.productId;
-        });
-        let trProduct = trProducts.find((product) => {
-          return product.ProductId === savedProduct.productId;
-        });
+        const mainProductEn = mainEnProducts.filter((item) => {
+          return item.ProductId === product.ProductId;
+        })[0];
+
+        const mainProductAr = mainArProducts.filter((item) => {
+          return item.ProductId === product.ProductId;
+        })[0];
+
+        const mainProductTr = mainTrProducts.filter((item) => {
+          return item.ProductId === product.ProductId;
+        })[0];
 
         let timestamp = new Date()
           .toISOString()
@@ -512,15 +524,15 @@ const updateProducts = async () => {
         const newEnProductDescription = new ProductDescription({
           productId: savedProduct._id,
           languageCode: "en",
-          name: enProduct.ProductName,
-          slug: enProduct.SeoLink,
-          longDescription: product.Details,
-          shortDescription: product.Details || enProduct.shortDescription,
+          name: mainProductEn.ProductName,
+          slug: mainProductEn.SeoLink + "en",
+          longDescription: mainProductEn.Details || " ",
+          shortDescription: mainProductEn.Details || " ",
           metaData: {
-            title: product.SeoTitle,
+            title: mainProductEn.SeoTitle,
             author: " ",
-            description: product.SeoDescription,
-            keywords: product.SeoKeywords,
+            description: mainProductEn.SeoDescription,
+            keywords: mainProductEn.SeoKeywords,
           },
         });
 
@@ -529,15 +541,15 @@ const updateProducts = async () => {
         const newArProductDescription = new ProductDescription({
           productId: savedProduct._id,
           languageCode: "ar",
-          name: arProduct.ProductName,
-          slug: arProduct.SeoLink,
-          longDescription: product.Details,
-          shortDescription: product.Details || arProduct.shortDescription,
+          name: mainProductAr.ProductName,
+          slug: mainProductAr.SeoLink + "ar",
+          longDescription: mainProductAr.Details || " ",
+          shortDescription: mainProductAr.Details || " ",
           metaData: {
-            title: product.SeoTitle,
+            title: mainProductAr.SeoTitle,
             author: " ",
-            description: product.SeoDescription,
-            keywords: product.SeoKeywords,
+            description: mainProductAr.SeoDescription,
+            keywords: mainProductAr.SeoKeywords,
           },
         });
 
@@ -546,15 +558,15 @@ const updateProducts = async () => {
         const newTrProductDescription = new ProductDescription({
           productId: savedProduct._id,
           languageCode: "tr",
-          name: trProduct.ProductName,
-          slug: trProduct.SeoLink,
-          longDescription: product.Details,
-          shortDescription: product.Details || trProduct.shortDescription,
+          name: mainProductTr.ProductName,
+          slug: mainProductTr.SeoLink + "tr",
+          longDescription: mainProductTr.Details || " ",
+          shortDescription: mainProductTr.Details || " ",
           metaData: {
-            title: product.SeoTitle,
+            title: mainProductTr.SeoTitle,
             author: " ",
-            description: product.SeoDescription,
-            keywords: product.SeoKeywords,
+            description: mainProductTr.SeoDescription,
+            keywords: mainProductTr.SeoKeywords,
           },
         });
 
@@ -568,7 +580,6 @@ const updateProducts = async () => {
             subVaraint1 = await SubVaraint.findOne({
               variantId: variants[0].id,
             });
-            console.log(subVaraint1);
           }
           if (variants[1]) {
             subVaraint2 = await SubVaraint.findOne({
@@ -605,8 +616,8 @@ const updateProducts = async () => {
           const pvdEnData = {
             productVariantId: savedProductVaraint._id,
             languageCode: "en",
-            name: enProduct.ProductName,
-            slug: enProduct.ProductName + "en" + timestamp,
+            name: mainProductEn.ProductName,
+            slug: mainProductEn.SeoLink,
           };
           const newpvden = new ProductVariantDescription(pvdEnData);
           await newpvden.save();
@@ -614,8 +625,8 @@ const updateProducts = async () => {
           const pvdArData = {
             productVariantId: savedProductVaraint._id,
             languageCode: "ar",
-            name: arProduct.ProductName,
-            slug: arProduct.ProductName + "ar" + timestamp,
+            name: mainProductAr.ProductName,
+            slug: mainProductAr.SeoLink,
           };
           const newpvdar = new ProductVariantDescription(pvdArData);
           await newpvdar.save();
@@ -623,8 +634,8 @@ const updateProducts = async () => {
           const pvdTrData = {
             productVariantId: savedProductVaraint._id,
             languageCode: "tr",
-            name: trProduct.ProductName,
-            slug: trProduct.ProductName + "tr" + timestamp,
+            name: mainProductTr.ProductName,
+            slug: mainProductTr.SeoLink,
           };
           const newpvdtr = new ProductVariantDescription(pvdTrData);
           await newpvdtr.save();
@@ -882,6 +893,82 @@ seeding.seedVariants = async () => {
   } catch (err) {
     logAction("Variants", "Failed", err);
     console.log(`Some error occurred while seeding variants: ${err}`);
+  }
+};
+
+// Seed Products
+seeding.seedProducts = async () => {
+  try {
+    const seedProducts = async (languageCode) => {
+      let start = 0;
+      let limit = 500;
+      while (true) {
+        if (start > 10972) {
+          break;
+        }
+
+        console.log(start, languageCode);
+
+        const formData = new FormData();
+        formData.append("token", process.env.TSOFT_TOKEN);
+        formData.append("start", start);
+        formData.append("limit", limit);
+        formData.append("language", languageCode);
+
+        const axiosConfig = {
+          headers: {
+            ...formData.getHeaders(),
+            "Content-Type": "multipart/form-data",
+          },
+        };
+
+        const response = await axios.post(
+          process.env.PRODUCTS_API,
+          formData,
+          axiosConfig
+        );
+
+        let filePath = path.resolve(
+          __dirname + `/newData/${languageCode}.json`
+        );
+
+        if (response.data.data) {
+          try {
+            // Read existing data from the file
+            const existingDataString = fs.readFileSync(filePath, "utf-8");
+            const existingData = JSON.parse(existingDataString);
+
+            // Merge existing data with new data
+            const mergedData = existingData.concat(response.data.data);
+
+            console.log(
+              `Length of ${languageCode} data is ${mergedData.length}`
+            );
+
+            // Stringify the merged array
+            const mergedDataString = JSON.stringify(mergedData, null, 2);
+
+            // Write the updated data back to the file
+            fs.writeFileSync(filePath, mergedDataString, "utf-8");
+          } catch (readWriteError) {
+            console.error(
+              "Error reading or writing data to file:",
+              readWriteError
+            );
+          }
+        }
+
+        start += limit;
+      }
+      console.log(`Products seeding completed for ${languageCode}`);
+    };
+
+    // Assume languages is an array containing language codes
+    await Promise.all(languages.map(seedProducts));
+  } catch (err) {
+    console.log(err);
+  } finally {
+    console.log("Seeding of products finished in all 3 languages");
   }
 };
 

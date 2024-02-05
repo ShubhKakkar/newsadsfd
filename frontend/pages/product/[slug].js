@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/router";
 import ReactImageMagnify from "react-image-magnify";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { updateCartTotal } from "@/store/auth/action";
 import { toast } from "react-toastify";
 import useTranslate from "@/hooks/useTranslate";
 import Link from "next/link";
@@ -40,7 +41,7 @@ const Product = ({
   otherSellers,
   vendor,
 }) => {
-  console.log("dddd",product);
+
   const t = useTranslate();
 
   const [firstFeaturesObj, setFirstFeaturesObj] = useState({
@@ -60,6 +61,7 @@ const Product = ({
   const [showReviewsModal, setShowReviewsModal] = useState(false);
 
   const router = useRouter();
+  const dispatch = useDispatch();
 
   const { loggedIn, role } = useSelector((state) => state.auth);
 
@@ -104,6 +106,8 @@ const Product = ({
   useEffect(() => {
     if (addToCartResponse) {
       setQuantity(1);
+      let cTotal = (addToCartResponse.data.cartTotal) ? addToCartResponse.data.cartTotal : 0;
+      dispatch(updateCartTotal({ cartTotal: cTotal }));
       toast.success("Product successfully added to the cart.");
     }
   }, [addToCartResponse]);
@@ -391,12 +395,12 @@ const Product = ({
                         <Share data={product} /> 
                       </div>
                     </div>
-                    <div className="CompareRightBtn">
+                    {/* <div className="CompareRightBtn">
                       <a href="#!" className="CompareBtn">
                         <i className="fal fa-exchange" />
                         {t("Compare")}
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 {/*product price  */}
@@ -441,7 +445,7 @@ const Product = ({
                   )}
                 </div>
                 {/* delivery date/pickup */}
-                <div className="productDetailsCheck">
+                {/* <div className="productDetailsCheck">
                   <div className="row">
                     <div className="col-md-5">
                       <h4 className="productDetailsCheckTitle">
@@ -466,7 +470,7 @@ const Product = ({
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* img color size */}
                 {variantsValue.length > 0 && (
                   <div className="productSizeColor">
@@ -588,7 +592,7 @@ const Product = ({
                   </div>
                 )}
                 {/*Use Card */}
-                <div className="productCheckblock position-relative">
+                {/* <div className="productCheckblock position-relative">
                   <Swiper
                     spaceBetween={30}
                     slidesPerView="2"
@@ -664,37 +668,7 @@ const Product = ({
                       </div>
                     </SwiperSlide>
                   </Swiper>
-                  {/* <div className="box_slider_block">
-                    <div className="swiper-button-next">
-                      <svg
-                        width={18}
-                        height={34}
-                        viewBox="0 0 18 34"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M0.5 34L17.5001 16.9999L0.499999 0L0.5 34Z"
-                          fill="black"
-                        />
-                      </svg>
-                    </div>
-                    <div className="swiper-button-prev">
-                      <svg
-                        width={18}
-                        height={34}
-                        viewBox="0 0 18 34"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M17.5 34L0.499921 16.9999L17.5 9.06076e-07L17.5 34Z"
-                          fill="black"
-                        />
-                      </svg>
-                    </div>
-                  </div> */}
-                </div>
+                </div> */}
                 {/* Buy Btn */}
                 <div className="productBuyCart">
                   <div className="form-group  productQuantityBox">
@@ -736,11 +710,11 @@ const Product = ({
                   </div>
                 </div>
                 {/* Return Policy */}
-                <div>
+                {/* <div>
                   <a href="#!" className="productReturn">
                     <i className="fal fa-clock" /> 15 {t("days Return Policy")}
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

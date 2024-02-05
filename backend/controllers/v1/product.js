@@ -2179,6 +2179,8 @@ exports.getAll = async (req, res, next) => {
       filtersTwo,
       specifications,
     ]);
+
+    console.log("products", products);
   } catch (err) {
     console.log("product -get -err", err);
     return res.status(200).json({
@@ -7104,7 +7106,7 @@ exports.getMostViewedItems = async (req, res, next) => {
                     $expr: {
                       $eq: ["$productVariantId", "$$id"],
                     },
-                    languageCode: 'en',
+                    languageCode: "en",
                   },
                 },
               ],
@@ -7219,7 +7221,7 @@ exports.getMostViewedItems = async (req, res, next) => {
               $expr: {
                 $eq: ["$productId", "$$id"],
               },
-              languageCode: 'en',
+              languageCode: "en",
             },
           },
         ],
@@ -7663,8 +7665,6 @@ exports.newlyLaunchedItems = async (req, res, next) => {
       },
     },
   ];
-
-  console.log("COMMON", JSON.stringify(COMMON));
 
   let products, currencyData, totalProducts, currentCurrency, usdCurrency;
 

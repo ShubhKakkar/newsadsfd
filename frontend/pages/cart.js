@@ -1,10 +1,10 @@
 import { useEffect, useState, useMemo } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-
+import { useSelector, useDispatch } from "react-redux";
 import { createAxiosCookies, quantityOptions } from "@/fn";
 import { getCartItems, getListItems } from "@/services/customer";
-
+import { updateCartTotal } from "@/store/auth/action";
 import Newsletter from "@/components/Newsletter";
 import Layout from "@/components/Layout";
 import BreadCrumb from "@/components/customer/BreadCrumb";
@@ -15,6 +15,8 @@ import HomePageProduct from "@/components/HomePageProduct";
 const PER_PAGE = 6;
 
 const Cart = ({ initialCartItems, currency, list }) => {
+  const { cartTotal } = useSelector((state) => state.auth);
+
   const [cartItems, setCartItems] = useState(initialCartItems);
 
   const { request, response } = useRequest();
@@ -28,6 +30,7 @@ const Cart = ({ initialCartItems, currency, list }) => {
     useRequest();
 
   const router = useRouter();
+  const dispatch = useDispatch();
 
   useEffect(() => {
     if (response) {
@@ -48,6 +51,10 @@ const Cart = ({ initialCartItems, currency, list }) => {
     if (responseRemove) {
       const id = responseRemove.data.id;
       setCartItems((prev) => prev.filter((p) => p.idForCart !== id));
+      let cTotal = responseRemove.data.cartTotal
+        ? responseRemove.data.cartTotal
+        : 0;
+      dispatch(updateCartTotal({ cartTotal: cTotal }));
     }
   }, [responseRemove]);
 
@@ -129,9 +136,12 @@ const Cart = ({ initialCartItems, currency, list }) => {
                               </th>
                             </tr>
                           </thead>
-                          {cartItems.map((item) => (
-                            <tbody key={item.idForCart}>
-                              <tr className="my_Cart_product my_Cart_border">
+                          <tbody>
+                            {cartItems.map((item) => (
+                              <tr
+                                className="my_Cart_product my_Cart_border"
+                                key={item.idForCart}
+                              >
                                 <td className="offer-dtl-col">
                                   <div className="MyCartBlock">
                                     <div
@@ -232,8 +242,8 @@ const Cart = ({ initialCartItems, currency, list }) => {
                                   {item.totalPrice}
                                 </td>
                               </tr>
-                            </tbody>
-                          ))}
+                            ))}
+                          </tbody>
                         </table>
                       </div>
                     </div>

@@ -8,7 +8,7 @@ import { parseCookies, setCookie, destroyCookie } from "nookies";
 import { useDispatch } from "react-redux";
 import { useTranslations } from "next-intl";
 
-import { authSuccess } from "@/store/auth/action";
+import { authSuccess, updateCartTotal } from "@/store/auth/action";
 import useRequest from "@/hooks/useRequest";
 import SocialLogin from "@/components/SocialLogin";
 import { getSystemImage } from "@/services/customer";
@@ -97,7 +97,7 @@ const Login = ({ image }) => {
     if (response) {
       if (response.status) {
         toast.success(response.message);
-        const { customer, token } = response;
+        const { customer, token, cartTotal } = response;
         // localStorage.setItem("token", token);
         const email = getValuesLogin("emailOrPhone");
         const password = getValuesLogin("password");
@@ -120,6 +120,7 @@ const Login = ({ image }) => {
 
         closeRegisterModalHandler();
         dispatch(authSuccess({ ...customer, role: "customer", token }));
+        dispatch(updateCartTotal({ cartTotal: cartTotal }));
         setCookie(null, "token", token, {
           maxAge: 30 * 24 * 60 * 60 * 100,
           path: "/",

@@ -361,14 +361,14 @@ const languages = [
   {
     name: "English",
     code: "en",
-    default: true,
+    default: false,
     image: "uploads/images/language_images/english.svg",
     required: true,
   },
   {
     name: "Arabic",
     code: "ar",
-    default: false,
+    default: true,
     image: "uploads/images/language_images/english.svg",
     required: true,
   },
@@ -3647,6 +3647,18 @@ const pushNotificationHelper = ({
   });
 };
 
+
+const userCartCounter = async (userId) => {
+  let cartTotal = 0;
+
+  try {
+    cartTotal = await Cart.countDocuments({ customerId: userId });
+  } catch (err) {
+  }
+
+  return cartTotal;
+};
+
 module.exports = {
   emailSend,
   decodeEntities,
@@ -3684,4 +3696,5 @@ module.exports = {
   getOrderInvoice,
   pushNotificationHelper,
   getCountryByName,
+  userCartCounter
 };

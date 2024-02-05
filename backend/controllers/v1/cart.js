@@ -34,7 +34,7 @@ const calculateInstallments = (amount, initialPercentage, term, data, sign) => {
 
 exports.addProduct = async (req, res, next) => {
   const { id, productType, quantity } = req.body;
-
+  let cartTotal = 0;
   try {
     await Cart.findOneAndUpdate(
       {
@@ -52,6 +52,8 @@ exports.addProduct = async (req, res, next) => {
         upsert: true,
       }
     );
+
+    cartTotal = await Cart.countDocuments({ customerId: req.customerId });
 
     // await Cart.findOneAndUpdate({ customerId: ObjectId(req.customerId) }, [
     //   {
@@ -105,7 +107,7 @@ exports.addProduct = async (req, res, next) => {
   res.status(200).json({
     message: translateHelper(req, "Product added to cart successfully."),
     status: true,
-    data: { id },
+    data: { id, cartTotal },
   });
 };
 
@@ -147,12 +149,13 @@ exports.updateQuantity = async (req, res, next) => {
 //at cart page
 exports.remove = async (req, res, next) => {
   const { id } = req.body;
-
+  let cartTotal = 0;
   try {
     await Cart.findOneAndDelete({
       customerId: ObjectId(req.customerId),
       itemId: ObjectId(id),
     });
+    cartTotal = await Cart.countDocuments({ customerId: req.customerId });
   } catch (err) {
     console.log("Err", err);
     const error = new HttpError(
@@ -167,7 +170,7 @@ exports.remove = async (req, res, next) => {
   res.status(200).json({
     message: translateHelper(req, "Product removed from cart successfully."),
     status: true,
-    data: { id },
+    data: { id, cartTotal },
   });
 };
 

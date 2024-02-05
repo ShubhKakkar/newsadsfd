@@ -767,6 +767,9 @@ const PRODUCT_PRICING_OLD = (
 };
 
 const PRODUCT_PRICING = (countryId, userId, currentCurrency, usdCurrency) => {
+  // console.log("countryId", countryId);
+  // console.log("userId", userId);
+  // console.log("currentCurrency", currentCurrency);
   let USER_SPECIFIC_PRICING = [];
 
   if (userId) {

@@ -6,3 +6,4 @@ export const LANGUAGE = "LANGUAGE";
 export const UPDATE = "UPDATE";
 export const INIT = "INIT";
 export const NOTIFICATION = "NOTIFICATION";
+export const CART_TOTAL = "CART_TOTAL";

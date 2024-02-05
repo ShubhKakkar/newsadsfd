@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { useSelector } from "react-redux";
-
+import { useSelector, useDispatch } from "react-redux";
+import { updateCartTotal } from "@/store/auth/action";
 import useTranslate from "@/hooks/useTranslate";
 import useRequest from "@/hooks/useRequest";
 import { MEDIA_URL } from "@/api";
@@ -9,11 +9,14 @@ import Wishlist from "./Wishlist";
 import { toast } from "react-toastify";
 
 const HomePageProduct = ({ classes, product, addToCartFn }) => {
+
+
   const t = useTranslate();
 
   const router = useRouter();
+  const dispatch = useDispatch();
 
-  const { loggedIn, role } = useSelector((state) => state.auth);
+  const { loggedIn, role,cartTotal } = useSelector((state) => state.auth);
 
   const routeToProduct = () => {
     console.log(`/product/${product.slug}`);
@@ -61,7 +64,10 @@ const HomePageProduct = ({ classes, product, addToCartFn }) => {
 
   useEffect(() => {
     if (addToCartResponse) {
+      let cTotal = (addToCartResponse.data.cartTotal) ? addToCartResponse.data.cartTotal : 0;
+      dispatch(updateCartTotal({ cartTotal: cTotal }));
       toast.success("Product added to the cart successfully.");
+      console.log("classes",cartTotal);
     }
   }, [addToCartResponse]);
 

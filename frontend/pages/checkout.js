@@ -434,7 +434,6 @@ const Checkout = ({
       shippingAddressId: shippingAddressData.id,
       payFull: true,
     };
-
     setWindowState(window.open());
     requestCreateOrderHandler("POST", "v1/order", sendData);
   };

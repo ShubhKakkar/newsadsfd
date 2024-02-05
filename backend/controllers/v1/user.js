@@ -7,6 +7,7 @@ const Product = require("../../models/product");
 
 const HttpError = require("../../http-error");
 const Customer = require("../../models/customer");
+const Cart = require("../../models/cart");
 const Vendor = require("../../models/vendor");
 const Admin = require("../../models/admin");
 const { translateHelper } = require("../../utils/helper");
@@ -54,6 +55,7 @@ exports.verifyToken = async (req, res, next) => {
   }
 
   let user;
+  let cartTotal = 0;
 
   const { id, role } = decodedToken;
 
@@ -62,6 +64,19 @@ exports.verifyToken = async (req, res, next) => {
       user = await Customer.findById(id)
         .select("email firstName lastName contact profilePic ")
         .lean();
+        cartTotal = await Cart.countDocuments({ customerId: id });
+        /* cartItems = await Cart.aggregate([
+          {
+            $match: {
+              customerId: new ObjectId(id),
+            },
+          },
+          {
+            $group: {
+              _id: null,
+              totalProducts: { $sum: 1 }
+            }
+          }]); */
     } catch (err) {
       const error = new HttpError(
         req,
@@ -101,6 +116,7 @@ exports.verifyToken = async (req, res, next) => {
     ...user,
     role,
     token,
+    cartTotal
   });
 };
 
