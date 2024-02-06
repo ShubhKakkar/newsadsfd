@@ -6,7 +6,7 @@ const fs = require("fs");
 const http = require("http");
 const https = require("https");
 const path = require("path");
-const parser = require("xml2json");
+// const parser = require("xml2json");
 
 const HttpError = require("../../http-error");
 const Product = require("../../models/product");
@@ -744,7 +744,7 @@ exports.getAll = async (req, res, next) => {
     // categoryId: ObjectId(categoryFilters._id),
     categoryId: {
       $in: [
-        ObjectId(categoryFilters._id),
+        new ObjectId(categoryFilters._id),
         ...childCategoryIds?.ids.map((id) => ObjectId(id)),
       ],
     },
@@ -7309,7 +7309,7 @@ exports.getMostViewedItems = async (req, res, next) => {
 
 //updated
 exports.newlyLaunchedItems = async (req, res, next) => {
-  let countryId = req.countryId;
+  // let countryId = req.countryId;
   let languageCode = req.languageCode;
   let userId = req.userId;
 

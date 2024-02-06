@@ -143,7 +143,6 @@ export const getMostViewedProducts = async () => {
   try {
     res = await axiosInstance.get(`v1/product/most-viewed`);
   } catch (err) {
-    // console.log("err getMostViewedProducts", err.response.data.message);
     console.log("err", err);
     return {
       status: false,

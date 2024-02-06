@@ -1,0 +1,1233 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"example1@example.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 08:45 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"vendorone@ebiz.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 08:45 AM
+    
+    ----------------------------
+      URL = /edit-data/65bcbb62b7fa068f3080349f
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"65bcbb62b7fa068f3080349f"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNzE4OTQyNiwiZXhwIjoxNzM4NzQ3MDI2LCJpc3MiOiJub29ubWFyIn0.x4ClswtH586o6WYPDGSBQFo4gXIDhBK5tLLr4XJ_nB8
+      Token = undefined
+      AT = exports.getEditData (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\product.js:2880:7)
+      Message = Could not fetch data
+      Time = 08:47 AM
+    
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NjgwMDY4N2Q5NzMzMDJlNzM1NWViMyIsImVtYWlsIjoid2Via29hbGExOTk4QGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6IlNodWJoYW0iLCJsYXN0TmFtZSI6Iktha2thciIsInByb2ZpbGVQaG90byI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0t3Y3pJRzU4bm45bVhTWGFDanY3cDNONGtnN1U5ejFPQ1FOWkpvNHk4SHBsRT1zOTYtYyIsImFjdGl2ZSI6dHJ1ZSwicm9sZSI6InVzZXIiLCJ1c2VyTmFtZSI6IlNodWJoYW0gS2Fra2FyIiwiaWF0IjoxNzAzNjAyMTk5fQ.I82QUompZ0TF29nkwpawkgG1ymHRu25Kxwh7VMMvYYI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\user.js:40:7)
+      Message = Something went wrong #b. Please Login Again
+      Time = 08:59 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:01 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:16 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:23 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:24 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:24 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:28 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:43 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:44 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:46 AM
+    
+    ----------------------------
+      URL = /most-viewed
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:48 AM
+    
+    ----------------------------
+      URL = /latest
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:48 AM
+    
+    ----------------------------
+      URL = /sponsored
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:48 AM
+    
+    ----------------------------
+      URL = /featured
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:48 AM
+    
+    ----------------------------
+      URL = /top-selling
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = module.exports (C:\Users\webko\Desktop\noonmar\noonmar\backend\middleware\country.js:10:7)
+      Message = Please provide country
+      Time = 09:48 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:50 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:51 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 09:51 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 10:23 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 10:31 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 10:32 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 10:35 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 10:38 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 65a7b01f6da9192d3930a184
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YTdiMDFmNmRhOTE5MmQzOTMwYTE4NCIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDcxOTAyNzMsImV4cCI6MTczODc0Nzg3MywiaXNzIjoibm9vbm1hciJ9.koxJda4qeAhlJMPo9FhlfIX0AZMfdXUbQzm3-1ckG18
+      AT = exports.get (C:\Users\webko\Desktop\noonmar\noonmar\backend\controllers\v1\notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 10:40 AM
+    

@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const HttpError = require("../http-error");
 
 module.exports = (req, res, next) => {
-  const country = req.headers["accept-country"];
+  const country = "65b35b163a85a6b219bf8c06";
 
   if (!country || !mongoose.isValidObjectId(country)) {
     const error = new HttpError(

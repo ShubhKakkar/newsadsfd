@@ -67,7 +67,7 @@ router.get(
 
 router.get(
   "/latest",
-  countryMiddleware,
+  // countryMiddleware,
   languageMiddleware,
   optionalAuthMiddleware,
   productsController.newlyLaunchedItems

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
@@ -26,15 +26,7 @@ import { MEDIA_URL } from "@/api";
 import HomePageProduct from "@/components/HomePageProduct";
 import SwiperReel from "@/components/SwiperReel";
 
-const Home = ({
-  verifyNews,
-  homeData,
-  mostViewedProducts,
-  mostLatestProducts,
-  sponsoredItems,
-  featuredVendors,
-  topSellingProducts,
-}) => {
+const Home = ({ verifyNews, homeData }) => {
   const {
     homePageSectionOne,
     homePageSectionOneSlider,
@@ -44,7 +36,42 @@ const Home = ({
     homePageSectionFive,
     aboutUs,
     reels,
+    locale,
   } = homeData;
+
+  const [mostViewedProducts, setMostViewedProducts] = useState([]);
+  const [mostLatestProducts, setLatestProducts] = useState([]);
+  const [sponsoredItems, setSponseredItemsList] = useState([]);
+  const [featuredVendors, setFeaturedVendorList] = useState([]);
+  const [topSellingProducts, setTopSellingProducts] = useState([]);
+
+  const getProducts = async () => {
+    const [
+      mostViewedProductsData,
+      mostLatestProductsData,
+      sponsoredItemsList,
+      featuredVendorsList,
+      topSellingProductData,
+    ] = await Promise.all([
+      getMostViewedProducts(),
+      getLatestProducts(),
+      getSponsoredItems(),
+      getFeaturedVendors(),
+      getTopSellingItems(),
+    ]);
+
+    console.log("mostLatestProductsData", mostLatestProductsData);
+
+    setMostViewedProducts(mostViewedProductsData);
+    setLatestProducts(mostLatestProductsData);
+    setSponseredItemsList(sponsoredItemsList);
+    setFeaturedVendorList(featuredVendorsList);
+    setTopSellingProducts(topSellingProductData);
+  };
+
+  useEffect(() => {
+    getProducts();
+  }, []);
 
   const t = useTranslations("Index");
 
@@ -280,7 +307,7 @@ const Home = ({
                 <h2 className="section-heading">{t("Top Selling Items")}</h2>
               </div>
               <div className="section">
-                <div className="row align-items-center custom-row">
+                {/* <div className="row align-items-center custom-row">
                   {topSellingProducts.map((product) => (
                     <HomePageProduct
                       key={product._id}
@@ -288,7 +315,7 @@ const Home = ({
                       classes="customPro-col"
                     />
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           )}
@@ -368,7 +395,7 @@ const Home = ({
                       {t("Most Viewed Items")}
                     </h2>
                   </div>
-                  <div className="row align-items-center_">
+                  {/* <div className="row align-items-center_">
                     {mostViewedProducts
                       // .filter((_, idx) => idx < 3)
                       .map((product) => (
@@ -378,7 +405,7 @@ const Home = ({
                           classes="customPro-col_ col-md-4 col-sm-6"
                         />
                       ))}
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col-md-12 col-lg-4 view-col-2">
                   <div
@@ -527,7 +554,7 @@ const Home = ({
               <div className="text-start">
                 <h2 className="section-heading">{t("Sponsored Items")}</h2>
               </div>
-              <div className="section">
+              {/* <div className="section">
                 <div className="row align-items-center">
                   {sponsoredItems.map((product) => (
                     <HomePageProduct
@@ -537,7 +564,7 @@ const Home = ({
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </section>
         )}
@@ -735,6 +762,7 @@ export async function getServerSideProps(context) {
 
   const {
     query: { verify },
+    locale,
   } = context;
 
   let verifyNews = { status: false };
@@ -743,27 +771,7 @@ export async function getServerSideProps(context) {
     verifyNews = await verifyNewsletter({ token: verify });
   }
 
-  const [
-    homeData,
-    mostViewedProductsData,
-    mostLatestProductsData,
-    sponsoredItemsList,
-    featuredVendorsList,
-    topSellingProductData,
-  ] = await Promise.all([
-    getHomePageData(),
-    getMostViewedProducts(),
-    getLatestProducts(),
-    getSponsoredItems(),
-    getFeaturedVendors(),
-    getTopSellingItems(),
-  ]);
-
-  const { products: mostViewedProducts } = mostViewedProductsData;
-  const { products: mostLatestProducts } = mostLatestProductsData;
-  const { products: sponsoredItems } = sponsoredItemsList;
-  const { vendors: featuredVendors } = featuredVendorsList;
-  const { products: topSellingProducts } = topSellingProductData;
+  const [homeData] = await Promise.all([getHomePageData()]);
 
   return {
     props: {
@@ -771,11 +779,7 @@ export async function getServerSideProps(context) {
       key: new Date().toString(),
       verifyNews,
       homeData,
-      mostViewedProducts,
-      mostLatestProducts,
-      sponsoredItems,
-      featuredVendors,
-      topSellingProducts,
+      locale: locale,
       locales: {
         ...require(`../locales/index/${context.locale}.json`),
       },
