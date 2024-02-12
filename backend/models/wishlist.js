@@ -29,4 +29,12 @@ const wishlistSchema = mongoose.Schema(
   }
 );
 
+wishlistSchema.index(
+  { customerId: 1 }
+);
+
+wishlistSchema.index(
+  { itemId: 1 }
+);
+
 module.exports = mongoose.model("Wishlist", wishlistSchema);

@@ -6,10 +6,12 @@ const reelReactionSchema = mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Reel",
       required: true,
+      index: true
     },
     userId: {
       type: mongoose.Types.ObjectId,
       required: true,
+      index: true
     },
   },
   {

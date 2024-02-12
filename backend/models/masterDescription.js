@@ -19,4 +19,9 @@ const MasterDescriptionSchema = mongoose.Schema(
   }
 );
 
+
+MasterDescriptionSchema.index(
+  { mainPage: 1 }
+);
+
 module.exports = mongoose.model("MasterDescription", MasterDescriptionSchema);

@@ -36,6 +36,22 @@ const WarehouseProductReportSchema = mongoose.Schema(
   }
 );
 
+WarehouseProductReportSchema.index(
+  { warehouseId: 1 }
+);
+
+WarehouseProductReportSchema.index(
+  { productId: 1 }
+);
+
+WarehouseProductReportSchema.index(
+  { reason: 1 }
+);
+
+WarehouseProductReportSchema.index(
+  { inventoryReport: 1 }
+);
+
 module.exports = mongoose.model(
   "WarehouseProductReport",
   WarehouseProductReportSchema

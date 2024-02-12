@@ -6,6 +6,7 @@ const SpecificationGroupsDescriptionsSchema = mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "SpecificationGroups",
       required: true,
+      index: true
     },
     languageCode: {
       type: String,

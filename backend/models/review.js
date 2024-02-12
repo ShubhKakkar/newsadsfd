@@ -6,15 +6,18 @@ const Schema = mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "User",
       required: true,
+      index: true
     },
     itemId: {
       type: mongoose.Types.ObjectId,
       required: true,
+      index: true
     },
     orderItemId: {
       type: mongoose.Types.ObjectId,
       ref: "OrderItem",
       required: true,
+      index: true
     },
     rating: {
       type: Number,

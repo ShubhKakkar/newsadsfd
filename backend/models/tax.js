@@ -45,4 +45,8 @@ const taxesSchema = mongoose.Schema(
   }
 );
 
+taxesSchema.index(
+  { countryId: 1 }
+);
+
 module.exports = mongoose.model("Tax", taxesSchema);

@@ -7,6 +7,7 @@ const Setting = require("../../models/setting");
 
 exports.addReview = async (req, res, next) => {
   const userId = req.customerId;
+  console.log("userId", userId);
 
   const { orderItemId, rating, review, isRecommended } = req.body;
 

@@ -23,4 +23,8 @@ const CmsDescriptionSchema = mongoose.Schema(
   }
 );
 
+CmsDescriptionSchema.index(
+  { cmsPage: 1 }
+);
+
 module.exports = mongoose.model("CmsDescription", CmsDescriptionSchema);

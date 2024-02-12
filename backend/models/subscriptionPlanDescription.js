@@ -5,6 +5,7 @@ const SubscriptionPlanDescriptionsSchema = mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "SubscriptionPlans",
       required: true,
+      index: true
     },
     languageCode: {
       type: String,

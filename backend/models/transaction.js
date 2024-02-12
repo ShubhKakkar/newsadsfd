@@ -32,4 +32,12 @@ const schema = mongoose.Schema(
   }
 );
 
+schema.index(
+  { orderId: 1 }
+);
+
+schema.index(
+  { customerId: 1 }
+);
+
 module.exports = mongoose.model("Transaction", schema);

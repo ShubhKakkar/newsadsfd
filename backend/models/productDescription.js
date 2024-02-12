@@ -63,4 +63,9 @@ const ProductDescriptionSchema = mongoose.Schema(
   }
 );
 
+
+ProductDescriptionSchema.index(
+  { productId: 1 }
+);
+
 module.exports = mongoose.model("ProductDescription", ProductDescriptionSchema);

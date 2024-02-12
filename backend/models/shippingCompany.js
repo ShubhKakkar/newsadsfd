@@ -13,17 +13,20 @@ const ShippingCompanySchema = mongoose.Schema(
     currency: {
       type: mongoose.Types.ObjectId,
       required: true,
+      index: true
     },
     priorityCountries: [
       {
         type: mongoose.Types.ObjectId,
         required: true,
+        index: true
       },
     ],
     servingCountries: [
       {
         type: mongoose.Types.ObjectId,
         required: true,
+        index: true
       },
     ],
     isActive: {

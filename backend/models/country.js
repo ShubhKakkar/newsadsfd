@@ -27,32 +27,14 @@ const countriesSchema = mongoose.Schema(
       type: String,
       required: false,
     },
-    // productCategoryId: [
-    //   {
-    //     type: mongoose.Schema.Types.ObjectId,
-    //     ref: "ProductCategory",
-    //   },
-    // ],
     currency: { type: mongoose.Schema.Types.ObjectId, ref: "Currency" },
     flag: {
       type: String,
     },
-    // customType: {
-    //   type: String,
-    //   required: true,
-    //   enum: ["Fixed", "Percentage"],
-    // },
-    // customAmount: {
-    //   type: Number,
-    // },
     customCurrency: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Currency",
     },
-    // pinCode: {
-    //   type: Number,
-    //   required: false,
-    // },
     isActive: {
       type: Boolean,
       default: true,
@@ -67,6 +49,14 @@ const countriesSchema = mongoose.Schema(
   {
     timestamps: true,
   }
+);
+
+countriesSchema.index(
+  { currency: 1 }
+);
+
+countriesSchema.index(
+  { customCurrency: 1 }
 );
 
 module.exports = mongoose.model("Country", countriesSchema);

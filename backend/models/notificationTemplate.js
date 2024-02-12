@@ -30,4 +30,8 @@ const Schema = mongoose.Schema(
   }
 );
 
+Schema.index(
+  { action: 1 }
+);
+
 module.exports = mongoose.model("NotificationTemplate", Schema);

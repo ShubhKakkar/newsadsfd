@@ -46,4 +46,11 @@ const cartSchema = mongoose.Schema(
   }
 );
 
+cartSchema.index(
+  { customerId: 1 }
+);
+cartSchema.index(
+  { itemId: 1 }
+);
+
 module.exports = mongoose.model("Cart", cartSchema);

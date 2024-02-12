@@ -9,11 +9,13 @@ const ShippingAreaSchema = mongoose.Schema(
     shippingId: {
       type: mongoose.Types.ObjectId,
       required: true,
+      index: true
     },
     areas: [
       {
         type: mongoose.Types.ObjectId,
         required: true,
+        index: true
       },
     ],
   },

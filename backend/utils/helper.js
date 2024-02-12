@@ -13,7 +13,7 @@ const NodeGeocoder = require("node-geocoder");
 const http = require("http");
 const https = require("https");
 const imageDownloader = require("image-downloader");
-// const parser = require("xml2json");
+const parser = require("xml2json");
 const FCM = require("fcm-node");
 
 // const fsPromises = require("fs/promises");

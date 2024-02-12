@@ -11,6 +11,7 @@ const SubSpecificationGroupsSchema = mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "SubSpecification",
       required: true,
+      index: true
     },
     // values: [],
     isActive: {

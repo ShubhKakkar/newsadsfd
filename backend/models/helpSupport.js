@@ -40,4 +40,8 @@ const schema = mongoose.Schema(
   }
 );
 
+schema.index(
+  { user: 1 }
+);
+
 module.exports = mongoose.model("HelpSupport", schema);

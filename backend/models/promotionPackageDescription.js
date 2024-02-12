@@ -6,6 +6,7 @@ const PromotionPackagesDescriptionsSchema = mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "PromotionPackage",
       required: true,
+      index: true
     },
     languageCode: {
       type: String,

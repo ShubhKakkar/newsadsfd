@@ -1629,9 +1629,9 @@ exports.featuredVendors = async (req, res, next) => {
           isActive: true,
           isFeatured: true,
           isDeleted: false,
-          serveCountries: {
-            $in: [new ObjectId(countryId)],
-          },
+          // serveCountries: {
+          //   $in: [new ObjectId(countryId)],
+          // },
           // profilePic: {
           //   $exists: true,
           // },
@@ -1646,9 +1646,9 @@ exports.featuredVendors = async (req, res, next) => {
           isActive: true,
           isFeatured: true,
           isDeleted: false,
-          serveCountries: {
-            $in: [new ObjectId(countryId)],
-          },
+          // serveCountries: {
+          //   $in: [new ObjectId(countryId)],
+          // },
           // profilePic: {
           //   $exists: true,
           // },

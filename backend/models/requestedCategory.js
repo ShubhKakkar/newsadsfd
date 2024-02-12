@@ -5,6 +5,7 @@ const requestedCategory = mongoose.Schema(
     vendor: {
       type: mongoose.Types.ObjectId,
       required: true,
+      index: true
     },
     name: {
       type: String,

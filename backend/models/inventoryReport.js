@@ -26,4 +26,8 @@ const InventoryReportSchema = mongoose.Schema(
   }
 );
 
+InventoryReportSchema.index(
+  { warehouseId: 1 }
+);
+
 module.exports = mongoose.model("InventoryReport", InventoryReportSchema);

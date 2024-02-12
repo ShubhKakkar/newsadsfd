@@ -68,6 +68,12 @@ router.delete(
   masterController.deleteHomeSection1Sliders
 );
 
+router.put(
+  "/home/section-one/sliders/status",
+  adminAuthMiddleware,
+  masterController.changeStatusHomeSection1Sliders
+);
+
 /* SECTION 2 */
 
 router.post(
@@ -100,6 +106,12 @@ router.delete(
   "/home/section-two",
   adminAuthMiddleware,
   masterController.deleteHomeSection2
+);
+
+router.put(
+  "/home/section-two/status",
+  adminAuthMiddleware,
+  masterController.changeStatusHomeSection2
 );
 
 /* SECTION 3 */
@@ -136,6 +148,12 @@ router.delete(
   masterController.deleteHomeSection3
 );
 
+router.put(
+  "/home/section-three/status",
+  adminAuthMiddleware,
+  masterController.changeStatusHomeSection3
+);
+
 /* SECTION 4 */
 
 router.post(
@@ -153,7 +171,6 @@ router.get(
 
 router.get("/admin-role", masterController.getAllRoles);
 
-
 /* SECTION 5 */
 
 router.post(
@@ -167,6 +184,27 @@ router.get(
   "/home/section-five",
   adminAuthMiddleware,
   masterController.getHomeSection5
+);
+
+/* Home Page Permission */
+
+router.post(
+  "/home/page-permission",
+  fileUpload("homepage").single("image"),
+  adminAuthMiddleware,
+  masterController.postPermissionHomePage
+);
+
+router.put(
+  "/home/page-permission/status",
+  adminAuthMiddleware,
+  masterController.changePermissionHomePage
+);
+
+router.get(
+  "/home/page-permission",
+  adminAuthMiddleware,
+  masterController.getAllHomePagePermission
 );
 
 /* Inventory Reason */

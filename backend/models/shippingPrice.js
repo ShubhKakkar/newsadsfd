@@ -5,6 +5,7 @@ const ShippingPriceSchema = mongoose.Schema(
     shippingId: {
       type: mongoose.Types.ObjectId,
       required: true,
+      index: true
     },
     weights: [{ type: Number }],
     areas: [

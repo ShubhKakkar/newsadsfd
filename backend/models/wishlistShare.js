@@ -21,4 +21,12 @@ const wishlistShareSchema = mongoose.Schema(
   }
 );
 
+wishlistShareSchema.index(
+  { sharedBy: 1 }
+);
+
+wishlistShareSchema.index(
+  { sharedTo: 1 }
+);
+
 module.exports = mongoose.model("WishlistShare", wishlistShareSchema);

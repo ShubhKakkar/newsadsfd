@@ -64,4 +64,20 @@ const schema = mongoose.Schema(
   }
 );
 
+schema.index(
+  { orderId: 1 }
+);
+
+schema.index(
+  { customerId: 1 }
+);
+
+schema.index(
+  { vendorId: 1 }
+);
+
+schema.index(
+  { itemId: 1 }
+);
+
 module.exports = mongoose.model("OrderItem", schema);

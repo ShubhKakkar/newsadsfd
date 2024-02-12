@@ -458,6 +458,7 @@ exports.postHomeSection1Slider = async (req, res, next) => {
     ...subDataTwo.find((s) => s.languageCode === "en"),
     link,
     isDeleted: false,
+    isActive: true,
   });
 
   try {
@@ -541,6 +542,7 @@ exports.getAllHomeSection1Sliders = async (req, res, next) => {
           link: 1,
           image: 1,
           createdAt: 1,
+          isActive: 1,
         },
       },
     ]);
@@ -720,6 +722,33 @@ exports.deleteHomeSection1Sliders = async (req, res, next) => {
   });
 };
 
+exports.changeStatusHomeSection1Sliders = async (req, res, next) => {
+  const { id, status } = req.body;
+
+  try {
+    await Master.findByIdAndUpdate(id, {
+      $set: {
+        isActive: status,
+      },
+    });
+  } catch (err) {
+    const error = new HttpError(
+      req,
+      new Error().stack.split("at ")[1].trim(),
+      "Something went wrong",
+      500
+    );
+    return next(error);
+  }
+
+  res.status(200).json({
+    status: true,
+    message: translateHelper(req, "Slider status change successfully."),
+    id,
+    newStatus: status,
+  });
+};
+
 /* SECTION 2 */
 
 exports.postHomeSection2 = async (req, res, next) => {
@@ -828,6 +857,7 @@ exports.getAllHomeSection2 = async (req, res, next) => {
           buttonName: 1,
           link: 1,
           createdAt: 1,
+          isActive: 1,
         },
       },
     ]);
@@ -1024,6 +1054,33 @@ exports.deleteHomeSection2 = async (req, res, next) => {
   });
 };
 
+exports.changeStatusHomeSection2 = async (req, res, next) => {
+  const { id, status } = req.body;
+
+  try {
+    await Master.findByIdAndUpdate(id, {
+      $set: {
+        isActive: status,
+      },
+    });
+  } catch (err) {
+    const error = new HttpError(
+      req,
+      new Error().stack.split("at ")[1].trim(),
+      "Something went wrong",
+      500
+    );
+    return next(error);
+  }
+
+  res.status(200).json({
+    status: true,
+    message: translateHelper(req, "Slider status change successfully."),
+    id,
+    newStatus: status,
+  });
+};
+
 /* SECTION 3 */
 
 exports.postHomeSection3 = async (req, res, next) => {
@@ -1125,6 +1182,7 @@ exports.getAllHomeSection3 = async (req, res, next) => {
           link: 1,
           image: 1,
           createdAt: 1,
+          isActive: 1,
         },
       },
     ]);
@@ -1303,6 +1361,33 @@ exports.deleteHomeSection3 = async (req, res, next) => {
     status: true,
     message: translateHelper(req, "Section deleted successfully."),
     id,
+  });
+};
+
+exports.changeStatusHomeSection3 = async (req, res, next) => {
+  const { id, status } = req.body;
+
+  try {
+    await Master.findByIdAndUpdate(id, {
+      $set: {
+        isActive: status,
+      },
+    });
+  } catch (err) {
+    const error = new HttpError(
+      req,
+      new Error().stack.split("at ")[1].trim(),
+      "Something went wrong",
+      500
+    );
+    return next(error);
+  }
+
+  res.status(200).json({
+    status: true,
+    message: translateHelper(req, "Slider status change successfully."),
+    id,
+    newStatus: status,
   });
 };
 
@@ -1612,7 +1697,7 @@ exports.postHomeSection5 = async (req, res, next) => {
       );
       return next(error);
     }
-    
+
     const promises = [];
 
     for (let i = 0; i < subData.length; i++) {
@@ -1858,5 +1943,119 @@ exports.updateInventoryReasonStatus = async (req, res, next) => {
     ),
     id,
     newStatus: status,
+  });
+};
+
+//Home Page Permission
+
+exports.getAllHomePagePermission = async (req, res, next) => {
+  const { order, page, per_page } = req.query;
+
+  let sections, totalDocuments;
+
+  try {
+    sections = await Master.aggregate([
+      {
+        $match: {
+          key: "home-page-permission",
+        },
+      },
+      {
+        $sort: {
+          createdAt: order == "asc" ? 1 : -1,
+        },
+      },
+      {
+        $skip: (+page - 1) * +per_page,
+      },
+      {
+        $limit: +per_page,
+      },
+      {
+        $project: {
+          name: 1,
+          isActive: "$isShow",
+          createdAt: 1,
+          image: 1,
+        },
+      },
+    ]);
+
+    totalDocuments = await Master.find({
+      key: "home-page-permission",
+    }).countDocuments();
+  } catch (err) {
+    console.log(err);
+    const error = new HttpError(
+      req,
+      new Error().stack.split("at ")[1].trim(),
+      "Something went wrong.",
+      500
+    );
+    return next(error);
+  }
+
+  res.status(200).json({
+    status: true,
+    message: "Data fetched successfully.",
+    sections,
+    totalDocuments,
+  });
+};
+
+exports.changePermissionHomePage = async (req, res, next) => {
+  const { id, status } = req.body;
+
+  try {
+    await Master.findByIdAndUpdate(id, {
+      $set: {
+        isShow: status,
+      },
+    });
+  } catch (err) {
+    const error = new HttpError(
+      req,
+      new Error().stack.split("at ")[1].trim(),
+      "Something went wrong",
+      500
+    );
+    return next(error);
+  }
+
+  res.status(200).json({
+    status: true,
+    message: translateHelper(req, "Section status change successfully."),
+    id,
+    newStatus: status,
+  });
+};
+
+exports.postPermissionHomePage = async (req, res, next) => {
+  let { name } = req.body;
+
+  const image = req.file.path;
+
+  let newMaster = new Master({
+    key: "home-page-permission",
+    isShow: true,
+    image,
+    name,
+  });
+
+  try {
+    await newMaster.save();
+  } catch (err) {
+    const error = new HttpError(
+      req,
+      new Error().stack.split("at ")[1].trim(),
+      "Something went wrong",
+      500
+    );
+    return next(error);
+  }
+
+  res.status(201).json({
+    status: true,
+    message: translateHelper(req, "Home page permission created successfully"),
   });
 };

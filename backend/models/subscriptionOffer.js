@@ -6,6 +6,7 @@ const subscriptionOffersSchema = mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "SubscriptionPlans",
       required: true,
+      index: true
     },
     tenure: {
       type: String,

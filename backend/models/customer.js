@@ -163,4 +163,8 @@ customerSchema.pre("findOneAndUpdate", async function (next) {
   this.setUpdate(update);
 });
 
+customerSchema.index(
+  { country: 1 }
+);
+
 module.exports = mongoose.model("Customer", customerSchema);

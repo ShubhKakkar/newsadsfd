@@ -6,6 +6,7 @@ const ShippingCompantDescriptionSchema = mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "ShippingCompany",
       required: true,
+      index: true
     },
     languageCode: {
       type: String,

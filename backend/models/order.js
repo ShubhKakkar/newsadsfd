@@ -67,4 +67,8 @@ schema.pre("save", async function (next) {
   next();
 });
 
+schema.index(
+  { customerId: 1 }
+);
+
 module.exports = mongoose.model("Order", schema);

@@ -30,4 +30,8 @@ const EmailTemplateSchema = mongoose.Schema(
   }
 );
 
+EmailTemplateSchema.index(
+  { action: 1 }
+);
+
 module.exports = mongoose.model("EmailTemplate", EmailTemplateSchema);

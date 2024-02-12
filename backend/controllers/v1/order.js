@@ -52,6 +52,7 @@ const calculateInstallments = (amount, initialPercentage, term) => {
 };
 
 exports.create = async (req, res, next) => {
+  console.log("call order create");
   const {
     shippingAddressId,
     billingAddressId,
@@ -456,6 +457,7 @@ exports.create = async (req, res, next) => {
 
     await CheckoutController.getCustomData(req, customFeesResponse, next);
   } catch (err) {
+    console.log(err, "line 459");
     return res.status(200).json({
       status: false,
       message: "Something went wrong.",
@@ -485,6 +487,7 @@ exports.create = async (req, res, next) => {
       const sarCurrencyResponse = await getCurrencyDataByCode("SAR");
 
       if (!sarCurrencyResponse.status) {
+        console.log(err, "line 489");
         const error = new HttpError(
           req,
           new Error().stack.split("at ")[1].trim(),

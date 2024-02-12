@@ -1,0 +1,7394 @@
+[
+  {
+    "PropertyId": "5",
+    "GroupId": "29",
+    "Property": "Beyaz",
+    "ColorCode": "#FFFFFF"
+  },
+  {
+    "PropertyId": "6",
+    "GroupId": "5",
+    "Property": "16",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "4",
+    "GroupId": "3",
+    "Property": "Siyah",
+    "ColorCode": "#000000"
+  },
+  {
+    "PropertyId": "7",
+    "GroupId": "5",
+    "Property": "15",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "8",
+    "GroupId": "5",
+    "Property": "17",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "9",
+    "GroupId": "5",
+    "Property": "18",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "10",
+    "GroupId": "5",
+    "Property": "19",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "11",
+    "GroupId": "5",
+    "Property": "20",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "12",
+    "GroupId": "5",
+    "Property": "27",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "13",
+    "GroupId": "5",
+    "Property": "26",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "14",
+    "GroupId": "5",
+    "Property": "25",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "15",
+    "GroupId": "5",
+    "Property": "24",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "16",
+    "GroupId": "5",
+    "Property": "23",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "17",
+    "GroupId": "5",
+    "Property": "22",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "18",
+    "GroupId": "5",
+    "Property": "21",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "26",
+    "GroupId": "5",
+    "Property": "14",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "21",
+    "GroupId": "5",
+    "Property": "32",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "22",
+    "GroupId": "5",
+    "Property": "31",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "23",
+    "GroupId": "5",
+    "Property": "30",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "24",
+    "GroupId": "5",
+    "Property": "29",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "25",
+    "GroupId": "5",
+    "Property": "28",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "32",
+    "GroupId": "-1",
+    "Property": "0",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "28",
+    "GroupId": "5",
+    "Property": "10",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "29",
+    "GroupId": "5",
+    "Property": "11",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "30",
+    "GroupId": "5",
+    "Property": "12",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "31",
+    "GroupId": "5",
+    "Property": "13",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "33",
+    "GroupId": "-1",
+    "Property": "7",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "35",
+    "GroupId": "5",
+    "Property": "6",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "36",
+    "GroupId": "5",
+    "Property": "35",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "37",
+    "GroupId": "5",
+    "Property": "34",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "38",
+    "GroupId": "5",
+    "Property": "33",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "39",
+    "GroupId": "5",
+    "Property": "9",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "40",
+    "GroupId": "5",
+    "Property": "8",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "41",
+    "GroupId": "5",
+    "Property": "7",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "42",
+    "GroupId": "5",
+    "Property": "36",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "43",
+    "GroupId": "7",
+    "Property": "ip",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "44",
+    "GroupId": "7",
+    "Property": "metal",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "45",
+    "GroupId": "8",
+    "Property": "gümüş rengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "47",
+    "GroupId": "8",
+    "Property": "rose rengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "48",
+    "GroupId": "9",
+    "Property": "kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "49",
+    "GroupId": "9",
+    "Property": "mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "50",
+    "GroupId": "9",
+    "Property": "yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "51",
+    "GroupId": "9",
+    "Property": "lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "52",
+    "GroupId": "9",
+    "Property": "siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "53",
+    "GroupId": "10",
+    "Property": "50cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "54",
+    "GroupId": "10",
+    "Property": "60cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "55",
+    "GroupId": "10",
+    "Property": "70cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "56",
+    "GroupId": "7",
+    "Property": "Çift",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "57",
+    "GroupId": "3",
+    "Property": "ekru",
+    "ColorCode": "#cdb891"
+  },
+  {
+    "PropertyId": "58",
+    "GroupId": "3",
+    "Property": "Mavi",
+    "ColorCode": "#0000ff"
+  },
+  {
+    "PropertyId": "59",
+    "GroupId": "3",
+    "Property": "yeşil",
+    "ColorCode": "#008000"
+  },
+  {
+    "PropertyId": "60",
+    "GroupId": "6",
+    "Property": "12-18 ay",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "61",
+    "GroupId": "6",
+    "Property": "9-12 ay",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "62",
+    "GroupId": "6",
+    "Property": "18-24 ay",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "63",
+    "GroupId": "6",
+    "Property": "6-9 ay",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "64",
+    "GroupId": "6",
+    "Property": "3-4 yıl",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "65",
+    "GroupId": "6",
+    "Property": "24-36 ay",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "66",
+    "GroupId": "6",
+    "Property": "0-24 ay",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "67",
+    "GroupId": "6",
+    "Property": "12-24 ay",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1521",
+    "GroupId": "6",
+    "Property": "100",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "69",
+    "GroupId": "3",
+    "Property": "10",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1522",
+    "GroupId": "6",
+    "Property": "200",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "71",
+    "GroupId": "4",
+    "Property": "500 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "72",
+    "GroupId": "4",
+    "Property": "1 Kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "73",
+    "GroupId": "4",
+    "Property": "1.5 Kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "74",
+    "GroupId": "4",
+    "Property": "750 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "75",
+    "GroupId": "6",
+    "Property": "S",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "76",
+    "GroupId": "6",
+    "Property": "M",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "77",
+    "GroupId": "6",
+    "Property": "L",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "78",
+    "GroupId": "6",
+    "Property": "38",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "79",
+    "GroupId": "6",
+    "Property": "40",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "80",
+    "GroupId": "6",
+    "Property": "36",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "81",
+    "GroupId": "6",
+    "Property": "XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "82",
+    "GroupId": "6",
+    "Property": "42",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "83",
+    "GroupId": "6",
+    "Property": "standart",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "84",
+    "GroupId": "6",
+    "Property": "34",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "85",
+    "GroupId": "6",
+    "Property": "XS",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "86",
+    "GroupId": "6",
+    "Property": "44",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "87",
+    "GroupId": "6",
+    "Property": "46",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "88",
+    "GroupId": "3",
+    "Property": "Beyaz",
+    "ColorCode": "#ffffff"
+  },
+  {
+    "PropertyId": "89",
+    "GroupId": "3",
+    "Property": "Lacivert",
+    "ColorCode": "#000080"
+  },
+  {
+    "PropertyId": "90",
+    "GroupId": "3",
+    "Property": "bej",
+    "ColorCode": "#F5F5DC"
+  },
+  {
+    "PropertyId": "91",
+    "GroupId": "3",
+    "Property": "haki",
+    "ColorCode": "#c3b091"
+  },
+  {
+    "PropertyId": "92",
+    "GroupId": "-1",
+    "Property": "x",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "93",
+    "GroupId": "-1",
+    "Property": "1 kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "94",
+    "GroupId": "-1",
+    "Property": "250 gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "95",
+    "GroupId": "-1",
+    "Property": "500 gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "96",
+    "GroupId": "-1",
+    "Property": "1.5 kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "97",
+    "GroupId": "-1",
+    "Property": "750 gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "98",
+    "GroupId": "-1",
+    "Property": "2.5 kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "99",
+    "GroupId": "-1",
+    "Property": "100 gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "100",
+    "GroupId": "-1",
+    "Property": "yağlı cilt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "101",
+    "GroupId": "-1",
+    "Property": "kuru cilt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "102",
+    "GroupId": "-1",
+    "Property": "karışık cilt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "103",
+    "GroupId": "-1",
+    "Property": "normal cilt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "104",
+    "GroupId": "-1",
+    "Property": "hassas cilt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "105",
+    "GroupId": "-1",
+    "Property": "parlak değil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "106",
+    "GroupId": "-1",
+    "Property": "concealer",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "107",
+    "GroupId": "-1",
+    "Property": "oltu",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "108",
+    "GroupId": "-1",
+    "Property": "hayır",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "109",
+    "GroupId": "-1",
+    "Property": "taş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "110",
+    "GroupId": "-1",
+    "Property": "20cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "111",
+    "GroupId": "-1",
+    "Property": "17cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "112",
+    "GroupId": "-1",
+    "Property": "18cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "113",
+    "GroupId": "-1",
+    "Property": "22cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "114",
+    "GroupId": "-1",
+    "Property": "19cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "115",
+    "GroupId": "-1",
+    "Property": "21cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "116",
+    "GroupId": "-1",
+    "Property": "16 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "117",
+    "GroupId": "-1",
+    "Property": "16.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "118",
+    "GroupId": "-1",
+    "Property": "17.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "119",
+    "GroupId": "-1",
+    "Property": "18.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "120",
+    "GroupId": "-1",
+    "Property": "19.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "121",
+    "GroupId": "-1",
+    "Property": "20.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "122",
+    "GroupId": "-1",
+    "Property": "21.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "123",
+    "GroupId": "-1",
+    "Property": "41",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "124",
+    "GroupId": "-1",
+    "Property": "43",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "125",
+    "GroupId": "-1",
+    "Property": "45",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "126",
+    "GroupId": "-1",
+    "Property": "37",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "127",
+    "GroupId": "-1",
+    "Property": "39",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "128",
+    "GroupId": "-1",
+    "Property": "Kahverengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "129",
+    "GroupId": "-1",
+    "Property": "kumlu",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "130",
+    "GroupId": "-1",
+    "Property": "48",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "131",
+    "GroupId": "-1",
+    "Property": "50",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "132",
+    "GroupId": "-1",
+    "Property": "52",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "133",
+    "GroupId": "-1",
+    "Property": "54",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "134",
+    "GroupId": "-1",
+    "Property": "56",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "135",
+    "GroupId": "-1",
+    "Property": "58",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "136",
+    "GroupId": "-1",
+    "Property": "mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "137",
+    "GroupId": "-1",
+    "Property": "gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "138",
+    "GroupId": "-1",
+    "Property": "füme",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "139",
+    "GroupId": "-1",
+    "Property": "bordo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "140",
+    "GroupId": "-1",
+    "Property": "18-65 yıl",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "141",
+    "GroupId": "-1",
+    "Property": "koyu sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "142",
+    "GroupId": "-1",
+    "Property": "26 - 28",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "143",
+    "GroupId": "-1",
+    "Property": "27 - 28",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "144",
+    "GroupId": "-1",
+    "Property": "28 - 30",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "145",
+    "GroupId": "-1",
+    "Property": "28 - 31",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "146",
+    "GroupId": "-1",
+    "Property": "28 - 32",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "147",
+    "GroupId": "-1",
+    "Property": "28 - 29",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "148",
+    "GroupId": "-1",
+    "Property": "27 - 29",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "149",
+    "GroupId": "-1",
+    "Property": "27 - 30",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "150",
+    "GroupId": "-1",
+    "Property": "27 - 31",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "151",
+    "GroupId": "-1",
+    "Property": "27 - 32",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "152",
+    "GroupId": "4",
+    "Property": "2.5 Kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "153",
+    "GroupId": "4",
+    "Property": "250 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "154",
+    "GroupId": "4",
+    "Property": "100 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "155",
+    "GroupId": "6",
+    "Property": "48",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "160",
+    "GroupId": "3",
+    "Property": "bordo",
+    "ColorCode": "#800000"
+  },
+  {
+    "PropertyId": "161",
+    "GroupId": "3",
+    "Property": "Gri",
+    "ColorCode": "#808080"
+  },
+  {
+    "PropertyId": "162",
+    "GroupId": "3",
+    "Property": "füme",
+    "ColorCode": "#757a80"
+  },
+  {
+    "PropertyId": "163",
+    "GroupId": "3",
+    "Property": "Mor",
+    "ColorCode": "#660099"
+  },
+  {
+    "PropertyId": "164",
+    "GroupId": "3",
+    "Property": "kırmızı",
+    "ColorCode": "#ff0000"
+  },
+  {
+    "PropertyId": "165",
+    "GroupId": "3",
+    "Property": "koyu sarı",
+    "ColorCode": "#ffdf00"
+  },
+  {
+    "PropertyId": "166",
+    "GroupId": "6",
+    "Property": "26 - 28",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "167",
+    "GroupId": "6",
+    "Property": "27 - 28",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "168",
+    "GroupId": "6",
+    "Property": "28 - 30",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "169",
+    "GroupId": "6",
+    "Property": "28 - 31",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "170",
+    "GroupId": "6",
+    "Property": "28 - 32",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "171",
+    "GroupId": "6",
+    "Property": "28 - 29",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "172",
+    "GroupId": "6",
+    "Property": "27 - 29",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "173",
+    "GroupId": "6",
+    "Property": "27 - 30",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "174",
+    "GroupId": "6",
+    "Property": "27 - 31",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "175",
+    "GroupId": "6",
+    "Property": "27 - 32",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "176",
+    "GroupId": "6",
+    "Property": "37",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "177",
+    "GroupId": "6",
+    "Property": "39",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "178",
+    "GroupId": "6",
+    "Property": "41",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "179",
+    "GroupId": "6",
+    "Property": "43",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "180",
+    "GroupId": "6",
+    "Property": "45",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "181",
+    "GroupId": "3",
+    "Property": "Kahverengi",
+    "ColorCode": "#964B00"
+  },
+  {
+    "PropertyId": "182",
+    "GroupId": "3",
+    "Property": "kumlu",
+    "ColorCode": "#f4a460"
+  },
+  {
+    "PropertyId": "183",
+    "GroupId": "6",
+    "Property": "XXL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "184",
+    "GroupId": "6",
+    "Property": "50",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "185",
+    "GroupId": "6",
+    "Property": "52",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "186",
+    "GroupId": "6",
+    "Property": "54",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "187",
+    "GroupId": "6",
+    "Property": "56",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "188",
+    "GroupId": "6",
+    "Property": "30",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "189",
+    "GroupId": "6",
+    "Property": "32",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "190",
+    "GroupId": "6",
+    "Property": "31",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "191",
+    "GroupId": "6",
+    "Property": "33",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "192",
+    "GroupId": "6",
+    "Property": "35",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "193",
+    "GroupId": "3",
+    "Property": "ekru melanj",
+    "ColorCode": "#cdb891"
+  },
+  {
+    "PropertyId": "194",
+    "GroupId": "3",
+    "Property": "sıyah melanj",
+    "ColorCode": "#808080"
+  },
+  {
+    "PropertyId": "195",
+    "GroupId": "4",
+    "Property": "550 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "196",
+    "GroupId": "4",
+    "Property": "360 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "197",
+    "GroupId": "4",
+    "Property": "180 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "198",
+    "GroupId": "3",
+    "Property": "Pembe",
+    "ColorCode": "#FFCBDB"
+  },
+  {
+    "PropertyId": "199",
+    "GroupId": "13",
+    "Property": "1",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "200",
+    "GroupId": "13",
+    "Property": "3",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "201",
+    "GroupId": "4",
+    "Property": "200 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "202",
+    "GroupId": "14",
+    "Property": "Elma",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "203",
+    "GroupId": "14",
+    "Property": "Sakız",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "204",
+    "GroupId": "14",
+    "Property": "Nar",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "205",
+    "GroupId": "14",
+    "Property": "Dut",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "206",
+    "GroupId": "14",
+    "Property": "Limon",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "207",
+    "GroupId": "14",
+    "Property": "Sade",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "208",
+    "GroupId": "14",
+    "Property": "Gül",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "209",
+    "GroupId": "15",
+    "Property": "Fındık",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "210",
+    "GroupId": "15",
+    "Property": "Antep fıstığı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "211",
+    "GroupId": "14",
+    "Property": "Hindistan cevizi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "212",
+    "GroupId": "14",
+    "Property": "Süt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "213",
+    "GroupId": "3",
+    "Property": "Gümüş Rengi",
+    "ColorCode": "#C0C0C0"
+  },
+  {
+    "PropertyId": "214",
+    "GroupId": "3",
+    "Property": "Altın Rengi",
+    "ColorCode": "#FFD700"
+  },
+  {
+    "PropertyId": "215",
+    "GroupId": "4",
+    "Property": "460 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "216",
+    "GroupId": "4",
+    "Property": "850 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "217",
+    "GroupId": "16",
+    "Property": "70  X 70 Cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "218",
+    "GroupId": "16",
+    "Property": "50 × 50 Cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "219",
+    "GroupId": "16",
+    "Property": "60 * 60 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "220",
+    "GroupId": "16",
+    "Property": "75 * 75 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "221",
+    "GroupId": "16",
+    "Property": "90 * 90 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "222",
+    "GroupId": "16",
+    "Property": "45 * 45 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "223",
+    "GroupId": "16",
+    "Property": "80 * 100 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "224",
+    "GroupId": "16",
+    "Property": "70 * 100 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "225",
+    "GroupId": "16",
+    "Property": "97 * 133 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "226",
+    "GroupId": "16",
+    "Property": "76 * 101 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "227",
+    "GroupId": "16",
+    "Property": "39 * 53 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "228",
+    "GroupId": "16",
+    "Property": "70 * 97 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "229",
+    "GroupId": "16",
+    "Property": "46 * 68 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "230",
+    "GroupId": "16",
+    "Property": "140 * 100 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "231",
+    "GroupId": "16",
+    "Property": "68 * 96 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "232",
+    "GroupId": "16",
+    "Property": "50 * 65 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "239",
+    "GroupId": "3",
+    "Property": "104",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1519",
+    "GroupId": "6",
+    "Property": "2",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1520",
+    "GroupId": "6",
+    "Property": "500",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "240",
+    "GroupId": "3",
+    "Property": "103",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "241",
+    "GroupId": "3",
+    "Property": "102",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "242",
+    "GroupId": "3",
+    "Property": "101",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "243",
+    "GroupId": "13",
+    "Property": "12",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "244",
+    "GroupId": "13",
+    "Property": "6",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "245",
+    "GroupId": "17",
+    "Property": "6",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "246",
+    "GroupId": "17",
+    "Property": "12",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "247",
+    "GroupId": "13",
+    "Property": "36",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "248",
+    "GroupId": "13",
+    "Property": "30",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "249",
+    "GroupId": "3",
+    "Property": "32",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "250",
+    "GroupId": "3",
+    "Property": "23",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "251",
+    "GroupId": "3",
+    "Property": "22",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "252",
+    "GroupId": "3",
+    "Property": "21",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "253",
+    "GroupId": "3",
+    "Property": "20",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "254",
+    "GroupId": "3",
+    "Property": "19",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "255",
+    "GroupId": "3",
+    "Property": "18",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "256",
+    "GroupId": "3",
+    "Property": "17",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "257",
+    "GroupId": "3",
+    "Property": "16",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "258",
+    "GroupId": "3",
+    "Property": "15",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "259",
+    "GroupId": "3",
+    "Property": "14",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1509",
+    "GroupId": "6",
+    "Property": "18.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1510",
+    "GroupId": "6",
+    "Property": "19.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1511",
+    "GroupId": "6",
+    "Property": "20.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "267",
+    "GroupId": "3",
+    "Property": "31",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "268",
+    "GroupId": "3",
+    "Property": "30",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "269",
+    "GroupId": "3",
+    "Property": "29",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "270",
+    "GroupId": "3",
+    "Property": "28",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "271",
+    "GroupId": "3",
+    "Property": "27",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "272",
+    "GroupId": "3",
+    "Property": "26",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "273",
+    "GroupId": "3",
+    "Property": "25",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "274",
+    "GroupId": "3",
+    "Property": "24",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "275",
+    "GroupId": "3",
+    "Property": "36",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "276",
+    "GroupId": "3",
+    "Property": "35",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "277",
+    "GroupId": "3",
+    "Property": "34",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "278",
+    "GroupId": "3",
+    "Property": "33",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1498",
+    "GroupId": "6",
+    "Property": "700 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "281",
+    "GroupId": "3",
+    "Property": "205",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "282",
+    "GroupId": "3",
+    "Property": "204",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "283",
+    "GroupId": "3",
+    "Property": "203",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "284",
+    "GroupId": "3",
+    "Property": "202",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "285",
+    "GroupId": "3",
+    "Property": "201",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "286",
+    "GroupId": "3",
+    "Property": "206",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1447",
+    "GroupId": "6",
+    "Property": "5-6",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1448",
+    "GroupId": "6",
+    "Property": "4-5",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "491",
+    "GroupId": "3",
+    "Property": "Petrol",
+    "ColorCode": "#052638"
+  },
+  {
+    "PropertyId": "293",
+    "GroupId": "3",
+    "Property": "49",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1494",
+    "GroupId": "6",
+    "Property": "45 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "295",
+    "GroupId": "3",
+    "Property": "47",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1446",
+    "GroupId": "6",
+    "Property": "6-7",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "297",
+    "GroupId": "3",
+    "Property": "304",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "298",
+    "GroupId": "3",
+    "Property": "303",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "299",
+    "GroupId": "3",
+    "Property": "302",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "300",
+    "GroupId": "3",
+    "Property": "301",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "301",
+    "GroupId": "4",
+    "Property": "400 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "302",
+    "GroupId": "4",
+    "Property": "125 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "303",
+    "GroupId": "4",
+    "Property": "75 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "304",
+    "GroupId": "4",
+    "Property": "5 Kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "305",
+    "GroupId": "4",
+    "Property": "320 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "306",
+    "GroupId": "4",
+    "Property": "160 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "307",
+    "GroupId": "4",
+    "Property": "35 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "308",
+    "GroupId": "4",
+    "Property": "450 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "309",
+    "GroupId": "4",
+    "Property": "150 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "310",
+    "GroupId": "4",
+    "Property": "40 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "311",
+    "GroupId": "18",
+    "Property": "Çift",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "312",
+    "GroupId": "18",
+    "Property": "Çocuk",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "313",
+    "GroupId": "18",
+    "Property": "kadın",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "314",
+    "GroupId": "18",
+    "Property": "Erkek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "315",
+    "GroupId": "4",
+    "Property": "10 Kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "316",
+    "GroupId": "16",
+    "Property": "24",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "317",
+    "GroupId": "16",
+    "Property": "22",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "318",
+    "GroupId": "16",
+    "Property": "20",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "319",
+    "GroupId": "16",
+    "Property": "18",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "325",
+    "GroupId": "9",
+    "Property": "Turkuaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "321",
+    "GroupId": "6",
+    "Property": "22",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "322",
+    "GroupId": "6",
+    "Property": "20",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "323",
+    "GroupId": "6",
+    "Property": "18",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "324",
+    "GroupId": "6",
+    "Property": "24",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "327",
+    "GroupId": "9",
+    "Property": "Açık Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "329",
+    "GroupId": "3",
+    "Property": "renkli",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "330",
+    "GroupId": "7",
+    "Property": "çiçek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "331",
+    "GroupId": "13",
+    "Property": "72",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "332",
+    "GroupId": "13",
+    "Property": "50",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "334",
+    "GroupId": "19",
+    "Property": "Çerçeve",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "335",
+    "GroupId": "19",
+    "Property": "Dekoratif",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "336",
+    "GroupId": "19",
+    "Property": "Uçan Fil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "337",
+    "GroupId": "19",
+    "Property": "Tavşan ve Fil ",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "338",
+    "GroupId": "19",
+    "Property": "Unicorn",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "339",
+    "GroupId": "19",
+    "Property": "Şato",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "340",
+    "GroupId": "19",
+    "Property": "Prenses",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "341",
+    "GroupId": "19",
+    "Property": "Mor Kalp Dekor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "342",
+    "GroupId": "19",
+    "Property": "Minik Fil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "343",
+    "GroupId": "19",
+    "Property": "Leylek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "344",
+    "GroupId": "19",
+    "Property": "Kız Bebek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "345",
+    "GroupId": "19",
+    "Property": "Kelebek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "346",
+    "GroupId": "19",
+    "Property": "Hayvanlar",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "347",
+    "GroupId": "19",
+    "Property": "Gül",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "348",
+    "GroupId": "19",
+    "Property": "Ayıcık",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "349",
+    "GroupId": "19",
+    "Property": "Aslan",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "350",
+    "GroupId": "19",
+    "Property": "Aile",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "351",
+    "GroupId": "19",
+    "Property": "beyaz - siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "352",
+    "GroupId": "19",
+    "Property": "Sarı-Kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "353",
+    "GroupId": "19",
+    "Property": "Sarı-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "354",
+    "GroupId": "19",
+    "Property": "Gezegenler",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "356",
+    "GroupId": "4",
+    "Property": "1.100 Kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "358",
+    "GroupId": "4",
+    "Property": "600 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "359",
+    "GroupId": "4",
+    "Property": "225 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "360",
+    "GroupId": "3",
+    "Property": "Koyu Kahverengi",
+    "ColorCode": "#654321"
+  },
+  {
+    "PropertyId": "361",
+    "GroupId": "3",
+    "Property": "Açık Kahverengi",
+    "ColorCode": "#D2B48C"
+  },
+  {
+    "PropertyId": "362",
+    "GroupId": "21",
+    "Property": "24",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "510",
+    "GroupId": "21",
+    "Property": "40",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "363",
+    "GroupId": "21",
+    "Property": "01",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "364",
+    "GroupId": "21",
+    "Property": "26",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "365",
+    "GroupId": "21",
+    "Property": "25",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "366",
+    "GroupId": "21",
+    "Property": "27",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "367",
+    "GroupId": "21",
+    "Property": "28",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "368",
+    "GroupId": "21",
+    "Property": "29",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "369",
+    "GroupId": "21",
+    "Property": "31",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "370",
+    "GroupId": "21",
+    "Property": "30",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "371",
+    "GroupId": "21",
+    "Property": "32",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "372",
+    "GroupId": "21",
+    "Property": "33",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "373",
+    "GroupId": "21",
+    "Property": "34",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "374",
+    "GroupId": "21",
+    "Property": "35",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "375",
+    "GroupId": "21",
+    "Property": "36",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "376",
+    "GroupId": "21",
+    "Property": "37",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "377",
+    "GroupId": "21",
+    "Property": "38",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "378",
+    "GroupId": "21",
+    "Property": "39",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "379",
+    "GroupId": "21",
+    "Property": "43",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "380",
+    "GroupId": "21",
+    "Property": "16",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "381",
+    "GroupId": "21",
+    "Property": "10",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "382",
+    "GroupId": "21",
+    "Property": "22",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "383",
+    "GroupId": "21",
+    "Property": "12",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "384",
+    "GroupId": "21",
+    "Property": "13",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "385",
+    "GroupId": "21",
+    "Property": "14",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "386",
+    "GroupId": "21",
+    "Property": "15",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "436",
+    "GroupId": "21",
+    "Property": "305",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "388",
+    "GroupId": "21",
+    "Property": "17",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "389",
+    "GroupId": "21",
+    "Property": "18",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "390",
+    "GroupId": "21",
+    "Property": "19",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "391",
+    "GroupId": "21",
+    "Property": "20",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "392",
+    "GroupId": "21",
+    "Property": "21",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "393",
+    "GroupId": "21",
+    "Property": "23",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "394",
+    "GroupId": "21",
+    "Property": "54",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "395",
+    "GroupId": "21",
+    "Property": "52",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "396",
+    "GroupId": "21",
+    "Property": "06",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "397",
+    "GroupId": "21",
+    "Property": "05",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "398",
+    "GroupId": "21",
+    "Property": "04",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "399",
+    "GroupId": "21",
+    "Property": "03",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "400",
+    "GroupId": "21",
+    "Property": "02",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "401",
+    "GroupId": "21",
+    "Property": "09",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "402",
+    "GroupId": "21",
+    "Property": "103",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "403",
+    "GroupId": "21",
+    "Property": "101",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "404",
+    "GroupId": "21",
+    "Property": "115",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "405",
+    "GroupId": "21",
+    "Property": "118",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "406",
+    "GroupId": "21",
+    "Property": "108",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "407",
+    "GroupId": "21",
+    "Property": "112",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "408",
+    "GroupId": "21",
+    "Property": "106",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "478",
+    "GroupId": "21",
+    "Property": "300",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "410",
+    "GroupId": "21",
+    "Property": "116",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "411",
+    "GroupId": "21",
+    "Property": "102",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "412",
+    "GroupId": "21",
+    "Property": "104",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "413",
+    "GroupId": "21",
+    "Property": "110",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "414",
+    "GroupId": "21",
+    "Property": "57",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "415",
+    "GroupId": "21",
+    "Property": "56",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "416",
+    "GroupId": "21",
+    "Property": "500",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "417",
+    "GroupId": "21",
+    "Property": "11",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "418",
+    "GroupId": "21",
+    "Property": "204",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "419",
+    "GroupId": "21",
+    "Property": "203",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "420",
+    "GroupId": "21",
+    "Property": "201",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "421",
+    "GroupId": "21",
+    "Property": "08",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "422",
+    "GroupId": "21",
+    "Property": "07",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "423",
+    "GroupId": "21",
+    "Property": "111",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "424",
+    "GroupId": "21",
+    "Property": "01y",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "425",
+    "GroupId": "21",
+    "Property": "02y",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "426",
+    "GroupId": "21",
+    "Property": "03y",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "427",
+    "GroupId": "21",
+    "Property": "04y",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "428",
+    "GroupId": "21",
+    "Property": "05y",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "429",
+    "GroupId": "21",
+    "Property": "06y",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "430",
+    "GroupId": "21",
+    "Property": "51",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "431",
+    "GroupId": "21",
+    "Property": "113",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "432",
+    "GroupId": "21",
+    "Property": "53",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "433",
+    "GroupId": "21",
+    "Property": "55",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "434",
+    "GroupId": "21",
+    "Property": "107",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "435",
+    "GroupId": "21",
+    "Property": "109",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "437",
+    "GroupId": "21",
+    "Property": "304",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "438",
+    "GroupId": "21",
+    "Property": "303",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "439",
+    "GroupId": "21",
+    "Property": "302",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "440",
+    "GroupId": "21",
+    "Property": "301",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "446",
+    "GroupId": "21",
+    "Property": "202",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "443",
+    "GroupId": "21",
+    "Property": "310",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "444",
+    "GroupId": "21",
+    "Property": "308",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "445",
+    "GroupId": "21",
+    "Property": "307",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "447",
+    "GroupId": "21",
+    "Property": "403",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "448",
+    "GroupId": "21",
+    "Property": "402",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "449",
+    "GroupId": "21",
+    "Property": "401",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "450",
+    "GroupId": "21",
+    "Property": "404",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "451",
+    "GroupId": "21",
+    "Property": "408",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "452",
+    "GroupId": "21",
+    "Property": "407",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "453",
+    "GroupId": "21",
+    "Property": "405",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "454",
+    "GroupId": "9",
+    "Property": "Açık Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "455",
+    "GroupId": "8",
+    "Property": "Altın Rengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "456",
+    "GroupId": "9",
+    "Property": "Beyaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "457",
+    "GroupId": "9",
+    "Property": "Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "458",
+    "GroupId": "22",
+    "Property": "Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "459",
+    "GroupId": "22",
+    "Property": "Açık Kahverengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "460",
+    "GroupId": "3",
+    "Property": "Bakır Reng",
+    "ColorCode": "#b87333"
+  },
+  {
+    "PropertyId": "461",
+    "GroupId": "10",
+    "Property": "55cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "462",
+    "GroupId": "10",
+    "Property": "65cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "463",
+    "GroupId": "23",
+    "Property": "Koyu Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "464",
+    "GroupId": "23",
+    "Property": "Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "465",
+    "GroupId": "23",
+    "Property": "Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "466",
+    "GroupId": "23",
+    "Property": "Kahverengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "467",
+    "GroupId": "23",
+    "Property": "Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "468",
+    "GroupId": "23",
+    "Property": "Koyu Kahverengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "469",
+    "GroupId": "4",
+    "Property": "650 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "470",
+    "GroupId": "4",
+    "Property": "975 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "471",
+    "GroupId": "8",
+    "Property": "Bronz rengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "472",
+    "GroupId": "3",
+    "Property": "Turuncu",
+    "ColorCode": "#FF7F00"
+  },
+  {
+    "PropertyId": "474",
+    "GroupId": "-1",
+    "Property": "2",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "475",
+    "GroupId": "-1",
+    "Property": "4",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "476",
+    "GroupId": "-1",
+    "Property": "5",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "477",
+    "GroupId": "21",
+    "Property": "105",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "479",
+    "GroupId": "21",
+    "Property": "200",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "480",
+    "GroupId": "21",
+    "Property": "100",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "481",
+    "GroupId": "13",
+    "Property": "24",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "482",
+    "GroupId": "13",
+    "Property": "2",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "483",
+    "GroupId": "7",
+    "Property": "Paket",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "484",
+    "GroupId": "7",
+    "Property": "Cam Kavanoz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "485",
+    "GroupId": "14",
+    "Property": "Çilekler",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "486",
+    "GroupId": "14",
+    "Property": "Çikolata",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "487",
+    "GroupId": "14",
+    "Property": "Sade A+",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "488",
+    "GroupId": "13",
+    "Property": "4",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "489",
+    "GroupId": "14",
+    "Property": "4",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "490",
+    "GroupId": "3",
+    "Property": "Yağlı Renk",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "492",
+    "GroupId": "3",
+    "Property": "Fuşya",
+    "ColorCode": "#FF00FF"
+  },
+  {
+    "PropertyId": "493",
+    "GroupId": "3",
+    "Property": "Rose",
+    "ColorCode": "#b76e79"
+  },
+  {
+    "PropertyId": "494",
+    "GroupId": "3",
+    "Property": "Açık Yeşil",
+    "ColorCode": "#66ff00"
+  },
+  {
+    "PropertyId": "495",
+    "GroupId": "3",
+    "Property": "Açık Mavi",
+    "ColorCode": "#7F7FFF"
+  },
+  {
+    "PropertyId": "496",
+    "GroupId": "6",
+    "Property": "26",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "497",
+    "GroupId": "6",
+    "Property": "27",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "498",
+    "GroupId": "6",
+    "Property": "28",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "499",
+    "GroupId": "6",
+    "Property": "29",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "500",
+    "GroupId": "3",
+    "Property": "İndigo",
+    "ColorCode": "#4b008"
+  },
+  {
+    "PropertyId": "501",
+    "GroupId": "3",
+    "Property": "Koyu Yeşil",
+    "ColorCode": " #01322"
+  },
+  {
+    "PropertyId": "502",
+    "GroupId": "3",
+    "Property": "Zümrüt",
+    "ColorCode": "#50c878"
+  },
+  {
+    "PropertyId": "503",
+    "GroupId": "9",
+    "Property": "Elma",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "504",
+    "GroupId": "3",
+    "Property": "Koyu Haki",
+    "ColorCode": "#bdb76b"
+  },
+  {
+    "PropertyId": "505",
+    "GroupId": "3",
+    "Property": "Erguvan",
+    "ColorCode": "#3a0f36"
+  },
+  {
+    "PropertyId": "506",
+    "GroupId": "3",
+    "Property": "Koyu Bej",
+    "ColorCode": "#f5f5dc"
+  },
+  {
+    "PropertyId": "507",
+    "GroupId": "14",
+    "Property": "Portakal",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "508",
+    "GroupId": "3",
+    "Property": "Ateşli",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "509",
+    "GroupId": "3",
+    "Property": "Açık Mor",
+    "ColorCode": "#e0b0ff"
+  },
+  {
+    "PropertyId": "511",
+    "GroupId": "21",
+    "Property": "00",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "512",
+    "GroupId": "21",
+    "Property": "41",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "513",
+    "GroupId": "21",
+    "Property": "42",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "514",
+    "GroupId": "21",
+    "Property": "50",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "515",
+    "GroupId": "21",
+    "Property": "49",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "516",
+    "GroupId": "21",
+    "Property": "48",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "517",
+    "GroupId": "21",
+    "Property": "47",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "518",
+    "GroupId": "21",
+    "Property": "46",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "519",
+    "GroupId": "21",
+    "Property": "45",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "520",
+    "GroupId": "21",
+    "Property": "44",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "521",
+    "GroupId": "21",
+    "Property": "82",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "522",
+    "GroupId": "21",
+    "Property": "81",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "523",
+    "GroupId": "21",
+    "Property": "80",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "524",
+    "GroupId": "21",
+    "Property": "79",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "525",
+    "GroupId": "21",
+    "Property": "78",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "526",
+    "GroupId": "21",
+    "Property": "77",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "527",
+    "GroupId": "21",
+    "Property": "76",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "528",
+    "GroupId": "21",
+    "Property": "75",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "529",
+    "GroupId": "21",
+    "Property": "74",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "530",
+    "GroupId": "21",
+    "Property": "73",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "531",
+    "GroupId": "21",
+    "Property": "72",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "532",
+    "GroupId": "21",
+    "Property": "71",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "533",
+    "GroupId": "21",
+    "Property": "70",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "534",
+    "GroupId": "21",
+    "Property": "69",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "535",
+    "GroupId": "21",
+    "Property": "68",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "536",
+    "GroupId": "21",
+    "Property": "67",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "537",
+    "GroupId": "21",
+    "Property": "66",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "538",
+    "GroupId": "21",
+    "Property": "65",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "539",
+    "GroupId": "21",
+    "Property": "64",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "540",
+    "GroupId": "21",
+    "Property": "63",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "541",
+    "GroupId": "21",
+    "Property": "62",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "542",
+    "GroupId": "21",
+    "Property": "61",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "543",
+    "GroupId": "21",
+    "Property": "60",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "544",
+    "GroupId": "21",
+    "Property": "58",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "545",
+    "GroupId": "21",
+    "Property": "59",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "546",
+    "GroupId": "3",
+    "Property": "Turkuaz",
+    "ColorCode": " #30d5c"
+  },
+  {
+    "PropertyId": "547",
+    "GroupId": "3",
+    "Property": "Koyu Kırmızı",
+    "ColorCode": "#dc143c"
+  },
+  {
+    "PropertyId": "548",
+    "GroupId": "3",
+    "Property": "Ela",
+    "ColorCode": "#ebc8b2"
+  },
+  {
+    "PropertyId": "549",
+    "GroupId": "3",
+    "Property": "şeffaf",
+    "ColorCode": "#002fa7"
+  },
+  {
+    "PropertyId": "550",
+    "GroupId": "3",
+    "Property": "Somon",
+    "ColorCode": "#fa8072"
+  },
+  {
+    "PropertyId": "551",
+    "GroupId": "4",
+    "Property": "45 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "552",
+    "GroupId": "4",
+    "Property": "60 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "553",
+    "GroupId": "4",
+    "Property": "50 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "554",
+    "GroupId": "9",
+    "Property": "Ela",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "555",
+    "GroupId": "9",
+    "Property": "Desenli",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "556",
+    "GroupId": "4",
+    "Property": "700 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "557",
+    "GroupId": "4",
+    "Property": "350 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "558",
+    "GroupId": "4",
+    "Property": "800 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "559",
+    "GroupId": "4",
+    "Property": "740 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "560",
+    "GroupId": "4",
+    "Property": "790 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "561",
+    "GroupId": "4",
+    "Property": "300 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "562",
+    "GroupId": "4",
+    "Property": "1.3 Kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "563",
+    "GroupId": "4",
+    "Property": "730 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "564",
+    "GroupId": "4",
+    "Property": "280 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "565",
+    "GroupId": "4",
+    "Property": "420 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "566",
+    "GroupId": "4",
+    "Property": "950 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "567",
+    "GroupId": "21",
+    "Property": "125",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "568",
+    "GroupId": "21",
+    "Property": "120",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "569",
+    "GroupId": "21",
+    "Property": "114",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "570",
+    "GroupId": "21",
+    "Property": "117",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "571",
+    "GroupId": "21",
+    "Property": "119",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "572",
+    "GroupId": "21",
+    "Property": "121",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "573",
+    "GroupId": "21",
+    "Property": "124",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "574",
+    "GroupId": "21",
+    "Property": "123",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "575",
+    "GroupId": "21",
+    "Property": "122",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "576",
+    "GroupId": "21",
+    "Property": "128",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "577",
+    "GroupId": "21",
+    "Property": "127",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "578",
+    "GroupId": "21",
+    "Property": "126",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "579",
+    "GroupId": "21",
+    "Property": "133",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "580",
+    "GroupId": "21",
+    "Property": "132",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "581",
+    "GroupId": "21",
+    "Property": "131",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "582",
+    "GroupId": "21",
+    "Property": "130",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "583",
+    "GroupId": "21",
+    "Property": "129",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "584",
+    "GroupId": "21",
+    "Property": "136",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "585",
+    "GroupId": "21",
+    "Property": "135",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "586",
+    "GroupId": "21",
+    "Property": "134",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "587",
+    "GroupId": "21",
+    "Property": "139",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "588",
+    "GroupId": "21",
+    "Property": "138",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "589",
+    "GroupId": "21",
+    "Property": "137",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "590",
+    "GroupId": "9",
+    "Property": "Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "591",
+    "GroupId": "9",
+    "Property": "Kahverengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "592",
+    "GroupId": "4",
+    "Property": "270 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "593",
+    "GroupId": "4",
+    "Property": "190 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "594",
+    "GroupId": "4",
+    "Property": "210 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "597",
+    "GroupId": "10",
+    "Property": "75cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "596",
+    "GroupId": "4",
+    "Property": "290 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "598",
+    "GroupId": "10",
+    "Property": "90cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "599",
+    "GroupId": "3",
+    "Property": "Pudra",
+    "ColorCode": "#f0d8d3"
+  },
+  {
+    "PropertyId": "600",
+    "GroupId": "-1",
+    "Property": "bejj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "602",
+    "GroupId": "9",
+    "Property": "Rose",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "603",
+    "GroupId": "4",
+    "Property": "yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "604",
+    "GroupId": "0",
+    "Property": "S",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "605",
+    "GroupId": "0",
+    "Property": "Intel Core i7",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "606",
+    "GroupId": "13",
+    "Property": "5",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "607",
+    "GroupId": "13",
+    "Property": "8",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "609",
+    "GroupId": "3",
+    "Property": "kırmızı akik",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "610",
+    "GroupId": "14",
+    "Property": "Dibek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "611",
+    "GroupId": "14",
+    "Property": "Güllü",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "612",
+    "GroupId": "14",
+    "Property": "Kakuleli",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "613",
+    "GroupId": "14",
+    "Property": "Fındıklı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1517",
+    "GroupId": "3",
+    "Property": "kadın",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1504",
+    "GroupId": "6",
+    "Property": "19cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1500",
+    "GroupId": "6",
+    "Property": "20cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1492",
+    "GroupId": "6",
+    "Property": "50 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1487",
+    "GroupId": "6",
+    "Property": "1 Kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1476",
+    "GroupId": "6",
+    "Property": "12",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1454",
+    "GroupId": "3",
+    "Property": "3-4 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1512",
+    "GroupId": "6",
+    "Property": "21.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1514",
+    "GroupId": "6",
+    "Property": "60cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1507",
+    "GroupId": "6",
+    "Property": "16.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1503",
+    "GroupId": "6",
+    "Property": "22cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1455",
+    "GroupId": "3",
+    "Property": "5-6 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1475",
+    "GroupId": "6",
+    "Property": "13",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1474",
+    "GroupId": "6",
+    "Property": "11",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1501",
+    "GroupId": "6",
+    "Property": "17cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1495",
+    "GroupId": "6",
+    "Property": "5 Kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1493",
+    "GroupId": "6",
+    "Property": "400 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1488",
+    "GroupId": "6",
+    "Property": "1",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1679",
+    "GroupId": "41",
+    "Property": "107",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1678",
+    "GroupId": "41",
+    "Property": "68",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1491",
+    "GroupId": "6",
+    "Property": "125 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1490",
+    "GroupId": "6",
+    "Property": "500 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "655",
+    "GroupId": "3",
+    "Property": "L",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "656",
+    "GroupId": "3",
+    "Property": "M",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "657",
+    "GroupId": "3",
+    "Property": "S",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "658",
+    "GroupId": "3",
+    "Property": "XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "659",
+    "GroupId": "3",
+    "Property": "XXL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1606",
+    "GroupId": "3",
+    "Property": "12-13",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1607",
+    "GroupId": "3",
+    "Property": "11-12",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1608",
+    "GroupId": "3",
+    "Property": "10-11",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1609",
+    "GroupId": "3",
+    "Property": "6-7",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1610",
+    "GroupId": "3",
+    "Property": "5-6",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1611",
+    "GroupId": "3",
+    "Property": "4-5",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1612",
+    "GroupId": "3",
+    "Property": "3-4",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1613",
+    "GroupId": "14",
+    "Property": "Acı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1566",
+    "GroupId": "6",
+    "Property": "650 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1567",
+    "GroupId": "6",
+    "Property": "975 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1568",
+    "GroupId": "6",
+    "Property": "9",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1569",
+    "GroupId": "6",
+    "Property": "6",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1570",
+    "GroupId": "6",
+    "Property": "Gümüş Rengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1571",
+    "GroupId": "6",
+    "Property": "Altın Rengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1527",
+    "GroupId": "6",
+    "Property": "103",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1528",
+    "GroupId": "6",
+    "Property": "104",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1529",
+    "GroupId": "6",
+    "Property": "01",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1530",
+    "GroupId": "6",
+    "Property": "02",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1531",
+    "GroupId": "6",
+    "Property": "03",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1532",
+    "GroupId": "6",
+    "Property": "04",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1533",
+    "GroupId": "3",
+    "Property": "Gül",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1534",
+    "GroupId": "3",
+    "Property": "Dekoratif",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1535",
+    "GroupId": "3",
+    "Property": "beyaz - siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1536",
+    "GroupId": "3",
+    "Property": "Çerçeve",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1537",
+    "GroupId": "3",
+    "Property": "Uçan Fil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1538",
+    "GroupId": "3",
+    "Property": "Tavşan ve Fil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1539",
+    "GroupId": "3",
+    "Property": "Unicorn",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1540",
+    "GroupId": "3",
+    "Property": "Şato",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1541",
+    "GroupId": "3",
+    "Property": "Prenses",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1542",
+    "GroupId": "3",
+    "Property": "Mor Kalp Dekor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1543",
+    "GroupId": "3",
+    "Property": "Minik Fil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1526",
+    "GroupId": "6",
+    "Property": "102",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1453",
+    "GroupId": "3",
+    "Property": "8-9 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1451",
+    "GroupId": "3",
+    "Property": "6-7 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1449",
+    "GroupId": "6",
+    "Property": "3-4",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1450",
+    "GroupId": "3",
+    "Property": "4-5 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1615",
+    "GroupId": "37",
+    "Property": "Acı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1616",
+    "GroupId": "37",
+    "Property": "Tatlı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1617",
+    "GroupId": "14",
+    "Property": "Kuru Meyveli",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1618",
+    "GroupId": "14",
+    "Property": "Kırmızı meyveli",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1620",
+    "GroupId": "38",
+    "Property": "Mov Face & Body Glitter No:2",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1622",
+    "GroupId": "38",
+    "Property": "Mov Face & Body Glitter No:5",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1623",
+    "GroupId": "39",
+    "Property": "S-M",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1624",
+    "GroupId": "39",
+    "Property": "L-XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1625",
+    "GroupId": "39",
+    "Property": "80B",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1626",
+    "GroupId": "39",
+    "Property": "75B",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1627",
+    "GroupId": "39",
+    "Property": "90B",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1628",
+    "GroupId": "39",
+    "Property": "85B",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1629",
+    "GroupId": "40",
+    "Property": "Kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1630",
+    "GroupId": "40",
+    "Property": "Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1631",
+    "GroupId": "40",
+    "Property": "yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1632",
+    "GroupId": "39",
+    "Property": "L",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1633",
+    "GroupId": "39",
+    "Property": "M",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1634",
+    "GroupId": "39",
+    "Property": "S",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1635",
+    "GroupId": "39",
+    "Property": "XXL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1497",
+    "GroupId": "6",
+    "Property": "160 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1673",
+    "GroupId": "41",
+    "Property": "62",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1674",
+    "GroupId": "41",
+    "Property": "63",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1675",
+    "GroupId": "41",
+    "Property": "46",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1672",
+    "GroupId": "41",
+    "Property": "51",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1676",
+    "GroupId": "41",
+    "Property": "56",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1677",
+    "GroupId": "41",
+    "Property": "47",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1614",
+    "GroupId": "14",
+    "Property": "Tatlı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1693",
+    "GroupId": "39",
+    "Property": "90",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "769",
+    "GroupId": "3",
+    "Property": "XS",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1496",
+    "GroupId": "6",
+    "Property": "320 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1489",
+    "GroupId": "6",
+    "Property": "3",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1478",
+    "GroupId": "3",
+    "Property": "13",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1479",
+    "GroupId": "3",
+    "Property": "12",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1480",
+    "GroupId": "3",
+    "Property": "11",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1481",
+    "GroupId": "6",
+    "Property": "100 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1482",
+    "GroupId": "6",
+    "Property": "200 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1483",
+    "GroupId": "6",
+    "Property": "250 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1484",
+    "GroupId": "6",
+    "Property": "kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1485",
+    "GroupId": "6",
+    "Property": "yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1486",
+    "GroupId": "6",
+    "Property": "siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1452",
+    "GroupId": "3",
+    "Property": "7-8 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "797",
+    "GroupId": "3",
+    "Property": "Standart",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1716",
+    "GroupId": "40",
+    "Property": "Kahverengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1702",
+    "GroupId": "40",
+    "Property": "Turuncu",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1703",
+    "GroupId": "45",
+    "Property": "Gümüş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1704",
+    "GroupId": "45",
+    "Property": "Kauçuk",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1705",
+    "GroupId": "14",
+    "Property": "tulum peyniri & köz biber ",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1685",
+    "GroupId": "41",
+    "Property": "06",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1686",
+    "GroupId": "44",
+    "Property": "1",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1687",
+    "GroupId": "44",
+    "Property": "2",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1688",
+    "GroupId": "44",
+    "Property": "3",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1689",
+    "GroupId": "44",
+    "Property": "4",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1690",
+    "GroupId": "44",
+    "Property": "5",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1604",
+    "GroupId": "3",
+    "Property": "14-15",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1605",
+    "GroupId": "3",
+    "Property": "13-14",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1572",
+    "GroupId": "6",
+    "Property": "201",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1573",
+    "GroupId": "6",
+    "Property": "202",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1574",
+    "GroupId": "6",
+    "Property": "203",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1575",
+    "GroupId": "6",
+    "Property": "204",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1576",
+    "GroupId": "6",
+    "Property": "205",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1577",
+    "GroupId": "6",
+    "Property": "206",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1578",
+    "GroupId": "6",
+    "Property": "47",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1579",
+    "GroupId": "6",
+    "Property": "49",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1580",
+    "GroupId": "6",
+    "Property": "Kahverengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1581",
+    "GroupId": "6",
+    "Property": "Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1582",
+    "GroupId": "6",
+    "Property": "301",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1583",
+    "GroupId": "6",
+    "Property": "302",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1584",
+    "GroupId": "6",
+    "Property": "303",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1585",
+    "GroupId": "6",
+    "Property": "304",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1586",
+    "GroupId": "6",
+    "Property": "Turkuaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1587",
+    "GroupId": "6",
+    "Property": "Rose",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1588",
+    "GroupId": "6",
+    "Property": "kadın",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1589",
+    "GroupId": "6",
+    "Property": "Çocuk",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1590",
+    "GroupId": "6",
+    "Property": "Çift",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1591",
+    "GroupId": "6",
+    "Property": "rose rengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1592",
+    "GroupId": "6",
+    "Property": "Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1593",
+    "GroupId": "6",
+    "Property": "3/4",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1594",
+    "GroupId": "6",
+    "Property": "4/5",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1595",
+    "GroupId": "6",
+    "Property": "5/6",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1596",
+    "GroupId": "6",
+    "Property": "6/7",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1597",
+    "GroupId": "6",
+    "Property": "7/8",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1598",
+    "GroupId": "6",
+    "Property": "8/9",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1599",
+    "GroupId": "36",
+    "Property": "red",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1600",
+    "GroupId": "36",
+    "Property": "blue",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1601",
+    "GroupId": "3",
+    "Property": "9-10",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1602",
+    "GroupId": "3",
+    "Property": "8-9",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1603",
+    "GroupId": "3",
+    "Property": "7-8",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1544",
+    "GroupId": "3",
+    "Property": "Leylek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1545",
+    "GroupId": "3",
+    "Property": "Kız Bebek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1546",
+    "GroupId": "3",
+    "Property": "Kelebek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1547",
+    "GroupId": "3",
+    "Property": "Hayvanlar",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1548",
+    "GroupId": "3",
+    "Property": "Ayıcık",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1549",
+    "GroupId": "3",
+    "Property": "Aslan",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1550",
+    "GroupId": "3",
+    "Property": "Aile",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1551",
+    "GroupId": "3",
+    "Property": "Sarı-Kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1552",
+    "GroupId": "6",
+    "Property": "72",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1553",
+    "GroupId": "3",
+    "Property": "Gezegenler",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1523",
+    "GroupId": "6",
+    "Property": "300",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1524",
+    "GroupId": "6",
+    "Property": "101",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1525",
+    "GroupId": "6",
+    "Property": "105",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1680",
+    "GroupId": "41",
+    "Property": "73",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1681",
+    "GroupId": "41",
+    "Property": "05",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1682",
+    "GroupId": "41",
+    "Property": "04",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1683",
+    "GroupId": "41",
+    "Property": "03",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1684",
+    "GroupId": "41",
+    "Property": "02",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1637",
+    "GroupId": "40",
+    "Property": "Beyez",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1638",
+    "GroupId": "39",
+    "Property": "3XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1639",
+    "GroupId": "39",
+    "Property": "4XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1640",
+    "GroupId": "40",
+    "Property": "Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1641",
+    "GroupId": "40",
+    "Property": "LACİVERT",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1642",
+    "GroupId": "40",
+    "Property": "BEBE MAVİSİ",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1643",
+    "GroupId": "40",
+    "Property": "FÜME",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1644",
+    "GroupId": "40",
+    "Property": "TEN",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1645",
+    "GroupId": "40",
+    "Property": "SAKS",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1646",
+    "GroupId": "40",
+    "Property": "PEMBE/LİLA",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1647",
+    "GroupId": "40",
+    "Property": "LİLA/YEŞİL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1648",
+    "GroupId": "40",
+    "Property": "Bebe Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1649",
+    "GroupId": "40",
+    "Property": "Neon Pembe ",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1650",
+    "GroupId": "40",
+    "Property": "Neon Sarı ",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1651",
+    "GroupId": "40",
+    "Property": "Neon Turuncu",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1652",
+    "GroupId": "39",
+    "Property": "XS",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1653",
+    "GroupId": "40",
+    "Property": "VİŞNE",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1654",
+    "GroupId": "40",
+    "Property": "Lila",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1655",
+    "GroupId": "40",
+    "Property": "Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1656",
+    "GroupId": "40",
+    "Property": "TURKUAZ",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1657",
+    "GroupId": "41",
+    "Property": "53",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1658",
+    "GroupId": "41",
+    "Property": "XL7",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1659",
+    "GroupId": "41",
+    "Property": "55",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1660",
+    "GroupId": "41",
+    "Property": "109",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1661",
+    "GroupId": "41",
+    "Property": "108",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1662",
+    "GroupId": "41",
+    "Property": "48",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1663",
+    "GroupId": "41",
+    "Property": "71",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1664",
+    "GroupId": "41",
+    "Property": "65",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1665",
+    "GroupId": "41",
+    "Property": "44",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1666",
+    "GroupId": "41",
+    "Property": "54",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1667",
+    "GroupId": "41",
+    "Property": "52",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1668",
+    "GroupId": "41",
+    "Property": "49",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1669",
+    "GroupId": "41",
+    "Property": "64",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1670",
+    "GroupId": "41",
+    "Property": "111",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1565",
+    "GroupId": "6",
+    "Property": "460 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1556",
+    "GroupId": "6",
+    "Property": "600 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1636",
+    "GroupId": "39",
+    "Property": "XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1499",
+    "GroupId": "6",
+    "Property": "350 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1706",
+    "GroupId": "14",
+    "Property": "Peynir&soğan",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1707",
+    "GroupId": "40",
+    "Property": "krem",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1708",
+    "GroupId": "44",
+    "Property": "12",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1709",
+    "GroupId": "13",
+    "Property": "16",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1710",
+    "GroupId": "17",
+    "Property": "10",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1711",
+    "GroupId": "17",
+    "Property": "24",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1712",
+    "GroupId": "13",
+    "Property": "10",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1713",
+    "GroupId": "13",
+    "Property": "48",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1714",
+    "GroupId": "40",
+    "Property": "Hardal",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1715",
+    "GroupId": "40",
+    "Property": "Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1694",
+    "GroupId": "40",
+    "Property": "BORDO",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1695",
+    "GroupId": "40",
+    "Property": "EKRU",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1671",
+    "GroupId": "41",
+    "Property": "110",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1554",
+    "GroupId": "6",
+    "Property": "75 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1555",
+    "GroupId": "6",
+    "Property": "450 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1696",
+    "GroupId": "44",
+    "Property": "18",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1697",
+    "GroupId": "44",
+    "Property": "6",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1698",
+    "GroupId": "40",
+    "Property": "Altın",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1699",
+    "GroupId": "41",
+    "Property": "01",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1700",
+    "GroupId": "40",
+    "Property": "Gümüş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1701",
+    "GroupId": "40",
+    "Property": "Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1691",
+    "GroupId": "44",
+    "Property": "4+1",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1692",
+    "GroupId": "39",
+    "Property": "85",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1518",
+    "GroupId": "3",
+    "Property": "Erkek",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1505",
+    "GroupId": "6",
+    "Property": "21cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1502",
+    "GroupId": "6",
+    "Property": "18cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1557",
+    "GroupId": "6",
+    "Property": "2.5 kilo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1558",
+    "GroupId": "6",
+    "Property": "180 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1559",
+    "GroupId": "6",
+    "Property": "360 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1560",
+    "GroupId": "6",
+    "Property": "4",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1561",
+    "GroupId": "6",
+    "Property": "7",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1562",
+    "GroupId": "6",
+    "Property": "8",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1563",
+    "GroupId": "6",
+    "Property": "5",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1564",
+    "GroupId": "6",
+    "Property": "850 Gram",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1516",
+    "GroupId": "3",
+    "Property": "çift",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1515",
+    "GroupId": "6",
+    "Property": "70cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1513",
+    "GroupId": "6",
+    "Property": "50cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1508",
+    "GroupId": "6",
+    "Property": "17.5 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1506",
+    "GroupId": "6",
+    "Property": "16 cm",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1477",
+    "GroupId": "3",
+    "Property": "rose rengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1473",
+    "GroupId": "6",
+    "Property": "10",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1456",
+    "GroupId": "3",
+    "Property": "2-3 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1457",
+    "GroupId": "3",
+    "Property": "1-2 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1458",
+    "GroupId": "3",
+    "Property": "2 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1459",
+    "GroupId": "3",
+    "Property": "3 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1460",
+    "GroupId": "3",
+    "Property": "13-14 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1461",
+    "GroupId": "3",
+    "Property": "10-11 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1462",
+    "GroupId": "3",
+    "Property": "11-12 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1463",
+    "GroupId": "3",
+    "Property": "12-13 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1464",
+    "GroupId": "3",
+    "Property": "9-10 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1465",
+    "GroupId": "6",
+    "Property": "25",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1466",
+    "GroupId": "6",
+    "Property": "16",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1467",
+    "GroupId": "6",
+    "Property": "14",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1468",
+    "GroupId": "6",
+    "Property": "15",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1469",
+    "GroupId": "6",
+    "Property": "17",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1470",
+    "GroupId": "6",
+    "Property": "19",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1471",
+    "GroupId": "6",
+    "Property": "21",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1472",
+    "GroupId": "6",
+    "Property": "23",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1052",
+    "GroupId": "3",
+    "Property": "Beyaz-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1053",
+    "GroupId": "6",
+    "Property": "1-2 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1054",
+    "GroupId": "6",
+    "Property": "2-3 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1055",
+    "GroupId": "6",
+    "Property": "3-4 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1056",
+    "GroupId": "6",
+    "Property": "4-5 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1057",
+    "GroupId": "6",
+    "Property": "5-6 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1058",
+    "GroupId": "6",
+    "Property": "6-7 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1059",
+    "GroupId": "6",
+    "Property": "7-8 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1060",
+    "GroupId": "6",
+    "Property": "8-9 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1061",
+    "GroupId": "6",
+    "Property": "12-13 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1062",
+    "GroupId": "6",
+    "Property": "11-12 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1063",
+    "GroupId": "6",
+    "Property": "13-14 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1064",
+    "GroupId": "6",
+    "Property": "14-15 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1065",
+    "GroupId": "6",
+    "Property": "15-16 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1066",
+    "GroupId": "6",
+    "Property": "9-10 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1067",
+    "GroupId": "6",
+    "Property": "10-11 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1068",
+    "GroupId": "6",
+    "Property": "8 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1069",
+    "GroupId": "6",
+    "Property": "9 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1070",
+    "GroupId": "6",
+    "Property": "2 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1071",
+    "GroupId": "6",
+    "Property": "3 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1072",
+    "GroupId": "6",
+    "Property": "4 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1073",
+    "GroupId": "6",
+    "Property": "5 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1074",
+    "GroupId": "6",
+    "Property": "6 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1075",
+    "GroupId": "6",
+    "Property": "7 Yaş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1076",
+    "GroupId": "3",
+    "Property": "Krem",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1077",
+    "GroupId": "3",
+    "Property": "Beyaz-Turuncu",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1078",
+    "GroupId": "3",
+    "Property": "Beyaz-Açık Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1079",
+    "GroupId": "3",
+    "Property": "İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1080",
+    "GroupId": "3",
+    "Property": "Hardal",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1081",
+    "GroupId": "3",
+    "Property": "Kamuflaj Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1082",
+    "GroupId": "3",
+    "Property": "Su Yeşili",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1083",
+    "GroupId": "3",
+    "Property": "Orman Yeşili",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1084",
+    "GroupId": "3",
+    "Property": "Koyu Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1085",
+    "GroupId": "3",
+    "Property": "Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1086",
+    "GroupId": "3",
+    "Property": "Antrasıt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1087",
+    "GroupId": "3",
+    "Property": "Fiesta",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1088",
+    "GroupId": "3",
+    "Property": "Beyaz-Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1089",
+    "GroupId": "3",
+    "Property": "Beyaz-Sıyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1090",
+    "GroupId": "3",
+    "Property": "Beyaz-Hardal-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1091",
+    "GroupId": "3",
+    "Property": "Beyaz-Bordo-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1092",
+    "GroupId": "3",
+    "Property": "Lacivert-Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1093",
+    "GroupId": "3",
+    "Property": "Camel",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1094",
+    "GroupId": "3",
+    "Property": "Beyaz-Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1095",
+    "GroupId": "3",
+    "Property": "Açık Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1096",
+    "GroupId": "3",
+    "Property": "Beyaz-Kırmızı-Laci",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1097",
+    "GroupId": "3",
+    "Property": "Kiremit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1098",
+    "GroupId": "3",
+    "Property": "Beyaz-Taba",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1099",
+    "GroupId": "3",
+    "Property": "Beyaz-Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1100",
+    "GroupId": "3",
+    "Property": "Beyaz-Bordo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1101",
+    "GroupId": "3",
+    "Property": "Beyaz-K.Rengi-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1102",
+    "GroupId": "3",
+    "Property": "Açık Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1103",
+    "GroupId": "3",
+    "Property": "Lacivert-Kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1104",
+    "GroupId": "3",
+    "Property": "Mint Yeşili",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1105",
+    "GroupId": "3",
+    "Property": "Lacivert- Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1106",
+    "GroupId": "3",
+    "Property": "Beyaz-Haki",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1107",
+    "GroupId": "3",
+    "Property": "Neon Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1108",
+    "GroupId": "3",
+    "Property": "Gb Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1109",
+    "GroupId": "3",
+    "Property": "Saks",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1110",
+    "GroupId": "3",
+    "Property": "G1 Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1111",
+    "GroupId": "3",
+    "Property": "Oranj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1112",
+    "GroupId": "3",
+    "Property": "Kavun İçi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1113",
+    "GroupId": "3",
+    "Property": "Ekru-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1114",
+    "GroupId": "3",
+    "Property": "Siyah-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1115",
+    "GroupId": "3",
+    "Property": "Camel-Camel",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1116",
+    "GroupId": "3",
+    "Property": "Çağla-Çağla",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1117",
+    "GroupId": "3",
+    "Property": "Gb Melanj-Gb Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1118",
+    "GroupId": "3",
+    "Property": "İndigo-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1119",
+    "GroupId": "3",
+    "Property": "Laci-Laci",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1120",
+    "GroupId": "3",
+    "Property": "Vizon",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1121",
+    "GroupId": "3",
+    "Property": "Lacivert- Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1122",
+    "GroupId": "3",
+    "Property": "Açık Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1123",
+    "GroupId": "6",
+    "Property": "40-41",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1124",
+    "GroupId": "6",
+    "Property": "42-43",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1125",
+    "GroupId": "6",
+    "Property": "44-45",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1126",
+    "GroupId": "3",
+    "Property": "Sıyah-Beyaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1127",
+    "GroupId": "3",
+    "Property": "Taba",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1128",
+    "GroupId": "3",
+    "Property": "Antrasıt-Sıyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1129",
+    "GroupId": "3",
+    "Property": "Gri-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1130",
+    "GroupId": "3",
+    "Property": "Buz Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1131",
+    "GroupId": "3",
+    "Property": "Füme Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1132",
+    "GroupId": "3",
+    "Property": "SİYAH / BEYAZ",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1133",
+    "GroupId": "3",
+    "Property": "Haki-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1134",
+    "GroupId": "3",
+    "Property": "Laci-Beyaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1135",
+    "GroupId": "3",
+    "Property": "Buz-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1136",
+    "GroupId": "3",
+    "Property": "LACİVERT / BEYAZ",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1137",
+    "GroupId": "3",
+    "Property": "Fume-Sıyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1138",
+    "GroupId": "3",
+    "Property": "Denim Laci",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1139",
+    "GroupId": "3",
+    "Property": "Lacivert-Beyaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1140",
+    "GroupId": "3",
+    "Property": "Buz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1141",
+    "GroupId": "3",
+    "Property": "Siyah-Kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1142",
+    "GroupId": "3",
+    "Property": "Buz Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1143",
+    "GroupId": "3",
+    "Property": "Siyah Kamuflaj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1144",
+    "GroupId": "3",
+    "Property": "Taş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1145",
+    "GroupId": "3",
+    "Property": "Çağla",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1146",
+    "GroupId": "3",
+    "Property": "Bej-Laci",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1147",
+    "GroupId": "3",
+    "Property": "Bej-Beyaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1148",
+    "GroupId": "3",
+    "Property": "Bej-Turkuaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1149",
+    "GroupId": "3",
+    "Property": "Füme-Oranj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1150",
+    "GroupId": "3",
+    "Property": "Sıyah-Yesıl",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1151",
+    "GroupId": "3",
+    "Property": "Lacivert-Taş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1152",
+    "GroupId": "3",
+    "Property": "Beyaz-Kiremit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1153",
+    "GroupId": "3",
+    "Property": "Gül Kurusu",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1154",
+    "GroupId": "3",
+    "Property": "Bej-Kiremit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1155",
+    "GroupId": "3",
+    "Property": "Beyaz-Bej",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1156",
+    "GroupId": "3",
+    "Property": "Beyaz-Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1157",
+    "GroupId": "3",
+    "Property": "Bej-Gold",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1158",
+    "GroupId": "3",
+    "Property": "Beyaz-Mint Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1159",
+    "GroupId": "3",
+    "Property": "Beyaz-Gümüş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1160",
+    "GroupId": "3",
+    "Property": "Gri-Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1161",
+    "GroupId": "3",
+    "Property": "Kahve-Fuşya",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1162",
+    "GroupId": "3",
+    "Property": "Denim",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1163",
+    "GroupId": "3",
+    "Property": "Gri-Laci",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1164",
+    "GroupId": "3",
+    "Property": "Bej-Krem",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1165",
+    "GroupId": "3",
+    "Property": "Gümüş",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1166",
+    "GroupId": "3",
+    "Property": "Antrasıt Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1167",
+    "GroupId": "3",
+    "Property": "Varyant 5",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1168",
+    "GroupId": "3",
+    "Property": "Varyant 2",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1169",
+    "GroupId": "3",
+    "Property": "Varyant 1",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1170",
+    "GroupId": "3",
+    "Property": "Varyant 3",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1171",
+    "GroupId": "3",
+    "Property": "Varyant 4",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1172",
+    "GroupId": "3",
+    "Property": "Siyah-Antrasıt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1173",
+    "GroupId": "3",
+    "Property": "LACİ/LACİ",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1174",
+    "GroupId": "3",
+    "Property": "Siyah Gölge",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1175",
+    "GroupId": "3",
+    "Property": "Lacivert Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1176",
+    "GroupId": "3",
+    "Property": "Gri Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1177",
+    "GroupId": "3",
+    "Property": "Lacivert Varak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1178",
+    "GroupId": "3",
+    "Property": "Siyah Varak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1179",
+    "GroupId": "3",
+    "Property": "Lacivert-Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1180",
+    "GroupId": "3",
+    "Property": "Siyah-Varak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1181",
+    "GroupId": "6",
+    "Property": "3XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1182",
+    "GroupId": "3",
+    "Property": "Gri Melanj-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1183",
+    "GroupId": "6",
+    "Property": "4XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1184",
+    "GroupId": "6",
+    "Property": "5XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1185",
+    "GroupId": "6",
+    "Property": "6XL",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1186",
+    "GroupId": "3",
+    "Property": "Lacivert-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1187",
+    "GroupId": "3",
+    "Property": "Koyu Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1188",
+    "GroupId": "3",
+    "Property": "Koyu Gri-Varak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1189",
+    "GroupId": "3",
+    "Property": "Antrasit Melanj Varak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1190",
+    "GroupId": "3",
+    "Property": "Gb Melanj Varak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1191",
+    "GroupId": "3",
+    "Property": "Siyah-Açık Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1192",
+    "GroupId": "3",
+    "Property": "Siyah-A.Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1193",
+    "GroupId": "3",
+    "Property": "Laci-Varak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1194",
+    "GroupId": "3",
+    "Property": "Koyu Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1195",
+    "GroupId": "3",
+    "Property": "Siyah- Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1196",
+    "GroupId": "6",
+    "Property": "40-45",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1197",
+    "GroupId": "6",
+    "Property": "36-45",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1198",
+    "GroupId": "3",
+    "Property": "Kar Mlnj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1199",
+    "GroupId": "3",
+    "Property": "Lacı-Sıyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1200",
+    "GroupId": "3",
+    "Property": "Neon Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1201",
+    "GroupId": "3",
+    "Property": "Mınt Yesıl",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1202",
+    "GroupId": "3",
+    "Property": "Gri Nopel",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1203",
+    "GroupId": "3",
+    "Property": "Erguvan-Erguvan",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1204",
+    "GroupId": "3",
+    "Property": "Koyu Bej-Koyu Bej",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1205",
+    "GroupId": "3",
+    "Property": "Orman Yeşil-O.Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1206",
+    "GroupId": "3",
+    "Property": "A.Melanj-A.Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1207",
+    "GroupId": "3",
+    "Property": "Gb Melanj-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1208",
+    "GroupId": "3",
+    "Property": "Çağla-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1209",
+    "GroupId": "3",
+    "Property": "Gb Melanj-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1210",
+    "GroupId": "3",
+    "Property": "Ekru-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1211",
+    "GroupId": "3",
+    "Property": "Ekru-Sıyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1212",
+    "GroupId": "3",
+    "Property": "Koyu Bej-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1213",
+    "GroupId": "3",
+    "Property": "Sarı-Sıyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1214",
+    "GroupId": "3",
+    "Property": "Mint Yeşil-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1215",
+    "GroupId": "3",
+    "Property": "Mercan-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1216",
+    "GroupId": "3",
+    "Property": "Fiesta-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1217",
+    "GroupId": "3",
+    "Property": "Açık Yeşil-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1218",
+    "GroupId": "3",
+    "Property": "Kırmızı-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1219",
+    "GroupId": "3",
+    "Property": "Kavuniçi-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1220",
+    "GroupId": "3",
+    "Property": "Açık Yeşil-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1221",
+    "GroupId": "3",
+    "Property": "Petrol-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1222",
+    "GroupId": "3",
+    "Property": "Kırmızı - Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1223",
+    "GroupId": "3",
+    "Property": "Orman Yeşil-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1224",
+    "GroupId": "3",
+    "Property": "Camel-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1225",
+    "GroupId": "3",
+    "Property": "Antrasit-Antrasit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1226",
+    "GroupId": "3",
+    "Property": "Erguvan-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1227",
+    "GroupId": "3",
+    "Property": "Petrol-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1228",
+    "GroupId": "3",
+    "Property": "Petrol-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1229",
+    "GroupId": "3",
+    "Property": "Petrol-Petrol",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1230",
+    "GroupId": "3",
+    "Property": "Eflatun-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1231",
+    "GroupId": "3",
+    "Property": "Mint Yeşil-Mint Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1232",
+    "GroupId": "3",
+    "Property": "Zümrüt-Zümrüt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1233",
+    "GroupId": "3",
+    "Property": "Hardal-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1234",
+    "GroupId": "3",
+    "Property": "ANTRASİT MELANJ/SİYAH",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1235",
+    "GroupId": "3",
+    "Property": "İndigo-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1236",
+    "GroupId": "3",
+    "Property": "İNDİGO/SİYAH",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1237",
+    "GroupId": "3",
+    "Property": "A.MELANJ/SİYAH",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1238",
+    "GroupId": "3",
+    "Property": "Haki-Haki",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1239",
+    "GroupId": "3",
+    "Property": "Siyah-Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1240",
+    "GroupId": "3",
+    "Property": "Siyah-Gri Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1241",
+    "GroupId": "3",
+    "Property": "Gri Melanj-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1242",
+    "GroupId": "3",
+    "Property": "Fiesta-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1243",
+    "GroupId": "3",
+    "Property": "Koyu Bej-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1244",
+    "GroupId": "3",
+    "Property": "Açık Yeşil-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1245",
+    "GroupId": "3",
+    "Property": "Ekru-Ekru",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1246",
+    "GroupId": "3",
+    "Property": "Orman Yeşil-Orman Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1247",
+    "GroupId": "3",
+    "Property": "Kavuniçi-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1248",
+    "GroupId": "3",
+    "Property": "Mint Yeşil-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1249",
+    "GroupId": "3",
+    "Property": "Kavuniçi-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1250",
+    "GroupId": "3",
+    "Property": "Koyu Gri-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1251",
+    "GroupId": "3",
+    "Property": "Koyu Mavi-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1252",
+    "GroupId": "3",
+    "Property": "Kırmızı-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1253",
+    "GroupId": "3",
+    "Property": "Açık Mavi - Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1254",
+    "GroupId": "3",
+    "Property": "Beyaz-Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1255",
+    "GroupId": "3",
+    "Property": "Lacivert-Haki",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1256",
+    "GroupId": "3",
+    "Property": "Beyaz-Antrasit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1257",
+    "GroupId": "3",
+    "Property": "Renkli -2",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1258",
+    "GroupId": "3",
+    "Property": "Renkli -1",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1259",
+    "GroupId": "3",
+    "Property": "Renkli -3",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1260",
+    "GroupId": "3",
+    "Property": "Siyah-Camel",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1261",
+    "GroupId": "3",
+    "Property": "Syh-Byz-Gbmlnj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1262",
+    "GroupId": "3",
+    "Property": "Eflatun",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1263",
+    "GroupId": "3",
+    "Property": "Kirli Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1264",
+    "GroupId": "3",
+    "Property": "Siyah-Koyu Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1265",
+    "GroupId": "3",
+    "Property": "Coral",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1266",
+    "GroupId": "3",
+    "Property": "Lacivert-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1267",
+    "GroupId": "3",
+    "Property": "Açık Eflatun",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1268",
+    "GroupId": "3",
+    "Property": "Tarçın",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1269",
+    "GroupId": "3",
+    "Property": "Toprak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1270",
+    "GroupId": "3",
+    "Property": "Kar Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1271",
+    "GroupId": "3",
+    "Property": "Siyah-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1272",
+    "GroupId": "3",
+    "Property": "Nar Çiçeği",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1273",
+    "GroupId": "3",
+    "Property": "Gri-Antrasit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1274",
+    "GroupId": "3",
+    "Property": "Mercan",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1275",
+    "GroupId": "3",
+    "Property": "Syh-Byz-Laci",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1276",
+    "GroupId": "3",
+    "Property": "Syh-Byz-Cgl",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1277",
+    "GroupId": "3",
+    "Property": "Koyu Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1278",
+    "GroupId": "3",
+    "Property": "Saks-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1279",
+    "GroupId": "3",
+    "Property": "KIRMIZI / LACİVERT",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1280",
+    "GroupId": "3",
+    "Property": "Yeşil-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1281",
+    "GroupId": "3",
+    "Property": "Ekru-Koyu Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1282",
+    "GroupId": "3",
+    "Property": "Ekru-Neon Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1283",
+    "GroupId": "3",
+    "Property": "Ekru-Kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1284",
+    "GroupId": "3",
+    "Property": "Kirli Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1285",
+    "GroupId": "3",
+    "Property": "Gök Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1286",
+    "GroupId": "3",
+    "Property": "Olive",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1287",
+    "GroupId": "3",
+    "Property": "Bordo-Beyaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1288",
+    "GroupId": "3",
+    "Property": "Antrasıt-Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1289",
+    "GroupId": "3",
+    "Property": "Siyah-Hardal",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1290",
+    "GroupId": "3",
+    "Property": "Portakal-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1291",
+    "GroupId": "3",
+    "Property": "Neon Yeşil-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1292",
+    "GroupId": "3",
+    "Property": "G1 Melanj-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1293",
+    "GroupId": "3",
+    "Property": "Sarı-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1294",
+    "GroupId": "3",
+    "Property": "Saks-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1295",
+    "GroupId": "3",
+    "Property": "G1 Melanj-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1296",
+    "GroupId": "3",
+    "Property": "Ekru-Camel",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1297",
+    "GroupId": "3",
+    "Property": "Karmelanj-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1298",
+    "GroupId": "3",
+    "Property": "Sarı-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1299",
+    "GroupId": "3",
+    "Property": "Coral-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1300",
+    "GroupId": "3",
+    "Property": "Kirli Mavi-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1301",
+    "GroupId": "3",
+    "Property": "Koyu Yeşil-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1302",
+    "GroupId": "3",
+    "Property": "Fiesta-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1303",
+    "GroupId": "3",
+    "Property": "Somon-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1304",
+    "GroupId": "3",
+    "Property": "Deniz Yeşili",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1305",
+    "GroupId": "3",
+    "Property": "Portakal",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1306",
+    "GroupId": "3",
+    "Property": "Kırmızı-Beyaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1307",
+    "GroupId": "3",
+    "Property": "Beyaz-Kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1308",
+    "GroupId": "3",
+    "Property": "Mint",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1309",
+    "GroupId": "3",
+    "Property": "Saks Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1310",
+    "GroupId": "3",
+    "Property": "Şeker Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1311",
+    "GroupId": "3",
+    "Property": "Limon",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1312",
+    "GroupId": "3",
+    "Property": "Fıstık Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1313",
+    "GroupId": "3",
+    "Property": "Bisküvi Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1314",
+    "GroupId": "3",
+    "Property": "Yeni Toprak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1315",
+    "GroupId": "3",
+    "Property": "İndigo-Beyaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1316",
+    "GroupId": "3",
+    "Property": "Siyah-Pudra",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1317",
+    "GroupId": "3",
+    "Property": "Siyah-Kahve",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1318",
+    "GroupId": "3",
+    "Property": "Karpuz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1319",
+    "GroupId": "3",
+    "Property": "Lacivert- Somon",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1320",
+    "GroupId": "3",
+    "Property": "Siyah-Somon",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1321",
+    "GroupId": "3",
+    "Property": "Neon Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1322",
+    "GroupId": "3",
+    "Property": "Açık Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1323",
+    "GroupId": "3",
+    "Property": "Siyah-Eflatun",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1324",
+    "GroupId": "3",
+    "Property": "Grı Mlnj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1325",
+    "GroupId": "3",
+    "Property": "Siyah-Gold",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1326",
+    "GroupId": "3",
+    "Property": "Siyah-Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1327",
+    "GroupId": "3",
+    "Property": "Siyah - Beyaz",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1328",
+    "GroupId": "3",
+    "Property": "Siyah-Açık Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1329",
+    "GroupId": "3",
+    "Property": "Açık Mavi-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1330",
+    "GroupId": "3",
+    "Property": "Pudra- Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1331",
+    "GroupId": "3",
+    "Property": "Antrasit-Somon",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1332",
+    "GroupId": "3",
+    "Property": "Siyah-Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1333",
+    "GroupId": "6",
+    "Property": "36-40",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1334",
+    "GroupId": "3",
+    "Property": "Varyant 6",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1335",
+    "GroupId": "3",
+    "Property": "Siyah-Gbmelanj -Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1336",
+    "GroupId": "3",
+    "Property": "Kırmızı - Laci",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1337",
+    "GroupId": "3",
+    "Property": "Laci-Gb",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1338",
+    "GroupId": "3",
+    "Property": "Siyah-Gb Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1339",
+    "GroupId": "3",
+    "Property": "Koyu Mor-Koyu Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1340",
+    "GroupId": "3",
+    "Property": "Limon-Limon",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1341",
+    "GroupId": "3",
+    "Property": "Şkr.Pembe-Şkr.Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1342",
+    "GroupId": "3",
+    "Property": "Fıstık Yeşil-F.Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1343",
+    "GroupId": "3",
+    "Property": "S.Pembe-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1344",
+    "GroupId": "3",
+    "Property": "D.Yeşil-D.Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1345",
+    "GroupId": "3",
+    "Property": "Kahve Rengi-K.Rengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1346",
+    "GroupId": "3",
+    "Property": "A.Eflatun-A.Eflatun",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1347",
+    "GroupId": "3",
+    "Property": "Kahverengi-Kahverengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1348",
+    "GroupId": "3",
+    "Property": "Bej-Bej",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1349",
+    "GroupId": "3",
+    "Property": "Yeşil-Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1350",
+    "GroupId": "3",
+    "Property": "Gül Kurusu-Gül Kurusu",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1351",
+    "GroupId": "3",
+    "Property": "Kiremit-Kiremit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1352",
+    "GroupId": "3",
+    "Property": "Somon-Somon",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1353",
+    "GroupId": "3",
+    "Property": "Zümrüt-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1354",
+    "GroupId": "3",
+    "Property": "Gül Kurusu - Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1355",
+    "GroupId": "3",
+    "Property": "Yaban Gülü-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1356",
+    "GroupId": "3",
+    "Property": "Yaban Gülü-Yaban Gülü",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1357",
+    "GroupId": "3",
+    "Property": "Tarçın-Tarçın",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1358",
+    "GroupId": "3",
+    "Property": "Toprak-Toprak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1359",
+    "GroupId": "3",
+    "Property": "Eflatun-Eflatun",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1360",
+    "GroupId": "3",
+    "Property": "Rose-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1361",
+    "GroupId": "3",
+    "Property": "Bordo-Bordo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1362",
+    "GroupId": "3",
+    "Property": "Pembe-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1363",
+    "GroupId": "3",
+    "Property": "Mor-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1364",
+    "GroupId": "3",
+    "Property": "Toprak-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1365",
+    "GroupId": "3",
+    "Property": "Bordo-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1366",
+    "GroupId": "3",
+    "Property": "Siyah-Gold-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1367",
+    "GroupId": "3",
+    "Property": "Pembe-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1368",
+    "GroupId": "3",
+    "Property": "Siyah-Sılver-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1369",
+    "GroupId": "3",
+    "Property": "Tarçın-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1370",
+    "GroupId": "3",
+    "Property": "Mavi-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1371",
+    "GroupId": "3",
+    "Property": "Açık Mavi-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1372",
+    "GroupId": "3",
+    "Property": "Yeşil-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1373",
+    "GroupId": "3",
+    "Property": "Somon-Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1374",
+    "GroupId": "3",
+    "Property": "A.Kırmızı-A.Kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1375",
+    "GroupId": "3",
+    "Property": "A.Kırmızı-Lacivert",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1376",
+    "GroupId": "3",
+    "Property": "Siyah-Toprak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1377",
+    "GroupId": "3",
+    "Property": "Mor-Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1378",
+    "GroupId": "3",
+    "Property": "Pudra-Pudra",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1379",
+    "GroupId": "3",
+    "Property": "Siyah-Kahve-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1380",
+    "GroupId": "3",
+    "Property": "Ekru-Toprak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1381",
+    "GroupId": "3",
+    "Property": "Lacivert-Gri Melanj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1382",
+    "GroupId": "6",
+    "Property": "1 Beden",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1383",
+    "GroupId": "6",
+    "Property": "2 Beden",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1384",
+    "GroupId": "6",
+    "Property": "3 Beden",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1385",
+    "GroupId": "3",
+    "Property": "Kırmızı-Kırmızı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1386",
+    "GroupId": "3",
+    "Property": "Gri-Gri",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1387",
+    "GroupId": "3",
+    "Property": "Siyah-Gümüş-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1388",
+    "GroupId": "3",
+    "Property": "İndigo-Antrasit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1389",
+    "GroupId": "3",
+    "Property": "Siyah-Siyah-Haki",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1390",
+    "GroupId": "3",
+    "Property": "Siyah-Pudra-Pudra",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1391",
+    "GroupId": "3",
+    "Property": "Siyah-Antrasit-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1392",
+    "GroupId": "3",
+    "Property": "Yağ Yeşili-Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1393",
+    "GroupId": "3",
+    "Property": "Su Yeşili-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1394",
+    "GroupId": "3",
+    "Property": "SİYAH-BEYAZ/SİYAH",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1395",
+    "GroupId": "3",
+    "Property": "Beyaz-Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1396",
+    "GroupId": "3",
+    "Property": "Siyah-Beyaz-Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1397",
+    "GroupId": "3",
+    "Property": "Turkuaz-Antrasit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1398",
+    "GroupId": "3",
+    "Property": "Yeşil-Haki",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1399",
+    "GroupId": "3",
+    "Property": "Mor-Siyah-Mor",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1400",
+    "GroupId": "3",
+    "Property": "Yağ Yeşili-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1401",
+    "GroupId": "3",
+    "Property": "Pudra-Siyah-Pudra",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1402",
+    "GroupId": "3",
+    "Property": "Oranj-Sıyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1403",
+    "GroupId": "3",
+    "Property": "Siyah-Neon Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1404",
+    "GroupId": "3",
+    "Property": "SİYAH-PUDRA/SİYAH",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1405",
+    "GroupId": "3",
+    "Property": "Siyah-Neon Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1406",
+    "GroupId": "3",
+    "Property": "Turkuaz-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1407",
+    "GroupId": "3",
+    "Property": "Haki-Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1408",
+    "GroupId": "3",
+    "Property": "Beyaz-İndigo",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1409",
+    "GroupId": "3",
+    "Property": "Pudra-Antrasit",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1410",
+    "GroupId": "3",
+    "Property": "Neon Oranj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1411",
+    "GroupId": "3",
+    "Property": "Safran",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1412",
+    "GroupId": "3",
+    "Property": "Siyah-Gül Kurusu",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1413",
+    "GroupId": "3",
+    "Property": "Yağ Yeşili",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1414",
+    "GroupId": "3",
+    "Property": "Yavruagzı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1415",
+    "GroupId": "3",
+    "Property": "Yaban Gülü",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1416",
+    "GroupId": "3",
+    "Property": "Siyah Gümüş Varak",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1417",
+    "GroupId": "3",
+    "Property": "Lacivert-Açık Mavi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1418",
+    "GroupId": "3",
+    "Property": "Mor-Somon",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1419",
+    "GroupId": "3",
+    "Property": "Antrasit-Limon Sarı",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1420",
+    "GroupId": "6",
+    "Property": "10-11",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1421",
+    "GroupId": "6",
+    "Property": "11-12",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1422",
+    "GroupId": "6",
+    "Property": "12-13",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1423",
+    "GroupId": "6",
+    "Property": "13-14",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1424",
+    "GroupId": "6",
+    "Property": "14-15",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1425",
+    "GroupId": "6",
+    "Property": "7-8",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1426",
+    "GroupId": "6",
+    "Property": "8-9",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1427",
+    "GroupId": "6",
+    "Property": "9-10",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1428",
+    "GroupId": "3",
+    "Property": "Kavuniçi-Kavuniçi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1429",
+    "GroupId": "3",
+    "Property": "Portakal-Portakal",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1430",
+    "GroupId": "3",
+    "Property": "Gülkurusu-Gülkurusu",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1431",
+    "GroupId": "3",
+    "Property": "Fuşya-Fuşya",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1432",
+    "GroupId": "3",
+    "Property": "Fiesta-Fiesta",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1433",
+    "GroupId": "3",
+    "Property": "Yabangülü-Yabangülü",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1434",
+    "GroupId": "3",
+    "Property": "Pembe-Pembe",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1435",
+    "GroupId": "3",
+    "Property": "Mint Yeşil-Mintyeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1436",
+    "GroupId": "3",
+    "Property": "Nar Çiçeği-N.Çiçeği",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1437",
+    "GroupId": "3",
+    "Property": "Nar Çiçeği-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1438",
+    "GroupId": "3",
+    "Property": "Bej-Siyah",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1439",
+    "GroupId": "3",
+    "Property": "Nar Çiçeği-Nar Çiçeği",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1440",
+    "GroupId": "3",
+    "Property": "Oranj-Oranj",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1441",
+    "GroupId": "3",
+    "Property": "Kavuniçi-Kahverengi",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1442",
+    "GroupId": "3",
+    "Property": "Gri-Orman Yeşil",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1443",
+    "GroupId": "3",
+    "Property": "Sarı-Zümrüt",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1444",
+    "GroupId": "3",
+    "Property": "Beyaz-Petrol",
+    "ColorCode": ""
+  },
+  {
+    "PropertyId": "1445",
+    "GroupId": "3",
+    "Property": "Kırmızı-İndigo",
+    "ColorCode": ""
+  }
+]

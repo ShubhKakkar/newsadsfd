@@ -6,6 +6,7 @@ const SeoPageSchema = mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "SeoPage",
       required: true,
+      index: true
     },
     pageName: {
       type: String,

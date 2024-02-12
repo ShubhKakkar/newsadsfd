@@ -21,6 +21,9 @@ const schema = mongoose.Schema(
     propertyId: {
       type: String,
     },
+    groupId: {
+      type: String,
+    },
     vendorId: {
       type: mongoose.Types.ObjectId,
       ref: "Vendor",
@@ -38,14 +41,18 @@ const schema = mongoose.Schema(
     },
     groupId: {
       type: String,
-    }
+    },
   },
   {
     timestamps: true,
   },
   {
-    strict: false
+    strict: false,
   }
 );
+
+schema.index({ variantId: 1 });
+
+schema.index({ vendorId: 1 });
 
 module.exports = mongoose.model("SubVariant", schema);

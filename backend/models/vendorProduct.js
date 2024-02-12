@@ -45,4 +45,9 @@ const schema = mongoose.Schema(
   }
 );
 
+
+schema.index(
+  { vendorId: 1, productId:1 }
+);
+
 module.exports = mongoose.model("VendorProduct", schema);

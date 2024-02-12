@@ -30,6 +30,10 @@ const ProductVariantDescriptionSchema = mongoose.Schema(
   }
 );
 
+ProductVariantDescriptionSchema.index(
+  { productVariantId: 1 }
+);
+
 module.exports = mongoose.model(
   "ProductVariantDescription",
   ProductVariantDescriptionSchema

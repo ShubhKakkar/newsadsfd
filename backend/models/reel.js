@@ -25,6 +25,7 @@ const ReelsSchema = mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Vendor",
       required: false,
+      index: true
     },
     status: {
       type: String,

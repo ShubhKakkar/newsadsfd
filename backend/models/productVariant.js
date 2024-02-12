@@ -47,21 +47,8 @@ const schema = mongoose.Schema(
       type: String,
       required: false,
     },
-    // price: {
-    //   type: Number,
-    //   required: true,
-    // },
-    // discountedPrice: {
-    //   type: Number,
-    //   required: true,
-    // },
-    // quantity: {
-    //   type: Number,
-    //   required: true,
-    // },
     buyingPrice: {
       type: Number,
-      // required: true,
     },
     buyingPriceCurrency: {
       type: mongoose.Schema.Types.ObjectId,
@@ -73,7 +60,6 @@ const schema = mongoose.Schema(
     },
     height: {
       type: Number,
-      // required: true,
     },
     weight: {
       type: Number,
@@ -96,23 +82,6 @@ const schema = mongoose.Schema(
     barCode: {
       type: String,
     },
-    // prices: [
-    //   {
-    //     countryId: {
-    //       type: mongoose.Schema.Types.ObjectId,
-    //       ref: "Countries",
-    //       required: true,
-    //     },
-    //     sellingPrice: {
-    //       type: Number,
-    //       required: true,
-    //     },
-    //     discountPrice: {
-    //       type: Number,
-    //       required: true,
-    //     },
-    //   },
-    // ],
     media: [
       {
         src: { type: String, required: true },
@@ -143,6 +112,8 @@ const schema = mongoose.Schema(
     timestamps: true,
   }
 );
+
+schema.index({ mainProductId: 1 });
 
 schema.pre("save", async function (next) {
   this.customId = await idCreator("productVariant");

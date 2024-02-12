@@ -33,4 +33,16 @@ const InOutLogSchema = mongoose.Schema(
   }
 );
 
+InOutLogSchema.index(
+  { senderWarehouseId: 1 }
+);
+
+InOutLogSchema.index(
+  { receiverWarehouseId: 1 }
+);
+
+InOutLogSchema.index(
+  { productId: 1 }
+);
+
 module.exports = mongoose.model("InOutLog", InOutLogSchema);

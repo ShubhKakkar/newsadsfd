@@ -52,4 +52,16 @@ const schema = mongoose.Schema(
   }
 );
 
+schema.index(
+  { vendor: 1 }
+);
+
+schema.index(
+  { country: 1 }
+);
+
+schema.index(
+  { brands: 1 }
+);
+
 module.exports = mongoose.model("Manufacture", schema);

@@ -34,4 +34,12 @@ const PricingSchema = mongoose.Schema(
   }
 );
 
+PricingSchema.index(
+  { parentId: 1 }
+);
+
+PricingSchema.index(
+  { fieldId: 1 }
+);
+
 module.exports = mongoose.model("Pricing", PricingSchema);

@@ -226,6 +226,7 @@ exports.login = async (req, res, next) => {
     message: translateHelper(req, "Login successfully"),
     cartTotal : cartTotal,
     customer: {
+      cartTotal: cartTotal,
       email: customer.email,
       firstName: customer.firstName,
       lastName: customer.lastName,

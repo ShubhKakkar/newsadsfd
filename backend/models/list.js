@@ -31,4 +31,12 @@ const listSchema = mongoose.Schema(
   }
 );
 
+listSchema.index(
+  { customerId: 1 }
+);
+
+listSchema.index(
+  { itemId: 1 }
+);
+
 module.exports = mongoose.model("List", listSchema);

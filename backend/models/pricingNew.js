@@ -48,6 +48,27 @@ const PricingSchema = mongoose.Schema(
   }
 );
 
+
+PricingSchema.index(
+  { categoryId: 1 }
+);
+
+PricingSchema.index(
+  { customerGroupId: 1 }
+);
+
+PricingSchema.index(
+  { productGroupId: 1 }
+);
+
+PricingSchema.index(
+  { productId: 1 }
+);
+
+PricingSchema.index(
+  { countryId: 1 }
+);
+
 module.exports = mongoose.model("PricingNew", PricingSchema);
 
 /*

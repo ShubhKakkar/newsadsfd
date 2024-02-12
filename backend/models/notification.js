@@ -48,4 +48,12 @@ const schema = mongoose.Schema(
   }
 );
 
+schema.index(
+  { userId: 1 }
+);
+
+schema.index(
+  { actionId: 1 }
+);
+
 module.exports = mongoose.model("Notification", schema);

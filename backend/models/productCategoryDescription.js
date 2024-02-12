@@ -73,6 +73,11 @@ const ProductCategoryDescriptionSchema = mongoose.Schema(
 //   mongoose.model("ProductCategoryDescription", ProductCategoryDescriptionSchema)
 // );
 
+
+ProductCategoryDescriptionSchema.index(
+  { productCategoryId: 1 }
+);
+
 module.exports = mongoose.model(
   "ProductCategoryDescription",
   ProductCategoryDescriptionSchema

@@ -6,6 +6,7 @@ const subSpecificationGroupsDescriptionSchema = mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "subSpecification",
       required: true,
+      index: true
     },
     name: {
       type: String,

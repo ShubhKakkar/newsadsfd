@@ -166,7 +166,8 @@ exports.getHomePageData = async (req, res, next) => {
     homePageSectionFour,
     homePageSectionFive,
     aboutUs,
-    reels;
+    reels,
+    homePagePermission;
 
   try {
     homePageSectionOne = Master.aggregate([
@@ -225,6 +226,7 @@ exports.getHomePageData = async (req, res, next) => {
         $match: {
           key: "home-section-one-slider",
           isDeleted: false,
+          isActive: true,
         },
       },
       {
@@ -273,6 +275,7 @@ exports.getHomePageData = async (req, res, next) => {
         $match: {
           key: "home-section-two",
           isDeleted: false,
+          isActive: true,
         },
       },
       {
@@ -326,6 +329,7 @@ exports.getHomePageData = async (req, res, next) => {
         $match: {
           key: "home-section-three",
           isDeleted: false,
+          isActive: true,
         },
       },
       {
@@ -411,7 +415,7 @@ exports.getHomePageData = async (req, res, next) => {
         $project: {
           _id: 0,
           link: 1,
-          backgroundColor:1,
+          backgroundColor: 1,
           image: "$langData.image",
           heading: "$langData.heading",
           buttonName: "$langData.buttonName",
@@ -582,6 +586,22 @@ exports.getHomePageData = async (req, res, next) => {
       },
     ]);
 
+    homePagePermission = Master.aggregate([
+      {
+        $match: {
+          key: "home-page-permission",
+        },
+      },
+      {
+        $project: {
+          _id: 0,
+          isShow: 1,
+          name: 1,
+          code: 1,
+        },
+      },
+    ]);
+
     [
       [homePageSectionOne],
       homePageSectionOneSlider,
@@ -591,6 +611,7 @@ exports.getHomePageData = async (req, res, next) => {
       [homePageSectionFive],
       [aboutUs],
       reels,
+      homePagePermission,
     ] = await Promise.all([
       homePageSectionOne,
       homePageSectionOneSlider,
@@ -600,6 +621,7 @@ exports.getHomePageData = async (req, res, next) => {
       homePageSectionFive,
       aboutUs,
       reels,
+      homePagePermission,
     ]);
   } catch (err) {
     const error = new HttpError(
@@ -609,6 +631,12 @@ exports.getHomePageData = async (req, res, next) => {
       500
     );
     return next(error);
+  }
+  if (homePagePermission.length > 0) {
+    homePagePermission = homePagePermission.reduce((acc, curr) => {
+      acc[curr.code] = curr.isShow;
+      return acc;
+    }, {});
   }
   res.status(200).json({
     status: true,
@@ -622,6 +650,7 @@ exports.getHomePageData = async (req, res, next) => {
       homePageSectionFive,
       aboutUs,
       reels,
+      homePagePermission,
     },
   });
 };
@@ -634,24 +663,23 @@ exports.search = async (req, res, next) => {
   let results;
 
   try {
-
     let productSearch = [
       {
         $match: {
-          name : { $regex: term, $options: 'i' },
+          name: { $regex: term, $options: "i" },
           languageCode: language,
-        }
+        },
       },
       {
         $lookup: {
           from: "productdescriptions",
           localField: "productId",
           foreignField: "productId",
-          pipeline : [
+          pipeline: [
             {
-              $match : {
-                languageCode: "en"
-              }
+              $match: {
+                languageCode: "en",
+              },
             },
           ],
           as: "productdescriptions",
@@ -662,14 +690,14 @@ exports.search = async (req, res, next) => {
           from: "products",
           localField: "productId",
           foreignField: "_id",
-          pipeline : [
+          pipeline: [
             {
-              $match : {
+              $match: {
                 isApproved: true,
                 isPublished: true,
                 isActive: true,
                 isDeleted: false,
-              }
+              },
             },
             {
               $lookup: {
@@ -685,7 +713,7 @@ exports.search = async (req, res, next) => {
                   },
                 ],
                 as: "vendorData",
-              }
+              },
             },
             {
               $unwind: {
@@ -704,9 +732,9 @@ exports.search = async (req, res, next) => {
       {
         $project: {
           _id: 1,
-          name:"$name",
-          slug:"$productdescriptions.slug",
-          vendor:"$product.vendorData.vendorId",
+          name: "$name",
+          slug: "$productdescriptions.slug",
+          vendor: "$product.vendorData.vendorId",
           searchType: "product",
         },
       },
@@ -714,18 +742,18 @@ exports.search = async (req, res, next) => {
         $unionWith: {
           coll: "productcategories",
           pipeline: [
-            { $match: { isActive: true, isDeleted: false, } },
+            { $match: { isActive: true, isDeleted: false } },
             {
               $lookup: {
                 from: "productcategorydescriptions",
                 localField: "_id",
                 foreignField: "productCategoryId",
-                pipeline : [
+                pipeline: [
                   {
-                    $match : {
+                    $match: {
                       name: { $regex: term, $options: "i" },
                       languageCode: language,
-                    }
+                    },
                   },
                 ],
                 as: "categorydescriptions",
@@ -739,31 +767,31 @@ exports.search = async (req, res, next) => {
             {
               $project: {
                 _id: 1,
-                name:"$categorydescriptions.name",
-                slug:"$categorydescriptions.slug",
+                name: "$categorydescriptions.name",
+                slug: "$categorydescriptions.slug",
                 searchType: "productCategory",
               },
             },
-          ]
-        }
+          ],
+        },
       },
       {
         $unionWith: {
           coll: "brands",
           pipeline: [
-            { $match: { isActive: true, isDeleted: false, } },
+            { $match: { isActive: true, isDeleted: false } },
             {
               $lookup: {
                 from: "masterdescriptions",
                 localField: "_id",
                 foreignField: "mainPage",
-                pipeline : [
+                pipeline: [
                   {
-                    $match : {
+                    $match: {
                       key: "brand",
                       name: { $regex: term, $options: "i" },
                       languageCode: language,
-                    }
+                    },
                   },
                 ],
                 as: "branddescriptions",
@@ -777,13 +805,13 @@ exports.search = async (req, res, next) => {
             {
               $project: {
                 _id: 1,
-                name:"$branddescriptions.name",
-                slug:"$branddescriptions.slug",
+                name: "$branddescriptions.name",
+                slug: "$branddescriptions.slug",
                 searchType: "brand",
               },
             },
-          ]
-        }
+          ],
+        },
       },
     ];
 
@@ -811,8 +839,6 @@ exports.search_old = async (req, res, next) => {
   const language = req.languageCode;
 
   let results;
-
-
 
   try {
     results = await Cms.aggregate([
@@ -1450,7 +1476,7 @@ exports.search_old = async (req, res, next) => {
     return next(error);
   }
 
-  console.log(results,"allsearch");
+  console.log(results, "allsearch");
 
   res.status(200).json({
     status: true,

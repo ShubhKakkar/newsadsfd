@@ -24,4 +24,12 @@ const Schema = mongoose.Schema(
   }
 );
 
+Schema.index(
+  { from: 1 }
+);
+
+Schema.index(
+  { to: 1 }
+);
+
 module.exports = mongoose.model("NotificationLog", Schema);

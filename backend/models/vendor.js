@@ -192,4 +192,17 @@ vendorSchema.pre("findOneAndUpdate", async function (next) {
   this.setUpdate(update);
 });
 
+vendorSchema.index(
+  { businessCountry: 1 }
+);
+
+vendorSchema.index(
+  { productCategories: 1 }
+);
+
+vendorSchema.index(
+  { currency: 1 }
+);
+
+
 module.exports = mongoose.model("Vendor", vendorSchema);

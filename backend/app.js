@@ -186,15 +186,15 @@ new CronJob(
   "Asia/Kolkata"
 );
 
-//const DB_NAME =
-//PORT === "4023" ? process.env.DB_NAME_PROD : process.env.DB_NAME_DEV;
+const DB_NAME =
+  PORT === "4023" ? process.env.DB_NAME_PROD : process.env.DB_NAME_DEV;
 
 // const DB_NAME = process.env.DB_NAME_PROD;
-const DB_NAME="noonmar"
+// const DB_NAME = "noonmar";
 
-// const MONGOURI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.hrdxm.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
+const MONGOURI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.hrdxm.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
 
-const MONGOURI = `mongodb://localhost:27017/${DB_NAME}`;
+// const MONGOURI = `mongodb://localhost:27017/${DB_NAME}`;
 
 console.log("MONGOURI", MONGOURI);
 

@@ -32,6 +32,9 @@ const ProductVariant = require("../models/productVariant.js");
 const ProductVariantDescription = require("../models/productVariantDescription.js");
 const idCreator = require("../utils/idCreator.js");
 const ProductCategory = require("../models/productCategory.js");
+const ProductVaraintsData = require("./data/variants/properties.json");
+const subVariant = require("../models/subVariant.js");
+const { default: mongoose } = require("mongoose");
 
 const logAction = (action, status, error = null) => {
   const currentTime = new Date();
@@ -969,6 +972,95 @@ seeding.seedProducts = async () => {
     console.log(err);
   } finally {
     console.log("Seeding of products finished in all 3 languages");
+  }
+};
+
+// Correct Variants
+seeding.correctVariants = async () => {
+  try {
+    const subVariants = require("./data/variants/properties.json");
+    await Promise.all(
+      subVariants.map(async (subVariant) => {
+        const product = await Product.findOne({
+          productId: subVariant.MainProductId,
+        });
+        if (product) {
+          console.log("product", product);
+          const categoryId = product.categoryId;
+          if (
+            subVariant.PropertyId1 &&
+            subVariant.PropertyId1 !== "" &&
+            subVariant.PropertyId1 !== " "
+          ) {
+            const Property = await SubVariant.findOne({
+              propertyId: subVariant.Property1,
+            });
+            console.log("property1", Property);
+            if (Property) {
+              console.log("property1", Property);
+              const variant = await Variant.findOne({
+                groupId: Property.groupId,
+              });
+              const updatedCategory1 = await Category.updateOne(
+                {
+                  _id: categoryId,
+                },
+                {
+                  $addToSet: {
+                    variantIds: variant._id,
+                    variantFilterIds: variant._id,
+                  },
+                  $set: {
+                    masterVariantId: variant._id,
+                  },
+                },
+                {
+                  new: true,
+                  upsert: true,
+                }
+              );
+              console.log("updatedCategory1", updatedCategory1);
+            }
+          }
+          if (
+            subVariant.PropertyId2 &&
+            subVariant.PropertyId2 !== "" &&
+            subVariant.PropertyId2 !== " "
+          ) {
+            const Property = await SubVariant.findOne({
+              propertyId: subVariant.PropertyId2,
+            });
+            if (Property) {
+              console.log("property2", Property);
+              const variant = await Variant.findOne({
+                groupId: Property.groupId,
+              });
+              const updatedCategory2 = await Category.updateOne(
+                {
+                  _id: categoryId,
+                },
+                {
+                  $addToSet: {
+                    variantIds: variant._id,
+                    variantFilterIds: variant._id,
+                  },
+                  $set: {
+                    masterVariantId: variant._id,
+                  },
+                },
+                {
+                  new: true,
+                  upsert: true,
+                }
+              );
+              console.log("updatedCategory2", updatedCategory2);
+            }
+          }
+        }
+      })
+    );
+  } catch (err) {
+    console.log(`Some error occurred: ${err}`);
   }
 };
 

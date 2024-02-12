@@ -6,6 +6,7 @@ const ReportReasonDescriptionSchema = mongoose.Schema(
       type: mongoose.Types.ObjectId,
       ref: "ReportReason",
       required: true,
+      index: true
     },
     languageCode: {
       type: String,

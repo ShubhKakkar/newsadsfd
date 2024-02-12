@@ -6,7 +6,7 @@ const fs = require("fs");
 const http = require("http");
 const https = require("https");
 const path = require("path");
-// const parser = require("xml2json");
+const parser = require("xml2json");
 
 const HttpError = require("../../http-error");
 const Product = require("../../models/product");
@@ -68,11 +68,6 @@ const COMMON_AGG = [
                 ],
               },
             },
-            // {
-            //   "variantData._id": {
-            //     $exists: true,
-            //   },
-            // },
           ],
         },
         {
@@ -87,11 +82,6 @@ const COMMON_AGG = [
                 ],
               },
             },
-            // {
-            //   "variantData._id": {
-            //     $exists: false,
-            //   },
-            // },
           ],
         },
       ],
@@ -744,7 +734,7 @@ exports.getAll = async (req, res, next) => {
     // categoryId: ObjectId(categoryFilters._id),
     categoryId: {
       $in: [
-        new ObjectId(categoryFilters._id),
+        ObjectId(categoryFilters._id),
         ...childCategoryIds?.ids.map((id) => ObjectId(id)),
       ],
     },
@@ -6797,7 +6787,6 @@ exports.makeProductPublish = async (req, res, next) => {
   });
 };
 
-//updated
 exports.getMostViewedItems = async (req, res, next) => {
   let userId = req.userId;
   let countryId = req.countryId;
@@ -6869,11 +6858,17 @@ exports.getMostViewedItems = async (req, res, next) => {
         isActive: true,
         isPublished: true,
         isApproved: true,
-        // countries: {
-        //   $in: [new ObjectId(countryId)],
-        // },
-        // isVendorActive: true,
-        // isHelper: false,
+        coverImage: {
+          $ne: null,
+        },
+      },
+    },
+    {
+      $limit: 10,
+    },
+    {
+      $sort: {
+        createdAt: -1,
       },
     },
     // added new start
@@ -7042,20 +7037,6 @@ exports.getMostViewedItems = async (req, res, next) => {
         as: "variantData",
       },
     },
-    // {
-    //   $addFields: {
-    //     vData: {
-    //       $filter: {
-    //         input: "$variantData",
-    //         cond: {
-    //           $eq: ["$$item.isDeleted", false],
-    //         },
-    //         as: "item",
-    //         limit: 1,
-    //       },
-    //     },
-    //   },
-    // },
     {
       $unwind: {
         path: "$variantData",
@@ -7113,24 +7094,12 @@ exports.getMostViewedItems = async (req, res, next) => {
     },
     {
       $addFields: {
-        // price: {
-        //   $ifNull: [
-        //     "$variantData.vendorData.sellingPrice",
-        //     "$vendorData.sellingPrice",
-        //   ],
-        // },
         slug: {
           $ifNull: ["$variantData.descData.slug", "$descData.slug"],
         },
         en_slug: {
           $ifNull: ["$variantData.enDescData.slug", "$descEnglishData.slug"],
         },
-        // discountedPrice: {
-        //   $ifNull: [
-        //     "$variantData.vendorData.sellingPrice",
-        //     "$vendorData.sellingPrice",
-        //   ],
-        // },
         vendor: {
           $ifNull: ["$variantData.vendorData.vendorId", "$vendorData.vendorId"],
         },
@@ -7164,69 +7133,456 @@ exports.getMostViewedItems = async (req, res, next) => {
       $addFields: {
         ratings: 0,
         reviewsCount: 0,
-        // discountPercentage: 0,
         media: "$coverImage",
       },
     },
-    // {
-    //   $unwind: {
-    //     path: "$pricesFiltered",
-    //   },
-    // },
-    // {
-    //   $unwind: {
-    //     path: "$media",
-    //     preserveNullAndEmptyArrays: true,
-    //   },
-    // },
-    // {
-    //   $addFields: {
-    //     price: "$pricesFiltered.sellingPrice",
-    //     discountedPrice: "$pricesFiltered.discountPrice",
-    //     discountPercentage: {
-    //       $round: [
-    //         {
-    //           $subtract: [
-    //             100,
-    //             {
-    //               $divide: [
-    //                 {
-    //                   $multiply: ["$pricesFiltered.discountPrice", 100],
-    //                 },
-    //                 "$pricesFiltered.sellingPrice",
-    //               ],
-    //             },
-    //           ],
-    //         },
-    //         2,
-    //       ],
-    //     },
-    //   },
-    // },
   ];
 
   let products, currencyData, totalProducts, currentCurrency, usdCurrency;
 
   try {
-    // [currencyData] = await Currency.aggregate([
-    //   {
-    //     $match: {
-    //       countriesId: {
-    //         $in: [new ObjectId(countryId)],
-    //       },
-    //     },
-    //   },
-    //   {
-    //     $limit: 1,
-    //   },
-    //   {
-    //     $project: {
-    //       _id: 0,
-    //       sign: 1,
-    //     },
-    //   },
-    // ]);
+    const currenciesData = await currentAndUSDCurrencyData(countryId);
 
+    if (!currenciesData.status) {
+      return res.status(200).json({
+        status: false,
+        message: "Invalid Country.",
+        products: [],
+        totalProducts: 0,
+      });
+    }
+
+    currentCurrency = currenciesData.currentCurrency;
+    usdCurrency = currenciesData.usdCurrency;
+
+    //totalProducts = Product.aggregate(COMMON);
+
+    let productsObj = Product.aggregate([
+      ...COMMON,
+      {
+        $sort: {
+          views: -1,
+        },
+      },
+      /* {
+        $skip: (page - 1) * perPage,
+      },
+      {
+        $limit: perPage,
+      }, */
+      ...wishlistObj.first,
+      ...REVIEW_AGG.first,
+
+      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
+      {
+        $project: {
+          name: "$descData.name",
+          ratings: 1,
+          discountPercentage: 1,
+          reviewsCount: 1,
+          shortDescription: "$descData.shortDescription",
+          media: 1,
+          price: 1,
+          discountedPrice: 1,
+          // currency: { $literal: "$" },
+          currency: { $literal: currentCurrency.sign },
+          slug: 1,
+          en_slug: 1,
+          isWishlisted: {
+            $toBool: false,
+          },
+          ...wishlistObj.second,
+          ...REVIEW_AGG.second,
+          vendor: 1,
+          idForCart: 1,
+          typeForCart: 1,
+        },
+      },
+      {
+        $facet: {
+          products: [{ $skip: (page - 1) * perPage }, { $limit: perPage }],
+          totalCount: [
+            {
+              $count: "count",
+            },
+          ],
+        },
+      },
+    ]);
+
+    [[productsObj]] = await Promise.all([productsObj]);
+
+    products = productsObj.products ? productsObj.products : [];
+    totalProducts =
+      productsObj.totalCount &&
+      productsObj.totalCount.length > 0 &&
+      productsObj.totalCount[0].count
+        ? productsObj.totalCount[0].count
+        : 0;
+  } catch (err) {
+    console.log("product -get most viewed -err", err);
+    return res.status(200).json({
+      status: false,
+      message: "Could not fetch products",
+      products: [],
+      currency: "$",
+      totalProducts: 0,
+    });
+  }
+
+  res.status(200).json({
+    status: true,
+    message: "Products fetched successfully",
+    products,
+    currency: "$",
+    totalProducts: totalProducts,
+  });
+};
+
+//updated
+exports.getMostViewedItems_old = async (req, res, next) => {
+  let userId = req.userId;
+  let countryId = req.countryId;
+  let languageCode = req.languageCode;
+
+  let { perPage, page } = req.query;
+
+  perPage = perPage ? +perPage : 6;
+  page = page ? +page : 1;
+
+  const wishlistObj = {
+    first: [],
+    second: {},
+  };
+
+  if (userId) {
+    wishlistObj.first = [
+      {
+        $lookup: {
+          from: "wishlists",
+          let: {
+            id: "$idForCart",
+          },
+          pipeline: [
+            {
+              $match: {
+                $and: [
+                  {
+                    $expr: {
+                      $eq: ["$$id", "$itemId"],
+                    },
+                  },
+                  {
+                    $expr: {
+                      $eq: ["$itemType", "product"],
+                    },
+                  },
+                  {
+                    $expr: {
+                      $eq: ["$customerId", new ObjectId(userId)],
+                    },
+                  },
+                ],
+              },
+            },
+          ],
+          as: "wishlistData",
+        },
+      },
+    ];
+
+    wishlistObj.second = {
+      isWishlisted: {
+        $cond: [
+          {
+            $size: "$wishlistData",
+          },
+          true,
+          false,
+        ],
+      },
+    };
+  }
+
+  const COMMON = [
+    {
+      $match: {
+        isDeleted: false,
+        isActive: true,
+        isPublished: true,
+        isApproved: true,
+      },
+    },
+    // added new start
+    {
+      $lookup: {
+        from: "vendorproducts",
+        let: {
+          id: "$_id",
+        },
+        pipeline: [
+          {
+            $match: {
+              $expr: {
+                $eq: ["$productId", "$$id"],
+              },
+              isDeleted: false,
+              isActive: true,
+            },
+          },
+          {
+            $sort: {
+              createdAt: 1,
+            },
+          },
+          {
+            $limit: 1,
+          },
+        ],
+        as: "vendorData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$vendorData",
+      },
+    },
+    // added new end
+    {
+      $lookup: {
+        from: "productvariants",
+        let: {
+          id: "$_id",
+          vendorId: "$vendorData.vendorId",
+        },
+        pipeline: [
+          {
+            $match: {
+              $and: [
+                {
+                  $expr: {
+                    $eq: ["$mainProductId", "$$id"],
+                  },
+                },
+                {
+                  $expr: {
+                    $eq: ["$isDeleted", false],
+                  },
+                },
+                {
+                  $expr: {
+                    $eq: ["$isActive", true],
+                  },
+                },
+              ],
+            },
+          },
+          {
+            $sort: {
+              createdAt: 1,
+            },
+          },
+          {
+            $limit: 1,
+          },
+          {
+            $lookup: {
+              from: "productvariantdescriptions",
+              let: {
+                id: "$_id",
+              },
+              pipeline: [
+                {
+                  $match: {
+                    $expr: {
+                      $eq: ["$productVariantId", "$$id"],
+                    },
+                    languageCode: languageCode,
+                  },
+                },
+              ],
+              as: "descData",
+            },
+          },
+          {
+            $unwind: {
+              path: "$descData",
+            },
+          },
+          {
+            $lookup: {
+              from: "productvariantdescriptions",
+              let: {
+                id: "$_id",
+              },
+              pipeline: [
+                {
+                  $match: {
+                    $expr: {
+                      $eq: ["$productVariantId", "$$id"],
+                    },
+                    languageCode: "en",
+                  },
+                },
+              ],
+              as: "enDescData",
+            },
+          },
+          {
+            $unwind: {
+              path: "$enDescData",
+            },
+          },
+          // added new start
+          {
+            $lookup: {
+              from: "vendorproductvariants",
+              let: {
+                productVariantId: "$_id",
+              },
+              pipeline: [
+                {
+                  $match: {
+                    $expr: {
+                      $eq: ["$productVariantId", "$$productVariantId"],
+                    },
+                    isDeleted: false,
+                    isActive: true,
+                    $and: [
+                      {
+                        $expr: {
+                          $eq: ["$vendorId", "$$vendorId"],
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  $sort: {
+                    createdAt: 1,
+                  },
+                },
+                {
+                  $limit: 1,
+                },
+              ],
+              as: "vendorData",
+            },
+          },
+          {
+            $unwind: {
+              path: "$vendorData",
+            },
+          },
+          //added new end
+        ],
+        as: "variantData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$variantData",
+        preserveNullAndEmptyArrays: true,
+      },
+    },
+    ...COMMON_AGG,
+    {
+      $lookup: {
+        from: "productdescriptions",
+        let: {
+          id: "$_id",
+        },
+        pipeline: [
+          {
+            $match: {
+              $expr: {
+                $eq: ["$productId", "$$id"],
+              },
+              languageCode: languageCode,
+            },
+          },
+        ],
+        as: "descData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$descData",
+      },
+    },
+    {
+      $lookup: {
+        from: "productdescriptions",
+        let: {
+          id: "$_id",
+        },
+        pipeline: [
+          {
+            $match: {
+              $expr: {
+                $eq: ["$productId", "$$id"],
+              },
+              languageCode: "en",
+            },
+          },
+        ],
+        as: "descEnglishData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$descEnglishData",
+      },
+    },
+    {
+      $addFields: {
+        slug: {
+          $ifNull: ["$variantData.descData.slug", "$descData.slug"],
+        },
+        en_slug: {
+          $ifNull: ["$variantData.enDescData.slug", "$descEnglishData.slug"],
+        },
+        vendor: {
+          $ifNull: ["$variantData.vendorData.vendorId", "$vendorData.vendorId"],
+        },
+        sellingPrice: {
+          $ifNull: [
+            "$variantData.vendorData.sellingPrice",
+            "$vendorData.sellingPrice",
+          ],
+        },
+        discountedPrice: {
+          $ifNull: [
+            "$variantData.vendorData.discountedPrice",
+            "$vendorData.discountedPrice",
+          ],
+        },
+        buyingPriceCurrency: {
+          $ifNull: [
+            "$variantData.vendorData.buyingPriceCurrency",
+            "$vendorData.buyingPriceCurrency",
+          ],
+        },
+        idForCart: {
+          $ifNull: ["$variantData.vendorData._id", "$vendorData._id"],
+        },
+        typeForCart: {
+          $cond: ["$variantData.vendorData._id", "variant", "main"],
+        },
+      },
+    },
+    {
+      $addFields: {
+        ratings: 0,
+        reviewsCount: 0,
+        media: "$coverImage",
+      },
+    },
+  ];
+
+  let products, currencyData, totalProducts, currentCurrency, usdCurrency;
+
+  try {
     const currenciesData = await currentAndUSDCurrencyData(countryId);
 
     if (!currenciesData.status) {
@@ -7309,9 +7665,14 @@ exports.getMostViewedItems = async (req, res, next) => {
 
 //updated
 exports.newlyLaunchedItems = async (req, res, next) => {
-  // let countryId = req.countryId;
+  let countryId = req.countryId;
   let languageCode = req.languageCode;
   let userId = req.userId;
+
+  console.log("languageCode", languageCode);
+  /*  console.log("userId",userId);
+    console.log("currentCurrency",currentCurrency);
+    console.log("usdCurrency",usdCurrency); */
 
   let { perPage, page } = req.query;
 
@@ -7325,11 +7686,17 @@ exports.newlyLaunchedItems = async (req, res, next) => {
         isActive: true,
         isPublished: true,
         isApproved: true,
-        // countries: {
-        //   $in: [new ObjectId(countryId)],
-        // },
-        // isVendorActive: true,
-        // isHelper: false,
+        coverImage: {
+          $ne: null,
+        },
+      },
+    },
+    {
+      $limit: 10,
+    },
+    {
+      $sort: {
+        createdAt: -1,
       },
     },
     {
@@ -7561,9 +7928,9 @@ exports.newlyLaunchedItems = async (req, res, next) => {
     currentCurrency = currenciesData.currentCurrency;
     usdCurrency = currenciesData.usdCurrency;
 
-    totalProducts = Product.aggregate(COMMON);
+    //totalProducts = Product.aggregate(COMMON);
 
-    products = Product.aggregate([
+    let productsObj = Product.aggregate([
       ...COMMON,
       ...REVIEW_AGG.first,
       {
@@ -7571,12 +7938,12 @@ exports.newlyLaunchedItems = async (req, res, next) => {
           createdAt: -1,
         },
       },
-      {
+      /* {
         $skip: (page - 1) * perPage,
       },
       {
         $limit: perPage,
-      },
+      }, */
       ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
       {
         $project: {
@@ -7598,9 +7965,29 @@ exports.newlyLaunchedItems = async (req, res, next) => {
           ...REVIEW_AGG.second,
         },
       },
+      {
+        $facet: {
+          products: [{ $skip: (page - 1) * perPage }, { $limit: perPage }],
+          totalCount: [
+            {
+              $count: "count",
+            },
+          ],
+        },
+      },
     ]);
 
-    [totalProducts, products] = await Promise.all([totalProducts, products]);
+    [[productsObj]] = await Promise.all([productsObj]);
+
+    products = productsObj.products ? productsObj.products : [];
+    totalProducts =
+      productsObj.totalCount &&
+      productsObj.totalCount.length > 0 &&
+      productsObj.totalCount[0].count
+        ? productsObj.totalCount[0].count
+        : 0;
+
+    //[totalProducts, products] = await Promise.all([totalProducts, products]);
   } catch (err) {
     console.log("product -get newly launched -err", err);
     return res.status(200).json({
@@ -7617,7 +8004,7 @@ exports.newlyLaunchedItems = async (req, res, next) => {
     message: "Products fetched successfully",
     products,
     currency: "$",
-    totalProducts: totalProducts?.length,
+    totalProducts: totalProducts,
   });
 };
 
@@ -11413,12 +11800,17 @@ exports.getSponsoredItems = async (req, res, next) => {
         isActive: true,
         isPublished: true,
         isApproved: true,
-        // countries: {
-        //   $in: [new ObjectId(countryId)],
-        // },
-        // isVendorActive: true,
-        // isHelper: false,
-        // isSponsored: true,
+        coverImage: {
+          $ne: null,
+        },
+      },
+    },
+    {
+      $limit: 10,
+    },
+    {
+      $sort: {
+        createdAt: -1,
       },
     },
     // added new start
@@ -11629,24 +12021,12 @@ exports.getSponsoredItems = async (req, res, next) => {
     ...COMMON_AGG,
     {
       $addFields: {
-        // price: {
-        //   $ifNull: [
-        //     "$variantData.vendorData.sellingPrice",
-        //     "$vendorData.sellingPrice",
-        //   ],
-        // },
         slug: {
           $ifNull: ["$variantData.descData.slug", "$descData.slug"],
         },
         en_slug: {
           $ifNull: ["$variantData.descEnLangData.slug", "$descEnLangData.slug"],
         },
-        // discountedPrice: {
-        //   $ifNull: [
-        //     "$variantData.vendorData.sellingPrice",
-        //     "$vendorData.sellingPrice",
-        //   ],
-        // },
         vendor: {
           $ifNull: ["$variantData.vendorData.vendorId", "$vendorData.vendorId"],
         },
@@ -11682,90 +12062,15 @@ exports.getSponsoredItems = async (req, res, next) => {
     {
       $addFields: {
         ratings: 0,
-        // discountPercentage: 0,
         reviewsCount: 0,
         media: "$coverImage",
-        // pricesFiltered: {
-        //   $filter: {
-        //     input: "$prices",
-        //     cond: {
-        //       $eq: ["$$item.countryId", new ObjectId(countryId)],
-        //     },
-        //     as: "item",
-        //     limit: 1,
-        //   },
-        // },
-        // media: {
-        //   $filter: {
-        //     input: "$media",
-        //     cond: {
-        //       $eq: ["$$item.isFeatured", true],
-        //     },
-        //     as: "item",
-        //     limit: 1,
-        //   },
-        // },
       },
     },
-    // {
-    //   $unwind: {
-    //     path: "$pricesFiltered",
-    //   },
-    // },
-    // {
-    //   $unwind: {
-    //     path: "$media",
-    //     preserveNullAndEmptyArrays: true,
-    //   },
-    // },
-    // {
-    //   $addFields: {
-    //     price: "$pricesFiltered.sellingPrice",
-    //     discountedPrice: "$pricesFiltered.discountPrice",
-    //     discountPercentage: {
-    //       $round: [
-    //         {
-    //           $subtract: [
-    //             100,
-    //             {
-    //               $divide: [
-    //                 {
-    //                   $multiply: ["$pricesFiltered.discountPrice", 100],
-    //                 },
-    //                 "$pricesFiltered.sellingPrice",
-    //               ],
-    //             },
-    //           ],
-    //         },
-    //         2,
-    //       ],
-    //     },
-    //   },
-    // },
   ];
 
   let products, currencyData, totalProducts, currentCurrency, usdCurrency;
 
   try {
-    // [currencyData] = await Currency.aggregate([
-    //   {
-    //     $match: {
-    //       countriesId: {
-    //         $in: [new ObjectId(countryId)],
-    //       },
-    //     },
-    //   },
-    //   {
-    //     $limit: 1,
-    //   },
-    //   {
-    //     $project: {
-    //       _id: 0,
-    //       sign: 1,
-    //     },
-    //   },
-    // ]);
-
     const currenciesData = await currentAndUSDCurrencyData(countryId);
 
     if (!currenciesData.status) {
@@ -11780,21 +12085,21 @@ exports.getSponsoredItems = async (req, res, next) => {
     currentCurrency = currenciesData.currentCurrency;
     usdCurrency = currenciesData.usdCurrency;
 
-    totalProducts = Product.aggregate(COMMON);
+    //totalProducts = Product.aggregate(COMMON);
 
-    products = Product.aggregate([
+    let productsObj = Product.aggregate([
       ...COMMON,
       {
         $sort: {
           createdAt: 1,
         },
       },
-      {
+      /*  {
         $skip: (page - 1) * perPage,
       },
       {
         $limit: perPage,
-      },
+      }, */
       ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
       ...wishlistObj.first,
       ...REVIEW_AGG.first,
@@ -11818,15 +12123,34 @@ exports.getSponsoredItems = async (req, res, next) => {
           },
           ...wishlistObj.second,
           ...REVIEW_AGG.second,
-
           vendor: 1,
           idForCart: 1,
           typeForCart: 1,
         },
       },
+      {
+        $facet: {
+          products: [{ $skip: (page - 1) * perPage }, { $limit: perPage }],
+          totalCount: [
+            {
+              $count: "count",
+            },
+          ],
+        },
+      },
     ]);
 
-    [totalProducts, products] = await Promise.all([totalProducts, products]);
+    [[productsObj]] = await Promise.all([productsObj]);
+
+    products = productsObj.products ? productsObj.products : [];
+    totalProducts =
+      productsObj.totalCount &&
+      productsObj.totalCount.length > 0 &&
+      productsObj.totalCount[0].count
+        ? productsObj.totalCount[0].count
+        : 0;
+
+    //[totalProducts, products] = await Promise.all([products, totalProducts]);
   } catch (err) {
     console.log("product -get sponsored -err", err);
     return res.status(200).json({
@@ -11842,7 +12166,7 @@ exports.getSponsoredItems = async (req, res, next) => {
     message: "Products fetched successfully",
     products,
     currency: "$",
-    totalProducts: totalProducts?.length,
+    totalProducts: totalProducts,
   });
 };
 
@@ -13446,14 +13770,19 @@ exports.topSellingItems = async (req, res, next) => {
         isActive: true,
         isPublished: true,
         isApproved: true,
-        // countries: {
-        //   $in: [new ObjectId(countryId)],
-        // },
-        // isVendorActive: true,
-        // isHelper: false,
+        coverImage: {
+          $ne: null,
+        },
       },
     },
-    // added new start
+    {
+      $limit: 10,
+    },
+    {
+      $sort: {
+        createdAt: -1,
+      },
+    },
     {
       $lookup: {
         from: "vendorproducts",
@@ -13590,20 +13919,6 @@ exports.topSellingItems = async (req, res, next) => {
         as: "variantData",
       },
     },
-    // {
-    //   $addFields: {
-    //     vData: {
-    //       $filter: {
-    //         input: "$variantData",
-    //         cond: {
-    //           $eq: ["$$item.isDeleted", false],
-    //         },
-    //         as: "item",
-    //         limit: 1,
-    //       },
-    //     },
-    //   },
-    // },
     {
       $unwind: {
         path: "$variantData",
@@ -13637,21 +13952,9 @@ exports.topSellingItems = async (req, res, next) => {
     },
     {
       $addFields: {
-        // price: {
-        //   $ifNull: [
-        //     "$variantData.vendorData.sellingPrice",
-        //     "$vendorData.sellingPrice",
-        //   ],
-        // },
         slug: {
           $ifNull: ["$variantData.descData.slug", "$descData.slug"],
         },
-        // discountedPrice: {
-        //   $ifNull: [
-        //     "$variantData.vendorData.sellingPrice",
-        //     "$vendorData.sellingPrice",
-        //   ],
-        // },
         vendor: {
           $ifNull: ["$variantData.vendorData.vendorId", "$vendorData.vendorId"],
         },
@@ -13750,6 +14053,25 @@ exports.topSellingItems = async (req, res, next) => {
     {
       $match: {
         itemType: "product",
+        isDeleted: false,
+        isActive: true,
+        isPublished: true,
+        isApproved: true,
+      },
+    },
+    {
+      $match: {
+        coverImage: {
+          $ne: null,
+        },
+      },
+    },
+    {
+      $limit: 10,
+    },
+    {
+      $sort: {
+        createdAt: -1,
       },
     },
     {

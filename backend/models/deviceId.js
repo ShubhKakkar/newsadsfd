@@ -27,4 +27,8 @@ const DeviceIdSchema = mongoose.Schema(
   }
 );
 
+DeviceIdSchema.index(
+  { userId: 1 }
+);
+
 module.exports = mongoose.model("DeviceId", DeviceIdSchema);
