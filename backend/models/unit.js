@@ -6,6 +6,9 @@ const UnitSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    stockUnitId: {
+      type: String,
+    },
     isActive: {
       type: Boolean,
       default: true,

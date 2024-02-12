@@ -36,6 +36,9 @@ const schema = mongoose.Schema(
       default: false,
       required: true,
     },
+    groupId: {
+      type: String,
+    }
   },
   {
     timestamps: true,

@@ -3,6 +3,9 @@ const idCreator = require("../utils/idCreator");
 
 const schema = mongoose.Schema(
   {
+    subProductId: {
+      type: String,
+    },
     customId: {
       type: String,
     },

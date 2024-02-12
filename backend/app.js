@@ -62,8 +62,7 @@ const transactionRoutes = require("./routes/transaction");
 const orderRoutes = require("./routes/order");
 const notificationActionRoutes = require("./routes/notificationAction");
 const reviewRoutes = require("./routes/review");
-const seeding = require("./seeding/index.js");
-const { updateProducts } = require("./utils/extras.js");
+const seedingRoutes = require("./routes/seeding");
 
 const {
   currencyExchangeRateHandler,
@@ -147,6 +146,7 @@ app.use("/transaction", transactionRoutes);
 app.use("/order", orderRoutes);
 app.use("/notification-action", notificationActionRoutes);
 app.use("/review", reviewRoutes);
+app.use("/seeding", seedingRoutes);
 
 app.use((error, req, res, next) => {
   const status = error.code || error.status_code || 500;
@@ -189,9 +189,12 @@ new CronJob(
 //const DB_NAME =
 //PORT === "4023" ? process.env.DB_NAME_PROD : process.env.DB_NAME_DEV;
 
-const DB_NAME = process.env.DB_NAME_PROD;
+// const DB_NAME = process.env.DB_NAME_PROD;
+const DB_NAME="noonmar"
 
-const MONGOURI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.hrdxm.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
+// const MONGOURI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.hrdxm.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
+
+const MONGOURI = `mongodb://localhost:27017/${DB_NAME}`;
 
 console.log("MONGOURI", MONGOURI);
 
@@ -204,30 +207,5 @@ mongoose
   .then(async (...rest) => {
     console.log("MongoDB Connected.!");
     const server = app.listen(PORT);
-    // await seeding.seedBrands(); -> Updated and working perfectly.
-    // await seeding.seedCategories();
-    // await seeding.seedUnits(); -> Working;
-    // await updateProducts();
-    // await seeding.seedProducts();
-    // await seeding.seedVariants(); -> Working
-    // await seeding.updatePresentProducts();
-    // await seeding.newUpdateProducts();
   })
   .catch((err) => console.log(err));
-
-// const ProductCategoryDescriptions = require("./models/productCategoryDescription.js");
-
-// Seeding products
-// const seedAllProducts = async () => {
-//   await seeding.seedProducts();
-// };
-
-// try {
-//   seedAllProducts();
-// } catch (err) {
-//   console.log(err);
-// }
-/*
-  mongoose-slug-updater
-  mongoose-slug-generator
-*/
