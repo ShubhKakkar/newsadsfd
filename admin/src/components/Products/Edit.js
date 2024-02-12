@@ -77,7 +77,6 @@ const locationObj = {
   5: ["featureTitle"],
   6: ["height", "weight", "width", "length"],
 };
-
 const Edit = (props) => {
   const { id: recordId } = props.match.params;
 
@@ -1724,30 +1723,30 @@ const Edit = (props) => {
         metaData: metaDatas[code],
       });
 
-      if (languages[i].default) {
-        // formData.append("shortDescription", data[`shortDescription-${code}`]);
-        // formData.append("longDescription", data[`description-${code}`]);
+      // if (languages[i].default) {
+      //   // formData.append("shortDescription", data[`shortDescription-${code}`]);
+      //   // formData.append("longDescription", data[`description-${code}`]);
 
-        formData.append("name", data[`name-${code}`]);
+      //   formData.append("name", data[`name-${code}`]);
 
-        if (!isOptional) {
-          if (
-            !data[`description-${code}`] ||
-            data[`description-${code}`].length === 0
-          ) {
-            toast.error("Please enter long description");
-            return;
-          }
+      //   if (!isOptional) {
+      //     if (
+      //       !data[`description-${code}`] ||
+      //       data[`description-${code}`].length === 0
+      //     ) {
+      //       toast.error("Please enter long description");
+      //       return;
+      //     }
 
-          if (
-            !data[`shortDescription-${code}`] ||
-            data[`shortDescription-${code}`].length === 0
-          ) {
-            toast.error("Please enter short description");
-            return;
-          }
-        }
-      }
+      //     if (
+      //       !data[`shortDescription-${code}`] ||
+      //       data[`shortDescription-${code}`].length === 0
+      //     ) {
+      //       toast.error("Please enter short description");
+      //       return;
+      //     }
+      //   }
+      // }
     }
 
     formData.append("langData", JSON.stringify(langData));
