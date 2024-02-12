@@ -14,7 +14,7 @@ const Product = ({ product }) => {
 
   const router = useRouter();
   const dispatch = useDispatch();
-  
+
   const { request: addToCartRequest, response: addToCartResponse } =
     useRequest();
 
@@ -43,11 +43,13 @@ const Product = ({ product }) => {
   };
 
   useEffect(() => {
-     if (addToCartResponse) {
-      let cTotal = (addToCartResponse.data.cartTotal) ? addToCartResponse.data.cartTotal : 0;
+    if (addToCartResponse) {
+      let cTotal = addToCartResponse.data.cartTotal
+        ? addToCartResponse.data.cartTotal
+        : 0;
       dispatch(updateCartTotal({ cartTotal: cTotal }));
-       toast.success("Product added to the cart.");
-     }
+      toast.success("Product added to the cart.");
+    }
   }, [addToCartResponse]);
 
   const routeToProduct = () => {
@@ -122,8 +124,7 @@ const Product = ({ product }) => {
                       : "ofrProPri"
                   }`}
                 >
-                  {product.currency}
-                  {product.price}
+                  {product.price} {product.currency}
                 </span>
                 {product.discountPercentage !== 0 && (
                   <span className="ofrProPri">

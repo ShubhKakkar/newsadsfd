@@ -41,7 +41,6 @@ const Product = ({
   otherSellers,
   vendor,
 }) => {
-
   const t = useTranslate();
 
   const [firstFeaturesObj, setFirstFeaturesObj] = useState({
@@ -106,7 +105,9 @@ const Product = ({
   useEffect(() => {
     if (addToCartResponse) {
       setQuantity(1);
-      let cTotal = (addToCartResponse.data.cartTotal) ? addToCartResponse.data.cartTotal : 0;
+      let cTotal = addToCartResponse.data.cartTotal
+        ? addToCartResponse.data.cartTotal
+        : 0;
       dispatch(updateCartTotal({ cartTotal: cTotal }));
       toast.success("Product successfully added to the cart.");
     }
@@ -408,19 +409,19 @@ const Product = ({
                   <div className="product_price">
                     {product.discountPercentage > 0 && (
                       <span className="product_price_title">
+                        {product.discountedPrice}&nbsp;
                         {product.currency}
-                        {product.discountedPrice}
                       </span>
                     )}
                     {product.discountPercentage <= 0 ? (
                       <span className="product_price_title">
+                        {product.price}&nbsp;
                         {product.currency}
-                        {product.price}
                       </span>
                     ) : (
                       <span className="product_price_default">
+                        {product.price}&nbsp;
                         {product.currency}
-                        {product.price}
                       </span>
                     )}
 
@@ -1575,6 +1576,8 @@ export async function getServerSideProps(context) {
     query: { slug, vendor },
   } = context;
 
+  console.log("context,........", context);
+
   const {
     product,
     currency,
@@ -1584,6 +1587,8 @@ export async function getServerSideProps(context) {
     recentlyViewedProducts,
     otherSellers,
   } = await getProduct(slug, vendor);
+
+  console.log("product,........", product);
 
   if (!product || Object.keys(product).length == 0) {
     // console.log("no product", slug);

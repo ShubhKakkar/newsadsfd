@@ -216,8 +216,8 @@ const Cart = ({ initialCartItems, currency, list }) => {
                                   </div>
                                 </td>
                                 <td>
+                                  {item.discountedPrice} &nbsp;
                                   {item.currency}
-                                  {item.discountedPrice}
                                 </td>
                                 <td>
                                   <div className="form-group productQuantityBox CartproductQuantityBox">
@@ -238,8 +238,8 @@ const Cart = ({ initialCartItems, currency, list }) => {
                                   </div>
                                 </td>
                                 <td className="text-center">
+                                  {item.totalPrice} &nbsp;
                                   {item.currency}
-                                  {item.totalPrice}
                                 </td>
                               </tr>
                             ))}
@@ -295,7 +295,7 @@ const Cart = ({ initialCartItems, currency, list }) => {
                           >
                             <h3>Total Price:</h3>
                             <span>
-                              {currency} {orderAmount}
+                              {orderAmount} {currency}
                             </span>
                           </div>
                         )}

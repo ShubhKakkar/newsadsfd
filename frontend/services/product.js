@@ -143,6 +143,7 @@ export const getMostViewedProducts = async () => {
   try {
     res = await axiosInstance.get(`v1/product/most-viewed`);
   } catch (err) {
+    // console.log("err getMostViewedProducts", err.response.data.message);
     console.log("err", err);
     return {
       status: false,
@@ -155,9 +156,11 @@ export const getMostViewedProducts = async () => {
 
 export const getLatestProducts = async () => {
   let res;
+  console.log("axiosInstance.defaults.headers",axiosInstance.defaults.headers)
   try {
     res = await axiosInstance.get(`v1/product/latest`);
   } catch (err) {
+    console.log("err",err)
     return {
       status: false,
       products: [],
@@ -171,6 +174,7 @@ export const getSponsoredItems = async () => {
   let res;
   try {
     res = await axiosInstance.get(`v1/product/sponsored`);
+    console.log("res",res);
   } catch (err) {
     return {
       status: false,

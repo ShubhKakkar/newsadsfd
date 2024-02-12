@@ -1,4 +1,5 @@
 import nookies from "nookies";
+import { parseCookies }  from "nookies";
 import { axiosInstance } from "./api";
 import { getCurrentCountry } from "@/services/home";
 
@@ -14,6 +15,26 @@ const langObj = {
 
 export const createAxiosCookies = async (context) => {
   const cookies = nookies.get(context);
+  axiosInstance.defaults.headers.common[
+    "Authorization"
+  ] = `Bearer ${cookies.token} `;
+  axiosInstance.defaults.headers.common["Accept-Language"] =
+    cookies.i18nextLng ?? "en";
+  if (cookies.country) {
+    axiosInstance.defaults.headers.common["Accept-Country"] = cookies.country;
+  } else {
+    const countryData = await getCurrentCountry();
+    if (countryData) {
+      updateAxiosCookies(countryData.id);
+    }
+  }
+
+  return cookies.country;
+};
+
+
+export const createAxiosNewCookies = async () => {
+  const cookies = parseCookies();
   axiosInstance.defaults.headers.common[
     "Authorization"
   ] = `Bearer ${cookies.token} `;

@@ -1560,23 +1560,23 @@ const Checkout = ({
                       <div className="Cart_Total_title">
                         <h3>{t("Order Amount")}: </h3>
                         <span>
-                          {currency} {orderAmount}
+                          {orderAmount} {currency}
                         </span>
                       </div>
                       <div className="Cart_Total_title CartTotalTitle2">
                         <h3>{t("Delivery Fee")}:</h3>
-                        <span>{currency} 0.00</span>
+                        <span> 0.00 {currency}</span>
                       </div>
                       <div className="Cart_Total_title CartTotalTitle3">
                         <h3>{t("Applicable Taxes")}:</h3>
                         <span>
-                          {currency} {billingAddressData.taxAmount}
+                          {billingAddressData.taxAmount} {currency}
                         </span>
                       </div>
                       <div className="Cart_Total_title">
                         <h3>{t("Custom Fees")}</h3>
                         <span>
-                          {currency} {shippingAddressData.customFees}
+                          {shippingAddressData.customFees} {currency}
                         </span>
                       </div>
                       {/* <div className="Cart_Total_title CartTotalTitle4">
@@ -1586,15 +1586,16 @@ const Checkout = ({
                       <div className="TotalPriceCart">
                         <h3>{t("Total Price")}:</h3>
                         <span>
-                          {" "}
-                          {currency}{" "}
+                          {"  "}
                           {
                             +(
                               orderAmount +
                               billingAddressData.taxAmount +
                               shippingAddressData.customFees
                             ).toFixed(2)
-                          }
+                          }{" "}
+                          &nbsp;
+                          {currency}
                         </span>
                       </div>
                     </div>

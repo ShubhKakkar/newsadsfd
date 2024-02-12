@@ -9,18 +9,16 @@ import Wishlist from "./Wishlist";
 import { toast } from "react-toastify";
 
 const HomePageProduct = ({ classes, product, addToCartFn }) => {
-
-
   const t = useTranslate();
 
   const router = useRouter();
   const dispatch = useDispatch();
 
-  const { loggedIn, role,cartTotal } = useSelector((state) => state.auth);
+  const { loggedIn, role, cartTotal } = useSelector((state) => state.auth);
 
   const routeToProduct = () => {
     console.log(`/product/${product.slug}`);
-    console.log(product,"product");
+    console.log(product, "product");
     //return;
     //router.push(`/product/${product.slug}?vendor=${product.vendor}`);
     router.push(
@@ -64,10 +62,12 @@ const HomePageProduct = ({ classes, product, addToCartFn }) => {
 
   useEffect(() => {
     if (addToCartResponse) {
-      let cTotal = (addToCartResponse.data.cartTotal) ? addToCartResponse.data.cartTotal : 0;
+      let cTotal = addToCartResponse.data.cartTotal
+        ? addToCartResponse.data.cartTotal
+        : 0;
       dispatch(updateCartTotal({ cartTotal: cTotal }));
       toast.success("Product added to the cart successfully.");
-      console.log("classes",cartTotal);
+      console.log("classes", cartTotal);
     }
   }, [addToCartResponse]);
 
@@ -108,13 +108,13 @@ const HomePageProduct = ({ classes, product, addToCartFn }) => {
                       : "ofrProPri"
                   }`}
                 >
+                  {product.price} &nbsp;
                   {product.currency}
-                  {product.price}
                 </span>
                 {product.discountPercentage !== 0 && (
                   <span className="ofrProPri">
+                    {product.discountedPrice} &nbsp;
                     {product.currency}
-                    {product.discountedPrice}
                   </span>
                 )}
               </span>
