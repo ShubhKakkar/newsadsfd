@@ -142,7 +142,11 @@ const schema = mongoose.Schema(
     },
     productId: {
       type: String,
-    }
+    },
+    isSponsored: {
+      type: Boolean,
+      default: false,
+    },
   },
   {
     timestamps: true,
@@ -154,15 +158,8 @@ schema.pre("save", async function (next) {
   next();
 });
 
-
-schema.index(
-  { categoryId: 1 }
-);
-schema.index(
-  { brandId: 1 }
-);
-schema.index(
-  { unitId: 1 }
-);
+schema.index({ categoryId: 1 });
+schema.index({ brandId: 1 });
+schema.index({ unitId: 1 });
 
 module.exports = mongoose.model("Product", schema);

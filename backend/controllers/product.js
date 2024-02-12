@@ -696,6 +696,7 @@ exports.getAll = async (req, res, next) => {
     price,
     customId,
     isApproved,
+    isSponsored,
   } = req.query;
 
   if (!page) {
@@ -751,6 +752,10 @@ exports.getAll = async (req, res, next) => {
 
   if (isApproved) {
     conditions.isApproved = false;
+  }
+
+  if (isSponsored) {
+    conditions.isSponsored = false;
   }
 
   const PIPELINE_TOTAL = {
@@ -834,7 +839,7 @@ exports.getAll = async (req, res, next) => {
         categoryName: "$categoryData.name",
         brandName: "$brandData.name",
         isApproved: 1,
-        // isSponsored: 1,
+        isSponsored: 1,
       },
     },
   ];
