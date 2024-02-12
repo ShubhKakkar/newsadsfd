@@ -6786,7 +6786,6 @@ exports.makeProductPublish = async (req, res, next) => {
     message: "Product published successfully.",
   });
 };
-
 exports.getMostViewedItems = async (req, res, next) => {
   let userId = req.userId;
   let countryId = req.countryId;
@@ -11800,6 +11799,7 @@ exports.getSponsoredItems = async (req, res, next) => {
         isActive: true,
         isPublished: true,
         isApproved: true,
+        isSponsored: true,
         coverImage: {
           $ne: null,
         },
