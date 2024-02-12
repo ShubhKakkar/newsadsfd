@@ -229,6 +229,9 @@ import EditSectionThree from "../components/Home/SectionThree/Edit";
 import ViewSectionFour from "../components/Home/SectionFour/View";
 import ViewSectionFive from "../components/Home/SectionFive/View";
 
+import HomePagePermission from "../components/HomePagePermission";
+import AddHomePagePermission from "../components/HomePagePermission/Add";
+
 import RequestedCategories from "../components/RequestedCategory/ViewAll";
 import SpecificationGroups from "../components/SpecificationGroups/ViewAll";
 import SpecificationGroupsAdd from "../components/SpecificationGroups/Add";
@@ -736,6 +739,17 @@ export const privateRoutes = [
     path: "/section-five",
     component: ViewSectionFive,
     key: "13_40",
+  },
+
+  {
+    path: "/home-page-permission",
+    component: HomePagePermission,
+    key: "13_41",
+  },
+  {
+    path: "/home-page-permission/add",
+    component: AddHomePagePermission,
+    key: "13_42",
   },
 
   {

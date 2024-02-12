@@ -144,7 +144,7 @@ export const Input = ({
             The {label.toLowerCase()} field is invalid.
           </div>
         )}
-         {registerFields?.max <= 5 && isKey?.type === "max" && (
+        {registerFields?.max <= 5 && isKey?.type === "max" && (
           <div className="invalid-feedback">
             The {label.toLowerCase()} field is invalid.
           </div>
@@ -525,6 +525,31 @@ export const SubmitButton = ({ handleSubmit, onSubmit, name, pxClass }) => {
     </>
   );
 };
+
+// export const ChangeStatusButton = () => {
+//   return (
+//     <>
+//       <button
+//         onClick={handleSubmit(onSubmit)}
+//         style={{ display: "none" }}
+//       ></button>
+//       <div
+//         className={`d-flex justify-content-between border-top mt-5 pt-10 ${pxClass}`}
+//       >
+//         {/* px-10 */}
+//         <div className="mr-2">
+//           <button
+//             onClick={handleSubmit(onSubmit)}
+//             type="button"
+//             className="btn btn-success font-weight-bold text-uppercase px-9 py-4"
+//           >
+//             {name}
+//           </button>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 
 export const SearchSubmitButton = ({
   handleSubmit,

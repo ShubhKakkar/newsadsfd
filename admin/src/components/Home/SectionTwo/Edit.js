@@ -86,20 +86,20 @@ const Edit = (props) => {
 
   useEffect(() => {
     if (responseGetSection) {
-      console.log("responseGetSection:::",responseGetSection);
+      console.log("responseGetSection:::", responseGetSection);
       const { sectionData } = responseGetSection;
 
       if (!sectionData) {
         history.push("/section-two");
         return;
       }
-      const { langData, link ,colorPicker } = sectionData;
+      const { langData, link, colorPicker } = sectionData;
 
       //   setValue("link", link);
 
       const langDataIdsObj = {};
       const newImages = {};
-      const resetObj = { link ,colorPicker };
+      const resetObj = { link, colorPicker };
 
       langData.forEach((lang) => {
         const code = lang.languageCode;

@@ -609,6 +609,7 @@ const Table = ({
                     } else if (Object.keys(renderAs).includes(tData)) {
                       value = renderAs[tData](data[tData], data._id, data);
                     } else if (tData === "isActive") {
+                      console.log(data , "data")
                       if (data[tData]) {
                         value = (
                           <span className="label label-lg label-light-success label-inline">

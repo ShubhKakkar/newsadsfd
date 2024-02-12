@@ -134,7 +134,7 @@ const Add = () => {
         },
         tooltip: {
           show: true,
-          title: `Required resolution is 1.4:1 (Width:Height)`,
+          title: `Required resolution is 1800*650 (Width:Height)`,
         },
       },
     ],

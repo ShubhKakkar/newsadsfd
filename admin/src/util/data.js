@@ -745,6 +745,14 @@ export const menu = [
     Svg: ProductManagement,
     subMenu: [
       {
+        name: "Permissions",
+        path: "/home-page-permission",
+        highlight: ["/home-page-permission", "/home-page-permission/add"],
+        subHighlight: ["/home-page-permission/edit"],
+        key: "13_5",
+        subMenu: [],
+      },
+      {
         name: "Section One",
         path: "/section-one/sliders",
         highlight: [

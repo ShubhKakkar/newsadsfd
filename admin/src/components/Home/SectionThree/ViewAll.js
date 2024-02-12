@@ -23,7 +23,7 @@ const OBJ_TABLE = {
   link: "link",
   image: "image",
   "created on": "createdAt",
-  //   status: "isActive",
+    status: "isActive",
 };
 
 const searchQueryHandler = (
@@ -415,20 +415,20 @@ const ViewAll = () => {
                         //   name: "Wallet",
                         //   extraData: true,
                         // },
-                        // {
-                        //   isLink: false,
-                        //   name: "Deactivate",
-                        //   click: changeStatusHandler,
-                        //   title: "Click To Activate",
-                        //   key: "12_192",
-                        // },
-                        // {
-                        //   isLink: false,
-                        //   name: "Activate",
-                        //   click: changeStatusHandler,
-                        //   title: "Click To Deactivate",
-                        //   key: "12_192",
-                        // },
+                        {
+                          isLink: false,
+                          name: "Deactivate",
+                          click: changeStatusHandler,
+                          title: "Click To Activate",
+                          key: "12_192",
+                        },
+                        {
+                          isLink: false,
+                          name: "Activate",
+                          click: changeStatusHandler,
+                          title: "Click To Deactivate",
+                          key: "12_192",
+                        },
                         {
                           isLink: true,
                           to: "/section-three/edit",

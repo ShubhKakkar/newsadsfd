@@ -7,25 +7,22 @@ import withReactContent from "sweetalert2-react-content";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 
-import useRequest from "../../../hooks/useRequest";
-import Pagination from "../../Pagination/Pagination";
-import Breadcrumb from "../../Breadcrumb/Breadcrumb";
-import Table from "../../Table/Table";
-import { SearchInput, SearchSubmitButton } from "../../Form/Form";
-import { addOneToDate } from "../../../util/fn";
+import useRequest from "../../hooks/useRequest";
+import Pagination from "../Pagination/Pagination";
+import Breadcrumb from "../Breadcrumb/Breadcrumb";
+import Table from "../Table/Table";
+import { SearchInput, SearchSubmitButton } from "../Form/Form";
+import { addOneToDate } from "../../util/fn";
 
-const apiName = "master/home/section-two";
-const titleSingular = "Slider";
-const titlePlural = "Section 2";
+const apiName = "master/home/page-permission";
+const titleSingular = "Section 3";
+const titlePlural = "Home Page Permission";
 
 const OBJ_TABLE = {
   //   name: "name",
-  title: "title",
-  heading: "heading",
-  "Button Name": "buttonName",
-  link: "link",
-  //   image: "image",
-  "created on": "createdAt",
+  Section: "name",
+  image: "image",
+//   "created on": "createdAt",
     status: "isActive",
 };
 
@@ -126,7 +123,7 @@ const ViewAll = () => {
       let newDataList = [...dataList];
       newDataList = newDataList.filter((list) => list._id !== id);
       setDataList(newDataList);
-      toast.success("Slider has been deleted successfully.");
+      toast.success("Section has been deleted successfully.");
     }
   }, [responseDelete]);
 
@@ -153,7 +150,7 @@ const ViewAll = () => {
   const deleteHandler = (id) => {
     MySwal.fire({
       title: "Are you sure?",
-      text: "You want to delete this slider?",
+      text: "You want to delete this section?",
       icon: "warning",
       showCancelButton: true,
       confirmButtonText: "Yes, delete it",
@@ -309,22 +306,6 @@ const ViewAll = () => {
         </>
       ),
     },
-    // {
-    //   label: "Date From",
-    //   name: "dateFrom",
-    //   isDate: true,
-    //   clearErrors,
-    // },
-    // {
-    //   label: "Date To",
-    //   name: "dateTo",
-    //   isDate: true,
-    //   clearErrors,
-    //   otherRegisterFields: {
-    //     manual: true,
-    //     feedback: "'To Date' cannot be smaller than 'From Date'",
-    //   },
-    // },
   ];
 
   return (
@@ -344,7 +325,7 @@ const ViewAll = () => {
               <div className="card card-custom card-stretch card-shadowless">
                 <div className="card-header">
                   <div className="card-title"></div>
-                  <div className="card-toolbar">
+            {false &&      <div className="card-toolbar">
                     {/* <a
                       className="btn btn-primary dropdown-toggle mr-2"
                       data-toggle="collapse"
@@ -356,7 +337,7 @@ const ViewAll = () => {
                     {((roleId === 2 && !!permission["12_191"]) ||
                       roleId == 1) && (
                       <Link
-                        to="/section-two/add"
+                        to="/section-three/add"
                         className="btn btn-primary mr-2"
                       >
                         Add New Section
@@ -366,7 +347,7 @@ const ViewAll = () => {
                     {/* <Link to="/registration-fields" className="btn btn-primary">
                       Registration Fields
                     </Link> */}
-                  </div>
+                  </div>}
                 </div>
                 <div className="card-body">
                   <div
@@ -412,12 +393,7 @@ const ViewAll = () => {
                       tableHeading={Object.keys(OBJ_TABLE)}
                       tableData={Object.values(OBJ_TABLE)}
                       links={[
-                        // {
-                        //   isLink: true,
-                        //   to: `/wallet/view`,
-                        //   name: "Wallet",
-                        //   extraData: true,
-                        // },
+                    
                         {
                           isLink: false,
                           name: "Deactivate",
@@ -432,19 +408,19 @@ const ViewAll = () => {
                           title: "Click To Deactivate",
                           key: "12_192",
                         },
-                        {
-                          isLink: true,
-                          to: "/section-two/edit",
-                          name: "Edit",
-                          extraData: true,
-                          key: "12_193",
-                        },
-                        {
-                          isLink: false,
-                          name: "Delete",
-                          click: deleteHandler,
-                          key: "12_194",
-                        },
+                        // {
+                        //   isLink: true,
+                        //   to: "/section-three/edit",
+                        //   name: "Edit",
+                        //   extraData: true,
+                        //   key: "12_193",
+                        // },
+                        // {
+                        //   isLink: false,
+                        //   name: "Delete",
+                        //   click: deleteHandler,
+                        //   key: "12_194",
+                        // },
                       ]}
                       onlyDate={{
                         createdAt: "date",
@@ -476,3 +452,4 @@ const ViewAll = () => {
 };
 
 export default ViewAll;
+
