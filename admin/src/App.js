@@ -51,6 +51,16 @@ const App = () => {
     if (responseLanguages) {
       const { languages } = responseLanguages;
 
+      for (let i = 0; i < languages.length; i++) {
+        if (languages[i].name === "English") {
+          languages[i].default = true;
+        } else {
+          languages[i].default = false;
+        }
+      }
+
+      console.log("languages", languages);
+
       dispatch(addSetting({ languages }));
     }
   }, [responseLanguages]);
