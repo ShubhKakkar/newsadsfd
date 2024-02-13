@@ -1,0 +1,15 @@
+
+    ----------------------------
+      URL = /verify-token
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNzY3MDgxMywiZXhwIjoxNzM5MjI4NDEzLCJpc3MiOiJub29ubWFyIn0.r4GvRAJJ5lcff2vuuWB0lKVZe2IVO5-FYbqFCEr8RdI"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.verifyToken (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/user.js:107:7)
+      Message = Something went wrong
+      Time = 08:36 AM
+    

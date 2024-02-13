@@ -27,6 +27,7 @@ const ProductVariantDescriptionSchema = mongoose.Schema(
   },
   {
     timestamps: true,
+    strict: false,
   }
 );
 
