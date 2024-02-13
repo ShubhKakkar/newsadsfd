@@ -588,8 +588,6 @@ exports.getAll = async (req, res, next) => {
     });
   }
 
-  console.log(categoryFilters,"categoryFilters");
-
   if (categoryFilters.parentId) {
     const isParentCategoriesActiveResult = await isParentCategoriesActive(
       categoryFilters.parentId
@@ -756,6 +754,17 @@ exports.getAll = async (req, res, next) => {
         // },
         ...commonMatch,
       },
+    },
+    {
+      $sort: {
+        [sortByKey]: sortByValue,
+      },
+    },
+    {
+      $skip: (+page - 1) * perPage,
+    },
+    {
+      $limit: perPage,
     },
     // added new start
     {
@@ -1425,6 +1434,19 @@ exports.getAll = async (req, res, next) => {
     ...COMMON_AGG,
   ];
 
+
+  const QUERY_TOTAL = [
+    {
+      $match: {
+        isDeleted: false,
+        isActive: true,
+        isPublished: true,
+        isApproved: true,
+        ...commonMatch,
+      },
+    },
+  ]
+
   let products,
     minPriceData,
     maxPriceData,
@@ -1433,7 +1455,7 @@ exports.getAll = async (req, res, next) => {
     brandAndSubCatData,
     filtersOne = [],
     filtersTwo = [],
-    specifications,
+    specifications = [],
     currentCurrency,
     usdCurrency;
 
@@ -1470,8 +1492,98 @@ exports.getAll = async (req, res, next) => {
 
     currentCurrency = currenciesData.currentCurrency;
     usdCurrency = currenciesData.usdCurrency;
+    console.log("skipData",(+page - 1) * perPage)
+    console.log("perPage",perPage)
 
-    products = Product.aggregate([
+    let productsObj = Product.aggregate([
+      {
+        $facet: {
+      "products":[
+      ...COMMON,
+      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
+      ...REVIEW_AGG.first,
+      {
+        $addFields: REVIEW_AGG.second,
+      },
+      {
+        $match: {
+          ...matchObjTwo,
+        },
+      },
+      ...wishlistObj.first,
+      {
+        $project: {
+          // name: "$langData.name",
+          name: 1,
+          ratings: 1,
+          reviewsCount: 1,
+          shortDescription: "$langData.shortDescription",
+          media: "$coverImage",
+          price: 1,
+          discountedPrice: 1,
+          discountPercentage: 1,
+          currency: { $literal: currentCurrency.sign },
+          // currency: { $literal: "$" },
+          slug: 1,
+          isWishlisted: {
+            $toBool: false,
+          },
+          ...wishlistObj.second,
+          // ...REVIEW_AGG.second,
+          vendor: 1,
+          shareUrl: {
+            $concat: [process.env.FRONTEND_URL, "/product/", "$slug"],
+          },
+          // countryProductPricing: 1,
+          // countryCustomerGroupPricing: 1,
+          // countryProductGroupPricing: 1,
+          // countryCategoryPricing: 1,
+          // customerGroupPricing: 1,
+          // productGroupPricing: 1,
+          // categoryPricing: 1,
+          idForCart: 1,
+          typeForCart: 1,
+        },
+      },
+    ],
+    "totalCount": [
+      ...QUERY_TOTAL,
+     /*  ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
+      ...REVIEW_AGG.first,
+      {
+        $addFields: REVIEW_AGG.second,
+      },
+      {
+        $match: {
+          ...matchObjTwo,
+        },
+      }, */
+      /* {
+        $match: {
+          isDeleted: false,
+          isActive: true,
+          isPublished: true,
+          isApproved: true,
+          // Other match conditions...
+        }
+      }, */
+      {
+        $count: "total"
+      }
+    ]
+  }
+}
+  ]);
+
+    /* [
+      products,
+    ] = await Promise.all([
+      products
+    ]);
+
+    console.log("products",products); */
+
+    /* products = Product.aggregate([
       ...COMMON,
       ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
       ...REVIEW_AGG.first,
@@ -1529,9 +1641,12 @@ exports.getAll = async (req, res, next) => {
           typeForCart: 1,
         },
       },
-    ]);
+    ]); */
 
-    minPriceData = Product.aggregate([
+    minPriceData = { price : 20 };
+    maxPriceData = { price : 1000 } ;
+
+    /* minPriceData = Product.aggregate([
       ...PRICES_COMMON,
       ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
       {
@@ -1571,9 +1686,11 @@ exports.getAll = async (req, res, next) => {
           // price: 1,
         },
       },
-    ]);
+    ]); */
 
-    brandAndSubCatData = Product.aggregate([
+    brandAndSubCatData = [];
+
+    /* brandAndSubCatData = Product.aggregate([
       {
         $match: {
           isDeleted: false,
@@ -1712,9 +1829,9 @@ exports.getAll = async (req, res, next) => {
           brandsId: 0,
         },
       },
-    ]);
+    ]); */
 
-    totalProducts = Product.aggregate([
+    /* totalProducts = Product.aggregate([
       ...COMMON,
       ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
       ...REVIEW_AGG.first,
@@ -1726,19 +1843,15 @@ exports.getAll = async (req, res, next) => {
           ...matchObjTwo,
         },
       },
-    ]);
+    ]); */
 
-    if (categoryFilters.variantFilterIds) {
+    /* if (categoryFilters.variantFilterIds) {
       //console.log(categoryFilters.variantFilterIds,"categoryFilters.variantFilterIds");
       filtersOne = Product.aggregate([
         ...FILTERS_COMMON,
         {
           $match: {
             "variantData.firstVariantId": {
-              /* $in: [
-                 new ObjectId("65cafc6a12f62dc28eb870a8"),
-                 new ObjectId("65cafcf512f62dc28eb870fd"),
-              ], */
               $in: categoryFilters.variantFilterIds.map((v) => new ObjectId(v)),
             },
           },
@@ -2151,9 +2264,9 @@ exports.getAll = async (req, res, next) => {
           },
         },
       ]);
-    }
+    } */
 
-    [
+    /* [
       products,
       [minPriceData],
       [maxPriceData],
@@ -2171,10 +2284,25 @@ exports.getAll = async (req, res, next) => {
       filtersOne,
       filtersTwo,
       specifications,
+    ]); */
+
+    [
+      [productsObj]
+    ] = await Promise.all([
+      productsObj
     ]);
 
-    //console.log("products", products);
-    //console.log("filtersOne", filtersOne);
+    products = productsObj.products ? productsObj.products : [];
+    totalProducts =
+      productsObj.totalCount &&
+      productsObj.totalCount.length > 0 &&
+      productsObj.totalCount[0].total
+        ? productsObj.totalCount[0].total
+        : 0;
+
+    
+    console.log("products", products);
+    console.log("totalProducts", productsObj.totalCount);
   } catch (err) {
     //console.log("product -get -err", err);
     return res.status(200).json({
@@ -2303,7 +2431,7 @@ exports.getAll = async (req, res, next) => {
     products,
     minPrice: minPriceData?.price ?? 0,
     maxPrice: maxPriceData?.price ?? 0,
-    totalProducts: totalProducts?.length,
+    totalProducts: totalProducts,
     currency: "$",
     brands: brandAndSubCatData?.brandsData ?? [],
     subCategories: brandAndSubCatData?.subCategoriesData ?? [],
