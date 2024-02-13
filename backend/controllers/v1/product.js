@@ -553,7 +553,7 @@ exports.getAll = async (req, res, next) => {
           _id: "$result._id",
           image: "$result.image",
           specificationFilterIds: "$result.specificationFilterIds",
-          variantFilterIds: "$result.variantFilterIds",
+          variantFilterIds: "$result.variantIds",
           name: 1,
           slug: 1,
           metaData: 1,
@@ -587,6 +587,8 @@ exports.getAll = async (req, res, next) => {
       totalProducts: 0,
     });
   }
+
+  console.log(categoryFilters,"categoryFilters");
 
   if (categoryFilters.parentId) {
     const isParentCategoriesActiveResult = await isParentCategoriesActive(
@@ -772,14 +774,14 @@ exports.getAll = async (req, res, next) => {
               isActive: true,
             },
           },
-          // {
-          //   $sort: {
-          //     createdAt: 1,
-          //   },
-          // },
-          // {
-          //   $limit: 1,
-          // },
+         /*  {
+            $sort: {
+              createdAt: 1,
+            },
+          },
+          {
+            $limit: 1,
+          }, */
         ],
         as: "vendorData",
       },
@@ -1727,15 +1729,16 @@ exports.getAll = async (req, res, next) => {
     ]);
 
     if (categoryFilters.variantFilterIds) {
+      //console.log(categoryFilters.variantFilterIds,"categoryFilters.variantFilterIds");
       filtersOne = Product.aggregate([
         ...FILTERS_COMMON,
         {
           $match: {
             "variantData.firstVariantId": {
-              // $in: [
-              //   new ObjectId("64394b2cc1d4d239d9565aa0"),
-              //   new ObjectId("642e98e4f95d77871e0eefc2"),
-              // ],
+              /* $in: [
+                 new ObjectId("65cafc6a12f62dc28eb870a8"),
+                 new ObjectId("65cafcf512f62dc28eb870fd"),
+              ], */
               $in: categoryFilters.variantFilterIds.map((v) => new ObjectId(v)),
             },
           },
@@ -2170,9 +2173,10 @@ exports.getAll = async (req, res, next) => {
       specifications,
     ]);
 
-    console.log("products", products);
+    //console.log("products", products);
+    //console.log("filtersOne", filtersOne);
   } catch (err) {
-    console.log("product -get -err", err);
+    //console.log("product -get -err", err);
     return res.status(200).json({
       status: false,
       message: "Could not fetch products",
@@ -12056,7 +12060,7 @@ exports.getSponsoredItems = async (req, res, next) => {
         },
         typeForCart: {
           $cond: ["$variantData.vendorData._id", "variant", "main"],
-        },
+        }
       },
     },
     {
@@ -12125,7 +12129,7 @@ exports.getSponsoredItems = async (req, res, next) => {
           ...REVIEW_AGG.second,
           vendor: 1,
           idForCart: 1,
-          typeForCart: 1,
+          typeForCart: 1
         },
       },
       {
@@ -12149,6 +12153,8 @@ exports.getSponsoredItems = async (req, res, next) => {
       productsObj.totalCount[0].count
         ? productsObj.totalCount[0].count
         : 0;
+
+        //console.log(products,"products");
 
     //[totalProducts, products] = await Promise.all([products, totalProducts]);
   } catch (err) {
