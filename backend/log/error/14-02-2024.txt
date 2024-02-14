@@ -1,0 +1,253 @@
+
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 12:59 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"webkoala1998@gmail.com","password":"WebKoala0841"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 12:59 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"webkoala1998@gmail.com","password":"WebKoala0841"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:04 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"WebKoala0841"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:05 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"dev@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:05 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"dev@yopmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:06 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@!23"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:06 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@!23"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:07 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"WebKoala0841"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:07 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:07 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@321"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:08 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:08 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:09 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:09 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:10 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:11 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"email":"owebest01@gmail.com","password":"System@123"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/admin.js:82:7)
+      Message = Your email is not registered with noonmar.
+      Time = 01:12 AM
+    
+    ----------------------------
+      URL = /edit-data/65cb7ad725d699e8a1b8886d
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"65cb7ad725d699e8a1b8886d"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWUzZjdlNDBlOTQ5NTlkNmY5MTNhNCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcwNzg1MzY5MCwiZXhwIjoxNzM5NDExMjkwLCJpc3MiOiJub29ubWFyIn0.ffG2c65fufRvHs3DyIH5zjbvL4ecFmyVKZDjlAIJcVQ
+      Token = undefined
+      AT = exports.getEditData (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/product.js:3865:7)
+      Message = Could not fetch data
+      Time = 01:18 AM
+    

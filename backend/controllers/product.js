@@ -3472,7 +3472,7 @@ exports.getEditData = async (req, res, next) => {
         $match: {
           isDeleted: false,
           _id: {
-            $ne: ObjectId(id),
+            $ne: new ObjectId(id),
           },
         },
       },
@@ -6859,7 +6859,7 @@ exports.slugValidation = async (req, res, next) => {
         $and: [
           {
             productId: {
-              $ne: ObjectId(id),
+              $ne: new ObjectId(id),
             },
           },
           {
@@ -6873,7 +6873,7 @@ exports.slugValidation = async (req, res, next) => {
         $and: [
           {
             productId: {
-              $eq: ObjectId(id),
+              $eq: new ObjectId(id),
             },
           },
           {

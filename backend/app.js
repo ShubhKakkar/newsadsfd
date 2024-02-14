@@ -193,6 +193,7 @@ new CronJob(
 const DB_NAME = "noonmar";
 
 const MONGOURI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.hrdxm.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
+// const MONGOURI = `mongodb://localhost:27017/${DB_NAME}?retryWrites=false&w=majority`;
 
 console.log("MONGOURI", MONGOURI);
 
@@ -204,6 +205,6 @@ mongoose
   })
   .then(async (...rest) => {
     console.log("MongoDB Connected.!");
-    const server = app.listen(4008);
+    const server = app.listen(7008);
   })
   .catch((err) => console.log(err));

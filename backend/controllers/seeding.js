@@ -49,11 +49,17 @@ const generateRandomHSCode = () => {
   const formattedHSCode = `TST-${chapter.toString().padStart(2, "0")}.${heading
     .toString()
     .padStart(2, "0")}.${subheading.toString().padStart(2, "0")}.${productCode
-    .toString()
-    .padStart(4, "0")}`;
+      .toString()
+      .padStart(4, "0")}`;
 
   return formattedHSCode;
 };
+
+const twoDecimalPlaces = num => parseFloat(num.toFixed(2));
+
+function generateUniqueId() {
+  return Math.random().toString(36).substr(2, 9);
+}
 
 exports.seedUnits = async (req) => {
   try {
@@ -345,10 +351,14 @@ exports.seedCategories = async (req) => {
 
 exports.seedProducts = async (req) => {
   let limit = 500;
+  let round = 0;
   let token = req.params.token;
   const updateProducts = async (enData, arData, trData) => {
     let data = enData;
     for (let i = 0; i < data.length; i++) {
+      if (round > 0) {
+        return "Completed";
+      }
       const product = data[i];
       const customId = await idCreator("product", false);
       const category = await ProductCategory.findOne({
@@ -453,6 +463,11 @@ exports.seedProducts = async (req) => {
 
       const validImages = downloadedImages.filter((image) => image !== null);
 
+      const sellingPrice = typeof product.SellingPrice === 'string' ? parseFloat(product.SellingPrice).toFixed(2) : null;
+      const buyingPrice = typeof product.BuyingPrice === 'string' ? parseFloat(product.BuyingPrice).toFixed(2) : null;
+      const barCode = product.Barcode ? product.Barcode : `TST-${product.ProductName.substring(0, 6)}-${generateUniqueId()}`;
+
+
       // Create Product and check if IsDisplayProduct
       const updatedProduct = await Product.findOneAndUpdate(
         {
@@ -461,15 +476,15 @@ exports.seedProducts = async (req) => {
         {
           $set: {
             name: product.ProductName.trim(),
-            barCode: product.Barcode || "",
+            barCode: barCode,
             hsCode: generateRandomHSCode(),
             customId: customId,
             categoryId: category._id,
             brandId: brand._id,
             unitId: unit._id,
-            buyingPrice: product.BuyingPrice,
+            buyingPrice: buyingPrice,
             buyingPriceCurrency: buyingPriceCurrency._id,
-            sellingPrice: product.SellingPrice,
+            sellingPrice: sellingPrice,
             featureTitle: product.SeoLink,
             height: Number(product.Height),
             weight: Number(product.Weight),
@@ -613,6 +628,8 @@ exports.seedProducts = async (req) => {
         let variant2;
         let variantsArray = [];
 
+        console.log("variantsArray", variantsArray);
+
         // link variant with category
         if (propertyId1 && propertyId1 !== "") {
           subVariant1 = await SubVariant.findOne({
@@ -643,8 +660,26 @@ exports.seedProducts = async (req) => {
               categoryId: category.CategoryId,
             },
             {
-              $addToSet: { variantIds: { $each: variantsArray } },
-              $addToSet: { variantFilterIds: { $each: variantsArray } },
+              $addToSet: {
+                variantIds: { $each: variantsArray },
+                variantFilterIds: { $each: variantsArray },
+              },
+            },
+            {
+              upsert: true,
+              new: true,
+            }
+          );
+        }
+
+        // update variants in product
+        if (variantsArray.length > 0) {
+          await Product.findOneAndUpdate(
+            { "productId": updatedProduct.productId },
+            {
+              $set: {
+                variants: variantsArray
+              }
             },
             {
               upsert: true,
@@ -658,6 +693,7 @@ exports.seedProducts = async (req) => {
         const updatedProductVariant = await ProductVariant.findOneAndUpdate(
           {
             subProductId: productVariantId,
+            mainProductId: updatedProduct._id
           },
           {
             $set: {
@@ -691,11 +727,9 @@ exports.seedProducts = async (req) => {
           }
         );
 
-        console.log(updatedProductVariant);
-
         // update ProductVariantDescription
 
-        await ProductVariantDescription.findOneAndUpdate(
+        const ens = await ProductVariantDescription.findOneAndUpdate(
           {
             productVarianId: updatedProductVariant._id,
             languageCode: "en",
@@ -714,7 +748,9 @@ exports.seedProducts = async (req) => {
           }
         );
 
-        await ProductVariantDescription.findOneAndUpdate(
+        console.log("ens", ens);
+
+        const ars = await ProductVariantDescription.findOneAndUpdate(
           {
             productVarianId: updatedProductVariant._id,
             languageCode: "ar",
@@ -733,7 +769,9 @@ exports.seedProducts = async (req) => {
           }
         );
 
-        await ProductVariantDescription.findOneAndUpdate(
+        console.log("ars", ars);
+
+        const trs = await ProductVariantDescription.findOneAndUpdate(
           {
             productVarianId: updatedProductVariant._id,
             languageCode: "tr",
@@ -751,9 +789,11 @@ exports.seedProducts = async (req) => {
             upsert: true,
           }
         );
+        console.log("trs", trs);
       }
 
       console.log(6);
+      round += 1;
     }
   };
   try {
@@ -765,7 +805,7 @@ exports.seedProducts = async (req) => {
         const formData = new FormData();
         formData.append("token", token);
         formData.append("start", start);
-        formData.append("limit", limit);
+        formData.append("limit", 100);
         formData.append("Translation", languageCode);
         formData.append("FetchDetails", "true");
         formData.append("FetchAllCategories", "true");
