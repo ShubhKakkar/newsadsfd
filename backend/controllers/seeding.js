@@ -628,8 +628,6 @@ exports.seedProducts = async (req) => {
         let variant2;
         let variantsArray = [];
 
-        console.log("variantsArray", variantsArray);
-
         // link variant with category
         if (propertyId1 && propertyId1 !== "") {
           subVariant1 = await SubVariant.findOne({
@@ -650,6 +648,8 @@ exports.seedProducts = async (req) => {
           });
           variantsArray.push(variant2);
         }
+
+        console.log("variantsArray", variantsArray);
 
         const categories = product.Categories;
 
@@ -729,7 +729,7 @@ exports.seedProducts = async (req) => {
 
         // update ProductVariantDescription
 
-        const ens = await ProductVariantDescription.findOneAndUpdate(
+        await ProductVariantDescription.findOneAndUpdate(
           {
             productVarianId: updatedProductVariant._id,
             languageCode: "en",
@@ -748,9 +748,7 @@ exports.seedProducts = async (req) => {
           }
         );
 
-        console.log("ens", ens);
-
-        const ars = await ProductVariantDescription.findOneAndUpdate(
+        await ProductVariantDescription.findOneAndUpdate(
           {
             productVarianId: updatedProductVariant._id,
             languageCode: "ar",
@@ -769,9 +767,7 @@ exports.seedProducts = async (req) => {
           }
         );
 
-        console.log("ars", ars);
-
-        const trs = await ProductVariantDescription.findOneAndUpdate(
+        await ProductVariantDescription.findOneAndUpdate(
           {
             productVarianId: updatedProductVariant._id,
             languageCode: "tr",
@@ -789,10 +785,8 @@ exports.seedProducts = async (req) => {
             upsert: true,
           }
         );
-        console.log("trs", trs);
       }
 
-      console.log(6);
       round += 1;
     }
   };
