@@ -136,7 +136,6 @@ function MyApp({ Component, pageProps }) {
   }, [responseNotification]);
 
   useEffect(() => {
-    console.log("lodfdfd",responseCategories)
     if (responseCategories) {
       if (responseCategories.status) {
         const { categories } = responseCategories;

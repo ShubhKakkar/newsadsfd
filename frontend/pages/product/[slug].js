@@ -43,6 +43,10 @@ const Product = ({
 }) => {
   const t = useTranslate();
 
+  console.log("product", product);
+  console.log("variants", variants);
+  console.log("variantsValue", variantsValue);
+
   const [firstFeaturesObj, setFirstFeaturesObj] = useState({
     features: firstFeaturesArr,
     showAll: false,
@@ -149,12 +153,12 @@ const Product = ({
 
         const variant = variants.find(
           (v) =>
-            v.firstVariant === firstVariant &&
+            (v.firstVariant === firstVariant ||
+              v.firstVariant.split("-")[0] === firstVariant) &&
             v.firstValue === firstValue &&
             v.secondVariant === secondVariant &&
             v.secondValue === secondValue
         );
-
         routeToProduct(variant.slug, vendor);
       } else {
         let firstVariant, firstValue;
@@ -168,8 +172,12 @@ const Product = ({
         }
 
         const variant = variants.find(
-          (v) => v.firstVariant === firstVariant && v.firstValue === firstValue
+          (v) =>
+            (v.firstVariant === firstVariant ||
+              v.firstVariant.split("-")[0] === firstVariant) &&
+            v.firstValue === firstValue
         );
+
         routeToProduct(variant.slug, vendor);
       }
     });
@@ -568,7 +576,6 @@ const Product = ({
                         </div>
                       </div>
                     )}
-                    {console.log("variantsValue", variantsValue)}
                     {variantsValue.map((variant, index) => (
                       <div className="productSize">
                         <span>{variant.name}</span>
@@ -774,7 +781,6 @@ const Product = ({
                         </div>
                       </div>
                       <div className="ProductContactVendor">
-                      {console.log("product", product)}
                         <Link
                           href={`/vendor/${product.vendorData?._id}`}
                           legacyBehavior
@@ -1578,8 +1584,6 @@ export async function getServerSideProps(context) {
     query: { slug, vendor },
   } = context;
 
-  console.log("context,........", context);
-
   const {
     product,
     currency,
@@ -1589,8 +1593,6 @@ export async function getServerSideProps(context) {
     recentlyViewedProducts,
     otherSellers,
   } = await getProduct(slug, vendor);
-
-  console.log("product,........", product);
 
   if (!product || Object.keys(product).length == 0) {
     // console.log("no product", slug);

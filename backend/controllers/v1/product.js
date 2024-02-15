@@ -125,21 +125,17 @@ exports.getAll = async (req, res, next) => {
 
   let {
     onSale = false,
-    // subCategories = [],
     brands = [],
     minPrice,
     maxPrice,
     ratings,
     minDiscount,
     maxDiscount,
-    // inStock,
-    // outOfStock,
     page,
-    sortBy, // priceAsc, priceDesc, new
+    sortBy,
     dynamicFilters = [],
     category,
     perPage = 30,
-    // childCategories = [],
     dynamicSpecifications = [],
   } = req.body;
 
@@ -179,18 +175,6 @@ exports.getAll = async (req, res, next) => {
     };
   }
 
-  // if (subCategories.length > 0) {
-  //   matchObj.subCategoryId = {
-  //     $in: subCategories.map((sc) => ObjectId(sc)),
-  //   };
-
-  //   if (childCategories.length > 0) {
-  //     matchObj.categoriesId = {
-  //       $in: childCategories.map((sc) => ObjectId(sc)),
-  //     };
-  //   }
-  // }
-
   if (brands.length > 0) {
     matchObj.brandId = {
       $in: brands.map((brand) => ObjectId(brand)),
@@ -198,7 +182,6 @@ exports.getAll = async (req, res, next) => {
   }
 
   if (minPrice && maxPrice) {
-    //discountedPrice
     matchObjTwo.discountedPrice = {
       $gte: +minPrice,
       $lte: +maxPrice,
@@ -231,20 +214,6 @@ exports.getAll = async (req, res, next) => {
       $lte: +maxDiscount,
     };
   }
-
-  // if (inStock && outOfStock) {
-  //   matchObj.inStock = {
-  //     $in: [true, false],
-  //   };
-  // } else if (inStock) {
-  //   matchObj.inStock = {
-  //     $in: [true],
-  //   };
-  // } else if (outOfStock) {
-  //   matchObj.inStock = {
-  //     $in: [false],
-  //   };
-  // }
 
   let DYNAMIC_FILTERS_PIPELINE = [];
   let DYNAMIC_SPECIFICATION_PIPELINE = [];
@@ -300,18 +269,6 @@ exports.getAll = async (req, res, next) => {
         },
       });
     }
-
-    // for (let i = 0; i < dynamicFilters.length; i++) {
-    //   const filtersAgg = [];
-
-    //   const filter = dynamicFilters[i];
-
-    //   DYNAMIC_FILTERS_PIPELINE.push({
-    //     $match: {
-    //       $or: filtersAgg,
-    //     },
-    //   });
-    // }
   }
 
   const specificationAgg = [];
@@ -322,12 +279,6 @@ exports.getAll = async (req, res, next) => {
 
       specificationAgg.push({
         $and: [
-          // {
-          //   "features.id": ObjectId(specification.id),
-          // },
-          // {
-          //   "features.value": specification.value.toString(),
-          // },
           {
             "values.label": ObjectId(specification.id),
           },
@@ -570,7 +521,6 @@ exports.getAll = async (req, res, next) => {
       },
     ]);
   } catch (err) {
-    console.log("err", err);
     return res.status(200).json({
       status: false,
       message: "Could not fetch products.",
@@ -607,131 +557,7 @@ exports.getAll = async (req, res, next) => {
 
   childCategoryIds.ids = await getChildCategories(categoryFilters._id);
 
-  // try {
-  //   [childCategoryIds] = await ProductCategory.aggregate([
-  //     {
-  //       $match: {
-  //         parentId: new ObjectId(categoryFilters._id),
-  //         isActive: true,
-  //         isDeleted: false,
-  //       },
-  //     },
-  //     {
-  //       $project: {
-  //         id: ["$_id"],
-  //       },
-  //     },
-  //     {
-  //       $lookup: {
-  //         from: "productcategories",
-  //         let: {
-  //           id: "$_id",
-  //         },
-  //         pipeline: [
-  //           {
-  //             $match: {
-  //               $expr: {
-  //                 $eq: ["$parentId", "$$id"],
-  //               },
-  //               isActive: true,
-  //               isDeleted: false,
-  //             },
-  //           },
-  //           {
-  //             $project: {
-  //               _id: 1,
-  //             },
-  //           },
-  //         ],
-  //         as: "second",
-  //       },
-  //     },
-  //     {
-  //       $lookup: {
-  //         from: "productcategories",
-  //         let: {
-  //           ids: "$second._id",
-  //         },
-  //         pipeline: [
-  //           {
-  //             $match: {
-  //               $expr: {
-  //                 $in: ["$parentId", "$$ids"],
-  //               },
-  //               isActive: true,
-  //               isDeleted: false,
-  //             },
-  //           },
-  //           {
-  //             $project: {
-  //               _id: 1,
-  //             },
-  //           },
-  //         ],
-  //         as: "third",
-  //       },
-  //     },
-  //     {
-  //       $project: {
-  //         id: 1,
-  //         ids: {
-  //           $concatArrays: [
-  //             {
-  //               $map: {
-  //                 input: "$second",
-  //                 as: "a",
-  //                 in: "$$a._id",
-  //               },
-  //             },
-  //             {
-  //               $map: {
-  //                 input: "$third",
-  //                 as: "b",
-  //                 in: "$$b._id",
-  //               },
-  //             },
-  //             "$id",
-  //           ],
-  //         },
-  //       },
-  //     },
-  //     {
-  //       $unwind: {
-  //         path: "$ids",
-  //         preserveNullAndEmptyArrays: true,
-  //       },
-  //     },
-  //     {
-  //       $group: {
-  //         _id: "x50",
-  //         ids: {
-  //           $push: "$ids",
-  //         },
-  //         secondIds: {
-  //           $addToSet: "$_id",
-  //         },
-  //       },
-  //     },
-  //   ]);
-  // } catch (err) {
-  //   return res.status(200).json({
-  //     status: false,
-  //     message: "Could not fetch products.",
-  //     products: [],
-  //     totalProducts: 0,
-  //     key: "childCategoryIds",
-  //   });
-  // }
-
-  // if (!childCategoryIds) {
-  //   childCategoryIds = {
-  //     ids: [],
-  //     secondIds: [],
-  //   };
-  // }
-
   const commonMatch = {
-    // categoryId: ObjectId(categoryFilters._id),
     categoryId: {
       $in: [
         new ObjectId(categoryFilters._id),
@@ -747,11 +573,6 @@ exports.getAll = async (req, res, next) => {
         isActive: true,
         isPublished: true,
         isApproved: true,
-        // isVendorActive: true,
-        // isHelper: false,
-        // countries: {
-        //   $in: [new ObjectId(countryId)],
-        // },
         ...commonMatch,
       },
     },
@@ -783,7 +604,7 @@ exports.getAll = async (req, res, next) => {
               isActive: true,
             },
           },
-         /*  {
+          /*  {
             $sort: {
               createdAt: 1,
             },
@@ -1434,7 +1255,6 @@ exports.getAll = async (req, res, next) => {
     ...COMMON_AGG,
   ];
 
-
   const QUERY_TOTAL = [
     {
       $match: {
@@ -1445,13 +1265,12 @@ exports.getAll = async (req, res, next) => {
         ...commonMatch,
       },
     },
-  ]
+  ];
 
   let products,
     minPriceData,
     maxPriceData,
     totalProducts,
-    // currencyData,
     brandAndSubCatData,
     filtersOne = [],
     filtersTwo = [],
@@ -1460,25 +1279,6 @@ exports.getAll = async (req, res, next) => {
     usdCurrency;
 
   try {
-    // [currencyData] = await Currency.aggregate([
-    //   {
-    //     $match: {
-    //       countriesId: {
-    //         $in: [new ObjectId(countryId)],
-    //       },
-    //     },
-    //   },
-    //   {
-    //     $limit: 1,
-    //   },
-    //   {
-    //     $project: {
-    //       _id: 0,
-    //       sign: 1,
-    //     },
-    //   },
-    // ]);
-
     const currenciesData = await currentAndUSDCurrencyData(countryId);
 
     if (!currenciesData.status) {
@@ -1492,817 +1292,67 @@ exports.getAll = async (req, res, next) => {
 
     currentCurrency = currenciesData.currentCurrency;
     usdCurrency = currenciesData.usdCurrency;
-    console.log("skipData",(+page - 1) * perPage)
-    console.log("perPage",perPage)
 
     let productsObj = Product.aggregate([
       {
         $facet: {
-      "products":[
-      ...COMMON,
-      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
-      ...REVIEW_AGG.first,
-      {
-        $addFields: REVIEW_AGG.second,
-      },
-      {
-        $match: {
-          ...matchObjTwo,
-        },
-      },
-      ...wishlistObj.first,
-      {
-        $project: {
-          // name: "$langData.name",
-          name: 1,
-          ratings: 1,
-          reviewsCount: 1,
-          shortDescription: "$langData.shortDescription",
-          media: "$coverImage",
-          price: 1,
-          discountedPrice: 1,
-          discountPercentage: 1,
-          currency: { $literal: currentCurrency.sign },
-          // currency: { $literal: "$" },
-          slug: 1,
-          isWishlisted: {
-            $toBool: false,
-          },
-          ...wishlistObj.second,
-          // ...REVIEW_AGG.second,
-          vendor: 1,
-          shareUrl: {
-            $concat: [process.env.FRONTEND_URL, "/product/", "$slug"],
-          },
-          // countryProductPricing: 1,
-          // countryCustomerGroupPricing: 1,
-          // countryProductGroupPricing: 1,
-          // countryCategoryPricing: 1,
-          // customerGroupPricing: 1,
-          // productGroupPricing: 1,
-          // categoryPricing: 1,
-          idForCart: 1,
-          typeForCart: 1,
-        },
-      },
-    ],
-    "totalCount": [
-      ...QUERY_TOTAL,
-     /*  ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
-      ...REVIEW_AGG.first,
-      {
-        $addFields: REVIEW_AGG.second,
-      },
-      {
-        $match: {
-          ...matchObjTwo,
-        },
-      }, */
-      /* {
-        $match: {
-          isDeleted: false,
-          isActive: true,
-          isPublished: true,
-          isApproved: true,
-          // Other match conditions...
-        }
-      }, */
-      {
-        $count: "total"
-      }
-    ]
-  }
-}
-  ]);
-
-    /* [
-      products,
-    ] = await Promise.all([
-      products
-    ]);
-
-    console.log("products",products); */
-
-    /* products = Product.aggregate([
-      ...COMMON,
-      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
-      ...REVIEW_AGG.first,
-      {
-        $addFields: REVIEW_AGG.second,
-      },
-      {
-        $match: {
-          ...matchObjTwo,
-        },
-      },
-      {
-        $sort: {
-          [sortByKey]: sortByValue,
-        },
-      },
-      {
-        $skip: (+page - 1) * perPage,
-      },
-      {
-        $limit: perPage,
-      },
-      ...wishlistObj.first,
-      {
-        $project: {
-          // name: "$langData.name",
-          name: 1,
-          ratings: 1,
-          reviewsCount: 1,
-          shortDescription: "$langData.shortDescription",
-          media: "$coverImage",
-          price: 1,
-          discountedPrice: 1,
-          discountPercentage: 1,
-          currency: { $literal: currentCurrency.sign },
-          // currency: { $literal: "$" },
-          slug: 1,
-          isWishlisted: {
-            $toBool: false,
-          },
-          ...wishlistObj.second,
-          // ...REVIEW_AGG.second,
-          vendor: 1,
-          shareUrl: {
-            $concat: [process.env.FRONTEND_URL, "/product/", "$slug"],
-          },
-          // countryProductPricing: 1,
-          // countryCustomerGroupPricing: 1,
-          // countryProductGroupPricing: 1,
-          // countryCategoryPricing: 1,
-          // customerGroupPricing: 1,
-          // productGroupPricing: 1,
-          // categoryPricing: 1,
-          idForCart: 1,
-          typeForCart: 1,
-        },
-      },
-    ]); */
-
-    minPriceData = { price : 20 };
-    maxPriceData = { price : 1000 } ;
-
-    /* minPriceData = Product.aggregate([
-      ...PRICES_COMMON,
-      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
-      {
-        $sort: {
-          discountedPrice: 1,
-          // price: 1,
-        },
-      },
-      {
-        $limit: 1,
-      },
-      {
-        $project: {
-          _id: 0,
-          price: "$discountedPrice",
-          // price: 1,
-        },
-      },
-    ]);
-
-    maxPriceData = Product.aggregate([
-      ...PRICES_COMMON,
-      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
-      {
-        $sort: {
-          discountedPrice: -1,
-          // price: -1,
-        },
-      },
-      {
-        $limit: 1,
-      },
-      {
-        $project: {
-          _id: 0,
-          price: "$discountedPrice",
-          // price: 1,
-        },
-      },
-    ]); */
-
-    brandAndSubCatData = [];
-
-    /* brandAndSubCatData = Product.aggregate([
-      {
-        $match: {
-          isDeleted: false,
-          isActive: true,
-          isPublished: true,
-          isApproved: true,
-          // isVendorActive: true,
-          // isHelper: false,
-          // countries: {
-          //   $in: [new ObjectId(countryId)],
-          // },
-          ...commonMatch,
-          // categoryId: {
-          //   $in: [
-          //     ObjectId(categoryFilters._id),
-          //     ...childCategoryIds?.ids.map((id) => ObjectId(id)),
-          //   ],
-          // },
-        },
-      },
-      //added new start
-      {
-        $lookup: {
-          from: "vendorproducts",
-          let: {
-            id: "$_id",
-          },
-          pipeline: [
+          products: [
+            ...COMMON,
+            ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
+            ...REVIEW_AGG.first,
+            {
+              $addFields: REVIEW_AGG.second,
+            },
             {
               $match: {
-                $expr: {
-                  $eq: ["$productId", "$$id"],
-                },
-                isDeleted: false,
-                isActive: true,
+                ...matchObjTwo,
               },
             },
-            {
-              $sort: {
-                createdAt: 1,
-              },
-            },
-            {
-              $limit: 1,
-            },
-          ],
-          as: "vendorData",
-        },
-      },
-      {
-        $unwind: {
-          path: "$vendorData",
-        },
-      },
-      //added new end
-      {
-        $group: {
-          _id: "x50",
-          // subCategoriesId: {
-          //   $addToSet: "$categoryId",
-          // },
-          brandsId: {
-            $addToSet: "$brandId",
-          },
-        },
-      },
-      // {
-      //   $addFields: {
-      //     subCategoriesId: {
-      //       $setIntersection: [
-      //         "$subCategoriesId",
-      //         childCategoryIds?.secondIds.map((id) => ObjectId(id)),
-      //       ],
-      //     },
-      //   },
-      // },
-      // {
-      //   $lookup: {
-      //     from: "productcategorydescriptions",
-      //     let: {
-      //       ids: "$subCategoriesId",
-      //     },
-      //     pipeline: [
-      //       {
-      //         $match: {
-      //           $and: [
-      //             {
-      //               $expr: {
-      //                 $in: ["$productCategoryId", "$$ids"],
-      //               },
-      //               languageCode: languageCode,
-      //             },
-      //           ],
-      //         },
-      //       },
-      //       {
-      //         $project: {
-      //           name: 1,
-      //           _id: "$productCategoryId",
-      //         },
-      //       },
-      //     ],
-      //     as: "subCategoriesData",
-      //   },
-      // },
-      {
-        $lookup: {
-          from: "brands",
-          let: {
-            ids: "$brandsId",
-          },
-          pipeline: [
-            {
-              $match: {
-                $and: [
-                  {
-                    $expr: {
-                      $in: ["$_id", "$$ids"],
-                    },
-                  },
-                ],
-              },
-            },
+            ...wishlistObj.first,
             {
               $project: {
                 name: 1,
+                ratings: 1,
+                reviewsCount: 1,
+                shortDescription: "$langData.shortDescription",
+                media: "$coverImage",
+                price: 1,
+                discountedPrice: 1,
+                discountPercentage: 1,
+                currency: { $literal: currentCurrency.sign },
+                slug: 1,
+                isWishlisted: {
+                  $toBool: false,
+                },
+                ...wishlistObj.second,
+                vendor: 1,
+                shareUrl: {
+                  $concat: [process.env.FRONTEND_URL, "/product/", "$slug"],
+                },
+                idForCart: 1,
+                typeForCart: 1,
               },
             },
           ],
-          as: "brandsData",
+          totalCount: [
+            ...QUERY_TOTAL,
+            {
+              $count: "total",
+            },
+          ],
         },
       },
-      {
-        $project: {
-          subCategoriesId: 0,
-          brandsId: 0,
-        },
-      },
-    ]); */
-
-    /* totalProducts = Product.aggregate([
-      ...COMMON,
-      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
-      ...REVIEW_AGG.first,
-      {
-        $addFields: REVIEW_AGG.second,
-      },
-      {
-        $match: {
-          ...matchObjTwo,
-        },
-      },
-    ]); */
-
-    /* if (categoryFilters.variantFilterIds) {
-      //console.log(categoryFilters.variantFilterIds,"categoryFilters.variantFilterIds");
-      filtersOne = Product.aggregate([
-        ...FILTERS_COMMON,
-        {
-          $match: {
-            "variantData.firstVariantId": {
-              $in: categoryFilters.variantFilterIds.map((v) => new ObjectId(v)),
-            },
-          },
-        },
-        {
-          $group: {
-            _id: "$variantData.firstVariantId",
-            name: {
-              $first: "$variantData.firstVariantName",
-            },
-            values: {
-              $addToSet: "$variantData.firstSubVariantName",
-            },
-            valuesId: {
-              $addToSet: "$variantData.firstSubVariantId",
-            },
-          },
-        },
-        {
-          $lookup: {
-            from: "masterdescriptions",
-            let: {
-              mainPage: "$_id",
-            },
-            pipeline: [
-              {
-                $match: {
-                  $expr: {
-                    $eq: ["$mainPage", "$$mainPage"],
-                  },
-                  languageCode: languageCode,
-                },
-              },
-              {
-                $project: {
-                  _id: 0,
-                  name: 1,
-                },
-              },
-            ],
-            as: "firstVariantIdLangData",
-          },
-        },
-        {
-          $lookup: {
-            from: "masterdescriptions",
-            let: {
-              mainPages: "$valuesId",
-            },
-            pipeline: [
-              {
-                $match: {
-                  $expr: {
-                    $in: ["$mainPage", "$$mainPages"],
-                  },
-                  languageCode: languageCode,
-                },
-              },
-              {
-                $project: {
-                  _id: 0,
-                  name: 1,
-                },
-              },
-            ],
-            as: "firstSubVariantIdLangData",
-          },
-        },
-        {
-          $unwind: {
-            path: "$firstVariantIdLangData",
-          },
-        },
-        {
-          $addFields: {
-            langName: "$firstVariantIdLangData.name",
-            langValues: {
-              $map: {
-                input: "$firstSubVariantIdLangData",
-                as: "variant",
-                in: "$$variant.name",
-              },
-            },
-          },
-        },
-      ]);
-
-      filtersTwo = Product.aggregate([
-        ...FILTERS_COMMON,
-        {
-          $match: {
-            "variantData.secondVariantId": {
-              $in: categoryFilters.variantFilterIds.map((v) => new ObjectId(v)),
-            },
-          },
-        },
-        {
-          $group: {
-            _id: "$variantData.secondVariantId",
-            name: {
-              $first: "$variantData.secondVariantName",
-            },
-            values: {
-              $addToSet: "$variantData.secondSubVariantName",
-            },
-            valuesId: {
-              $addToSet: "$variantData.secondSubVariantId",
-            },
-          },
-        },
-        {
-          $lookup: {
-            from: "masterdescriptions",
-            let: {
-              mainPage: "$_id",
-            },
-            pipeline: [
-              {
-                $match: {
-                  $expr: {
-                    $eq: ["$mainPage", "$$mainPage"],
-                  },
-                  languageCode: languageCode,
-                },
-              },
-              {
-                $project: {
-                  _id: 0,
-                  name: 1,
-                },
-              },
-            ],
-            as: "secondVariantIdLangData",
-          },
-        },
-        {
-          $lookup: {
-            from: "masterdescriptions",
-            let: {
-              mainPages: "$valuesId",
-            },
-            pipeline: [
-              {
-                $match: {
-                  $expr: {
-                    $in: ["$mainPage", "$$mainPages"],
-                  },
-                  languageCode: languageCode,
-                },
-              },
-              {
-                $project: {
-                  _id: 0,
-                  name: 1,
-                },
-              },
-            ],
-            as: "secondSubVariantIdLangData",
-          },
-        },
-        {
-          $unwind: {
-            path: "$secondVariantIdLangData",
-          },
-        },
-        {
-          $addFields: {
-            langName: "$secondVariantIdLangData.name",
-            langValues: {
-              $map: {
-                input: "$secondSubVariantIdLangData",
-                as: "variant",
-                in: "$$variant.name",
-              },
-            },
-          },
-        },
-      ]);
-    }
-
-    if (categoryFilters.specificationFilterIds) {
-      specifications = Product.aggregate([
-        {
-          $match: {
-            isDeleted: false,
-            isActive: true,
-            isPublished: true,
-            isApproved: true,
-            // isVendorActive: true,
-            // isHelper: false,
-            // countries: {
-            //   $in: [new ObjectId(countryId)],
-            // },
-            ...commonMatch,
-          },
-        },
-        //added new start
-        {
-          $lookup: {
-            from: "vendorproducts",
-            let: {
-              id: "$_id",
-            },
-            pipeline: [
-              {
-                $match: {
-                  $expr: {
-                    $eq: ["$productId", "$$id"],
-                  },
-                  isDeleted: false,
-                  isActive: true,
-                },
-              },
-              {
-                $sort: {
-                  createdAt: 1,
-                },
-              },
-              {
-                $limit: 1,
-              },
-            ],
-            as: "vendorData",
-          },
-        },
-        {
-          $unwind: {
-            path: "$vendorData",
-          },
-        },
-        //added new end
-        {
-          $lookup: {
-            from: "productdescriptions",
-            let: {
-              id: "$_id",
-            },
-            pipeline: [
-              {
-                $match: {
-                  $expr: {
-                    $eq: ["$productId", "$$id"],
-                  },
-                  languageCode: languageCode,
-                },
-              },
-              {
-                $project: {
-                  features: 1,
-                },
-              },
-            ],
-            as: "langData",
-          },
-        },
-        {
-          $unwind: {
-            path: "$langData",
-          },
-        },
-        {
-          $unwind: {
-            path: "$langData.features",
-          },
-        },
-        {
-          $replaceRoot: {
-            newRoot: "$langData.features",
-          },
-        },
-        // {
-        //   $group: {
-        //     _id: "$id",
-        //     name: {
-        //       $first: "$label",
-        //     },
-        //     values: {
-        //       $addToSet: "$value",
-        //     },
-        //   },
-        // },
-        {
-          $group: {
-            _id: "$label",
-            values: {
-              $addToSet: "$value",
-            },
-          },
-        },
-        {
-          $lookup: {
-            from: "subspecificationgroups",
-            let: {
-              id: "$_id",
-            },
-            pipeline: [
-              {
-                $match: {
-                  $expr: {
-                    $eq: ["$$id", "$_id"],
-                  },
-                  isActive: true,
-                  isDeleted: false,
-                },
-              },
-              {
-                $lookup: {
-                  from: "subspecificationgroupdescriptions",
-                  pipeline: [
-                    {
-                      $match: {
-                        $expr: {
-                          $eq: ["$subSpecificationId", "$$id"],
-                        },
-                        languageCode: languageCode,
-                      },
-                    },
-                    {
-                      $project: {
-                        name: 1,
-                      },
-                    },
-                  ],
-                  as: "langData",
-                },
-              },
-              {
-                $unwind: {
-                  path: "$langData",
-                },
-              },
-              {
-                $project: {
-                  name: "$langData.name",
-                },
-              },
-            ],
-            as: "groupData",
-          },
-        },
-        {
-          $unwind: {
-            path: "$groupData",
-          },
-        },
-        {
-          $lookup: {
-            from: "subspecificationgroupvalues",
-            let: {
-              ids: "$values",
-            },
-            pipeline: [
-              {
-                $match: {
-                  $expr: {
-                    $in: ["$_id", "$$ids"],
-                  },
-                  isDeleted: false,
-                },
-              },
-              {
-                $lookup: {
-                  from: "subspecificationgroupvaluedescriptions",
-                  let: {
-                    id: "$_id",
-                  },
-                  pipeline: [
-                    {
-                      $match: {
-                        $expr: {
-                          $eq: ["$subSpecificationGroupValueId", "$$id"],
-                        },
-                        languageCode: languageCode,
-                      },
-                    },
-                    {
-                      $project: {
-                        name: 1,
-                      },
-                    },
-                  ],
-                  as: "langData",
-                },
-              },
-              {
-                $unwind: {
-                  path: "$langData",
-                },
-              },
-              {
-                $project: {
-                  _id: 0,
-                  name: "$langData.name",
-                },
-              },
-            ],
-            as: "values",
-          },
-        },
-        {
-          $project: {
-            name: "$groupData.name",
-            values: {
-              $map: {
-                input: "$values",
-                as: "item",
-                in: "$$item.name",
-              },
-            },
-          },
-        },
-      ]);
-    } */
-
-    /* [
-      products,
-      [minPriceData],
-      [maxPriceData],
-      totalProducts,
-      [brandAndSubCatData],
-      filtersOne,
-      filtersTwo,
-      specifications,
-    ] = await Promise.all([
-      products,
-      minPriceData,
-      maxPriceData,
-      totalProducts,
-      brandAndSubCatData,
-      filtersOne,
-      filtersTwo,
-      specifications,
-    ]); */
-
-    [
-      [productsObj]
-    ] = await Promise.all([
-      productsObj
     ]);
 
-    products = productsObj.products ? productsObj.products : [];
-    totalProducts =
-      productsObj.totalCount &&
-      productsObj.totalCount.length > 0 &&
-      productsObj.totalCount[0].total
-        ? productsObj.totalCount[0].total
-        : 0;
+    minPriceData = { price: 20 };
+    maxPriceData = { price: 1000 };
 
-    
-    console.log("products", products);
-    console.log("totalProducts", productsObj.totalCount);
+    brandAndSubCatData = [];
+
+    [[productsObj]] = await Promise.all([productsObj]);
+
+    products = productsObj.products ? productsObj.products : [];
+    totalProducts = products.length;
   } catch (err) {
     //console.log("product -get -err", err);
     return res.status(200).json({
@@ -2318,27 +1368,6 @@ exports.getAll = async (req, res, next) => {
       filters: [],
     });
   }
-
-  // products = products.map((p) => {
-  //   if (p.countryProductPricing) {
-  //     p.price = p.countryProductPricing.value;
-  //   } else if (p.countryCustomerGroupPricing) {
-  //     p.price = (p.buyingPrice * (100 + p.countryCustomerGroupPricing)) / 100;
-  //   } else if (p.countryProductGroupPricing) {
-  //     p.price = (p.buyingPrice * (100 + p.countryProductGroupPricing)) / 100;
-  //   } else if (p.countryCategoryPricing) {
-  //     p.price = (p.buyingPrice * (100 + p.countryCategoryPricing)) / 100;
-  //   } else if (p.customerGroupPricing) {
-  //     p.price = (p.buyingPrice * (100 + p.customerGroupPricing)) / 100;
-  //   } else if (p.productGroupPricing) {
-  //     p.price = (p.buyingPrice * (100 + p.productGroupPricing)) / 100;
-  //   } else if (p.categoryPricing) {
-  //     p.price = (p.buyingPrice * (100 + p.categoryPricing)) / 100;
-  //   }
-
-  //   delete p.buyingPrice;
-  //   return p;
-  // });
 
   let filters = [];
   const newFilters = [];
@@ -4702,7 +3731,10 @@ exports.getOne = async (req, res, next) => {
                   $and: [
                     {
                       $expr: {
-                        $eq: ["$vendorId", new ObjectId(product.vendorData._id)],
+                        $eq: [
+                          "$vendorId",
+                          new ObjectId(product.vendorData._id),
+                        ],
                       },
                     },
                   ],
@@ -12188,7 +11220,7 @@ exports.getSponsoredItems = async (req, res, next) => {
         },
         typeForCart: {
           $cond: ["$variantData.vendorData._id", "variant", "main"],
-        }
+        },
       },
     },
     {
@@ -12257,7 +11289,7 @@ exports.getSponsoredItems = async (req, res, next) => {
           ...REVIEW_AGG.second,
           vendor: 1,
           idForCart: 1,
-          typeForCart: 1
+          typeForCart: 1,
         },
       },
       {
@@ -12282,7 +11314,7 @@ exports.getSponsoredItems = async (req, res, next) => {
         ? productsObj.totalCount[0].count
         : 0;
 
-        //console.log(products,"products");
+    //console.log(products,"products");
 
     //[totalProducts, products] = await Promise.all([products, totalProducts]);
   } catch (err) {

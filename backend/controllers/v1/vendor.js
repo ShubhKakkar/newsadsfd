@@ -1690,7 +1690,6 @@ exports.featuredVendors = async (req, res, next) => {
 
 exports.vendorDetails = async (req, res, next) => {
   let { id } = req.params;
-  console.log("vendorId ---- id", id);
 
   if (!ObjectId.isValid(id)) {
     const error = new HttpError(
@@ -1782,8 +1781,6 @@ exports.vendorDetails = async (req, res, next) => {
       },
     };
   }
-
-  console.log(1);
 
   const COMMON = [
     {
@@ -2120,7 +2117,6 @@ exports.vendorDetails = async (req, res, next) => {
   let vendor;
 
   try {
-    console.log(2);
     vendor = await Vendor.findOne({
       _id: ObjectId(id),
       approvalStatus: "approved",
@@ -2128,10 +2124,7 @@ exports.vendorDetails = async (req, res, next) => {
       isDeleted: false,
     }).lean();
 
-    console.log("vendor", vendor);
-
     if (!vendor) {
-      console.log("vendor not found");
       const error = new HttpError(
         req,
         new Error().stack.split("at ")[1].trim(),
@@ -2141,7 +2134,6 @@ exports.vendorDetails = async (req, res, next) => {
       return next(error);
     }
   } catch (err) {
-    console.log(3);
     const error = new HttpError(
       req,
       new Error().stack.split("at ")[1].trim(),
@@ -2150,7 +2142,7 @@ exports.vendorDetails = async (req, res, next) => {
     );
     return next(error);
   }
-  
+
   let products, totalProducts, currentCurrency, usdCurrency, reels;
 
   try {

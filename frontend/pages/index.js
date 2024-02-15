@@ -257,7 +257,7 @@ const Home = ({ verifyNews, homeData }) => {
         {/* Offer Slider Section */}
         {/*Slider 2  */}
         {homePagePermission["slider-two"] && (
-          <div className="maxContainer">
+          <div className="maxContainer section-margin">
             <Swiper
               pagination={{
                 type: "fraction",
@@ -353,7 +353,7 @@ const Home = ({ verifyNews, homeData }) => {
         {/* Offer Slider Section */}
         {/* Top Selling Section */}
         {homePagePermission["top-selling-items"] && (
-          <section className="selling-section">
+          <section className="selling-section section-margin">
             {loading.topSellingProducts ? (
               <div className="container my-2">
                 <h1>Top Selling Products</h1>
@@ -395,7 +395,7 @@ const Home = ({ verifyNews, homeData }) => {
 
         {/* Offer Slider Section */}
         {homePagePermission["offers-section"] && (
-          <div className="discount-section maxContainer">
+          <div className="discount-section maxContainer section-margin">
             <div className="container-fluid p-0">
               <div className="offerSlider">
                 <div className="swiper discountSlider">
@@ -474,9 +474,8 @@ const Home = ({ verifyNews, homeData }) => {
             </div>
           </div>
         ) : (
-          homePagePermission["Most View Product"] &&
           mostViewedProducts.length > 0 && (
-            <section className="most-views-section">
+            <section className="most-views-section section-margin">
               <div className="container">
                 <div className="row">
                   <div className="col-md-12 col-lg-8 view-col-1">
@@ -558,7 +557,7 @@ const Home = ({ verifyNews, homeData }) => {
           </div>
         ) : (
           mostLatestProducts.length > 0 && (
-            <section className="sponsored-section">
+            <section className="sponsored-section section-margin">
               <div className="container">
                 <div className="text-start">
                   <h2 className="section-heading">
@@ -672,7 +671,7 @@ const Home = ({ verifyNews, homeData }) => {
             </div>
           ) : (
             sponsoredItems.length > 0 && (
-              <section className="sponsored-section">
+              <section className="sponsored-section section-margin">
                 <div className="container">
                   <div className="text-start">
                     <h2 className="section-heading">{t("Sponsored Items")}</h2>
@@ -708,7 +707,7 @@ const Home = ({ verifyNews, homeData }) => {
             </div>
           ) : (
             featuredVendors.length > 0 && (
-              <section className="section-padding features-section">
+              <section className="section-margin features-section">
                 <div className="container">
                   <div className="text-center">
                     <h2 className="section-heading borderhide">
@@ -757,7 +756,7 @@ const Home = ({ verifyNews, homeData }) => {
         {/* Shop by Vendors */}
         {/* Gift Card */}
         {homePagePermission["gift-card"] && (
-          <section className="lightBg">
+          <section className="lightBg section-margin">
             <div className="container">
               <div className="offerRow">
                 <div className="offerText">
@@ -780,7 +779,7 @@ const Home = ({ verifyNews, homeData }) => {
         {/* Gift Card */}
         {/* Reel Section */}
         {homePagePermission["reel-section"] && reels?.length > 0 && (
-          <section className="section-padding reels-section">
+          <section className="section-margin reels-section">
             <div className="container">
               <div className="text-center">
                 <h2 className="section-heading borderhide">
@@ -794,7 +793,7 @@ const Home = ({ verifyNews, homeData }) => {
         {/* Reel Section */}
         {/* Blog Section */}
         {homePagePermission["blog-section"] && (
-          <section className="section-padding blog-section">
+          <section className="section-margin blog-section">
             <div className="container">
               <div className="text-start">
                 <h2 className="section-heading">{t("From the blog")}</h2>
@@ -884,7 +883,7 @@ const Home = ({ verifyNews, homeData }) => {
         )}
         {/* Blog Section */}
         {homePagePermission["about-company"] && (
-          <section className="section-padding30 aboutSection pt-0">
+          <section className="section-margin aboutSection">
             <div className="container">
               <div className="text-start mb-22">
                 <h2 className="sectionLast-heading">{aboutUs?.title}</h2>

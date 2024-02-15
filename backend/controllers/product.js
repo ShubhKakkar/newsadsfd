@@ -858,7 +858,6 @@ exports.getAll = async (req, res, next) => {
     );
     return next(error);
   }
-
   res.status(200).json({
     status: true,
     message: "Product fetched successfully.",

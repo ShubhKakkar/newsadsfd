@@ -51,17 +51,17 @@ const generateRandomHSCode = () => {
   const formattedHSCode = `TST-${chapter.toString().padStart(2, "0")}.${heading
     .toString()
     .padStart(2, "0")}.${subheading.toString().padStart(2, "0")}.${productCode
-      .toString()
-      .padStart(4, "0")}`;
+    .toString()
+    .padStart(4, "0")}`;
 
   return formattedHSCode;
 };
 
-const twoDecimalPlaces = num => parseFloat(num.toFixed(2));
+const twoDecimalPlaces = (num) => parseFloat(num.toFixed(2));
 
 function sanitizeProductName(productName) {
   // Replace unwanted characters with an empty string
-  const sanitizedProductName = productName.replace(/["'/\\]/g, '');
+  const sanitizedProductName = productName.replace(/["'/\\]/g, "");
 
   return sanitizedProductName;
 }
@@ -377,15 +377,15 @@ exports.seedProducts = async (req) => {
       const unit = await Unit.findOne({
         stockUnitId: product.StockUnitId,
       });
-      
+
       let buyingPriceCurrency = await Currency.findOne({
         code: product.Currency,
       });
 
-      if(!buyingPriceCurrency) {
+      if (!buyingPriceCurrency) {
         buyingPriceCurrency = {
           _id: new ObjectId("657c3c8f3e28674d584dfe1e"),
-        }
+        };
       }
 
       const shippingCompany = await ShippingCompany.findOne({
@@ -478,10 +478,17 @@ exports.seedProducts = async (req) => {
 
       const validImages = downloadedImages.filter((image) => image !== null);
 
-      const sellingPrice = typeof product.SellingPrice === 'string' ? parseFloat(product.SellingPrice).toFixed(2) : null;
-      const buyingPrice = typeof product.BuyingPrice === 'string' ? parseFloat(product.BuyingPrice).toFixed(2) : null;
-      const barCode = product.Barcode ? product.Barcode : `TST-${product.ProductName.substring(0, 6)}-${generateUniqueId()}`;
-
+      const sellingPrice =
+        typeof product.SellingPrice === "string"
+          ? parseFloat(product.SellingPrice).toFixed(2)
+          : null;
+      const buyingPrice =
+        typeof product.BuyingPrice === "string"
+          ? parseFloat(product.BuyingPrice).toFixed(2)
+          : null;
+      const barCode = product.Barcode
+        ? product.Barcode
+        : `TST-${product.ProductName.substring(0, 6)}-${generateUniqueId()}`;
 
       // Create Product and check if IsDisplayProduct
       const updatedProduct = await Product.findOneAndUpdate(
@@ -689,11 +696,11 @@ exports.seedProducts = async (req) => {
         // update variants in product
         if (variantsArray.length > 0) {
           await Product.findOneAndUpdate(
-            { "productId": updatedProduct.productId },
+            { productId: updatedProduct.productId },
             {
               $set: {
-                variants: variantsArray
-              }
+                variants: variantsArray,
+              },
             },
             {
               upsert: true,
@@ -707,7 +714,7 @@ exports.seedProducts = async (req) => {
         const updatedProductVariant = await ProductVariant.findOneAndUpdate(
           {
             subProductId: productVariantId,
-            mainProductId: updatedProduct._id
+            mainProductId: updatedProduct._id,
           },
           {
             $set: {
@@ -753,7 +760,10 @@ exports.seedProducts = async (req) => {
               productVariantId: updatedProductVariant._id,
               languageCode: "en",
               name: enProductDescription.name,
-              slug: enProductDescription.slug,
+              slug:
+                enProductDescription.slug -
+                en -
+                updatedProductVariant.firstSubVariantName.split(" ")[0],
             },
           },
           {
@@ -772,7 +782,10 @@ exports.seedProducts = async (req) => {
               productVariantId: updatedProductVariant._id,
               languageCode: "ar",
               name: arProductDescription.name,
-              slug: arProductDescription.slug,
+              slug:
+                arProductDescription.slug -
+                ar -
+                updatedProductVariant.firstSubVariantName.split(" ")[0],
             },
           },
           {
@@ -791,7 +804,10 @@ exports.seedProducts = async (req) => {
               productVariantId: updatedProductVariant._id,
               languageCode: "tr",
               name: trProductDescription.name,
-              slug: trProductDescription.slug,
+              slug:
+                trProductDescription.slug -
+                tr -
+                updatedProductVariant.firstSubVariantName.split(" ")[0],
             },
           },
           {
@@ -801,25 +817,29 @@ exports.seedProducts = async (req) => {
         );
 
         for (let i = 0; i < variantsArray.length; i++) {
-          await VendorProductVariant.findOneAndUpdate({
-            vendorId: vendorProduct.vendorId,
-            mainProductId: updatedProduct._id,
-            productVariantId: updatedProductVariant._id
-          }, {
-            $set: {
+          await VendorProductVariant.findOneAndUpdate(
+            {
               vendorId: vendorProduct.vendorId,
-              mainProductId: vendorProduct.productId,
+              mainProductId: updatedProduct._id,
               productVariantId: updatedProductVariant._id,
-              buyingPrice: vendorProduct.buyingPrice,
-              buyingPriceCurrency: vendorProduct.buyingPriceCurrency,
-              sellingPrice: vendorProduct.sellingPrice,
-              discountedPrice: vendorProduct.discountedPrice,
-              isActive: true,
             },
-          }, {
-            new: true,
-            upsert: true,
-          })
+            {
+              $set: {
+                vendorId: vendorProduct.vendorId,
+                mainProductId: vendorProduct.productId,
+                productVariantId: updatedProductVariant._id,
+                buyingPrice: vendorProduct.buyingPrice,
+                buyingPriceCurrency: vendorProduct.buyingPriceCurrency,
+                sellingPrice: vendorProduct.sellingPrice,
+                discountedPrice: vendorProduct.discountedPrice,
+                isActive: true,
+              },
+            },
+            {
+              new: true,
+              upsert: true,
+            }
+          );
         }
 
         const transformedArray = variantsArray.map((variant, index) => {
@@ -830,19 +850,17 @@ exports.seedProducts = async (req) => {
           };
         });
 
-        console.log("transformedArray", transformedArray);
-
         // update product at this point
         await Product.findOneAndUpdate(
           {
-            productId: updatedProduct._id
+            productId: updatedProduct._id,
           },
           {
             $set: {
               variants: transformedArray,
               variantId: transformedArray[transformedArray.length - 1].id,
             },
-          },
+          }
         );
       }
 
@@ -1035,20 +1053,24 @@ exports.seedSubVariants = async (req) => {
             }
           );
           for (let i = 0; i < languages.length; i++) {
-            await MasterDescription.findOneAndUpdate({
-              key: "subVariant",
-              languageCode: languages[i],
-              mainPage: updatedSubVariant._id,
-            }, {
-              mainPage: updatedSubVariant._id,
-              key: "subVariant",
-              languageCode: languages[i],
-              name: updatedSubVariant.name,
-              propertyId: updatedSubVariant.propertyId
-            }, {
-              new: true,
-              upsert: true,
-            });
+            await MasterDescription.findOneAndUpdate(
+              {
+                key: "subVariant",
+                languageCode: languages[i],
+                mainPage: updatedSubVariant._id,
+              },
+              {
+                mainPage: updatedSubVariant._id,
+                key: "subVariant",
+                languageCode: languages[i],
+                name: updatedSubVariant.name,
+                propertyId: updatedSubVariant.propertyId,
+              },
+              {
+                new: true,
+                upsert: true,
+              }
+            );
           }
         }
       }

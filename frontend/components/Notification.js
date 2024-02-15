@@ -8,10 +8,10 @@ const Notification = () => {
 
   return (
     <>
-      <div class="nav_right_notification dropdown mr-15">
+      <div class="nav_right_notification dropdown mr-15_">
         <a
           href="javascript:void(0);"
-          class="rightMenuBtn newNotiMsg"
+          class="rightMenuBtn newNotiMsg iconLinks"
           data-bs-toggle="dropdown"
         >
           <svg
