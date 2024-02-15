@@ -568,6 +568,7 @@ const Product = ({
                         </div>
                       </div>
                     )}
+                    {console.log("variantsValue", variantsValue)}
                     {variantsValue.map((variant, index) => (
                       <div className="productSize">
                         <span>{variant.name}</span>

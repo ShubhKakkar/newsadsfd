@@ -20,6 +20,8 @@ const SubVariant = require("../models/subVariant.js");
 const ProductVariant = require("../models/productVariant.js");
 const ProductVariantDescription = require("../models/productVariantDescription.js");
 const VendorProduct = require("../models/vendorProduct.js");
+const VendorProductVariant = require("../models/vendorProductVariant.js");
+const ObjectId = require("mongoose").Types.ObjectId;
 
 // languages
 const languages = ["en", "ar", "tr"];
@@ -31,7 +33,7 @@ const chunkSize = 500;
 const defaultShippingCompany = "AJEX";
 
 // vendor
-const defaultVendorId = new mongoose.Types.ObjectId("64d371ceb03793f62886c1e8"); // change it while deploying
+const defaultVendorId = new mongoose.Types.ObjectId("651e7d64c4bfaeadc751dc7a"); // change it while deploying
 
 // HS Code generator
 const getRandomInt = (min, max) => {
@@ -56,6 +58,13 @@ const generateRandomHSCode = () => {
 };
 
 const twoDecimalPlaces = num => parseFloat(num.toFixed(2));
+
+function sanitizeProductName(productName) {
+  // Replace unwanted characters with an empty string
+  const sanitizedProductName = productName.replace(/["'/\\]/g, '');
+
+  return sanitizedProductName;
+}
 
 function generateUniqueId() {
   return Math.random().toString(36).substr(2, 9);
@@ -356,10 +365,8 @@ exports.seedProducts = async (req) => {
   const updateProducts = async (enData, arData, trData) => {
     let data = enData;
     for (let i = 0; i < data.length; i++) {
-      if (round > 0) {
-        return "Completed";
-      }
       const product = data[i];
+      product.ProductName = sanitizeProductName(product.ProductName);
       const customId = await idCreator("product", false);
       const category = await ProductCategory.findOne({
         categoryId: product.DefaultCategoryId,
@@ -370,9 +377,17 @@ exports.seedProducts = async (req) => {
       const unit = await Unit.findOne({
         stockUnitId: product.StockUnitId,
       });
-      const buyingPriceCurrency = await Currency.findOne({
+      
+      let buyingPriceCurrency = await Currency.findOne({
         code: product.Currency,
       });
+
+      if(!buyingPriceCurrency) {
+        buyingPriceCurrency = {
+          _id: new ObjectId("657c3c8f3e28674d584dfe1e"),
+        }
+      }
+
       const shippingCompany = await ShippingCompany.findOne({
         name: defaultShippingCompany,
       });
@@ -482,9 +497,9 @@ exports.seedProducts = async (req) => {
             categoryId: category._id,
             brandId: brand._id,
             unitId: unit._id,
-            buyingPrice: buyingPrice,
+            buyingPrice: Number(buyingPrice),
             buyingPriceCurrency: buyingPriceCurrency._id,
-            sellingPrice: sellingPrice,
+            sellingPrice: Number(sellingPrice),
             featureTitle: product.SeoLink,
             height: Number(product.Height),
             weight: Number(product.Weight),
@@ -529,8 +544,8 @@ exports.seedProducts = async (req) => {
         {
           productId: updatedProduct._id,
           languageCode: "en",
-          name: enProuct.ProductName,
-          slug: enProuct.SeoLink,
+          name: sanitizeProductName(enProuct.ProductName),
+          slug: sanitizeProductName(enProuct.SeoLink),
           longDescription: enProuct.Details || " ",
           shortDescription: enProuct.Details || " ",
           metaData: {
@@ -554,8 +569,8 @@ exports.seedProducts = async (req) => {
         {
           productId: updatedProduct._id,
           languageCode: "ar",
-          name: arProuct.ProductName,
-          slug: arProuct.SeoLink,
+          name: sanitizeProductName(arProuct.ProductName),
+          slug: sanitizeProductName(arProuct.SeoLink),
           longDescription: arProuct.Details || " ",
           shortDescription: arProuct.Details || " ",
           metaData: {
@@ -579,8 +594,8 @@ exports.seedProducts = async (req) => {
         {
           productId: updatedProduct._id,
           languageCode: "tr",
-          name: trProuct.ProductName,
-          slug: trProuct.SeoLink,
+          name: sanitizeProductName(trProuct.ProductName),
+          slug: sanitizeProductName(trProuct.SeoLink),
           longDescription: trProuct.Details || " ",
           shortDescription: trProuct.Details || " ",
           metaData: {
@@ -600,14 +615,15 @@ exports.seedProducts = async (req) => {
       const vendorProduct = await VendorProduct.findOneAndUpdate(
         {
           vendorId: defaultVendorId,
+          productId: updatedProduct._id,
         },
         {
           vendorId: defaultVendorId,
           productId: updatedProduct._id,
-          buyingPrice: updatedProduct.buyingPrice,
+          buyingPrice: Math.round(Number(updatedProduct.buyingPrice)),
           buyingPriceCurrency: updatedProduct.buyingPriceCurrency,
-          sellingPrice: updatedProduct.sellingPrice,
-          discountedPrice: updatedProduct.sellingPrice,
+          sellingPrice: Math.round(Number(updatedProduct.sellingPrice)),
+          discountedPrice: Math.round(Number(updatedProduct.sellingPrice)),
         },
         {
           new: true,
@@ -648,8 +664,6 @@ exports.seedProducts = async (req) => {
           });
           variantsArray.push(variant2);
         }
-
-        console.log("variantsArray", variantsArray);
 
         const categories = product.Categories;
 
@@ -731,12 +745,12 @@ exports.seedProducts = async (req) => {
 
         await ProductVariantDescription.findOneAndUpdate(
           {
-            productVarianId: updatedProductVariant._id,
+            productVariantId: updatedProductVariant._id,
             languageCode: "en",
           },
           {
             $set: {
-              productVarianId: updatedProductVariant._id,
+              productVariantId: updatedProductVariant._id,
               languageCode: "en",
               name: enProductDescription.name,
               slug: enProductDescription.slug,
@@ -750,12 +764,12 @@ exports.seedProducts = async (req) => {
 
         await ProductVariantDescription.findOneAndUpdate(
           {
-            productVarianId: updatedProductVariant._id,
+            productVariantId: updatedProductVariant._id,
             languageCode: "ar",
           },
           {
             $set: {
-              productVarianId: updatedProductVariant._id,
+              productVariantId: updatedProductVariant._id,
               languageCode: "ar",
               name: arProductDescription.name,
               slug: arProductDescription.slug,
@@ -769,12 +783,12 @@ exports.seedProducts = async (req) => {
 
         await ProductVariantDescription.findOneAndUpdate(
           {
-            productVarianId: updatedProductVariant._id,
+            productVariantId: updatedProductVariant._id,
             languageCode: "tr",
           },
           {
             $set: {
-              productVarianId: updatedProductVariant._id,
+              productVariantId: updatedProductVariant._id,
               languageCode: "tr",
               name: trProductDescription.name,
               slug: trProductDescription.slug,
@@ -784,6 +798,51 @@ exports.seedProducts = async (req) => {
             insert: true,
             upsert: true,
           }
+        );
+
+        for (let i = 0; i < variantsArray.length; i++) {
+          await VendorProductVariant.findOneAndUpdate({
+            vendorId: vendorProduct.vendorId,
+            mainProductId: updatedProduct._id,
+            productVariantId: updatedProductVariant._id
+          }, {
+            $set: {
+              vendorId: vendorProduct.vendorId,
+              mainProductId: vendorProduct.productId,
+              productVariantId: updatedProductVariant._id,
+              buyingPrice: vendorProduct.buyingPrice,
+              buyingPriceCurrency: vendorProduct.buyingPriceCurrency,
+              sellingPrice: vendorProduct.sellingPrice,
+              discountedPrice: vendorProduct.discountedPrice,
+              isActive: true,
+            },
+          }, {
+            new: true,
+            upsert: true,
+          })
+        }
+
+        const transformedArray = variantsArray.map((variant, index) => {
+          return {
+            id: variant._id,
+            name: variant.name,
+            order: index + 1,
+          };
+        });
+
+        console.log("transformedArray", transformedArray);
+
+        // update product at this point
+        await Product.findOneAndUpdate(
+          {
+            productId: updatedProduct._id
+          },
+          {
+            $set: {
+              variants: transformedArray,
+              variantId: transformedArray[transformedArray.length - 1].id,
+            },
+          },
         );
       }
 
@@ -799,7 +858,7 @@ exports.seedProducts = async (req) => {
         const formData = new FormData();
         formData.append("token", token);
         formData.append("start", start);
-        formData.append("limit", 100);
+        formData.append("limit", 500);
         formData.append("Translation", languageCode);
         formData.append("FetchDetails", "true");
         formData.append("FetchAllCategories", "true");
@@ -825,10 +884,9 @@ exports.seedProducts = async (req) => {
         }
 
         data.push(...response.data.data);
-        console.log(count);
         count += response.data.data.length;
 
-        if (start >= 3) {
+        if (start >= 11060) {
           break;
         }
 
@@ -959,8 +1017,7 @@ exports.seedSubVariants = async (req) => {
           groupId: subVariant.GroupId,
         });
         if (variant) {
-          console.log(variant);
-          await SubVariant.findOneAndUpdate(
+          const updatedSubVariant = await SubVariant.findOneAndUpdate(
             {
               propertyId: subVariant.PropertyId,
             },
@@ -977,6 +1034,22 @@ exports.seedSubVariants = async (req) => {
               new: true,
             }
           );
+          for (let i = 0; i < languages.length; i++) {
+            await MasterDescription.findOneAndUpdate({
+              key: "subVariant",
+              languageCode: languages[i],
+              mainPage: updatedSubVariant._id,
+            }, {
+              mainPage: updatedSubVariant._id,
+              key: "subVariant",
+              languageCode: languages[i],
+              name: updatedSubVariant.name,
+              propertyId: updatedSubVariant.propertyId
+            }, {
+              new: true,
+              upsert: true,
+            });
+          }
         }
       }
       start += limit;

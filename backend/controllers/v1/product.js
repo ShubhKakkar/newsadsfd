@@ -734,8 +734,8 @@ exports.getAll = async (req, res, next) => {
     // categoryId: ObjectId(categoryFilters._id),
     categoryId: {
       $in: [
-        ObjectId(categoryFilters._id),
-        ...childCategoryIds?.ids.map((id) => ObjectId(id)),
+        new ObjectId(categoryFilters._id),
+        ...childCategoryIds?.ids.map((id) => new ObjectId(id)),
       ],
     },
   };
@@ -2870,7 +2870,7 @@ exports.getOne = async (req, res, next) => {
         }
       }
 
-      VARIANT_ID._id = ObjectId(productVariant.result._id);
+      VARIANT_ID._id = new ObjectId(productVariant.result._id);
 
       AGG_HELPER = {
         first: {
@@ -4219,7 +4219,7 @@ exports.getOne = async (req, res, next) => {
           $match: {
             productId: new ObjectId(product._id),
             vendorId: {
-              $ne: ObjectId(product.vendorData._id),
+              $ne: new ObjectId(product.vendorData._id),
             },
             isDeleted: false,
             isActive: true,
@@ -4457,14 +4457,14 @@ exports.getOne = async (req, res, next) => {
       ]);
 
       let allReviews = Review.find({
-        itemId: ObjectId(product.idForCart),
+        itemId: new ObjectId(product.idForCart),
         status: "approved",
       }).lean();
 
       reviews = Review.aggregate([
         {
           $match: {
-            itemId: ObjectId(product.idForCart),
+            itemId: new ObjectId(product.idForCart),
             status: "approved",
           },
         },
@@ -4702,7 +4702,7 @@ exports.getOne = async (req, res, next) => {
                   $and: [
                     {
                       $expr: {
-                        $eq: ["$vendorId", ObjectId(product.vendorData._id)],
+                        $eq: ["$vendorId", new ObjectId(product.vendorData._id)],
                       },
                     },
                   ],
@@ -5217,7 +5217,7 @@ exports.getOne = async (req, res, next) => {
       Customer.findByIdAndUpdate(userId, {
         $pull: {
           recentlyViewedProducts: {
-            id: ObjectId(product.idForCart),
+            id: new ObjectId(product.idForCart),
           },
         },
       }).then((response) => {
@@ -6158,7 +6158,7 @@ exports.getAllProducts = async (req, res, next) => {
     masterCategories.length > 0 &&
     typeof masterCategories[0] === "string"
   ) {
-    masterCategories = masterCategories.map((m) => ObjectId(m));
+    masterCategories = masterCategories.map((m) => new ObjectId(m));
     extras.categoryId = {
       $in: masterCategories,
     };
@@ -6182,7 +6182,7 @@ exports.getAllProducts = async (req, res, next) => {
     brands.length > 0 &&
     typeof brands[0] === "string"
   ) {
-    brands = brands.map((m) => ObjectId(m));
+    brands = brands.map((m) => new ObjectId(m));
     extras.brandId = {
       $in: brands,
     };
@@ -7794,7 +7794,7 @@ exports.getMostViewedItems_old = async (req, res, next) => {
   });
 };
 
-//updated
+//updatedy
 exports.newlyLaunchedItems = async (req, res, next) => {
   let countryId = req.countryId;
   let languageCode = req.languageCode;
@@ -8216,7 +8216,7 @@ exports.getBySubCategory = async (req, res, next) => {
 
   if (brands.length > 0) {
     matchObj.brandId = {
-      $in: brands.map((brand) => ObjectId(brand)),
+      $in: brands.map((brand) => new ObjectId(brand)),
     };
   }
 
@@ -8297,7 +8297,7 @@ exports.getBySubCategory = async (req, res, next) => {
         filtersAgg.push({
           $and: [
             {
-              "variantData.firstVariantId": ObjectId(key),
+              "variantData.firstVariantId": new ObjectId(key),
             },
             {
               "variantData.firstSubVariantName": value.toString(),
@@ -8308,7 +8308,7 @@ exports.getBySubCategory = async (req, res, next) => {
         filtersAgg.push({
           $and: [
             {
-              "variantData.secondVariantId": ObjectId(key),
+              "variantData.secondVariantId": new ObjectId(key),
             },
             {
               "variantData.secondSubVariantName": value.toString(),
@@ -8342,7 +8342,7 @@ exports.getBySubCategory = async (req, res, next) => {
       specificationAgg.push({
         $and: [
           {
-            "features.id": ObjectId(specification.id),
+            "features.id": new ObjectId(specification.id),
           },
           {
             "features.value": specification.value.toString(),
@@ -8813,8 +8813,8 @@ exports.getBySubCategory = async (req, res, next) => {
     // categoryId: ObjectId(categoryFilters.subCategory._id),
     categoryId: {
       $in: [
-        ObjectId(categoryFilters.subCategory._id),
-        ...childCategoryIds?.ids.map((id) => ObjectId(id)),
+        new ObjectId(categoryFilters.subCategory._id),
+        ...childCategoryIds?.ids.map((id) => new ObjectId(id)),
       ],
     },
   };
@@ -10548,7 +10548,7 @@ exports.getByBrand = async (req, res, next) => {
   }
 
   const commonMatch = {
-    brandId: ObjectId(brandData._id),
+    brandId: new ObjectId(brandData._id),
   };
 
   const wishlistObj = {
@@ -11725,8 +11725,8 @@ exports.delete = async (req, res, next) => {
   try {
     let vendorProductRes = await VendorProduct.findOneAndUpdate(
       {
-        _id: ObjectId(id),
-        vendorId: ObjectId(vendor),
+        _id: new ObjectId(id),
+        vendorId: new ObjectId(vendor),
       },
       {
         $set: {
@@ -11741,8 +11741,8 @@ exports.delete = async (req, res, next) => {
 
     VendorProductVariant.updateMany(
       {
-        vendorId: ObjectId(vendor),
-        mainProductId: ObjectId(vendorProductRes.productId.toString()),
+        vendorId: new ObjectId(vendor),
+        mainProductId: new ObjectId(vendorProductRes.productId.toString()),
       },
       {
         isDeleted: true,
@@ -11785,8 +11785,8 @@ exports.increaseQuantity = async (req, res, next) => {
   try {
     const response = await Product.findOneAndUpdate(
       {
-        _id: ObjectId(id),
-        vendor: ObjectId(vendor),
+        _id: new ObjectId(id),
+        vendor: new ObjectId(vendor),
       },
       {
         $inc: {
@@ -11800,7 +11800,7 @@ exports.increaseQuantity = async (req, res, next) => {
 
     if (response) {
       await ProductVariant.updateMany(
-        { mainProductId: ObjectId(id), isDeleted: false },
+        { mainProductId: new ObjectId(id), isDeleted: false },
         {
           $inc: {
             quantity: 1,
@@ -11832,8 +11832,8 @@ exports.changeIsVendorActiveStatus = async (req, res, next) => {
   try {
     await VendorProduct.findOneAndUpdate(
       {
-        _id: ObjectId(id),
-        vendor: ObjectId(vendor),
+        _id: new ObjectId(id),
+        vendor: new ObjectId(vendor),
       },
       {
         $set: {
@@ -12617,7 +12617,7 @@ exports.getOneForEdit = async (req, res, next) => {
         $match: {
           vendorId: new ObjectId(vendorId),
           // productId: new ObjectId(id),
-          _id: ObjectId(id),
+          _id: new ObjectId(id),
           isDeleted: false,
         },
       },
@@ -12832,7 +12832,7 @@ exports.getOneForEdit = async (req, res, next) => {
                       $expr: {
                         $eq: ["$productVariantId", "$$productVariantId"],
                       },
-                      vendorId: ObjectId(vendorId),
+                      vendorId: new ObjectId(vendorId),
                     },
                   },
                   {
@@ -13720,11 +13720,11 @@ exports.getAlternateProducts = async (req, res, next) => {
     searchObj.name = new RegExp(name, "i");
   }
 
-  if (category && ObjectId.isValid(category)) {
+  if (category && new ObjectId.isValid(category)) {
     searchObj.masterCategoryId = new ObjectId(category);
   }
 
-  if (brand && ObjectId.isValid(brand)) {
+  if (brand && new ObjectId.isValid(brand)) {
     searchObj.brandId = new ObjectId(brand);
   }
 
@@ -13732,7 +13732,7 @@ exports.getAlternateProducts = async (req, res, next) => {
   //   searchObj.vendor = new ObjectId(vendor);
   // }
 
-  if (productId && ObjectId.isValid(productId)) {
+  if (productId && new ObjectId.isValid(productId)) {
     searchObj._id = {
       $nin: [new ObjectId(productId)],
     };
@@ -14807,9 +14807,9 @@ exports.update = async (req, res, next) => {
     Promises.push(
       VendorProduct.findOneAndUpdate(
         {
-          vendorId: ObjectId(vendor),
-          // productId: ObjectId(id),
-          _id: ObjectId(id),
+          vendorId: new ObjectId(vendor),
+          // productId: new ObjectId(id),
+          _id: new ObjectId(id),
         },
         {
           $set: {
@@ -14826,9 +14826,9 @@ exports.update = async (req, res, next) => {
       Promises.push(
         VendorProductVariant.findOneAndUpdate(
           {
-            vendorId: ObjectId(vendor),
-            // productVariantId: ObjectId(sv.id),
-            _id: ObjectId(sv.id),
+            vendorId: new ObjectId(vendor),
+            // productVariantId: new ObjectId(sv.id),
+            _id: new ObjectId(sv.id),
           },
           {
             $set: {
@@ -14986,7 +14986,7 @@ exports.oldupdate = async (req, res, next) => {
     const subVariantsPromise = [];
 
     let addedVariants = await ProductVariant.find({
-      mainProductId: ObjectId(id),
+      mainProductId: new ObjectId(id),
       isDeleted: false,
     }).lean();
 
@@ -15494,7 +15494,7 @@ exports.importCategories = async (req, res, next) => {
     ]);
 
     importedProducts = VendorProduct.find({
-      vendorId: ObjectId(vendorId),
+      vendorId: new ObjectId(vendorId),
       isDeleted: false,
     })
       .select("productId")
@@ -15581,7 +15581,7 @@ exports.importProducts = async (req, res, next) => {
   try {
     // products = await Product.find({
     //   _id: {
-    //     $in: ids.map((i) => ObjectId(i)),
+    //     $in: ids.map((i) => new ObjectId(i)),
     //   },
     //   isDeleted: false,
     //   isActive: true,
@@ -15593,7 +15593,7 @@ exports.importProducts = async (req, res, next) => {
       {
         $match: {
           _id: {
-            $in: ids.map((i) => ObjectId(i)),
+            $in: ids.map((i) => new ObjectId(i)),
           },
         },
       },

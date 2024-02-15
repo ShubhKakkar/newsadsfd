@@ -726,9 +726,9 @@ const Edit = (props) => {
         //     (sc) => sc._id === product.subCategory._id
         //   )?.masterVariant;
 
-        const masterVariant = product.categoryData.masterVariantId;
+        // const masterVariant = product.categoryData.masterVariantId;
 
-        setMasterVariant(masterVariant);
+        // setMasterVariant(masterVariant);
 
         const variantsWithChecked = variants
           .map((v, idx) => ({
@@ -737,10 +737,8 @@ const Edit = (props) => {
               product.variants.find((pv) => pv.id === v._id)?.order ||
               variants.length - idx,
             show: true,
-            isMasterVariant: masterVariant === v._id,
-            isChecked:
-              masterVariant === v._id ||
-              !!product.variants.find((pv) => pv.id === v._id),
+            // isMasterVariant: masterVariant === v._id,
+            isChecked: product.variants.find((pv) => pv.id === v._id),
             subVariants: v.subVariants.map((sv) => ({
               ...sv,
               isChecked: !!product.variantsData.find(
@@ -751,8 +749,8 @@ const Edit = (props) => {
               isAdded: false,
             })),
           }))
-          .sort((a, b) => b.isMasterVariant - a.isMasterVariant);
-
+          .sort((a, b) => b - a);
+        console.log(variantsWithChecked);
         setVariants(variantsWithChecked);
         setCheckedVariants(variantsWithChecked);
 

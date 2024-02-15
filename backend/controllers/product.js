@@ -4121,7 +4121,7 @@ exports.update = async (req, res, next) => {
         ProductDescription.findOneAndUpdate(
           {
             languageCode: obj.languageCode,
-            productId: ObjectId(id),
+            productId: new ObjectId(id),
           },
           {
             $set: {
@@ -4298,7 +4298,7 @@ exports.update = async (req, res, next) => {
     }
 
     let addedVariants = await ProductVariant.find({
-      mainProductId: ObjectId(id),
+      mainProductId: new ObjectId(id),
       isDeleted: false,
     }).lean();
 
@@ -4369,7 +4369,7 @@ exports.update = async (req, res, next) => {
           subVariantsPromise.push(
             ProductVariantDescription.findOneAndUpdate(
               {
-                productVariantId: ObjectId(isExist._id),
+                productVariantId: new ObjectId(isExist._id),
                 languageCode: lang.code,
               },
               {

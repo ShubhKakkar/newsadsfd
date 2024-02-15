@@ -397,7 +397,7 @@ exports.getAll = async (req, res, next) => {
   let conditions = { isDeleted: false };
 
   if (parentId) {
-    conditions.parentId = ObjectId(parentId);
+    conditions.parentId = new ObjectId(parentId);
   } else {
     conditions.parentId = {
       $exists: false,

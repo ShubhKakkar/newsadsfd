@@ -113,7 +113,10 @@ const schema = mongoose.Schema(
     ],
     variantId: {
       //last variant id
-      type: Number,
+      type: {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: "Variant",
+        },
     },
     views: {
       type: Number,
