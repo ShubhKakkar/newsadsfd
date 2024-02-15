@@ -69,4 +69,5 @@ pm2 logs
 Admin =
 
 npm run build locally, create zip and move to stage and extract
+http://noonmarnode.stage04.obdemo.com/seeding/products/52efe96463a9abf3aa3fdd91678a60f5
 ```
