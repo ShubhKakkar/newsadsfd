@@ -172,9 +172,7 @@ window.onload = function () {
         $("#header .collapse:not(.show)").find(".mobile_logo").remove();
         $("#header .collapse:not(.show)").append(
           "<div class='mobile_logo'>" +
-            "<img src=" +
-            logo +
-            " alt=''>" +
+            "<img src='/assets/img/logo.png' alt=''>" +
             "</div>"
         );
       }
@@ -288,3 +286,8 @@ window.onload = function () {
   } else {
   }
 };
+
+$(document).on("click" , ".menu-items button span" , function(){
+    $(this).closest(".dropdown").addClass("show")
+})
+

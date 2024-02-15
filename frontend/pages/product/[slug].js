@@ -579,6 +579,7 @@ const Product = ({
                     {variantsValue.map((variant, index) => (
                       <div className="productSize">
                         <span>{variant.name}</span>
+                        <div className="listRow">
                         {variant.values.map((value, idx) => (
                           <div key={value} className="form-check">
                             <input
@@ -596,6 +597,7 @@ const Product = ({
                             </label>
                           </div>
                         ))}
+                      </div>
                       </div>
                     ))}
                   </div>

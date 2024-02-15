@@ -760,10 +760,9 @@ exports.seedProducts = async (req) => {
               productVariantId: updatedProductVariant._id,
               languageCode: "en",
               name: enProductDescription.name,
-              slug:
-                enProductDescription.slug -
-                en -
-                updatedProductVariant.firstSubVariantName.split(" ")[0],
+              slug: `${enProductDescription.slug}-"en"-${
+                updatedProductVariant.firstSubVariantName.split(" ")[0]
+              }`,
             },
           },
           {
@@ -782,10 +781,9 @@ exports.seedProducts = async (req) => {
               productVariantId: updatedProductVariant._id,
               languageCode: "ar",
               name: arProductDescription.name,
-              slug:
-                arProductDescription.slug -
-                ar -
-                updatedProductVariant.firstSubVariantName.split(" ")[0],
+              slug: `${arProductDescription.slug}-"ar"-${
+                updatedProductVariant.firstSubVariantName.split(" ")[0]
+              }`,
             },
           },
           {
@@ -804,10 +802,9 @@ exports.seedProducts = async (req) => {
               productVariantId: updatedProductVariant._id,
               languageCode: "tr",
               name: trProductDescription.name,
-              slug:
-                trProductDescription.slug -
-                tr -
-                updatedProductVariant.firstSubVariantName.split(" ")[0],
+              slug: `${trProductDescription.slug}-"tr"-${
+                updatedProductVariant.firstSubVariantName.split(" ")[0]
+              }`,
             },
           },
           {

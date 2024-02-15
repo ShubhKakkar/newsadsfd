@@ -1,0 +1,473 @@
+[dir="rtl"] .signIn a svg {
+    margin-left: 5px;
+}
+
+[dir="rtl"] .langugae_filter svg {
+    margin-left: 5px;
+}
+
+[dir="rtl"] .searchinput {
+    margin-left: 0;
+}
+[dir="rtl"] .itemImage {
+    margin-right: 0;
+    margin-left: 60px;
+}
+
+[dir="rtl"] .arrow::after {
+    margin-right: 7px
+}
+
+[dir="rtl"] .headerMenuBar .dropdown .dropdown-submenu {
+    right: 100%;
+    left: unset;
+}
+
+[dir="rtl"] .section-heading {
+    text-align: right;
+}
+
+[dir="rtl"] .text-center .section-heading {
+    text-align: center;
+}
+
+[dir="rtl"] .sectionLast-heading {
+    text-align: right;
+}
+
+[dir="rtl"] .position-relative {
+    margin-left: 12px;
+}
+
+[dir="rtl"] .watch-banner figure img {
+    padding-right: 0;
+    padding-left: 110px;
+}
+
+[dir="rtl"] .google_play_btn.apps_store_btn {
+    margin-right: 0;
+    margin-left: 17px;
+}
+
+[dir="rtl"] .play_btns .google_play_btn {
+    text-align: right;
+}
+
+[dir="rtl"] .play_btns .google_play_btn span {
+    margin: 0 0 0 10px;
+}
+
+[dir="rtl"] .FootSocialicn {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+[dir="rtl"] .headerMenuBar .navbar-nav.menus {
+    padding-right: 0;
+}
+
+[dir="rtl"] .custom_radio [type="radio"]:checked+label,
+[dir="rtl"] .custom_radio [type="radio"]:not(:checked)+label {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+[dir="rtl"] .custom_radio [type="radio"]:checked+label:before,
+[dir="rtl"] .custom_radio [type="radio"]:not(:checked)+label:before {
+    left: unset;
+    right: 0;
+}
+
+[dir="rtl"] .custom_radio [type="radio"]:checked+label::after,
+[dir="rtl"] .custom_radio [type="radio"]:not(:checked)+label::after {
+    left: unset;
+    right: 4px;
+}
+
+[dir="rtl"] .breadcrumbBlock .breadcrumb-item + .breadcrumb-item {
+    padding-right: 26px;
+    padding-left: unset;
+}
+[dir="rtl"] .breadcrumbBlock .breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 12px;
+    content: "\f053";
+    right: -4px;
+    left: unset;
+}
+[dir="rtl"] .accordion-button::after {
+    margin-left: unset;
+    margin-right: auto;
+}
+
+
+[dir="rtl"] #header .navbar-expand-lg .navbar-nav .nav-item {
+    /* margin-right: 0;
+    margin-left: 10px; */
+}
+[dir="rtl"] #header .extra_nav {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+[dir="rtl"] .closebtn {
+    right: unset;
+    left: 25px;
+}
+[dir="rtl"] .breadcrumbBlock > nav {
+    padding-right: 0;
+}
+
+[dir="rtl"]  .signIn {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+[dir="rtl"]  #header .for_desktop {
+    text-align: left;
+}
+[dir="rtl"] .myOrderLink span {
+    margin-left: 0;
+    margin-right: 12px;
+}
+[dir="rtl"] .iconLinks {
+    /* margin-left: 0;
+    margin-right: 20px; */
+}
+[dir="rtl"] .user_dropdown .dropdown-menu {
+    left: 0px;
+    right: unset;
+}
+[dir="rtl"] .dropdown-menu.uInfoDropdown:after {
+    right: unset;
+    left: 5px;
+}
+[dir="rtl"] .user_info .user_name {
+    text-align: right;
+}
+[dir="rtl"] .user_dropdown ul li a {
+    text-align: right;
+}
+[dir="rtl"] .nav_right_notification .dropdown-menu {
+    right: unset !important;
+    left: 0;
+}
+[dir="rtl"] .notiHeader_top i {
+    padding-right: 0;
+    padding-left: 5px;
+}
+[dir="rtl"] .notiListCard .notiListContent small {
+    text-align: right;
+}
+[dir="rtl"] .user_dropdown .lang_dropdown .form-group {
+    text-align: right;
+}
+[dir="rtl"] .user_dropdown .dropdown-menu:after {
+    top: 5px;
+    right: 20px;
+}
+[dir="rtl"] .dashboard-nav-item.active:before {
+    left: unset;
+    right: 0;
+}
+[dir="rtl"] .dashboard-nav-item:after {
+    margin-left: unset;
+    margin-right: auto;
+    transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+}
+
+[dir="rtl"] .login_right_content {
+    right: unset;
+    left: 0;
+}
+
+[dir="rtl"] input[type="password"] {
+    padding-right: 16px;
+    padding-left: 42px;
+}
+[dir="rtl"] .field-icon-input {
+    float: left;
+    margin-left: 16px;
+}
+[dir="rtl"] .custom_checkbox input[type="checkbox"],[dir="rtl"] .custom_checkbox input[type="radio"] {
+    margin-right: 0;
+    margin-left: 10px;
+}
+[dir="rtl"] .form-group input[type="checkbox"]:checked + label::after {
+    left: unset;
+    right: 4px;
+    top: -2px;
+}
+[dir="rtl"] .form-select {
+    background-position: left 0.75rem center;
+    padding-right: 16px;
+}
+[dir="rtl"] .DashlogOutBtn svg {
+    margin-right: unset;
+    margin-left: 8px;
+}
+[dir="rtl"] .img_delete_btn {
+    margin-left: unset;
+    margin-right: 16px;
+}
+[dir="rtl"] .img_profile_banner {
+    margin-right: unset;
+    margin-left: 32px;
+}
+[dir="rtl"] input[type="date"]{
+    display: flex;
+    flex-direction: row-reverse;
+}
+[dir="rtl"] input::-webkit-datetime-edit {
+    text-align: right;
+}
+[dir="rtl"] .btn-close {
+    margin-left: 0 !important;
+}
+[dir="rtl"] .inneditBtn input {
+    padding-right: 16px !important;
+    padding-left: 40px !important;
+}
+[dir="rtl"] .InputEditBtn {
+    right: unset;
+    left: 15px;
+}
+
+[dir="rtl"] .menu-toggle {
+    right: unset;
+    left: 0;
+}
+[dir="rtl"] .dashboard-nav {
+    left: unset;
+    right: -300px;
+}
+[dir="rtl"] .dashboard-nav.mobile-show {
+    left: unset;
+    right: 0px;
+}
+[dir="rtl"]  .navbar-brand {
+    margin-right: 0;
+    margin-left: 5px;
+}
+[dir="rtl"] .dashboard-nav-item {
+    padding: 10px 16px 10px 20px;
+}
+
+[dir="rtl"] .vendor_right_content {
+    right: unset;
+    left: 0;
+}
+[dir="rtl"] .newItemStar svg {
+    margin: 0 0 0 5px;
+}
+[dir="rtl"] .showingTitle {
+    padding-left: 0;
+    padding-right: 13px;
+}
+[dir="rtl"] .Warehouse_button span {
+    padding-right: 0;
+    padding-left: 10px;
+}
+[dir="rtl"] .doc-file-input > .label i {
+    margin-right: 0;
+    margin-left: 7px;
+}
+[dir="rtl"] .account_vendor_click {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+/* dashbord rtl css  */
+[dir="rtl"] .page_container {
+    padding-left: 0;
+    padding-right: 300px;
+}
+[dir="rtl"] .main_content {
+    padding: calc(90px + 45px) 48px 10px 24px;
+}
+[dir="rtl"] .expanded-btn.onlyDesktopView {
+    right: unset;
+    left: -19px;
+}
+[dir="rtl"] .is-folded .page_container {
+    padding-right: 105px;
+}
+[dir="rtl"] .vendorProfileTab.nav-tabs.nav-tabs {
+    padding-right: 0;
+}
+[dir="rtl"] .img_delete_btn i {
+    padding-left: 3px;
+}
+[dir="rtl"] .menu-items > a, [dir="rtl"] .menu-items button {
+    text-align: right;
+}
+/* [dir="rtl"] .nav_right_langugae {
+    margin-right: 0;
+    margin-left: 25px;
+} */
+[dir="rtl"] #header .extra_nav.for_mobile .nav-item.user_dropdown {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+[dir="rtl"] .me-20 {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+[dir="rtl"] .rightMenuBtn {
+    /* margin-right: 0px; */
+}
+[dir="rtl"] .dashIconFold svg {
+    rotate: 180deg;
+}
+[dir="rtl"] .nav_dash_wrap {
+    padding: 15px 0 15px 30px;
+}
+
+/* dashbord rtl css  end */
+
+[dir="rtl"]  .exportBtn svg {
+    margin-right: 0;
+    margin-left: 7px;
+}
+[dir="rtl"] .ExportBtns.mr-15{
+    margin-right: 0;
+    margin-left: 15px;
+}
+[dir="rtl"] .list-view table tbody td::before {
+    text-align: right;
+}
+[dir="rtl"] .list-view .fridaySaleTitle {
+    padding-right: 0;
+    padding-left: 70px;
+}
+[dir="rtl"] .list-view table .action-col {
+    top: 20px;
+    left: 20px;
+    right: unset;
+}
+[dir="rtl"] .address_area {
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+[dir="rtl"] .userimg {
+    margin-left: 24px;
+    margin-right: 0;
+}
+[dir="rtl"] .myCartSaveRemoveBox .myCartSaveBox i {
+    padding-left: 5px;
+    padding-right: 0;
+}
+[dir="rtl"] .TabelCartSection .CartproductReturn i {
+    padding-left: 10px;
+    padding-right: 0;
+}
+[dir="rtl"] .Check_address_inputs {
+    left: 10px;
+    right: unset;
+}
+[dir="rtl"] .Check_my_address_inputs input {
+    padding-left: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+}
+
+
+@media (max-width: 991.98px) {
+    [dir="rtl"] #header .extra_nav.for_mobile .nav-item.user_dropdown {
+        margin-left: 6px;
+        margin-right: 4px;
+    }
+    [dir="rtl"] #header .extra_nav {
+        margin-right: 8px;
+    }
+    [dir="rtl"] .signIn {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    [dir="rtl"] .navbar-brand {
+        margin-right: 0;
+        margin-left: auto;
+    }
+   .offre_listing_section {
+        gap: 20px;
+    }
+    [dir="rtl"] .side_nav {
+        left: unset;
+        right: -345px;
+    }
+    [dir="rtl"] .is-folded .side_nav {
+        right:0;
+    }
+    .dash_header .dash_logo {
+        margin-left: 0;
+        margin-right: 10px;
+        padding-right: 10px;
+        padding-left: 0;
+    }
+   
+    [dir="rtl"] .page_container {
+        padding-right: 0px;
+    }
+    [dir="rtl"] .navbar-toggler {
+        right: unset;
+        left: 0px;
+    }
+
+    [dir="rtl"] .topHeader .navbar {
+        padding-left: 0px;
+    }
+
+    [dir="rtl"] header .collapse:not(.show).menu-show {
+        left: unset;
+        right: 0;
+    }
+
+    [dir="rtl"] header .collapse:not(.show) {
+        left: unset;
+        right: -300px;
+    }
+
+    [dir="rtl"] .footer-Logo {
+        margin-bottom: 30px;
+    }
+    [dir="rtl"]  .headerTopbar {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    [dir="rtl"]  .main_content {
+        padding: calc(70px + 15px) 15px 15px;
+    }
+    
+}
+@media (max-width: 575.98px) {
+    [dir="rtl"]  .DashlogOutBtn {
+        margin-left: 0;
+    }
+
+    [dir="rtl"] .img_profile_banner {
+        margin: 8px 0 22px;
+    }
+
+    [dir="rtl"]  .signIn {
+        margin-right: 1px;
+    margin-left: 4px;
+    }
+
+    [dir="rtl"] .iconLinks {
+        margin-right: 4px;
+    }
+    [dir="rtl"] .topHeader .navbar {
+        padding-left: 0;
+    }
+    [dir="rtl"] .user_dropdown > .userActionBtn{
+        margin-right: 9px;
+    }
+    [dir="rtl"] .Warehouse_button span {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

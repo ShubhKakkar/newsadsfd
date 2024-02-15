@@ -48,7 +48,7 @@
     width: 61.667%;
   }
   .most-views-section .customPro-col_ {
-    padding-right: 55px;
+    padding-right: 20px;
   }
   .vindorCard {
     height: 175px;
@@ -163,7 +163,7 @@
     font-size: 16px;
   }
   .TabelCartSection .CartproductReturn {
-    font-size: 16px;
+    font-size: 14px;
   }
   .Checkout_Process_wrapper .RemoveProductBtn {
     font-size: 14px;
@@ -374,12 +374,12 @@
     margin-left: 0;
   }
   #header.is-sticky.awake .HeaderSearchBar {
-    display: none;
+    /* display: none; */
   }
   .navbar-expand-lg .navbar-nav {
     display: flex;
     width: 100%;
-/*    justify-content: space-between;*/
+   justify-content: center;
     align-items: center;
   }
   .mobile_logo {
@@ -399,7 +399,7 @@
 }
 @media (min-width: 768px) {
   .customPro-col {
-    padding: 0 35px;
+    padding: 0 15px;
   }
   .row.custom-row {
     margin-right: -35px;
@@ -798,7 +798,7 @@
     white-space: nowrap;
   }
   .TabelCartSection .table-borderless > :not(caption) > * > * {
-    padding: 25px 30px 25px;
+    padding: 25px 16px 25px;
   }
   .reviewStarCount {
     padding-left: 70px;
@@ -1058,7 +1058,7 @@
     max-width: 300px;
   }
   .HeaderSearchBar {
-    margin-bottom: 19px;
+    /* margin-bottom: 19px; */
   }
   .heroContainer {
     padding: 22px;
@@ -1164,9 +1164,44 @@
 }
 
 @media (max-width: 991.98px) {
+  .nav-link.dropdown-toggle .userActionBtn{
+    display: inline;
+  }
+  .navbar-brand{
+    margin-right: auto;
+  }
+  #header .extra_nav.for_mobile.sideBarMobile {
+    display: block;
+  }
   .menu-show .menus {
     align-items: flex-start;
 }
+.headerMenuBar .dropdown {
+  position: relative;
+  box-shadow: none;
+  
+  width: 100%;
+}
+.headerMenuBar .arrow{
+  position: absolute;
+  right: 5px;
+}
+.headerMenuBar .nav-item.menu-items{
+  width: 100%;
+}
+.menu-items a + span{
+  position: absolute;
+  right: 0;
+}
+.headerMenuBar .dropdown .dropdown-submenu {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+/*  */
+
+
   .all_reviews_modal .modal-content {
     padding: 0px 20px 20px;
   }
@@ -1329,10 +1364,11 @@
     left: 0px;
   }
   .user_dropdown .dropdown-menu.show {
-    right: 40px !important;
+    /* right: 40px !important; */
   }
   .signIn {
-    margin-right: 40px;
+    margin-right: 15px;
+    margin-left: 0px;
   }
   .mobileSideBarSelect .form-select {
     font-size: 14px;
@@ -1354,8 +1390,8 @@
     height: 22px;
   }
   .iconLinks {
-    margin-right: 15px;
-    margin-left: 0;
+    margin-inline: 8px;
+    /* margin-left: 0; */
   }
   .headerMenuBar {
     margin: 0;
@@ -1432,12 +1468,12 @@
   .navbar-toggler {
     width: 24px;
     height: 24px;
-    position: absolute;
+    position: relative;
     right: 0px;
     padding: 0;
     z-index: 9;
     border-color: transparent;
-    top: 12px;
+    /* top: 12px; */
   }
   .navbar-toggler:before {
     -webkit-transition: all 0.3s ease;
@@ -1578,7 +1614,7 @@
     display: none;
   }
   .user_dropdown > a {
-    margin-right: 40px;
+    /* margin-right: 40px; */
   }
   #header .extra_nav {
     margin-left: 0;
@@ -1595,8 +1631,8 @@
 
   #header .navbar-expand-lg .navbar-nav .nav-link {
     color: #30383d;
-    font-size: 15px;
-    padding: 5px 0;
+    font-size: 14px;
+    padding: 0;
   }
   #header .navbar-expand-lg .navbar-nav .nav-link.extra_btn {
     width: 100%;
@@ -1631,9 +1667,16 @@
   #header .navbar-expand-lg .navbar-nav .nav-item {
     margin-right: 0px !important;
     margin-bottom: 1px;
+    margin-left: 0;
   }
+  .menu-items > a, .menu-items button {
+    padding: 5px 0;
+}
   #header .extra_nav.for_mobile .nav-item {
     margin-bottom: 0;
+  }
+  #header .extra_nav.for_mobile .nav-item.user_dropdown {
+    margin-left: 15px;
   }
   #header .navbar-nav .dropdown-menu {
     border: none;
@@ -1644,8 +1687,14 @@
     padding-left: 8px;
   }
   #header .for_mobile {
-    display: block;
+    /* display: block; */
   }
+  #header .for_mobile {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin-right: 15px;
+}
   #header .for_desktop,
   #header .nav-item.langugae_filter.for_desktop {
     display: none;
@@ -1718,6 +1767,19 @@
 }
 
 @media (max-width: 767.98px) {
+  .rightMenuBtn{
+    width: 30px;
+  }
+  .navbar-toggler {
+    /* position: absolute;
+    top: 12px; */
+}
+  #header .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 5px;
+}
+  .number_form_input {
+    flex-wrap: wrap;
+}
   #checkout-progress .orderprogress-bar .step:after {
     left: 8px;
 }
@@ -1748,7 +1810,8 @@
     width: 22px;
   }
   .rightMenuBtn {
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    /* margin-inline: 5px; */
     padding: 3px;
 }
   .AddBalanceBoxBtn {
@@ -1868,7 +1931,7 @@
   }
 
   .sale-section-wrapper {
-    margin: 25px 0 100px;
+    margin: 25px 0 30px;
   }
   .TotalPriceCart h3,
   .TotalPriceCart span {
@@ -1918,9 +1981,7 @@
     padding-top: 4px;
     padding-bottom: 4px;
   }
-  .materialBoxTitle1.p-2 {
-    /* padding: 0.2rem!important; */
-  }
+
   .MaterialViewBox3 {
     right: 8px;
     bottom: 5px;
@@ -2026,7 +2087,10 @@
     margin: 0px 0px;
   }
   .topHeader {
-    padding: 7px 0;
+    padding:8px 0 4px 0;
+  }
+  #header.is-sticky.awake .topHeader {
+    padding:8px 0 4px 0;
   }
   .HeaderSearchBar {
     margin-bottom: 10px;
@@ -2042,17 +2106,18 @@
     top: -3px;
   }
   .topHeader {
-    margin-bottom: 12px;
-  }
+    margin-bottom: 5px;
+    border-bottom: 1px solid #69768757;
+}
   .user_dropdown > a.userActionBtn span {
     display: none;
   }
   .searchinput input {
-    height: 40px;
+    height: 35px;
     padding-right: 45px;
   }
   .searchinput {
-    margin-left: 5px;
+    margin-left: 0px;
   }
   .locTab {
     padding: 10px 7px;
@@ -2433,7 +2498,7 @@
     white-space: nowrap;
   }
   .TabelCartSection .table-borderless > :not(caption) > * > * {
-    padding: 25px 30px 25px;
+    padding: 25px 16px 25px;
   }
   .CartNotAvailable .NotAvilable {
     top: 50%;
@@ -2721,8 +2786,24 @@
   .SaleImgCard img {
     height: 180px;
   }
+  .navbar.navbar-expand-lg{
+    /* flex-wrap: nowrap; */
+  }
+  .iconLinks {
+    margin-inline: 4px;
+  }
 }
 @media (max-width: 575.98px) {
+  .navbar.navbar-expand-lg{
+    /* flex-wrap: wrap; */
+  }
+ 
+  .hero_banner_wrapper img {
+    min-height: 280px;
+}
+  .hero_banner_wrapper {
+    padding: 0px 0px;
+}
   .nav_right_notification .dropdown-menu {
     min-width: 284px;
     max-width: 310px;
@@ -3104,7 +3185,7 @@
   .BsponsoredTag {
     font-size: 13px;
     padding: 4px 14px;
-    top: 42px;
+    top: 25px;
   }
 
   .proTitle,
@@ -3189,10 +3270,7 @@
   .save_button_footer {
     margin: 0px 0px 0px 0px;
   }
-  .exp_date {
-    /* width: 45%;
-      display: inline; */
-  }
+
 
   .bank_name,
   .bank_number,
@@ -3223,11 +3301,7 @@
   .bank_card_icon {
     display: flex;
   }
-  .exp012 {
-    /* min-width: 125px;
-      width: 47%;
-      margin: 15px 0 0 0; */
-  }
+ 
 
   .mobile_number_input {
     margin: 20px 0 10px auto;
@@ -3243,7 +3317,7 @@
     padding: 15px 15px 15px;
   }
   .navbar-toggler {
-    top: 7px;
+    /* top: 7px; */
   }
   .custom-col-7 {
     width: 100%;
@@ -3490,7 +3564,23 @@
     top: 17px;
   }
 }
+@media (max-width: 503.98px) {
+  .HeaderSearchBar {
+    /* width: 60%;
+    padding-right: 10%; */
+}
+  .extra_nav.for_mobile{
+    /* margin-left: auto !important;
+    width: 100%;
+    justify-content: flex-end; */
+  }
+  #header .extra_nav .nav-link {
+    margin-right: 0px;
+}
+}
 @media (max-width: 479.98px) {
+
+  
   .productBuyAdd {
     width: 100%;
   }
@@ -3533,9 +3623,36 @@
   }
 }
 @media (max-width: 364.98px) {
+  #header .extra_nav.for_mobile .nav-item.user_dropdown {
+    margin-left: 8px;
+}
+#header .for_mobile {
+  margin-right: 8px;
+}
+.cartCounter {
+  width: 12px;
+  height: 12px;
+  font-size: 9px;
+}
+.navbar-brand {
+  margin-right: 8px;
+}
+  .user_dropdown svg {
+    height: 25px;
+    width: 25px;
+  }
+  .rightMenuBtn {
+    width: 25px;
+    border-radius: 4px;
+    height: 25px;
+}
+.rightMenuBtn svg {
+    width: 14px;
+    height: 14px;
+}
   .iconLinks {
-    margin-right: 3px;
-
+    /* margin-right: 3px; */
+  }
   .return-card-popup .ReturnItemImg img {
     width: 100%;
     height: 220px;
