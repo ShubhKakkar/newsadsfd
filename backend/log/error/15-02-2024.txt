@@ -419,3 +419,143 @@
       Message = Your email is not registered with noonmar.
       Time = 09:22 AM
     
+    ----------------------------
+      URL = /details/651e7d64c4bfaeadc751dc7a
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"651e7d64c4bfaeadc751dc7a"}
+      Header = Bearer undefined
+      Token = undefined
+      AT = exports.vendorDetails (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/vendor.js:2139:7)
+      Message = Something went wrong.
+      Time = 09:59 AM
+    
+    ----------------------------
+      URL = /details/651e7d64c4bfaeadc751dc7a
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"651e7d64c4bfaeadc751dc7a"}
+      Header = Bearer undefined
+      Token = undefined
+      AT = exports.vendorDetails (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/vendor.js:2140:7)
+      Message = Something went wrong.
+      Time = 10:05 AM
+    
+    ----------------------------
+      URL = /details/651e7d64c4bfaeadc751dc7a
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"651e7d64c4bfaeadc751dc7a"}
+      Header = Bearer undefined
+      Token = undefined
+      AT = exports.vendorDetails (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/vendor.js:2140:7)
+      Message = Something went wrong.
+      Time = 10:09 AM
+    
+    ----------------------------
+      URL = /details/651e7d64c4bfaeadc751dc7a
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"651e7d64c4bfaeadc751dc7a"}
+      Header = Bearer undefined
+      Token = undefined
+      AT = exports.vendorDetails (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/vendor.js:2140:7)
+      Message = Something went wrong.
+      Time = 10:11 AM
+    
+    ----------------------------
+      URL = /details/651e7d64c4bfaeadc751dc7a
+      Method = GET
+      userId = undefined
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {"id":"651e7d64c4bfaeadc751dc7a"}
+      Header = Bearer undefined
+      Token = undefined
+      AT = exports.vendorDetails (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/vendor.js:2144:7)
+      Message = Something went wrong.
+      Time = 10:13 AM
+    
+    ----------------------------
+      URL = /login
+      Method = POST
+      userId = undefined
+      isAdmin = undefined
+      Body = {"emailOrPhone":"customerone@yopmail.com","password":"System@!23"}
+      Query = {}
+      Params = {}
+      Header = undefined
+      Token = undefined
+      AT = exports.login (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/customer.js:56:11)
+      Message = Invalid credentials. Please check your Email/Phone or Password.
+      Time = 10:15 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 651bc8ec8c1f89d2fc0ded3e
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJjOGVjOGMxZjg5ZDJmYzBkZWQzZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDc5NzIzMzQsImV4cCI6MTczOTUyOTkzNCwiaXNzIjoibm9vbm1hciJ9.B138dHfT1Nmt1xqbaVwXf3bok6395WPMTehRO9tkaIg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJjOGVjOGMxZjg5ZDJmYzBkZWQzZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDc5NzIzMzQsImV4cCI6MTczOTUyOTkzNCwiaXNzIjoibm9vbm1hciJ9.B138dHfT1Nmt1xqbaVwXf3bok6395WPMTehRO9tkaIg
+      AT = exports.get (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 10:15 AM
+    
+    ----------------------------
+      URL = /details/651e7d64c4bfaeadc751dc7a
+      Method = GET
+      userId = 651bc8ec8c1f89d2fc0ded3e
+      isAdmin = false
+      Body = {}
+      Query = {}
+      Params = {"id":"651e7d64c4bfaeadc751dc7a"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJjOGVjOGMxZjg5ZDJmYzBkZWQzZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDc5NzIzMzQsImV4cCI6MTczOTUyOTkzNCwiaXNzIjoibm9vbm1hciJ9.B138dHfT1Nmt1xqbaVwXf3bok6395WPMTehRO9tkaIg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJjOGVjOGMxZjg5ZDJmYzBkZWQzZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDc5NzIzMzQsImV4cCI6MTczOTUyOTkzNCwiaXNzIjoibm9vbm1hciJ9.B138dHfT1Nmt1xqbaVwXf3bok6395WPMTehRO9tkaIg
+      AT = exports.vendorDetails (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/vendor.js:2140:7)
+      Message = Something went wrong.
+      Time = 10:15 AM
+    
+    ----------------------------
+      URL = /details/651e7d64c4bfaeadc751dc7a
+      Method = GET
+      userId = 651bc8ec8c1f89d2fc0ded3e
+      isAdmin = false
+      Body = {}
+      Query = {}
+      Params = {"id":"651e7d64c4bfaeadc751dc7a"}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJjOGVjOGMxZjg5ZDJmYzBkZWQzZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDc5NzIzMzQsImV4cCI6MTczOTUyOTkzNCwiaXNzIjoibm9vbm1hciJ9.B138dHfT1Nmt1xqbaVwXf3bok6395WPMTehRO9tkaIg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJjOGVjOGMxZjg5ZDJmYzBkZWQzZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDc5NzIzMzQsImV4cCI6MTczOTUyOTkzNCwiaXNzIjoibm9vbm1hciJ9.B138dHfT1Nmt1xqbaVwXf3bok6395WPMTehRO9tkaIg
+      AT = exports.vendorDetails (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/vendor.js:2146:7)
+      Message = Something went wrong.
+      Time = 10:17 AM
+    
+    ----------------------------
+      URL = /
+      Method = GET
+      userId = 651bc8ec8c1f89d2fc0ded3e
+      isAdmin = undefined
+      Body = {}
+      Query = {}
+      Params = {}
+      Header = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJjOGVjOGMxZjg5ZDJmYzBkZWQzZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDc5NzIzMzQsImV4cCI6MTczOTUyOTkzNCwiaXNzIjoibm9vbm1hciJ9.B138dHfT1Nmt1xqbaVwXf3bok6395WPMTehRO9tkaIg
+      Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWJjOGVjOGMxZjg5ZDJmYzBkZWQzZSIsImlzQWRtaW4iOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDc5NzIzMzQsImV4cCI6MTczOTUyOTkzNCwiaXNzIjoibm9vbm1hciJ9.B138dHfT1Nmt1xqbaVwXf3bok6395WPMTehRO9tkaIg
+      AT = exports.get (/home/shubham-kakkar/Desktop/office/noonmar/backend/controllers/v1/notification.js:56:7)
+      Message = Could not able to fetch notifications
+      Time = 10:19 AM
+    

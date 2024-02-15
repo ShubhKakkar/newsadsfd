@@ -774,6 +774,7 @@ const Product = ({
                         </div>
                       </div>
                       <div className="ProductContactVendor">
+                      {console.log("product", product)}
                         <Link
                           href={`/vendor/${product.vendorData?._id}`}
                           legacyBehavior
