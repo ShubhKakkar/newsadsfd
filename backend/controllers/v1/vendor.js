@@ -1708,7 +1708,7 @@ exports.vendorDetails = async (req, res, next) => {
   }
 
   if (!perPage) {
-    perPage = 30;
+    perPage = 16;
   }
 
   perPage = +perPage;

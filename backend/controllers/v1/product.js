@@ -135,7 +135,7 @@ exports.getAll = async (req, res, next) => {
     sortBy,
     dynamicFilters = [],
     category,
-    perPage = 30,
+    perPage = 16,
     dynamicSpecifications = [],
   } = req.body;
 
@@ -862,41 +862,6 @@ exports.getAll = async (req, res, next) => {
         // },
       },
     },
-    // {
-    //   $unwind: {
-    //     path: "$pricesFiltered",
-    //   },
-    // },
-    // {
-    //   $unwind: {
-    //     path: "$media",
-    //     preserveNullAndEmptyArrays: true,
-    //   },
-    // },
-    // {
-    //   $addFields: {
-    //     price: "$pricesFiltered.sellingPrice",
-    //     discountedPrice: "$pricesFiltered.discountPrice",
-    //     discountPercentage: {
-    //       $round: [
-    //         {
-    //           $subtract: [
-    //             100,
-    //             {
-    //               $divide: [
-    //                 {
-    //                   $multiply: ["$pricesFiltered.discountPrice", 100],
-    //                 },
-    //                 "$pricesFiltered.sellingPrice",
-    //               ],
-    //             },
-    //           ],
-    //         },
-    //         2,
-    //       ],
-    //     },
-    //   },
-    // },
     {
       $match: {
         ...matchObj,
@@ -1454,13 +1419,18 @@ exports.getAll = async (req, res, next) => {
     });
   }
 
+  const startIndex = (page - 1) * perPage;
+  const endIndex = page * perPage;
+
+  const paginatedProducts = products.slice(startIndex, endIndex);
+
   res.status(200).json({
     status: true,
     message: "Products fetched successfully",
-    products,
+    products: paginatedProducts,
     minPrice: minPriceData?.price ?? 0,
     maxPrice: maxPriceData?.price ?? 0,
-    totalProducts: totalProducts,
+    totalProducts: products.length,
     currency: "$",
     brands: brandAndSubCatData?.brandsData ?? [],
     subCategories: brandAndSubCatData?.subCategoriesData ?? [],
@@ -1474,12 +1444,35 @@ exports.getAll = async (req, res, next) => {
   });
 };
 
+// exports.getAllCategoryProducts = async (req, res, next) => {
+//   let languageCode = req.languageCode;
+//   console.log("languageCode", languageCode);
+//   try {
+//     const products = await Product.aggregate(
+//       [
+//         {
+//           $match: {}
+//         }
+//       ]
+//     )
+//   } catch (err) {
+//     console.log(err);
+//     return res.status(200).json({
+//       status: false,
+//       message: "Could not fetch product",
+//       product: {},
+//       currency: "$",
+//       variants: [],
+//       selectedVariant: {},
+//       variantsValue: [],
+//     });
+//   }
+// };
+
 //updated
 exports.getOne = async (req, res, next) => {
   const { slug } = req.params;
   const { vendor } = req.query;
-
-  console.log("get_product_data", req.params, req.query);
 
   let countryId = req.countryId;
   let languageCode = req.languageCode;
@@ -1709,6 +1702,7 @@ exports.getOne = async (req, res, next) => {
                     ],
                   },
                 },
+
                 {
                   $lookup: {
                     from: "productvariantdescriptions",
@@ -1746,6 +1740,44 @@ exports.getOne = async (req, res, next) => {
                     path: "$langData",
                   },
                 },
+
+                {
+                  $lookup: {
+                    from: "productvariantdescriptions",
+                    let: {
+                      productVariantId: "$_id",
+                    },
+                    pipeline: [
+                      {
+                        $match: {
+                          $and: [
+                            {
+                              $expr: {
+                                $eq: [
+                                  "$productVariantId",
+                                  "$$productVariantId",
+                                ],
+                              },
+                              languageCode: "en",
+                            },
+                          ],
+                        },
+                      },
+                      {
+                        $project: {
+                          slug: 1,
+                        },
+                      },
+                    ],
+                    as: "engData",
+                  },
+                },
+                {
+                  $unwind: {
+                    path: "$engData",
+                  },
+                },
+
                 {
                   $lookup: {
                     from: "vendorproductvariants",
@@ -5957,7 +5989,7 @@ exports.getMostViewedItems = async (req, res, next) => {
 
   let { perPage, page } = req.query;
 
-  perPage = perPage ? +perPage : 6;
+  perPage = perPage ? +perPage : 10;
   page = page ? +page : 1;
 
   const wishlistObj = {
@@ -6410,7 +6442,7 @@ exports.getMostViewedItems_old = async (req, res, next) => {
 
   let { perPage, page } = req.query;
 
-  perPage = perPage ? +perPage : 6;
+  perPage = 10;
   page = page ? +page : 1;
 
   const wishlistObj = {
@@ -6839,7 +6871,7 @@ exports.newlyLaunchedItems = async (req, res, next) => {
 
   let { perPage, page } = req.query;
 
-  perPage = perPage ? +perPage : 2;
+  perPage = perPage ? +perPage : 10;
   page = page ? +page : 1;
 
   const COMMON = [
@@ -7193,7 +7225,7 @@ exports.getBySubCategory = async (req, res, next) => {
     dynamicFilters = [],
     category, //slug
     subCategory, //slug
-    perPage = 30,
+    perPage = 16,
     // childCategories = [],
     dynamicSpecifications = [],
   } = req.body;
@@ -9401,7 +9433,7 @@ exports.getByBrand = async (req, res, next) => {
     page,
     sortBy, // priceAsc, priceDesc, new
     brand,
-    perPage = 30,
+    perPage = 16,
     // childCategories = [],
   } = req.body;
 
@@ -10899,7 +10931,7 @@ exports.getSponsoredItems = async (req, res, next) => {
 
   let { perPage, page } = req.query;
 
-  perPage = perPage ? +perPage : 5;
+  perPage = perPage ? +perPage : 10;
   page = page ? +page : 1;
 
   const wishlistObj = {
@@ -10969,14 +11001,14 @@ exports.getSponsoredItems = async (req, res, next) => {
         },
       },
     },
-    {
-      $limit: 10,
-    },
-    {
-      $sort: {
-        createdAt: -1,
-      },
-    },
+    // {
+    //   $limit: 10,
+    // },
+    // {
+    //   $sort: {
+    //     createdAt: -1,
+    //   },
+    // },
     // added new start
     {
       $lookup: {

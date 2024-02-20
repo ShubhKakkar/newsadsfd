@@ -64,7 +64,6 @@ const Home = ({ verifyNews, homeData }) => {
 
     try {
       const mostViewedProductsData = await getMostViewedProducts();
-      console.log(mostViewedProducts);
       setMostViewedProducts(mostViewedProductsData.products);
     } finally {
       setLoading((prevLoading) => ({
@@ -85,7 +84,6 @@ const Home = ({ verifyNews, homeData }) => {
 
     try {
       const sponsoredItemsList = await getSponsoredItems();
-      console.log(sponsoredItems);
       setSponseredItemsList(sponsoredItemsList.products);
     } finally {
       setLoading((prevLoading) => ({
@@ -96,7 +94,6 @@ const Home = ({ verifyNews, homeData }) => {
 
     try {
       const featuredVendorsList = await getFeaturedVendors();
-      console.log(featuredVendors);
       setFeaturedVendorList(featuredVendorsList.vendors);
     } finally {
       setLoading((prevLoading) => ({
@@ -358,7 +355,7 @@ const Home = ({ verifyNews, homeData }) => {
               <div className="container my-2">
                 <h1>Top Selling Products</h1>
                 <div className="row mx-n2">
-                  {[...Array(5)].map((_, index) => (
+                  {[...Array(10)].map((_, index) => (
                     <div
                       key={index}
                       className="col-lg-2 col-md-4 col-sm-6 px-2"
@@ -466,7 +463,7 @@ const Home = ({ verifyNews, homeData }) => {
           <div className="container my-2">
             <h1>Most Viewed Items</h1>
             <div className="row mx-n2">
-              {[...Array(5)].map((_, index) => (
+              {[...Array(10)].map((_, index) => (
                 <div key={index} className="col-lg-2 col-md-4 col-sm-6 px-2">
                   <ProductSkeleton key={index} />
                 </div>
@@ -478,37 +475,39 @@ const Home = ({ verifyNews, homeData }) => {
             <section className="most-views-section section-margin">
               <div className="container">
                 <div className="row">
-                  <div className="col-md-12 col-lg-8 view-col-1">
+                  <div className="col-md-12 col-lg-12 view-col-1_">
                     <div className="text-start">
-                      <h2 className="section-heading borderhide">
+                      <h2 className="section-heading ">
                         {t("Most Viewed Items")}
                       </h2>
                     </div>
-                    <div className="row align-items-center_">
+                    <div className="section">
+                    <div className="row align-items-center">
                       {mostViewedProducts
                         // .filter((_, idx) => idx < 3)
                         .map((product) => (
                           <HomePageProduct
                             key={product._id}
                             product={product}
-                            classes="customPro-col_ col-md-4 col-sm-6"
+                            classes="customPro-col"
                           />
                         ))}
                     </div>
+                    </div>
                   </div>
-                  <div className="col-md-12 col-lg-4 view-col-2">
+                  {/* <div className="col-md-12 col-lg-4 view-col-2">
                     <div
                       className={`viewedBanner ${
                         mostViewedProducts.length == 3 ? "smallBannerImage" : ""
                       }`}
                     >
                       {/* <img src="/assets/img/most-viewed-baner.png" alt="" /> */}
-                      <img
+                  {/* <img
                         src={`${MEDIA_URL}/${homePageSectionFive.image}`}
                         alt=""
                       />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </section>
@@ -548,7 +547,7 @@ const Home = ({ verifyNews, homeData }) => {
           <div className="container my-2">
             <h1>Newly Launched Items</h1>
             <div className="row mx-n2">
-              {[...Array(5)].map((_, index) => (
+              {[...Array(10)].map((_, index) => (
                 <div key={index} className="col-lg-2 col-md-4 col-sm-6 px-2">
                   <ProductSkeleton key={index} />
                 </div>
@@ -564,38 +563,44 @@ const Home = ({ verifyNews, homeData }) => {
                     {t("Newly Launched Items")}
                   </h2>
                 </div>
-                <div className="newlylaunchedCard">
-                  <div className="row">
+                <div className="newlylaunchedCard section">
+                  <div className="row align-items-center">
                     {mostLatestProducts.map((product) => (
-                      <div key={product._id} className="col-md-6">
-                        <div className="newlyItemCard">
-                          <div className="newItemRow">
+                      <div key={product._id} className="customPro-col">
+                        <div className="productCard rounded m-t-30">
+                          <div className="newItemRow_">
+                            
+                          <a>
                             <div
                               onClick={() =>
                                 router.push(`/product/${product.slug}`)
                               }
-                              className="itemImage cursor"
+                              className="productImgCard cursor"
                             >
-                              <a>
+                                {/* <img
+                                  src={`http://192.168.235.245:7009/uploads/images/product/product_220240215T132544246Z.jpg`}
+                                  alt=""
+                                  className="img-fluid rounded-top"
+                                /> */}
                                 <img
                                   src={`${MEDIA_URL}/${product.media}`}
                                   alt=""
-                                  className="newlyItemImg"
+                                  className="img-fluid rounded-top"
                                 />
+                                </div>
                               </a>
-                            </div>
                             <div className="newItemDetail">
                               <a
                                 onClick={() =>
                                   router.push(`/product/${product.slug}`)
                                 }
-                                className="newITitle cursor"
+                                className="proTitle cursor"
                               >
                                 {product.name}
                               </a>
                               <div className="itemBoughtTitle">
                                 {t("Buy it at the best price")}
-                                <span className="itemBoughtpri">
+                                <span className="proPriRow">
                                   {product.discountedPrice} {product.currency}
                                 </span>
                               </div>
@@ -662,7 +667,7 @@ const Home = ({ verifyNews, homeData }) => {
             <div className="container my-2">
               <h1>Sponsored Items</h1>
               <div className="row mx-n2">
-                {[...Array(5)].map((_, index) => (
+                {[...Array(10)].map((_, index) => (
                   <div key={index} className="col-lg-2 col-md-4 col-sm-6 px-2">
                     <ProductSkeleton key={index} />
                   </div>
@@ -698,7 +703,7 @@ const Home = ({ verifyNews, homeData }) => {
             <div className="container my-2">
               <h1>Shop by Vendors</h1>
               <div className="row mx-n2">
-                {[...Array(5)].map((_, index) => (
+                {[...Array(10)].map((_, index) => (
                   <div key={index} className="col-lg-2 col-md-4 col-sm-6 px-2">
                     <ProductSkeleton key={index} />
                   </div>

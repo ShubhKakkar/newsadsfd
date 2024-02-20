@@ -511,7 +511,7 @@ exports.getAllByCountry = async (req, res, next) => {
       },
     },
     {
-      $limit: 7,
+      $limit: 9,
     },
     {
       $lookup: {

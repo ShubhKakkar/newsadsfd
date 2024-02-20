@@ -21,7 +21,7 @@ import {
   DynamicCategory,
 } from "@/components/ProductListing/Filters";
 
-const PER_PAGE = 30;
+const PER_PAGE = 16;
 
 const Products = ({
   productsArr,

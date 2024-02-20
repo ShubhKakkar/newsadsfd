@@ -89,6 +89,12 @@ router.get(
   productsController.topSellingItems
 );
 
+// router.post(
+//   "/category",
+//   languageMiddleware,
+//   productsController.getAllCategoryProducts
+// );
+
 router.get("/init", vendorAuth, productsController.getInitialAddProductData);
 
 router.get("/alternate", vendorAuth, productsController.getAlternateProducts);

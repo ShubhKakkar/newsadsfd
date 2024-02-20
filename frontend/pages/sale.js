@@ -775,7 +775,7 @@ const Sale = () => {
                     </div>
                   </div>
                 </div>
-                <div className="product-listingOrder">
+                <div className="product-listingOrder section-margin">
                   <h1 className="sale_product_heading">
                     50% FLAT SALE Products
                   </h1>
@@ -1262,7 +1262,7 @@ const Sale = () => {
                     </div>
                   </div>
                 </div>
-                <div className="christmas_sale_banner">
+                <div className="christmas_sale_banner section-margin">
                   <div className="row g-4">
                     <div className="col-md-6">
                       <a href="#!" className="ChristmasSaleImg">
@@ -1276,7 +1276,7 @@ const Sale = () => {
                     </div>
                   </div>
                 </div>
-                <div className="product-listingOrder">
+                <div className="product-listingOrder section-margin">
                   <h1 className="sale_product_heading">Top Offers</h1>
                   <div className="row g-4 align-items-center ">
                     <div className="col-md-6 col-sm-6 col-lg-4 col-xxl-3  customPro-col-sale  ">

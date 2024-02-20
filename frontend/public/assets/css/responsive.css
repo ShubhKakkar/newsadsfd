@@ -814,7 +814,7 @@
     object-fit: cover;
   }
   .Vendor_Details_Store {
-    min-width: 100%;
+    /* min-width: 100%; */
   }
   .save_button_footer {
     margin: 0px 0px 0px auto;
@@ -1164,6 +1164,9 @@
 }
 
 @media (max-width: 991.98px) {
+  .section-margin {
+    margin: 20px 0;
+}
   .nav-link.dropdown-toggle .userActionBtn{
     display: inline;
   }
@@ -1767,6 +1770,35 @@
 }
 
 @media (max-width: 767.98px) {
+  .nav_right_notification .dropdown-menu {
+    max-width: 300px;
+}
+  .footerFullSpace {
+    padding: 0 10px;
+}
+  
+  .paymentMethodType {
+    margin-bottom: 15px;
+  }
+  .play_btns {
+    margin-bottom: 30px;
+}
+
+  .offersSlider .swiper-button-next, .offersSlider .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+  }
+  
+.offersSlider .swiper-button-prev::after, .offersSlider .swiper-rtl .swiper-button-next::after {
+  width: 40px;
+  height: 40px;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 5px;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 5px;
+}
   .rightMenuBtn{
     width: 30px;
   }
@@ -2133,7 +2165,7 @@
     width: 14px;
   }
   .footerBg {
-    padding: 20px;
+    padding: 5px;
     margin: 15px 10px;
   }
   .custom-col-7 {
@@ -2141,7 +2173,7 @@
     margin-bottom: 0;
   }
   .fopterrow {
-    margin: 40px 0 8px;
+    margin:10px 0 8px;
   }
 
   .offerRow {
@@ -2234,7 +2266,7 @@
     font-size: 12px;
   }
   footer h6 {
-    margin: 0 0 20px;
+    margin: 0 0 6px;
   }
   .features-coin {
     height: 55px;
@@ -2804,10 +2836,10 @@
   .hero_banner_wrapper {
     padding: 0px 0px;
 }
-  .nav_right_notification .dropdown-menu {
-    min-width: 284px;
-    max-width: 310px;
-    right: -82px !important;
+    .nav_right_notification .dropdown-menu {
+      min-width: 240px;
+      max-width: 240px;
+      right: auto !important;
 }
 .notiHeader_top {
   padding: 0 16px;
@@ -3320,7 +3352,7 @@
     /* top: 7px; */
   }
   .custom-col-7 {
-    width: 100%;
+    width: 46%;
     margin-bottom: 5px;
   }
   .viewOfrBtn {
@@ -3580,7 +3612,6 @@
 }
 @media (max-width: 479.98px) {
 
-  
   .productBuyAdd {
     width: 100%;
   }
@@ -3623,6 +3654,9 @@
   }
 }
 @media (max-width: 364.98px) {
+  .nav_right_notification .dropdown-menu {
+    left: -40px;
+}
   #header .extra_nav.for_mobile .nav-item.user_dropdown {
     margin-left: 8px;
 }

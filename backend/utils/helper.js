@@ -250,6 +250,7 @@ const fileUpload = (file, folderName) => {
     return filePath;
   }
 };
+
 const checkExistEmailOrContact = async (email, contact, Modals) => {
   let promises = [];
   let Resolve;
@@ -3647,14 +3648,12 @@ const pushNotificationHelper = ({
   });
 };
 
-
 const userCartCounter = async (userId) => {
   let cartTotal = 0;
 
   try {
     cartTotal = await Cart.countDocuments({ customerId: userId });
-  } catch (err) {
-  }
+  } catch (err) {}
 
   return cartTotal;
 };
@@ -3696,5 +3695,5 @@ module.exports = {
   getOrderInvoice,
   pushNotificationHelper,
   getCountryByName,
-  userCartCounter
+  userCartCounter,
 };

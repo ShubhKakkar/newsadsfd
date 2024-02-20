@@ -1093,10 +1093,14 @@ ul.footer-links {
 ul.footer-links.FootCMSLinks li a{
 font-size: 13px;
 }
+figure.paymentImg {
+  margin: unset;
+}
 .paymentMethodType {
   display: flex;
   align-items: center;
   gap: 10px 30px;
+  flex-wrap: wrap;
 }
 .footerFullSpace{
   padding: 0 60px;
@@ -1379,7 +1383,7 @@ footer h6 {
 /* products card */
 .productCard {
   position: relative;
-    box-shadow: 0 8px 19px -13px rgb(0 0 0 / 47%);
+    box-shadow: 0 8px 18px -5px rgb(0 0 0 / 47%);
     padding: 15px;
 }
 .productCard:hover .proCartBtn {
@@ -1452,7 +1456,7 @@ footer h6 {
   padding: 5px 15px;
   left: -10px;
   top: 30px;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
 }
 
 .BsponsoredTag {
@@ -1465,7 +1469,7 @@ footer h6 {
   padding: 5px 15px;
   left: -10px;
   top: 30px;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
 }
 
 .StarCount {
@@ -1543,7 +1547,7 @@ footer h6 {
   color: #697687;
   text-align: center;
   margin-top: 20px;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
   width: 100%;
   white-space: nowrap;
 }
@@ -1558,7 +1562,7 @@ footer h6 {
   font-size: 14px;
   text-align: center;
   margin-top: 20px;
-  font-family: "Inter", sans-serif;
+  /* font-family: "Inter", sans-serif; */
   width: 100%;
   display: block;
 }
@@ -1591,7 +1595,7 @@ footer h6 {
 
 .customPro-col {
   width: 20%;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 /* products card */
@@ -1840,7 +1844,7 @@ ul.vindorList {
 }
 
 .newItemStar svg {
-  width: 28px;
+  width:17px;
   margin: 0 5px 0 0;
 }
 
@@ -2066,6 +2070,7 @@ span.postedNme {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 17px;
 }
 
 .play_btns .google_play_btn {
@@ -2080,7 +2085,7 @@ span.postedNme {
 }
 
 .google_play_btn.apps_store_btn {
-  margin-right: 17px;
+  /* margin-right: 17px; */
 }
 
 .play_btns .google_play_btn span {
@@ -4787,7 +4792,7 @@ a {
 }
 /* product search detail */
 .product-search-detail {
-  margin-top: 80px;
+  margin-top: 45px;
 }
 
 .product-search-block {
@@ -5000,16 +5005,21 @@ a {
     margin-inline: 15px;
 }
 .size_label {
-  border: 2px solid #828282;
+  border: 1px solid #828282;
   padding: 10px 10px;
   font-size: 14px;
-  border-radius: 1px;
+  border-radius: 3px;
   /* width: 46px; */
   font-weight: 600;
   text-align: center;
   height: 44px;
+  width: 46px;
+  font-family: "Inter", sans-serif;
 }
-
+.productSliderImg {
+  background: #fbfbfb;
+  padding: 5px;
+}
 .productSize input:checked + .size_label {
   background-color: #000;
   color: #fff;
@@ -5356,8 +5366,9 @@ a {
   min-width: 311px;
   border: 1px solid #e3e3e3;
   padding: 30px 20px;
-  height: 251px;
+  height: fit-content;
   border-radius: 12px;
+  max-width: 350px;
 }
 .hm-store-content {
   display: flex;
@@ -5602,6 +5613,7 @@ a {
   font-size: 16px;
   letter-spacing: 0.4px;
   color: rgba(0, 0, 0, 0.6);
+  word-break: break-word;
 }
 .lastReviewImg:after {
   content: "";
@@ -5742,7 +5754,7 @@ a {
 }
 
 .sale-section-wrapper {
-  margin: 70px 0 100px;
+  margin: 60px 0 70px;
   font-family: "Qanelas", serif;
 }
 .sale-section-banner .swiper-slide {
@@ -5824,7 +5836,7 @@ a {
   font-weight: 700;
   color: #000000;
   font-family: "Inter", sans-serif;
-  margin: 40px 0 30px;
+  margin: 0px 0 30px;
 }
 
 .customPro-col-sale {
@@ -5853,7 +5865,7 @@ a {
   padding: 8px 8px;
 }
 .christmas_sale_banner {
-  margin: 60px 0 30px;
+  margin: 50px 0 50px;
 }
 
 /*  */
@@ -6091,6 +6103,7 @@ a.Gift_Categories_img {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 64px;
+  gap: 15px;
 }
 
 .wishistsImgCardBox .proStars {
@@ -6282,6 +6295,7 @@ a.Gift_Categories_img {
   width: 75px;
   height: 80px;
   border-radius: 10px;
+  max-width: 80px;
 }
 
 .check_Coach_box1,
@@ -8351,6 +8365,9 @@ video.reel-videoTag,
 .select-reactSelect div {
   /* position: relative; */
   z-index: 9;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  margin: 0 !important;
   /* height: 43px; */
 }
 .form-select- div {
@@ -8655,4 +8672,7 @@ input:checked ~ label {
 }
 .Checkout_Addresse_card {
   height: 100%;
+}
+.PaymentTypeBox button{  
+  font-family: "Inter";
 }

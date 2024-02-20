@@ -680,189 +680,2389 @@ exports.create = async (req, res, next) => {
   });
 };
 
+// exports.getAll = async (req, res, next) => {
+//   let {
+//     page,
+//     per_page,
+//     sortBy,
+//     order,
+//     isActive,
+//     name,
+//     vendor,
+//     dateFrom,
+//     dateTo,
+//     masterCategoryId,
+//     brandId,
+//     price,
+//     customId,
+//     isApproved,
+//     isSponsored,
+//   } = req.query;
+
+//   if (!page) {
+//     const error = new HttpError(
+//       req,
+//       new Error().stack.split("at ")[1].trim(),
+//       "Page Query is required.",
+//       422
+//     );
+//     return next(error);
+//   }
+
+//   per_page = +per_page ?? 10;
+
+//   let data, totalDocuments;
+
+//   let conditions = {};
+
+//   if (dateFrom && dateTo) {
+//     conditions.createdAt = {
+//       $gte: new Date(dateFrom),
+//       $lt: new Date(dateTo),
+//     };
+//   }
+
+//   if (name) {
+//     conditions.name = RegExp(name, "i");
+//   }
+
+//   if (isActive) {
+//     conditions.isActive = isActive === "true";
+//   }
+
+//   if (vendor) {
+//     conditions.vendor = ObjectId(vendor);
+//   }
+
+//   if (masterCategoryId) {
+//     conditions.categoryId = ObjectId(masterCategoryId);
+//   }
+
+//   if (brandId) {
+//     conditions.brandId = ObjectId(brandId);
+//   }
+
+//   if (price) {
+//     conditions.price = price;
+//   }
+
+//   if (customId) {
+//     conditions.customId = customId;
+//   }
+
+//   if (isApproved) {
+//     conditions.isApproved = false;
+//   }
+
+//   if (isSponsored) {
+//     conditions.isSponsored = false;
+//   }
+
+//   const PIPELINE_TOTAL = {
+//     $match: {
+//       isDeleted: false,
+//       ...conditions,
+//     },
+//   };
+
+//   const PIPELINE = [
+//     PIPELINE_TOTAL,
+//     // {
+//     //   $lookup: {
+//     //     from: "vendors",
+//     //     localField: "vendor",
+//     //     foreignField: "_id",
+//     //     as: "vendorData",
+//     //   },
+//     // },
+//     {
+//       $lookup: {
+//         from: "productcategories",
+//         localField: "categoryId",
+//         foreignField: "_id",
+//         as: "categoryData",
+//       },
+//     },
+//     {
+//       $lookup: {
+//         from: "brands",
+//         localField: "brandId",
+//         foreignField: "_id",
+//         as: "brandData",
+//       },
+//     },
+//     // {
+//     //   $unwind: {
+//     //     path: "$vendorData",
+//     //   },
+//     // },
+//     {
+//       $unwind: {
+//         path: "$categoryData",
+//         preserveNullAndEmptyArrays: true,
+//       },
+//     },
+//     {
+//       $unwind: {
+//         path: "$brandData",
+//         preserveNullAndEmptyArrays: true,
+//       },
+//     },
+//     {
+//       $sort: {
+//         [sortBy]: order === "desc" ? -1 : 1,
+//       },
+//     },
+//     {
+//       $skip: (page - 1) * per_page,
+//     },
+//     {
+//       $limit: per_page,
+//     },
+//     {
+//       $project: {
+//         name: 1,
+//         sellingPrice: 1,
+//         isPublished: 1,
+//         status: {
+//           $cond: [
+//             {
+//               $eq: ["$isPublished", true],
+//             },
+//             "Publish",
+//             "Draft",
+//           ],
+//         },
+//         isActive: 1,
+//         createdAt: 1,
+//         customId: 1,
+//         categoryName: "$categoryData.name",
+//         brandName: "$brandData.name",
+//         isApproved: 1,
+//         isSponsored: 1,
+//       },
+//     },
+//   ];
+
+//   try {
+//     if (page == 1) {
+//       totalDocuments = await Product.aggregate([PIPELINE_TOTAL]);
+//     }
+//     data = await Product.aggregate(PIPELINE);
+//   } catch (err) {
+//     const error = new HttpError(
+//       req,
+//       new Error().stack.split("at ")[1].trim(),
+//       "Could not fetch products.",
+//       500
+//     );
+//     return next(error);
+//   }
+//   res.status(200).json({
+//     status: true,
+//     message: "Product fetched successfully.",
+//     data,
+//     totalDocuments: totalDocuments ? totalDocuments.length : null,
+//   });
+// };
+
+// getAllBackup
 exports.getAll = async (req, res, next) => {
+  let countryId = req.countryId;
+  let languageCode = req.languageCode;
+  let userId = req.userId;
+
   let {
+    onSale = false,
+    // subCategories = [],
+    brands = [],
+    minPrice,
+    maxPrice,
+    ratings,
+    minDiscount,
+    maxDiscount,
+    // inStock,
+    // outOfStock,
     page,
-    per_page,
-    sortBy,
-    order,
-    isActive,
-    name,
-    vendor,
-    dateFrom,
-    dateTo,
-    masterCategoryId,
-    brandId,
-    price,
-    customId,
-    isApproved,
-    isSponsored,
-  } = req.query;
+    sortBy, // priceAsc, priceDesc, new
+    dynamicFilters = [],
+    category,
+    perPage = 30,
+    // childCategories = [],
+    dynamicSpecifications = [],
+  } = req.body;
 
   if (!page) {
-    const error = new HttpError(
-      req,
-      new Error().stack.split("at ")[1].trim(),
-      "Page Query is required.",
-      422
-    );
-    return next(error);
+    page = 1;
   }
 
-  per_page = +per_page ?? 10;
+  perPage = +perPage;
 
-  let data, totalDocuments;
+  if (!category) {
+    return res.status(200).json({
+      status: false,
+      message: "Please provide category.",
+    });
+  }
 
-  let conditions = {};
+  let sortByKey = "createdAt";
+  let sortByValue = 1;
 
-  if (dateFrom && dateTo) {
-    conditions.createdAt = {
-      $gte: new Date(dateFrom),
-      $lt: new Date(dateTo),
+  if (sortBy === "priceAsc") {
+    sortByKey = "discountedPrice";
+    sortByValue = 1;
+  } else if (sortBy === "priceDesc") {
+    sortByKey = "discountedPrice";
+    sortByValue = -1;
+  }
+
+  let matchObj = {
+    isDeleted: false,
+  };
+
+  let matchObjTwo = {};
+
+  if (onSale) {
+    matchObjTwo.discountPercentage = {
+      $gt: 0,
     };
   }
 
-  if (name) {
-    conditions.name = RegExp(name, "i");
+  // if (subCategories.length > 0) {
+  //   matchObj.subCategoryId = {
+  //     $in: subCategories.map((sc) => ObjectId(sc)),
+  //   };
+
+  //   if (childCategories.length > 0) {
+  //     matchObj.categoriesId = {
+  //       $in: childCategories.map((sc) => ObjectId(sc)),
+  //     };
+  //   }
+  // }
+
+  if (brands.length > 0) {
+    matchObj.brandId = {
+      $in: brands.map((brand) => ObjectId(brand)),
+    };
   }
 
-  if (isActive) {
-    conditions.isActive = isActive === "true";
+  if (minPrice && maxPrice) {
+    //discountedPrice
+    matchObjTwo.discountedPrice = {
+      $gte: +minPrice,
+      $lte: +maxPrice,
+    };
+  } else if (minPrice) {
+    matchObjTwo.discountedPrice = {
+      $gte: +minPrice,
+    };
+  } else if (maxPrice) {
+    matchObjTwo.discountedPrice = {
+      $lte: +maxPrice,
+    };
   }
 
-  if (vendor) {
-    conditions.vendor = ObjectId(vendor);
+  if (ratings) {
+    matchObjTwo.ratings = +ratings;
   }
 
-  if (masterCategoryId) {
-    conditions.categoryId = ObjectId(masterCategoryId);
+  if (minDiscount && maxDiscount) {
+    matchObjTwo.discountPercentage = {
+      $gte: +minDiscount,
+      $lte: +maxDiscount,
+    };
+  } else if (minDiscount) {
+    matchObjTwo.discountPercentage = {
+      $gte: +minDiscount,
+    };
+  } else if (maxDiscount) {
+    matchObjTwo.discountPercentage = {
+      $lte: +maxDiscount,
+    };
   }
 
-  if (brandId) {
-    conditions.brandId = ObjectId(brandId);
+  // if (inStock && outOfStock) {
+  //   matchObj.inStock = {
+  //     $in: [true, false],
+  //   };
+  // } else if (inStock) {
+  //   matchObj.inStock = {
+  //     $in: [true],
+  //   };
+  // } else if (outOfStock) {
+  //   matchObj.inStock = {
+  //     $in: [false],
+  //   };
+  // }
+
+  let DYNAMIC_FILTERS_PIPELINE = [];
+  let DYNAMIC_SPECIFICATION_PIPELINE = [];
+
+  if (dynamicFilters.length > 0) {
+    const dynamicFiltersObj = {};
+
+    for (let i = 0; i < dynamicFilters.length; i++) {
+      const filter = dynamicFilters[i];
+
+      if (dynamicFiltersObj[filter.id]) {
+        dynamicFiltersObj[filter.id] = [
+          ...dynamicFiltersObj[filter.id],
+          filter.value,
+        ];
+      } else {
+        dynamicFiltersObj[filter.id] = [filter.value];
+      }
+    }
+
+    for (let key in dynamicFiltersObj) {
+      const values = dynamicFiltersObj[key];
+
+      const filtersAgg = [];
+
+      values.forEach((value) => {
+        filtersAgg.push({
+          $and: [
+            {
+              "variantData.firstVariantId": ObjectId(key),
+            },
+            {
+              "variantData.firstSubVariantName": value.toString(),
+            },
+          ],
+        });
+
+        filtersAgg.push({
+          $and: [
+            {
+              "variantData.secondVariantId": ObjectId(key),
+            },
+            {
+              "variantData.secondSubVariantName": value.toString(),
+            },
+          ],
+        });
+      });
+
+      DYNAMIC_FILTERS_PIPELINE.push({
+        $match: {
+          $or: filtersAgg,
+        },
+      });
+    }
+
+    // for (let i = 0; i < dynamicFilters.length; i++) {
+    //   const filtersAgg = [];
+
+    //   const filter = dynamicFilters[i];
+
+    //   DYNAMIC_FILTERS_PIPELINE.push({
+    //     $match: {
+    //       $or: filtersAgg,
+    //     },
+    //   });
+    // }
   }
 
-  if (price) {
-    conditions.price = price;
+  const specificationAgg = [];
+
+  if (dynamicSpecifications.length > 0) {
+    for (let i = 0; i < dynamicSpecifications.length; i++) {
+      const specification = dynamicSpecifications[i];
+
+      specificationAgg.push({
+        $and: [
+          // {
+          //   "features.id": ObjectId(specification.id),
+          // },
+          // {
+          //   "features.value": specification.value.toString(),
+          // },
+          {
+            "values.label": ObjectId(specification.id),
+          },
+          {
+            "values.name": specification.value.toString(),
+          },
+        ],
+      });
+    }
+
+    DYNAMIC_SPECIFICATION_PIPELINE = [
+      {
+        $lookup: {
+          from: "subspecificationgroupvaluedescriptions",
+          let: {
+            ids: "$features.value",
+            label: "$features.label",
+          },
+          pipeline: [
+            {
+              $match: {
+                $expr: {
+                  $in: ["$subSpecificationGroupValueId", "$$ids"],
+                },
+                languageCode: languageCode,
+              },
+            },
+            {
+              $project: {
+                subSpecificationGroupValueId: 1,
+                name: 1,
+                label: {
+                  $arrayElemAt: ["$$label", 0],
+                },
+              },
+            },
+            categoryFilters,
+          ],
+          as: "values",
+        },
+      },
+      {
+        $match: {
+          $or: specificationAgg,
+        },
+      },
+    ];
   }
 
-  if (customId) {
-    conditions.customId = customId;
+  const wishlistObj = {
+    first: [],
+    second: {},
+  };
+
+  if (userId) {
+    wishlistObj.first = [
+      {
+        $lookup: {
+          from: "wishlists",
+          let: {
+            id: "$idForCart",
+          },
+          pipeline: [
+            {
+              $match: {
+                $and: [
+                  {
+                    $expr: {
+                      $eq: ["$$id", "$itemId"],
+                    },
+                  },
+                  {
+                    $expr: {
+                      $eq: ["$itemType", "product"],
+                    },
+                  },
+                  {
+                    $expr: {
+                      $eq: ["$customerId", new ObjectId(userId)],
+                    },
+                  },
+                ],
+              },
+            },
+          ],
+          as: "wishlistData",
+        },
+      },
+    ];
+
+    wishlistObj.second = {
+      isWishlisted: {
+        $cond: [
+          {
+            $size: "$wishlistData",
+          },
+          true,
+          false,
+        ],
+      },
+    };
   }
 
-  if (isApproved) {
-    conditions.isApproved = false;
+  let categoryFilters;
+
+  try {
+    // categoryFilters = await ProductCategory.findOne({
+    //   slug: category,
+    //   isActive: true,
+    //   isDeleted: false,
+    //   country: {
+    //     $in: [new ObjectId(countryId)],
+    //   },
+    // })
+    //   .select("variantIds _id name")
+    //   .lean();
+
+    [categoryFilters] = await ProductCategoryDescription.aggregate([
+      {
+        $match: {
+          slug: category,
+        },
+      },
+      {
+        $lookup: {
+          from: "productcategories",
+          let: {
+            id: "$productCategoryId",
+          },
+          pipeline: [
+            {
+              $match: {
+                $and: [
+                  {
+                    $expr: {
+                      $eq: ["$_id", "$$id"],
+                    },
+                  },
+                  {
+                    $expr: {
+                      $eq: ["$isActive", true],
+                    },
+                  },
+                  {
+                    $expr: {
+                      $eq: ["$isDeleted", false],
+                    },
+                  },
+                ],
+              },
+            },
+          ],
+          as: "result",
+        },
+      },
+      {
+        $unwind: {
+          path: "$result",
+        },
+      },
+      {
+        $lookup: {
+          from: "productcategorydescriptions",
+          let: {
+            productCategoryId: "$productCategoryId",
+          },
+          pipeline: [
+            {
+              $match: {
+                $expr: {
+                  $eq: ["$productCategoryId", "$$productCategoryId"],
+                },
+                languageCode: languageCode,
+              },
+            },
+            {
+              $project: {
+                _id: 0,
+                slug: 1,
+                metaData: 1,
+              },
+            },
+          ],
+          as: "langData",
+        },
+      },
+      {
+        $unwind: {
+          path: "$langData",
+        },
+      },
+      {
+        $lookup: {
+          from: "subspecificationgroups",
+          let: {
+            ids: "$result.specificationFilterIds",
+          },
+          pipeline: [
+            {
+              $match: {
+                $expr: {
+                  $in: ["$_id", "$$ids"],
+                },
+                isActive: true,
+                isDeleted: false,
+              },
+            },
+            {
+              $sort: {
+                name: 1,
+              },
+            },
+            {
+              $project: {
+                _id: 1,
+              },
+            },
+          ],
+          as: "specificationGroupsData",
+        },
+      },
+      {
+        $project: {
+          _id: "$result._id",
+          image: "$result.image",
+          specificationFilterIds: "$result.specificationFilterIds",
+          variantFilterIds: "$result.variantFilterIds",
+          name: 1,
+          slug: 1,
+          metaData: 1,
+          langData: 1,
+          specificationGroupsData: {
+            $map: {
+              input: "$specificationGroupsData",
+              as: "item",
+              in: "$$item._id",
+            },
+          },
+          parentId: "$result.parentId",
+        },
+      },
+    ]);
+  } catch (err) {
+    console.log("err", err);
+    return res.status(200).json({
+      status: false,
+      message: "Could not fetch products.",
+      products: [],
+      totalProducts: 0,
+    });
   }
 
-  if (isSponsored) {
-    conditions.isSponsored = false;
+  if (!categoryFilters) {
+    return res.status(200).json({
+      status: false,
+      message: "Invalid category.",
+      products: [],
+      totalProducts: 0,
+    });
   }
 
-  const PIPELINE_TOTAL = {
-    $match: {
-      isDeleted: false,
-      ...conditions,
+  if (categoryFilters.parentId) {
+    const isParentCategoriesActiveResult = await isParentCategoriesActive(
+      categoryFilters.parentId
+    );
+
+    if (!isParentCategoriesActiveResult) {
+      return res.status(200).json({
+        status: false,
+        message: "Invalid category.",
+        products: [],
+        totalProducts: 0,
+      });
+    }
+  }
+
+  let childCategoryIds = { ids: [], secondIds: [] };
+
+  childCategoryIds.ids = await getChildCategories(categoryFilters._id);
+
+  // try {
+  //   [childCategoryIds] = await ProductCategory.aggregate([
+  //     {
+  //       $match: {
+  //         parentId: new ObjectId(categoryFilters._id),
+  //         isActive: true,
+  //         isDeleted: false,
+  //       },
+  //     },
+  //     {
+  //       $project: {
+  //         id: ["$_id"],
+  //       },
+  //     },
+  //     {
+  //       $lookup: {
+  //         from: "productcategories",
+  //         let: {
+  //           id: "$_id",
+  //         },
+  //         pipeline: [
+  //           {
+  //             $match: {
+  //               $expr: {
+  //                 $eq: ["$parentId", "$$id"],
+  //               },
+  //               isActive: true,
+  //               isDeleted: false,
+  //             },
+  //           },
+  //           {
+  //             $project: {
+  //               _id: 1,
+  //             },
+  //           },
+  //         ],
+  //         as: "second",
+  //       },
+  //     },
+  //     {
+  //       $lookup: {
+  //         from: "productcategories",
+  //         let: {
+  //           ids: "$second._id",
+  //         },
+  //         pipeline: [
+  //           {
+  //             $match: {
+  //               $expr: {
+  //                 $in: ["$parentId", "$$ids"],
+  //               },
+  //               isActive: true,
+  //               isDeleted: false,
+  //             },
+  //           },
+  //           {
+  //             $project: {
+  //               _id: 1,
+  //             },
+  //           },
+  //         ],
+  //         as: "third",
+  //       },
+  //     },
+  //     {
+  //       $project: {
+  //         id: 1,
+  //         ids: {
+  //           $concatArrays: [
+  //             {
+  //               $map: {
+  //                 input: "$second",
+  //                 as: "a",
+  //                 in: "$$a._id",
+  //               },
+  //             },
+  //             {
+  //               $map: {
+  //                 input: "$third",
+  //                 as: "b",
+  //                 in: "$$b._id",
+  //               },
+  //             },
+  //             "$id",
+  //           ],
+  //         },
+  //       },
+  //     },
+  //     {
+  //       $unwind: {
+  //         path: "$ids",
+  //         preserveNullAndEmptyArrays: true,
+  //       },
+  //     },
+  //     {
+  //       $group: {
+  //         _id: "x50",
+  //         ids: {
+  //           $push: "$ids",
+  //         },
+  //         secondIds: {
+  //           $addToSet: "$_id",
+  //         },
+  //       },
+  //     },
+  //   ]);
+  // } catch (err) {
+  //   return res.status(200).json({
+  //     status: false,
+  //     message: "Could not fetch products.",
+  //     products: [],
+  //     totalProducts: 0,
+  //     key: "childCategoryIds",
+  //   });
+  // }
+
+  // if (!childCategoryIds) {
+  //   childCategoryIds = {
+  //     ids: [],
+  //     secondIds: [],
+  //   };
+  // }
+
+  const commonMatch = {
+    // categoryId: ObjectId(categoryFilters._id),
+    categoryId: {
+      $in: [
+        ObjectId(categoryFilters._id),
+        ...childCategoryIds?.ids.map((id) => ObjectId(id)),
+      ],
     },
   };
 
-  const PIPELINE = [
-    PIPELINE_TOTAL,
-    // {
-    //   $lookup: {
-    //     from: "vendors",
-    //     localField: "vendor",
-    //     foreignField: "_id",
-    //     as: "vendorData",
-    //   },
-    // },
+  const COMMON = [
+    {
+      $match: {
+        isDeleted: false,
+        isActive: true,
+        isPublished: true,
+        isApproved: true,
+        // isVendorActive: true,
+        // isHelper: false,
+        // countries: {
+        //   $in: [new ObjectId(countryId)],
+        // },
+        ...commonMatch,
+      },
+    },
+    // added new start
     {
       $lookup: {
-        from: "productcategories",
-        localField: "categoryId",
-        foreignField: "_id",
-        as: "categoryData",
+        from: "vendorproducts",
+        let: {
+          id: "$_id",
+        },
+        pipeline: [
+          {
+            $match: {
+              $expr: {
+                $eq: ["$productId", "$$id"],
+              },
+              isDeleted: false,
+              isActive: true,
+            },
+          },
+          // {
+          //   $sort: {
+          //     createdAt: 1,
+          //   },
+          // },
+          // {
+          //   $limit: 1,
+          // },
+        ],
+        as: "vendorData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$vendorData",
+      },
+    },
+    // added new end
+    {
+      $lookup: {
+        from: "productdescriptions",
+        let: {
+          id: "$_id",
+        },
+        pipeline: [
+          {
+            $match: {
+              $and: [
+                {
+                  $expr: {
+                    $eq: ["$productId", "$$id"],
+                  },
+                  languageCode: languageCode,
+                },
+              ],
+            },
+          },
+        ],
+        as: "langData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$langData",
       },
     },
     {
       $lookup: {
-        from: "brands",
-        localField: "brandId",
-        foreignField: "_id",
-        as: "brandData",
+        from: "productvariants",
+        let: {
+          id: "$_id",
+          vendorId: "$vendorData.vendorId",
+        },
+        pipeline: [
+          {
+            $match: {
+              $and: [
+                {
+                  $expr: {
+                    $eq: ["$mainProductId", "$$id"],
+                  },
+                },
+                {
+                  $expr: {
+                    $eq: ["$isDeleted", false],
+                  },
+                },
+                {
+                  $expr: {
+                    $eq: ["$isActive", true],
+                  },
+                },
+              ],
+            },
+          },
+          {
+            $lookup: {
+              from: "productvariantdescriptions",
+              let: {
+                productVariantId: "$_id",
+              },
+              pipeline: [
+                {
+                  $match: {
+                    $and: [
+                      {
+                        $expr: {
+                          $eq: ["$productVariantId", "$$productVariantId"],
+                        },
+                        languageCode: languageCode,
+                      },
+                    ],
+                  },
+                },
+                {
+                  $project: {
+                    name: 1,
+                    slug: 1,
+                  },
+                },
+              ],
+              as: "langData",
+            },
+          },
+          {
+            $unwind: {
+              path: "$langData",
+            },
+          },
+          // added new start
+          {
+            $lookup: {
+              from: "vendorproductvariants",
+              let: {
+                productVariantId: "$_id",
+              },
+              pipeline: [
+                {
+                  $match: {
+                    $expr: {
+                      $eq: ["$productVariantId", "$$productVariantId"],
+                    },
+                    isDeleted: false,
+                    isActive: true,
+                    $and: [
+                      {
+                        $expr: {
+                          $eq: ["$vendorId", "$$vendorId"],
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  $sort: {
+                    createdAt: 1,
+                  },
+                },
+                {
+                  $limit: 1,
+                },
+              ],
+              as: "vendorData",
+            },
+          },
+          {
+            $unwind: {
+              path: "$vendorData",
+            },
+          },
+          //added new end
+        ],
+        as: "variantData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$variantData",
+        preserveNullAndEmptyArrays: true,
+      },
+    },
+    ...COMMON_AGG,
+    {
+      $addFields: {
+        // price: {
+        //   $ifNull: [
+        //     "$variantData.vendorData.sellingPrice",
+        //     "$vendorData.sellingPrice",
+        //   ],
+        // },
+        slug: {
+          $ifNull: ["$variantData.langData.slug", "$langData.slug"],
+        },
+        name: {
+          $cond: [
+            "$variantData",
+            {
+              $cond: [
+                "$variantData.secondVariantName",
+                {
+                  $concat: [
+                    "$langData.name",
+                    " (",
+                    "$variantData.firstSubVariantName",
+                    ",",
+                    "$variantData.secondSubVariantName",
+                    ")",
+                  ],
+                },
+                {
+                  $concat: [
+                    "$langData.name",
+                    " (",
+                    "$variantData.firstSubVariantName",
+                    ")",
+                  ],
+                },
+              ],
+            },
+            "$langData.name",
+          ],
+        },
+        vendor: {
+          $ifNull: ["$variantData.vendorData.vendorId", "$vendorData.vendorId"],
+        },
+        sellingPrice: {
+          $ifNull: [
+            "$variantData.vendorData.sellingPrice",
+            "$vendorData.sellingPrice",
+          ],
+        },
+        discountedPrice: {
+          $ifNull: [
+            "$variantData.vendorData.discountedPrice",
+            "$vendorData.discountedPrice",
+          ],
+        },
+        buyingPriceCurrency: {
+          $ifNull: [
+            "$variantData.vendorData.buyingPriceCurrency",
+            "$vendorData.buyingPriceCurrency",
+          ],
+        },
+        idForCart: {
+          $ifNull: ["$variantData.vendorData._id", "$vendorData._id"],
+        },
+        typeForCart: {
+          $cond: ["$variantData.vendorData._id", "variant", "main"],
+        },
+      },
+    },
+    {
+      $addFields: {
+        ratings: 0,
+        reviewsCount: 0,
+        // discountPercentage: 0,
+        // pricesFiltered: {
+        //   $filter: {
+        //     input: "$prices",
+        //     cond: {
+        //       $eq: ["$$item.countryId", new ObjectId(countryId)],
+        //     },
+        //     as: "item",
+        //     limit: 1,
+        //   },
+        // },
+        // media: {
+        //   $filter: {
+        //     input: "$media",
+        //     cond: {
+        //       $eq: ["$$item.isFeatured", true],
+        //     },
+        //     as: "item",
+        //     limit: 1,
+        //   },
+        // },
       },
     },
     // {
     //   $unwind: {
-    //     path: "$vendorData",
+    //     path: "$pricesFiltered",
+    //   },
+    // },
+    // {
+    //   $unwind: {
+    //     path: "$media",
+    //     preserveNullAndEmptyArrays: true,
+    //   },
+    // },
+    // {
+    //   $addFields: {
+    //     price: "$pricesFiltered.sellingPrice",
+    //     discountedPrice: "$pricesFiltered.discountPrice",
+    //     discountPercentage: {
+    //       $round: [
+    //         {
+    //           $subtract: [
+    //             100,
+    //             {
+    //               $divide: [
+    //                 {
+    //                   $multiply: ["$pricesFiltered.discountPrice", 100],
+    //                 },
+    //                 "$pricesFiltered.sellingPrice",
+    //               ],
+    //             },
+    //           ],
+    //         },
+    //         2,
+    //       ],
+    //     },
     //   },
     // },
     {
-      $unwind: {
-        path: "$categoryData",
-        preserveNullAndEmptyArrays: true,
+      $match: {
+        ...matchObj,
       },
     },
+    ...DYNAMIC_FILTERS_PIPELINE,
     {
-      $unwind: {
-        path: "$brandData",
-        preserveNullAndEmptyArrays: true,
-      },
-    },
-    {
-      $sort: {
-        [sortBy]: order === "desc" ? -1 : 1,
-      },
-    },
-    {
-      $skip: (page - 1) * per_page,
-    },
-    {
-      $limit: per_page,
-    },
-    {
-      $project: {
-        name: 1,
-        sellingPrice: 1,
-        isPublished: 1,
-        status: {
-          $cond: [
-            {
-              $eq: ["$isPublished", true],
+      $addFields: {
+        features: {
+          $map: {
+            input: "$langData.features",
+            as: "item",
+            in: {
+              label: "$$item.label",
+              value: "$$item.value",
+              id: {
+                $toObjectId: "$$item.id",
+              },
             },
-            "Publish",
-            "Draft",
-          ],
+          },
         },
-        isActive: 1,
-        createdAt: 1,
-        customId: 1,
-        categoryName: "$categoryData.name",
-        brandName: "$brandData.name",
-        isApproved: 1,
-        isSponsored: 1,
       },
     },
+    ...DYNAMIC_SPECIFICATION_PIPELINE,
   ];
 
+  const PRICES_COMMON = [
+    {
+      $match: {
+        isDeleted: false,
+        isActive: true,
+        isPublished: true,
+        isApproved: true,
+        // isVendorActive: true,
+        // isHelper: false,
+        // countries: {
+        //   $in: [new ObjectId(countryId)],
+        // },
+        ...commonMatch,
+      },
+    },
+    //added new start
+    {
+      $lookup: {
+        from: "vendorproducts",
+        let: {
+          id: "$_id",
+        },
+        pipeline: [
+          {
+            $match: {
+              $expr: {
+                $eq: ["$productId", "$$id"],
+              },
+              isDeleted: false,
+              isActive: true,
+            },
+          },
+          // {
+          //   $sort: {
+          //     createdAt: 1,
+          //   },
+          // },
+          // {
+          //   $limit: 1,
+          // },
+        ],
+        as: "vendorData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$vendorData",
+      },
+    },
+    //added new end
+    {
+      $lookup: {
+        from: "productvariants",
+        let: {
+          id: "$_id",
+          vendorId: "$vendorData.vendorId",
+        },
+        pipeline: [
+          {
+            $match: {
+              $and: [
+                {
+                  $expr: {
+                    $eq: ["$mainProductId", "$$id"],
+                  },
+                },
+                {
+                  $expr: {
+                    $eq: ["$isDeleted", false],
+                  },
+                },
+                {
+                  $expr: {
+                    $eq: ["$isActive", true],
+                  },
+                },
+              ],
+            },
+          },
+          //added new start
+          {
+            $lookup: {
+              from: "vendorproductvariants",
+              let: {
+                productVariantId: "$_id",
+              },
+              pipeline: [
+                {
+                  $match: {
+                    $expr: {
+                      $eq: ["$productVariantId", "$$productVariantId"],
+                    },
+                    isDeleted: false,
+                    isActive: true,
+                    $and: [
+                      {
+                        $expr: {
+                          $eq: ["$vendorId", "$$vendorId"],
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  $sort: {
+                    createdAt: 1,
+                  },
+                },
+                {
+                  $limit: 1,
+                },
+              ],
+              as: "vendorData",
+            },
+          },
+          {
+            $unwind: {
+              path: "$vendorData",
+            },
+          },
+          //added new end
+        ],
+        as: "variantData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$variantData",
+        preserveNullAndEmptyArrays: true,
+      },
+    },
+    ...COMMON_AGG,
+    {
+      $addFields: {
+        // price: {
+        //   $ifNull: [
+        //     "$variantData.vendorData.sellingPrice",
+        //     "$vendorData.sellingPrice",
+        //   ],
+        // },
+        // discountedPrice: {
+        //   $ifNull: [
+        //     "$variantData.vendorData.sellingPrice",
+        //     "$vendorData.sellingPrice",
+        //   ],
+        // },
+        sellingPrice: {
+          $ifNull: [
+            "$variantData.vendorData.sellingPrice",
+            "$vendorData.sellingPrice",
+          ],
+        },
+        discountedPrice: {
+          $ifNull: [
+            "$variantData.vendorData.discountedPrice",
+            "$vendorData.discountedPrice",
+          ],
+        },
+        buyingPriceCurrency: {
+          $ifNull: [
+            "$variantData.vendorData.buyingPriceCurrency",
+            "$vendorData.buyingPriceCurrency",
+          ],
+        },
+        idForCart: {
+          $ifNull: ["$variantData.vendorData._id", "$vendorData._id"],
+        },
+        typeForCart: {
+          $cond: ["$variantData.vendorData._id", "variant", "main"],
+        },
+      },
+    },
+    // {
+    //   $addFields: {
+    //     pricesFiltered: {
+    //       $filter: {
+    //         input: "$prices",
+    //         cond: {
+    //           $eq: ["$$item.countryId", new ObjectId(countryId)],
+    //         },
+    //         as: "item",
+    //         limit: 1,
+    //       },
+    //     },
+    //   },
+    // },
+    // {
+    //   $unwind: {
+    //     path: "$pricesFiltered",
+    //   },
+    // },
+    // {
+    //   $addFields: {
+    //     discountedPrice: "$pricesFiltered.discountPrice",
+    //   },
+    // },
+  ];
+
+  const FILTERS_COMMON = [
+    {
+      $match: {
+        isDeleted: false,
+        isActive: true,
+        isPublished: true,
+        isApproved: true,
+        // isVendorActive: true,
+        // isHelper: false,
+        // countries: {
+        //   $in: [new ObjectId(countryId)],
+        // },
+        ...commonMatch,
+      },
+    },
+    //added new start
+    {
+      $lookup: {
+        from: "vendorproducts",
+        let: {
+          id: "$_id",
+        },
+        pipeline: [
+          {
+            $match: {
+              $expr: {
+                $eq: ["$productId", "$$id"],
+              },
+              isDeleted: false,
+              isActive: true,
+            },
+          },
+          {
+            $sort: {
+              createdAt: 1,
+            },
+          },
+          {
+            $limit: 1,
+          },
+        ],
+        as: "vendorData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$vendorData",
+      },
+    },
+    //added new end
+    {
+      $lookup: {
+        from: "productvariants",
+        let: {
+          id: "$_id",
+          vendorId: "$vendorData.vendorId",
+        },
+        pipeline: [
+          {
+            $match: {
+              $and: [
+                {
+                  $expr: {
+                    $eq: ["$mainProductId", "$$id"],
+                  },
+                },
+                {
+                  $expr: {
+                    $eq: ["$isDeleted", false],
+                  },
+                },
+                {
+                  $expr: {
+                    $eq: ["$isActive", true],
+                  },
+                },
+              ],
+            },
+          },
+          // added new start
+          {
+            $lookup: {
+              from: "vendorproductvariants",
+              let: {
+                productVariantId: "$_id",
+              },
+              pipeline: [
+                {
+                  $match: {
+                    $expr: {
+                      $eq: ["$productVariantId", "$$productVariantId"],
+                    },
+                    isDeleted: false,
+                    isActive: true,
+                    $and: [
+                      {
+                        $expr: {
+                          $eq: ["$vendorId", "$$vendorId"],
+                        },
+                      },
+                    ],
+                  },
+                },
+                {
+                  $sort: {
+                    createdAt: 1,
+                  },
+                },
+                {
+                  $limit: 1,
+                },
+              ],
+              as: "vendorData",
+            },
+          },
+          {
+            $unwind: {
+              path: "$vendorData",
+            },
+          },
+          //added new end
+        ],
+        as: "variantData",
+      },
+    },
+    {
+      $unwind: {
+        path: "$variantData",
+        preserveNullAndEmptyArrays: false,
+      },
+    },
+    ...COMMON_AGG,
+  ];
+
+  let products,
+    minPriceData,
+    maxPriceData,
+    totalProducts,
+    // currencyData,
+    brandAndSubCatData,
+    filtersOne = [],
+    filtersTwo = [],
+    specifications,
+    currentCurrency,
+    usdCurrency;
+
   try {
-    if (page == 1) {
-      totalDocuments = await Product.aggregate([PIPELINE_TOTAL]);
+    // [currencyData] = await Currency.aggregate([
+    //   {
+    //     $match: {
+    //       countriesId: {
+    //         $in: [new ObjectId(countryId)],
+    //       },
+    //     },
+    //   },
+    //   {
+    //     $limit: 1,
+    //   },
+    //   {
+    //     $project: {
+    //       _id: 0,
+    //       sign: 1,
+    //     },
+    //   },
+    // ]);
+
+    const currenciesData = await currentAndUSDCurrencyData(countryId);
+
+    if (!currenciesData.status) {
+      return res.status(200).json({
+        status: false,
+        message: "Invalid Country.",
+        products: [],
+        totalProducts: 0,
+      });
     }
-    data = await Product.aggregate(PIPELINE);
+
+    currentCurrency = currenciesData.currentCurrency;
+    usdCurrency = currenciesData.usdCurrency;
+
+    products = Product.aggregate([
+      ...COMMON,
+      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
+      ...REVIEW_AGG.first,
+      {
+        $addFields: REVIEW_AGG.second,
+      },
+      {
+        $match: {
+          ...matchObjTwo,
+        },
+      },
+      {
+        $sort: {
+          [sortByKey]: sortByValue,
+        },
+      },
+      {
+        $skip: (+page - 1) * perPage,
+      },
+      {
+        $limit: perPage,
+      },
+      ...wishlistObj.first,
+      {
+        $project: {
+          // name: "$langData.name",
+          name: 1,
+          ratings: 1,
+          reviewsCount: 1,
+          shortDescription: "$langData.shortDescription",
+          media: "$coverImage",
+          price: 1,
+          discountedPrice: 1,
+          discountPercentage: 1,
+          currency: { $literal: currentCurrency.sign },
+          // currency: { $literal: "$" },
+          slug: 1,
+          isWishlisted: {
+            $toBool: false,
+          },
+          ...wishlistObj.second,
+          // ...REVIEW_AGG.second,
+          vendor: 1,
+          shareUrl: {
+            $concat: [process.env.FRONTEND_URL, "/product/", "$slug"],
+          },
+          // countryProductPricing: 1,
+          // countryCustomerGroupPricing: 1,
+          // countryProductGroupPricing: 1,
+          // countryCategoryPricing: 1,
+          // customerGroupPricing: 1,
+          // productGroupPricing: 1,
+          // categoryPricing: 1,
+          idForCart: 1,
+          typeForCart: 1,
+        },
+      },
+    ]);
+
+    minPriceData = Product.aggregate([
+      ...PRICES_COMMON,
+      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
+      {
+        $sort: {
+          discountedPrice: 1,
+          // price: 1,
+        },
+      },
+      {
+        $limit: 1,
+      },
+      {
+        $project: {
+          _id: 0,
+          price: "$discountedPrice",
+          // price: 1,
+        },
+      },
+    ]);
+
+    maxPriceData = Product.aggregate([
+      ...PRICES_COMMON,
+      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
+      {
+        $sort: {
+          discountedPrice: -1,
+          // price: -1,
+        },
+      },
+      {
+        $limit: 1,
+      },
+      {
+        $project: {
+          _id: 0,
+          price: "$discountedPrice",
+          // price: 1,
+        },
+      },
+    ]);
+
+    brandAndSubCatData = Product.aggregate([
+      {
+        $match: {
+          isDeleted: false,
+          isActive: true,
+          isPublished: true,
+          isApproved: true,
+          // isVendorActive: true,
+          // isHelper: false,
+          // countries: {
+          //   $in: [new ObjectId(countryId)],
+          // },
+          ...commonMatch,
+          // categoryId: {
+          //   $in: [
+          //     ObjectId(categoryFilters._id),
+          //     ...childCategoryIds?.ids.map((id) => ObjectId(id)),
+          //   ],
+          // },
+        },
+      },
+      //added new start
+      {
+        $lookup: {
+          from: "vendorproducts",
+          let: {
+            id: "$_id",
+          },
+          pipeline: [
+            {
+              $match: {
+                $expr: {
+                  $eq: ["$productId", "$$id"],
+                },
+                isDeleted: false,
+                isActive: true,
+              },
+            },
+            {
+              $sort: {
+                createdAt: 1,
+              },
+            },
+            {
+              $limit: 1,
+            },
+          ],
+          as: "vendorData",
+        },
+      },
+      {
+        $unwind: {
+          path: "$vendorData",
+        },
+      },
+      //added new end
+      {
+        $group: {
+          _id: "x50",
+          // subCategoriesId: {
+          //   $addToSet: "$categoryId",
+          // },
+          brandsId: {
+            $addToSet: "$brandId",
+          },
+        },
+      },
+      // {
+      //   $addFields: {
+      //     subCategoriesId: {
+      //       $setIntersection: [
+      //         "$subCategoriesId",
+      //         childCategoryIds?.secondIds.map((id) => ObjectId(id)),
+      //       ],
+      //     },
+      //   },
+      // },
+      // {
+      //   $lookup: {
+      //     from: "productcategorydescriptions",
+      //     let: {
+      //       ids: "$subCategoriesId",
+      //     },
+      //     pipeline: [
+      //       {
+      //         $match: {
+      //           $and: [
+      //             {
+      //               $expr: {
+      //                 $in: ["$productCategoryId", "$$ids"],
+      //               },
+      //               languageCode: languageCode,
+      //             },
+      //           ],
+      //         },
+      //       },
+      //       {
+      //         $project: {
+      //           name: 1,
+      //           _id: "$productCategoryId",
+      //         },
+      //       },
+      //     ],
+      //     as: "subCategoriesData",
+      //   },
+      // },
+      {
+        $lookup: {
+          from: "brands",
+          let: {
+            ids: "$brandsId",
+          },
+          pipeline: [
+            {
+              $match: {
+                $and: [
+                  {
+                    $expr: {
+                      $in: ["$_id", "$$ids"],
+                    },
+                  },
+                ],
+              },
+            },
+            {
+              $project: {
+                name: 1,
+              },
+            },
+          ],
+          as: "brandsData",
+        },
+      },
+      {
+        $project: {
+          subCategoriesId: 0,
+          brandsId: 0,
+        },
+      },
+    ]);
+
+    totalProducts = Product.aggregate([
+      ...COMMON,
+      ...PRODUCT_PRICING(countryId, userId, currentCurrency, usdCurrency),
+      ...REVIEW_AGG.first,
+      {
+        $addFields: REVIEW_AGG.second,
+      },
+      {
+        $match: {
+          ...matchObjTwo,
+        },
+      },
+    ]);
+
+    if (categoryFilters.variantFilterIds) {
+      filtersOne = Product.aggregate([
+        ...FILTERS_COMMON,
+        {
+          $match: {
+            "variantData.firstVariantId": {
+              // $in: [
+              //   new ObjectId("64394b2cc1d4d239d9565aa0"),
+              //   new ObjectId("642e98e4f95d77871e0eefc2"),
+              // ],
+              $in: categoryFilters.variantFilterIds.map((v) => new ObjectId(v)),
+            },
+          },
+        },
+        {
+          $group: {
+            _id: "$variantData.firstVariantId",
+            name: {
+              $first: "$variantData.firstVariantName",
+            },
+            values: {
+              $addToSet: "$variantData.firstSubVariantName",
+            },
+            valuesId: {
+              $addToSet: "$variantData.firstSubVariantId",
+            },
+          },
+        },
+        {
+          $lookup: {
+            from: "masterdescriptions",
+            let: {
+              mainPage: "$_id",
+            },
+            pipeline: [
+              {
+                $match: {
+                  $expr: {
+                    $eq: ["$mainPage", "$$mainPage"],
+                  },
+                  languageCode: languageCode,
+                },
+              },
+              {
+                $project: {
+                  _id: 0,
+                  name: 1,
+                },
+              },
+            ],
+            as: "firstVariantIdLangData",
+          },
+        },
+        {
+          $lookup: {
+            from: "masterdescriptions",
+            let: {
+              mainPages: "$valuesId",
+            },
+            pipeline: [
+              {
+                $match: {
+                  $expr: {
+                    $in: ["$mainPage", "$$mainPages"],
+                  },
+                  languageCode: languageCode,
+                },
+              },
+              {
+                $project: {
+                  _id: 0,
+                  name: 1,
+                },
+              },
+            ],
+            as: "firstSubVariantIdLangData",
+          },
+        },
+        {
+          $unwind: {
+            path: "$firstVariantIdLangData",
+          },
+        },
+        {
+          $addFields: {
+            langName: "$firstVariantIdLangData.name",
+            langValues: {
+              $map: {
+                input: "$firstSubVariantIdLangData",
+                as: "variant",
+                in: "$$variant.name",
+              },
+            },
+          },
+        },
+      ]);
+
+      filtersTwo = Product.aggregate([
+        ...FILTERS_COMMON,
+        {
+          $match: {
+            "variantData.secondVariantId": {
+              $in: categoryFilters.variantFilterIds.map((v) => new ObjectId(v)),
+            },
+          },
+        },
+        {
+          $group: {
+            _id: "$variantData.secondVariantId",
+            name: {
+              $first: "$variantData.secondVariantName",
+            },
+            values: {
+              $addToSet: "$variantData.secondSubVariantName",
+            },
+            valuesId: {
+              $addToSet: "$variantData.secondSubVariantId",
+            },
+          },
+        },
+        {
+          $lookup: {
+            from: "masterdescriptions",
+            let: {
+              mainPage: "$_id",
+            },
+            pipeline: [
+              {
+                $match: {
+                  $expr: {
+                    $eq: ["$mainPage", "$$mainPage"],
+                  },
+                  languageCode: languageCode,
+                },
+              },
+              {
+                $project: {
+                  _id: 0,
+                  name: 1,
+                },
+              },
+            ],
+            as: "secondVariantIdLangData",
+          },
+        },
+        {
+          $lookup: {
+            from: "masterdescriptions",
+            let: {
+              mainPages: "$valuesId",
+            },
+            pipeline: [
+              {
+                $match: {
+                  $expr: {
+                    $in: ["$mainPage", "$$mainPages"],
+                  },
+                  languageCode: languageCode,
+                },
+              },
+              {
+                $project: {
+                  _id: 0,
+                  name: 1,
+                },
+              },
+            ],
+            as: "secondSubVariantIdLangData",
+          },
+        },
+        {
+          $unwind: {
+            path: "$secondVariantIdLangData",
+          },
+        },
+        {
+          $addFields: {
+            langName: "$secondVariantIdLangData.name",
+            langValues: {
+              $map: {
+                input: "$secondSubVariantIdLangData",
+                as: "variant",
+                in: "$$variant.name",
+              },
+            },
+          },
+        },
+      ]);
+    }
+
+    if (categoryFilters.specificationFilterIds) {
+      specifications = Product.aggregate([
+        {
+          $match: {
+            isDeleted: false,
+            isActive: true,
+            isPublished: true,
+            isApproved: true,
+            // isVendorActive: true,
+            // isHelper: false,
+            // countries: {
+            //   $in: [new ObjectId(countryId)],
+            // },
+            ...commonMatch,
+          },
+        },
+        //added new start
+        {
+          $lookup: {
+            from: "vendorproducts",
+            let: {
+              id: "$_id",
+            },
+            pipeline: [
+              {
+                $match: {
+                  $expr: {
+                    $eq: ["$productId", "$$id"],
+                  },
+                  isDeleted: false,
+                  isActive: true,
+                },
+              },
+              {
+                $sort: {
+                  createdAt: 1,
+                },
+              },
+              {
+                $limit: 1,
+              },
+            ],
+            as: "vendorData",
+          },
+        },
+        {
+          $unwind: {
+            path: "$vendorData",
+          },
+        },
+        //added new end
+        {
+          $lookup: {
+            from: "productdescriptions",
+            let: {
+              id: "$_id",
+            },
+            pipeline: [
+              {
+                $match: {
+                  $expr: {
+                    $eq: ["$productId", "$$id"],
+                  },
+                  languageCode: languageCode,
+                },
+              },
+              {
+                $project: {
+                  features: 1,
+                },
+              },
+            ],
+            as: "langData",
+          },
+        },
+        {
+          $unwind: {
+            path: "$langData",
+          },
+        },
+        {
+          $unwind: {
+            path: "$langData.features",
+          },
+        },
+        {
+          $replaceRoot: {
+            newRoot: "$langData.features",
+          },
+        },
+        // {
+        //   $group: {
+        //     _id: "$id",
+        //     name: {
+        //       $first: "$label",
+        //     },
+        //     values: {
+        //       $addToSet: "$value",
+        //     },
+        //   },
+        // },
+        {
+          $group: {
+            _id: "$label",
+            values: {
+              $addToSet: "$value",
+            },
+          },
+        },
+        {
+          $lookup: {
+            from: "subspecificationgroups",
+            let: {
+              id: "$_id",
+            },
+            pipeline: [
+              {
+                $match: {
+                  $expr: {
+                    $eq: ["$$id", "$_id"],
+                  },
+                  isActive: true,
+                  isDeleted: false,
+                },
+              },
+              {
+                $lookup: {
+                  from: "subspecificationgroupdescriptions",
+                  pipeline: [
+                    {
+                      $match: {
+                        $expr: {
+                          $eq: ["$subSpecificationId", "$$id"],
+                        },
+                        languageCode: languageCode,
+                      },
+                    },
+                    {
+                      $project: {
+                        name: 1,
+                      },
+                    },
+                  ],
+                  as: "langData",
+                },
+              },
+              {
+                $unwind: {
+                  path: "$langData",
+                },
+              },
+              {
+                $project: {
+                  name: "$langData.name",
+                },
+              },
+            ],
+            as: "groupData",
+          },
+        },
+        {
+          $unwind: {
+            path: "$groupData",
+          },
+        },
+        {
+          $lookup: {
+            from: "subspecificationgroupvalues",
+            let: {
+              ids: "$values",
+            },
+            pipeline: [
+              {
+                $match: {
+                  $expr: {
+                    $in: ["$_id", "$$ids"],
+                  },
+                  isDeleted: false,
+                },
+              },
+              {
+                $lookup: {
+                  from: "subspecificationgroupvaluedescriptions",
+                  let: {
+                    id: "$_id",
+                  },
+                  pipeline: [
+                    {
+                      $match: {
+                        $expr: {
+                          $eq: ["$subSpecificationGroupValueId", "$$id"],
+                        },
+                        languageCode: languageCode,
+                      },
+                    },
+                    {
+                      $project: {
+                        name: 1,
+                      },
+                    },
+                  ],
+                  as: "langData",
+                },
+              },
+              {
+                $unwind: {
+                  path: "$langData",
+                },
+              },
+              {
+                $project: {
+                  _id: 0,
+                  name: "$langData.name",
+                },
+              },
+            ],
+            as: "values",
+          },
+        },
+        {
+          $project: {
+            name: "$groupData.name",
+            values: {
+              $map: {
+                input: "$values",
+                as: "item",
+                in: "$$item.name",
+              },
+            },
+          },
+        },
+      ]);
+    }
+
+    [
+      products,
+      [minPriceData],
+      [maxPriceData],
+      totalProducts,
+      [brandAndSubCatData],
+      filtersOne,
+      filtersTwo,
+      specifications,
+    ] = await Promise.all([
+      products,
+      minPriceData,
+      maxPriceData,
+      totalProducts,
+      brandAndSubCatData,
+      filtersOne,
+      filtersTwo,
+      specifications,
+    ]);
+
+    console.log("products", products);
   } catch (err) {
-    const error = new HttpError(
-      req,
-      new Error().stack.split("at ")[1].trim(),
-      "Could not fetch products.",
-      500
-    );
-    return next(error);
+    console.log("product -get -err", err);
+    return res.status(200).json({
+      status: false,
+      message: "Could not fetch products",
+      products: [],
+      minPrice: 0,
+      maxPrice: 1000,
+      totalProducts: 0,
+      currency: "$",
+      brands: [],
+      subCategories: [],
+      filters: [],
+    });
   }
+
+  // products = products.map((p) => {
+  //   if (p.countryProductPricing) {
+  //     p.price = p.countryProductPricing.value;
+  //   } else if (p.countryCustomerGroupPricing) {
+  //     p.price = (p.buyingPrice * (100 + p.countryCustomerGroupPricing)) / 100;
+  //   } else if (p.countryProductGroupPricing) {
+  //     p.price = (p.buyingPrice * (100 + p.countryProductGroupPricing)) / 100;
+  //   } else if (p.countryCategoryPricing) {
+  //     p.price = (p.buyingPrice * (100 + p.countryCategoryPricing)) / 100;
+  //   } else if (p.customerGroupPricing) {
+  //     p.price = (p.buyingPrice * (100 + p.customerGroupPricing)) / 100;
+  //   } else if (p.productGroupPricing) {
+  //     p.price = (p.buyingPrice * (100 + p.productGroupPricing)) / 100;
+  //   } else if (p.categoryPricing) {
+  //     p.price = (p.buyingPrice * (100 + p.categoryPricing)) / 100;
+  //   }
+
+  //   delete p.buyingPrice;
+  //   return p;
+  // });
+
+  let filters = [];
+  const newFilters = [];
+
+  if (filtersOne.length > 0 && filtersTwo.length > 0) {
+    // filtersOne.forEach((filter) => {});
+
+    for (let i = 0; i < filtersOne.length; i++) {
+      const filter = filtersOne[i];
+      const common = filtersTwo.find(
+        (f) => f._id.toString() == filter._id.toString()
+      );
+      if (!common) {
+        filters.push({
+          _id: filter._id,
+          name: filter.langName,
+          values: filter.langValues,
+        });
+      } else {
+        let unique = new Set([...filter.langValues, ...common.langValues]);
+        unique = [...unique];
+
+        filters.push({
+          _id: filter._id,
+          name: filter.langName,
+          values: unique,
+        });
+      }
+    }
+
+    for (let i = 0; i < filtersTwo.length; i++) {
+      const filter = filtersTwo[i];
+      const isAdded = filters.find(
+        (f) => f._id.toString() == filter._id.toString()
+      );
+      if (!isAdded) {
+        filters.push({
+          _id: filter._id,
+          name: filter.langName,
+          // values: unique,
+          values: filter.langValues,
+        });
+      }
+    }
+
+    // filtersTwo.forEach((filter) => {});
+  } else if (filtersOne.length > 0) {
+    filters = filtersOne.map((f) => ({
+      _id: f._id,
+      name: f.langName,
+      values: f.langValues,
+    }));
+  } else if (filtersTwo.length > 0) {
+    filters = filtersTwo.map((f) => ({
+      _id: f._id,
+      name: f.langName,
+      values: f.langValues,
+    }));
+  }
+
+  const filterIds = categoryFilters.variantFilterIds;
+
+  filterIds.forEach((f) => {
+    const isExist = filters.find(
+      (filter) => filter._id.toString() == f.toString()
+    );
+    if (isExist) {
+      newFilters.push(isExist);
+    }
+  });
+
+  let newSpecifications = [];
+
+  //instead of this use this in aggregate in match
+  if (specifications.length > 0) {
+    categoryFilters.specificationGroupsData.forEach((sp) => {
+      const isExist = specifications.find(
+        (s) => s._id.toString() == sp.toString()
+      );
+
+      if (isExist) {
+        newSpecifications.push(isExist);
+      }
+    });
+  }
+
+  console.log(products.length);
+  console.log(totalProducts.length);
+
   res.status(200).json({
     status: true,
-    message: "Product fetched successfully.",
-    data,
-    totalDocuments: totalDocuments ? totalDocuments.length : null,
+    message: "Products fetched successfully",
+    products,
+    minPrice: minPriceData?.price ?? 0,
+    maxPrice: maxPriceData?.price ?? 0,
+    totalProducts: totalProducts?.length,
+    currency: "$",
+    brands: brandAndSubCatData?.brandsData ?? [],
+    subCategories: brandAndSubCatData?.subCategoriesData ?? [],
+    filters: newFilters,
+    categoryData: {
+      name: categoryFilters.name,
+      slug: categoryFilters.langData.slug,
+      metaData: categoryFilters.langData.metaData,
+    },
+    specifications: newSpecifications,
   });
 };
 

@@ -107,6 +107,8 @@ const Cart = ({ initialCartItems, currency, list }) => {
     return +cartItems.reduce((acc, cv) => acc + cv.totalPrice, 0).toFixed(2);
   }, [cartItems]);
 
+  console.log("cartItems", cartItems);
+
   return (
     <>
       <Layout seoData={{ pageTitle: "My Cart - Noonmar" }}>
@@ -146,7 +148,7 @@ const Cart = ({ initialCartItems, currency, list }) => {
                                   <div className="MyCartBlock">
                                     <div
                                       onClick={() =>
-                                        pushToProductDetailPage(item.slug)
+                                        pushToProductDetailPage(item.engSlug)
                                       }
                                       className="myCartImg cursor"
                                     >
@@ -158,7 +160,7 @@ const Cart = ({ initialCartItems, currency, list }) => {
                                     <div className="myCartTitle">
                                       <h3
                                         onClick={() =>
-                                          pushToProductDetailPage(item.slug)
+                                          pushToProductDetailPage(item.engSlug)
                                         }
                                         className="myCartMainTilte cursor"
                                       >

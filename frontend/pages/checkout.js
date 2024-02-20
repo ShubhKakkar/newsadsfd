@@ -18,7 +18,6 @@ import { getAddressData } from "@/services/customer";
 import { getCartItems } from "@/services/customer";
 import { useRouter } from "next/router";
 import OauthPopup from "@/components/PaymentPopup";
-
 const Checkout = ({
   countries,
   initialAddresses,
@@ -43,6 +42,7 @@ const Checkout = ({
     clearErrors: clearErrorsEditAddress,
     reset: resetEditAddress,
     getValues: getValuesEditAddress,
+    watch,
   } = useForm();
 
   const {
@@ -103,12 +103,29 @@ const Checkout = ({
   const [billingAddressData, setBillingAddressData] = useState({
     addressId: null,
     taxAmount: 0.0,
+    phoneNumber:null
   });
 
   const [shippingAddressData, setShippingAddressData] = useState({
     addressId: null,
     customFees: 0.0,
+    phoneNumber:null
   });
+
+  useEffect(() => {
+    const defaultAddress = initialAddresses.find((item) => item.defaultAddress);
+    if (defaultAddress) {
+      setBillingAddressData({ id: defaultAddress._id, taxAmount: 0.0, phoneNumber:defaultAddress.contact });
+      requestTaxData("POST", "v1/checkout/tax", {
+        billingAddressId: defaultAddress._id,
+      });
+      if (!isShippingChecked) {
+        setShippingAddressData({ id: defaultAddress._id, customFees: 0.0, phoneNumber:defaultAddress.contact });
+        invokeShippingAddressApi(defaultAddress._id);
+      }
+    }
+    setPaymentMethod("orange_money");
+  }, []);
 
   const { frequency, payment_percentage, term, month_week } = watchEmi();
 
@@ -371,6 +388,7 @@ const Checkout = ({
   };
 
   const editAddressSubmitHandler = (data) => {
+    console.log("data", data);
     data.id = editAddressId;
     data.countryName = editCountryName;
     requestUpdateAddress("PUT", "v1/address", data);
@@ -427,14 +445,16 @@ const Checkout = ({
     });
     // setIsPaymentModalOpen(true);
   };
-
+console.log("data",billingAddressData)
   const paymentHandler = () => {
     const sendData = {
       billingAddressId: billingAddressData.id,
       shippingAddressId: shippingAddressData.id,
+      phoneNumber:billingAddressData.phoneNumber,
       payFull: true,
     };
     setWindowState(window.open());
+    console.log("paymentData",sendData)
     requestCreateOrderHandler("POST", "v1/order", sendData);
   };
 
@@ -504,7 +524,6 @@ const Checkout = ({
   };
 
   const setBillingAddressHandler = (id) => {
-    console.log("setBillingAddressHandler invoked", id);
     setBillingAddressData({ id, taxAmount: 0.0 });
     requestTaxData("POST", "v1/checkout/tax", { billingAddressId: id });
 
@@ -523,6 +542,17 @@ const Checkout = ({
     requestCustomFees("POST", "v1/checkout/custom-fees", {
       shippingAddressId: id,
     });
+  };
+
+  const [selectedCountryData, setSelectedCountryData] = useState({});
+
+  const handleCountryChange = (e) => {
+    const _id = e.target.value;
+    const countryData = countries.find((country) => {
+      return country._id === _id;
+    });
+    setValueAddAddress("countryCode", _id);
+    setSelectedCountryData(countryData);
   };
 
   return (
@@ -594,6 +624,10 @@ const Checkout = ({
                                       id={`flexRadioDefault_${item._id}`}
                                       onChange={() =>
                                         setBillingAddressHandler(item._id)
+                                      }
+                                      defaultChecked={
+                                        !isShippingChecked &&
+                                        item.defaultAddress
                                       }
                                     />
                                     <label
@@ -735,6 +769,7 @@ const Checkout = ({
                                         onChange={() =>
                                           setShippingAddressHandler(item._id)
                                         }
+                                        defaultChecked={item.defaultAddress}
                                       />
                                       <label
                                         className="form-check-label Checkout_card_box"
@@ -851,80 +886,6 @@ const Checkout = ({
                                   <div className="col-md-6">
                                     <div className="form-group ">
                                       <label className="form-label">
-                                        {t("Country")}
-                                      </label>
-                                      <select
-                                        className="form-control dark-form-control"
-                                        {...registerAddAddress("countryId", {
-                                          required: "This field is required",
-                                          setValueAs: (v) => v.trim(),
-                                        })}
-                                      >
-                                        <option value="">Select</option>
-                                        {countries?.map((val) => {
-                                          return (
-                                            <option value={val._id}>
-                                              {val.name}
-                                            </option>
-                                          );
-                                        })}
-                                      </select>
-
-                                      {errorsAddAddress.countryId && (
-                                        <span className="text-danger">
-                                          {t(
-                                            errorsAddAddress.countryId.message
-                                          )}
-                                        </span>
-                                      )}
-                                    </div>
-                                  </div>
-
-                                  <div className="col-md-6">
-                                    <div className="form-group ">
-                                      <label className="form-label">
-                                        {t("State")}
-                                      </label>
-                                      <input
-                                        type="text"
-                                        {...registerAddAddress("state", {
-                                          required: "This field is required",
-                                          setValueAs: (v) => v.trim(),
-                                        })}
-                                        className="form-control dark-form-control"
-                                      />
-                                      {errorsAddAddress.state && (
-                                        <span className="text-danger">
-                                          {t(errorsAddAddress.state.message)}
-                                        </span>
-                                      )}
-                                    </div>
-                                  </div>
-
-                                  <div className="col-md-6">
-                                    <div className="form-group ">
-                                      <label className="form-label">
-                                        {t("City")}
-                                      </label>
-                                      <input
-                                        type="text"
-                                        {...registerAddAddress("city", {
-                                          required: "This field is required",
-                                          setValueAs: (v) => v.trim(),
-                                        })}
-                                        className="form-control dark-form-control"
-                                      />
-                                      {errorsAddAddress.city && (
-                                        <span className="text-danger">
-                                          {t(errorsAddAddress.city.message)}
-                                        </span>
-                                      )}
-                                    </div>
-                                  </div>
-
-                                  <div className="col-md-6">
-                                    <div className="form-group ">
-                                      <label className="form-label">
                                         {t("Type")}
                                       </label>
                                       <select
@@ -951,6 +912,105 @@ const Checkout = ({
                                   <div className="col-md-6">
                                     <div className="form-group ">
                                       <label className="form-label">
+                                        {t("Country")}
+                                      </label>
+                                      <select
+                                        className="form-control dark-form-control"
+                                        {...registerAddAddress("countryId", {
+                                          required: "This field is required",
+                                          setValueAs: (v) => v.trim(),
+                                          onChange: (e) => {
+                                            handleCountryChange(e);
+                                          },
+                                        })}
+                                      >
+                                        <option value="">Select</option>
+                                        {countries?.map((val) => {
+                                          return (
+                                            <option value={val._id}>
+                                              {val.name}
+                                            </option>
+                                          );
+                                        })}
+                                      </select>
+
+                                      {errorsAddAddress.countryId && (
+                                        <span className="text-danger">
+                                          {t(
+                                            errorsAddAddress.countryId.message
+                                          )}
+                                        </span>
+                                      )}
+                                    </div>
+                                  </div>
+
+                                  {/* <div className="col-md-6">
+                                    <div className="form-group ">
+                                      <label className="form-label">
+                                        {t("State")}
+                                      </label>
+                                      <input
+                                        type="text"
+                                        {...registerAddAddress("state", {
+                                          required: "This field is required",
+                                          setValueAs: (v) => v.trim(),
+                                        })}
+                                        className="form-control dark-form-control"
+                                      />
+                                      {errorsAddAddress.state && (
+                                        <span className="text-danger">
+                                          {t(errorsAddAddress.state.message)}
+                                        </span>
+                                      )}
+                                    </div>
+                                  </div> */}
+
+                                  <div className="col-md-6">
+                                    <div className="form-group ">
+                                      <label className="form-label">
+                                        {t("City")}
+                                      </label>
+                                      <input
+                                        type="text"
+                                        {...registerAddAddress("city", {
+                                          required: "This field is required",
+                                          setValueAs: (v) => v.trim(),
+                                        })}
+                                        className="form-control dark-form-control"
+                                      />
+                                      {errorsAddAddress.city && (
+                                        <span className="text-danger">
+                                          {t(errorsAddAddress.city.message)}
+                                        </span>
+                                      )}
+                                    </div>
+                                  </div>
+
+                                  <div className="col-md-6">
+                                    <div className="form-group ">
+                                      <label className="form-label">
+                                        {t("Address")}
+                                      </label>
+                                      <input
+                                        type="text"
+                                        name="State"
+                                        {...registerAddAddress("houseNo", {
+                                          required: "This field is required",
+                                          setValueAs: (v) => v.trim(),
+                                        })}
+                                        className="form-control dark-form-control"
+                                      />
+                                      {errorsAddAddress.address && (
+                                        <span className="text-danger">
+                                          {t(errorsAddAddress.address.message)}
+                                        </span>
+                                      )}
+                                    </div>
+                                  </div>
+
+                                  {/* <div className="col-md-6">
+                                    <div className="form-group ">
+                                      <label className="form-label">
                                         {t("House No,Building Name")}
                                       </label>
                                       <input
@@ -968,9 +1028,9 @@ const Checkout = ({
                                         </span>
                                       )}
                                     </div>
-                                  </div>
+                                  </div> */}
 
-                                  <div className="col-md-6">
+                                  {/* <div className="col-md-6">
                                     <div className="form-group ">
                                       <label className="form-label">
                                         {t("Street")}
@@ -995,9 +1055,9 @@ const Checkout = ({
                                           </span>
                                         )}
                                     </div>
-                                  </div>
+                                  </div> */}
 
-                                  <div className="col-md-6">
+                                  {/* <div className="col-md-6">
                                     <div className="form-group ">
                                       <label className="form-label">
                                         {t("Landmark")}
@@ -1010,7 +1070,7 @@ const Checkout = ({
                                         className="form-control dark-form-control"
                                       />
                                     </div>
-                                  </div>
+                                  </div> */}
 
                                   <div className="col-md-6">
                                     <label className="form-label">
@@ -1021,12 +1081,15 @@ const Checkout = ({
                                         <div className="form-group ">
                                           <select
                                             className="form-select dark-form-control mb-3 ml-3"
-                                            name=""
+                                            // name=""
                                             id=""
-                                            {...registerAddAddress("country", {
-                                              required:
-                                                "This field is required",
-                                            })}
+                                            {...registerAddAddress(
+                                              "countryCode",
+                                              {
+                                                required:
+                                                  "This field is required",
+                                              }
+                                            )}
                                           >
                                             <option value="">
                                               {t("Select")}
@@ -1036,6 +1099,10 @@ const Checkout = ({
                                                 <option
                                                   value={item?._id}
                                                   key={item?._id}
+                                                  defaultValue={
+                                                    item?._id ===
+                                                    selectedCountryData._id
+                                                  }
                                                 >
                                                   +{item?.countryCode}
                                                 </option>
@@ -1143,10 +1210,10 @@ const Checkout = ({
                                     setPaymentMethod(e.target.value)
                                   }
                                 >
-                                  <option value="null">{t("Select")}</option>
                                   <option value="orange_money">
                                     {t("Orange Money")}{" "}
                                   </option>
+                                  <option value="null">{t("Select")}</option>
                                 </select>
                               </div>
                             </div>
@@ -1766,7 +1833,7 @@ const Checkout = ({
                       </span>
                     )}
                   </div>
-                  <div className="form-group">
+                  {/* <div className="form-group">
                     <GooglePlace
                       saveAddress={editSaveLocationHandler}
                       setValue={setValueEditAddress}
@@ -1785,16 +1852,16 @@ const Checkout = ({
                           {t("Please enter valid address.")}
                         </span>
                       )}
-                  </div>
+                  </div> */}
 
-                  <div className="form-group">
+                  {/* <div className="form-group">
                     <label className="form-label">{t("Landmark")}</label>
                     <input
                       type="text"
                       className="form-control"
                       {...registerEditAddress("landmark", { required: false })}
                     />
-                  </div>
+                  </div> */}
                   <div className="form-group">
                     <label className="form-label">{t("Pin Code")}</label>
                     <input

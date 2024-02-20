@@ -1,0 +1,31 @@
+1. remove ad image from homepage -> done
+2. add more products on homepage -> done
+3. filled out all the fields default when payment -> Done
+4. default address should be selected -> Done
+5. default payment option should be selected -> Done
+6. payment options box font is different and not design is correct -> Done
+7. update 16 limit for showing limit -> done
+8. all the categories not showing in the frontend -> done
+9. remove today's deal and gift card -> done
+10. when select country make countryCode drop-down fillable -> down
+11. Increase the number of products displayed on the homepage, including sections -> Done
+
+// In Progress...
+12. make changes in the address make 3 fields in one field -> inProgress...
+13. for trending items, best sellers, and personalized recommendations. -> In progress...
+
+Most Viewed -> Working
+Newly Launched -> Working
+Sponsored Items -> Working
+Top Sellers
+Personalized recommendations -> Working
+
+// Assigned
+14. in arabic langauge product not opening -> Highest Priority --> Assigned to 
+15. Implement automatic import of address information to the gateway to streamline the checkout process. -> Highest Priority --> Assigned to Dushyant
+
+// Least Priority
+16. make cart empty for now and add condition same as listing
+17. hide to address box after save to address and make it default selected
+18. showing the record count is not correct
+19. some of the product url not working

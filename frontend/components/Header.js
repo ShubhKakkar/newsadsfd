@@ -974,25 +974,25 @@ const Header = () => {
                       </Link>
                     </li>
                   </NavLink> */}
-                  <NavLink href="/sale">
+                  {/* <NavLink href="/sale">
                     <li className="nav-item">
                       <Link href="/sale" legacyBehavior>
                         <a className="nav-link">{t("Today's Deals")}</a>
                       </Link>
                     </li>
-                  </NavLink>
+                  </NavLink> */}
                   {/* <li className="nav-item">
                     <a className="nav-link" href="javascript:void(0);">
                       Mobiles
                     </a>
                   </li> */}
-                  <NavLink href="/gift-cards">
+                  {/* <NavLink href="/gift-cards">
                     <li className="nav-item">
                       <Link href="/gift-cards" legacyBehavior>
                         <a className="nav-link">{t("Gift Cards")}</a>
                       </Link>
                     </li>
-                  </NavLink>
+                  </NavLink> */}
                   {false &&
                     categories.map((category) => (
                       <NavLink href={`/category/${category.slug}`}>
@@ -1006,7 +1006,6 @@ const Header = () => {
                         </li>
                       </NavLink>
                     ))}
-
                   {categories.map((category) => {
                     const depthLevel = 0;
 

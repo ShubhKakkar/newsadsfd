@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
 const HttpError = require("../http-error");
+const ObjectId = require("mongoose").Types.ObjectId;
 
 module.exports = (req, res, next) => {
-  const country = "65b35b163a85a6b219bf8c06";
+  const country = req.headers["accept-country"];
 
   if (!country || !mongoose.isValidObjectId(country)) {
     const error = new HttpError(
@@ -11,10 +12,10 @@ module.exports = (req, res, next) => {
       "Please provide country",
       422
     );
-    return next(error);
+    req.countryId = new ObjectId("6515267a01fd174be7c7aa43");
+    next();
+  } else {
+    req.countryId = new ObjectId("6515267a01fd174be7c7aa43");
+    next();
   }
-
-  req.countryId = country;
-
-  next();
 };

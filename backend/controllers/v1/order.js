@@ -28,6 +28,7 @@ const CustomResponse = require("../../utils/customResponse");
 
 const CheckoutController = require("./checkout");
 const isoCountryCode = require("../../utils/isoCountryCode");
+const country = require("../../models/country");
 
 const statusFilter = [];
 
@@ -512,7 +513,9 @@ exports.create = async (req, res, next) => {
   }
 
   const total = +(subTotal + taxAmount + customFees).toFixed(2);
-
+  const Country = await country.findOne({
+    _id: addressData.countryId,
+  });
   const newOrder = new Order({
     customerId: userId,
     address: addressData,
@@ -584,6 +587,9 @@ exports.create = async (req, res, next) => {
   if (addressData) {
     const [forenames, surname] = addressData.name.split(" ");
 
+    console.log(isoCountryCode["India"]);
+    console.log("addressData", addressData);
+
     requestBody.customer = {
       email: customer.email,
       name: {
@@ -597,9 +603,11 @@ exports.create = async (req, res, next) => {
         // line3: "xxx",
         city: addressData.city,
         state: addressData.state,
-        // country: isoCountryCode[],
         areacode: addressData.pinCode,
       },
+      contact: addressData.contact,
+      phone: addressData.contact,
+      bill_country: isoCountryCode[Country.name],
     };
   }
 

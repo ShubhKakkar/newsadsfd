@@ -294,6 +294,37 @@ exports.get = async (req, res, next) => {
                 as: "productData",
               },
             },
+            // {
+            //   $lookup: {
+            //     from: "productdescriptions",
+            //     let: {
+            //       id: "$productId",
+            //     },
+            //     pipeline: [
+            //       {
+            //         $match: {
+            //           $and: [
+            //             {
+            //               $expr: {
+            //                 $eq: ["$productId", "$$id"],
+            //               },
+            //               languageCode: languageCode,
+            //             },
+            //           ],
+            //         },
+            //       },
+            //       {
+            //         $project: {
+            //           _id: 0,
+            //           name: 1,
+            //           slug: 1,
+            //           shortDescription: 1,
+            //         },
+            //       },
+            //     ],
+            //     as: "langData",
+            //   },
+            // },
             {
               $lookup: {
                 from: "productdescriptions",
@@ -559,6 +590,90 @@ exports.get = async (req, res, next) => {
               },
             },
             {
+              $lookup: {
+                from: "productvariants",
+                let: {
+                  id: "$mainProductId",
+                  productVariantId: "$productVariantId",
+                },
+                pipeline: [
+                  {
+                    $match: {
+                      $and: [
+                        {
+                          $expr: {
+                            $eq: ["$mainProductId", "$$id"],
+                          },
+                        },
+                        {
+                          $expr: {
+                            $eq: ["$_id", "$$productVariantId"],
+                          },
+                        },
+                        {
+                          $expr: {
+                            $eq: ["$isDeleted", false],
+                          },
+                        },
+                        {
+                          $expr: {
+                            $eq: ["$isActive", true],
+                          },
+                        },
+                      ],
+                    },
+                  },
+                  {
+                    $lookup: {
+                      from: "productvariantdescriptions",
+                      let: {
+                        productVariantId: "$_id",
+                      },
+                      pipeline: [
+                        {
+                          $match: {
+                            $and: [
+                              {
+                                $expr: {
+                                  $eq: [
+                                    "$productVariantId",
+                                    "$$productVariantId",
+                                  ],
+                                },
+                                languageCode: "en",
+                              },
+                            ],
+                          },
+                        },
+                        {
+                          $addFields: {
+                            engSlug: "$slug",
+                          },
+                        },
+                        {
+                          $project: {
+                            engSlug: 1,
+                          },
+                        },
+                      ],
+                      as: "engData",
+                    },
+                  },
+                  {
+                    $unwind: {
+                      path: "$engData",
+                    },
+                  },
+                ],
+                as: "engVariantData",
+              },
+            },
+            {
+              $unwind: {
+                path: "$engVariantData",
+              },
+            },
+            {
               $project: {
                 _id: "$productData._id",
                 idForCart: "$_id",
@@ -570,12 +685,14 @@ exports.get = async (req, res, next) => {
                 media: "$productData.coverImage",
                 name: "$langData.name",
                 slug: "$langData.slug",
+                engSlug: "$engData.slug",
                 vendorName: "$vendorData.businessName",
                 firstVariantName: "$variantData.firstVariantName",
                 secondVariantName: "$variantData.secondVariantName",
                 firstSubVariantName: "$variantData.firstSubVariantName",
                 secondSubVariantName: "$variantData.secondSubVariantName",
                 slug: "$variantData.langData.slug",
+                engSlug: "$engVariantData.engData.engSlug",
                 name: "$variantData.langData.name",
                 quantity: "$$quantity",
                 categoryId: "$productData.categoryId",

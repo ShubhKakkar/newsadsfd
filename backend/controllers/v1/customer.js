@@ -40,6 +40,8 @@ exports.login = async (req, res, next) => {
       ],
     });
 
+    console.log("customer", customer);
+
     if (!customer) {
       const error = new HttpError(
         req,
@@ -214,17 +216,19 @@ exports.login = async (req, res, next) => {
       return res.status(500).send(error);
     }
   }
-  
+
   let cartTotal = 0;
-  if(customer){
+  if (customer) {
     cartTotal = await userCartCounter(customer._id);
   }
+
+  console.log(1, cartTotal);
 
   res.status(200).json({
     status: true,
     token: generateToken(customer._id, false, "customer"),
     message: translateHelper(req, "Login successfully"),
-    cartTotal : cartTotal,
+    cartTotal: cartTotal,
     customer: {
       cartTotal: cartTotal,
       email: customer.email,
@@ -612,7 +616,7 @@ exports.verifyAccount = async (req, res, next) => {
   const a = moment(customer.signupOtpRequestedAt);
   const b = moment();
   const c = b.diff(a, "seconds");
-  
+
   if (c > 180) {
     return res.status(403).json({
       status: false,

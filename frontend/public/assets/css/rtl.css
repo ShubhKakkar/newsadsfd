@@ -444,6 +444,7 @@
     
 }
 @media (max-width: 575.98px) {
+    
     [dir="rtl"]  .DashlogOutBtn {
         margin-left: 0;
     }
@@ -469,5 +470,19 @@
     [dir="rtl"] .Warehouse_button span {
         padding-right: 0;
         padding-left: 0;
+    }
+}
+
+@media (max-width: 436.98px) {
+    [dir="rtl"] .nav_right_notification .dropdown-menu {
+        left: auto !important;
+        right: -23px !important;
+    }
+}
+
+@media (max-width: 364.98px) {
+    [dir="rtl"] .nav_right_notification .dropdown-menu {
+        left: auto !important;
+        right: -48px !important;
     }
 }
